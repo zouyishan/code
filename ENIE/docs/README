@@ -1,0 +1,49 @@
+BLENDER IE toolkit Package (V1.0.0)
+
+===============================
+ Introduction
+===============================
+This package contains information extraction toolkit which extracts ACE entities (PER, ORG, GPE), relations and events.
+
+
+===============================
+Major directory list
+===============================
+src/ ....................... source codes
+bin/	....................... class files
+doc/        ....................... includes this readme
+lib/  ............. includes required third-part packages
+acedata/ and data/	....................... includes some models, resources that are necessary for the software
+example/ ...................... contains some example input, and output of the software
+props/	....................... property files defining major parameters in the toolkit
+scripts/ ......................  sample scripts for running the IE toolkit
+modules/ ...................... now contains a name tagger developed by Qi Li
+
+===============================
+Usage
+===============================
+1. setting parameters in the property file
+A sample property file named "enie.property" is included in props/.
+
+Some major parameters include
+	ie.corpus.home : home directory of the corpus
+	ie.corpus.datadir : data directory that stores the source documents (note it is a relative path to "ie.corpus.home")
+	ie.corpus.tagdir : the ie output directory that stores the ie output files
+	ie.corpus.datasuffix : the suffix of a source document, e.g., .sgml
+	ie.corpus.tagsuffix : the suffix of a IE output document, e.g., .apf
+	ie.corpus.docmap : a mapping file in which each row has two columns (separated by TAB), the first column is the doc id, the second column is the relative path to the source document,
+							a sample mapping file is in "example/docid_to_file_mapping.tab"
+	ie.corpus.filelist : a list of doc ids, a sample file is in "example/sgmlist"
+	ie.corpus.dtdfile : the dtdfile for the xml files, e.g., "apf.v5.1.1.dtd
+
+
+
+2. running script
+A sample script named "enie.sh" is included in scripts/
+
+
+===================================
+Contact
+===================================
+
+For questions about this package, please contact the author at Blender (http://nlp.cs.qc.cuny.edu/hengji.html) Lab, CUNY: Zheng Chen (zchen1@gc.cuny.edu) and Heng Ji(hengjicuny@gmail.com)

@@ -1,0 +1,3777 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="misc.survivalism_20050210.0232.sgm" SOURCE="usenet" TYPE="text">
+<document DOCID="misc.survivalism_20050210.0232">
+  <entity ID="misc.survivalism_20050210.0232-E1" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E1-217">
+      <extent>
+			<charseq START="213" END="247">The foreign minister of North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="225" END="232">minister</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E1-6">
+      <extent>
+			<charseq START="390" END="409">The Foreign minister</charseq>
+      </extent>
+      <head>
+			<charseq START="402" END="409">minister</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E2" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-97" ROLE="GPE">
+      <extent>
+			<charseq START="178" END="188">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="178" END="188">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-1" ROLE="GPE">
+      <extent>
+			<charseq START="237" END="247">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="237" END="247">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-2" ROLE="ORG">
+      <extent>
+			<charseq START="264" END="274">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="264" END="274">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-7" ROLE="ORG">
+      <extent>
+			<charseq START="431" END="441">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="431" END="441">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-12" ROLE="ORG">
+      <extent>
+			<charseq START="610" END="620">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="610" END="620">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-102" ROLE="GPE">
+      <extent>
+			<charseq START="1573" END="1583">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="1573" END="1583">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-48" ROLE="ORG">
+      <extent>
+			<charseq START="1688" END="1698">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="1688" END="1698">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E2-49" ROLE="ORG">
+      <extent>
+			<charseq START="1745" END="1748">they</charseq>
+      </extent>
+      <head>
+			<charseq START="1745" END="1748">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-61" ROLE="ORG">
+      <extent>
+			<charseq START="1988" END="1998">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="1988" END="1998">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-63" ROLE="ORG">
+      <extent>
+			<charseq START="2020" END="2030">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="2020" END="2030">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-67" ROLE="ORG">
+      <extent>
+			<charseq START="2105" END="2115">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="2105" END="2115">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E2-70" ROLE="ORG">
+      <extent>
+			<charseq START="2195" END="2205">North Korea</charseq>
+      </extent>
+      <head>
+			<charseq START="2195" END="2205">North Korea</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="North Korea">
+			<charseq START="237" END="247">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="264" END="274">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="431" END="441">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="610" END="620">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="1688" END="1698">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="1988" END="1998">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="2020" END="2030">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="2105" END="2115">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="2195" END="2205">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="178" END="188">North Korea</charseq>
+      </name>
+      <name NAME="North Korea">
+			<charseq START="1573" END="1583">North Korea</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E3" TYPE="WEA" SUBTYPE="Nuclear" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E3-101">
+      <extent>
+			<charseq START="194" END="208">Nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="202" END="208">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E3-3">
+      <extent>
+			<charseq START="280" END="294">nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="288" END="294">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E3-120">
+      <extent>
+			<charseq START="1589" END="1603">Nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="1597" END="1603">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E3-210">
+      <extent>
+			<charseq START="1708" END="1722">nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="1716" END="1722">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E3-211">
+      <extent>
+			<charseq START="1760" END="1763">them</charseq>
+      </extent>
+      <head>
+			<charseq START="1760" END="1763">them</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E3-68">
+      <extent>
+			<charseq START="2122" END="2136">nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="2130" END="2136">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E3-71">
+      <extent>
+			<charseq START="2211" END="2225">Nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="2219" END="2225">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E3-143">
+      <extent>
+			<charseq START="5329" END="5343">nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="5337" END="5343">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E4" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E4-4" ROLE="GPE">
+      <extent>
+			<charseq START="335" END="342">6 nation</charseq>
+      </extent>
+      <head>
+			<charseq START="337" END="342">nation</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E5" TYPE="LOC" SUBTYPE="Region-International" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E5-5">
+      <extent>
+			<charseq START="378" END="386">east Asia</charseq>
+      </extent>
+      <head>
+			<charseq START="383" END="386">Asia</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E5-209">
+      <extent>
+			<charseq START="578" END="586">East Asia</charseq>
+      </extent>
+      <head>
+			<charseq START="583" END="586">Asia</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Asia">
+			<charseq START="583" END="586">Asia</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E6" TYPE="WEA" SUBTYPE="Projectile" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E6-8">
+      <extent>
+			<charseq START="468" END="561">long range missiles capable of obliterating any target within
+the borders of the United States</charseq>
+      </extent>
+      <head>
+			<charseq START="479" END="486">missiles</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E7" TYPE="LOC" SUBTYPE="Boundary" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E7-9">
+      <extent>
+			<charseq START="530" END="561">the borders of the United States</charseq>
+      </extent>
+      <head>
+			<charseq START="534" END="540">borders</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E8" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E8-10" ROLE="LOC">
+      <extent>
+			<charseq START="545" END="561">the United States</charseq>
+      </extent>
+      <head>
+			<charseq START="549" END="561">United States</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E8-20" ROLE="LOC">
+      <extent>
+			<charseq START="816" END="832">the United States</charseq>
+      </extent>
+      <head>
+			<charseq START="820" END="832">United States</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E8-202" ROLE="LOC">
+      <extent>
+			<charseq START="2173" END="2174">we</charseq>
+      </extent>
+      <head>
+			<charseq START="2173" END="2174">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E8-200" ROLE="GPE">
+      <extent>
+			<charseq START="2235" END="2236">we</charseq>
+      </extent>
+      <head>
+			<charseq START="2235" END="2236">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E8-80" ROLE="LOC">
+      <extent>
+			<charseq START="2545" END="2561">the
+United States</charseq>
+      </extent>
+      <head>
+			<charseq START="2549" END="2561">United States</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E8-203" ROLE="GPE">
+      <extent>
+			<charseq START="3112" END="3113">we</charseq>
+      </extent>
+      <head>
+			<charseq START="3112" END="3113">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E8-197" ROLE="GPE">
+      <extent>
+			<charseq START="3236" END="3245">government</charseq>
+      </extent>
+      <head>
+			<charseq START="3236" END="3245">government</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E8-198" ROLE="GPE">
+      <extent>
+			<charseq START="3287" END="3296">government</charseq>
+      </extent>
+      <head>
+			<charseq START="3287" END="3296">government</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E8-204" ROLE="GPE">
+      <extent>
+			<charseq START="3666" END="3667">we</charseq>
+      </extent>
+      <head>
+			<charseq START="3666" END="3667">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E8-205" ROLE="GPE">
+      <extent>
+			<charseq START="4100" END="4101">we</charseq>
+      </extent>
+      <head>
+			<charseq START="4100" END="4101">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E8-206" ROLE="PER">
+      <extent>
+			<charseq START="4252" END="4253">we</charseq>
+      </extent>
+      <head>
+			<charseq START="4252" END="4253">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E8-207" ROLE="GPE">
+      <extent>
+			<charseq START="4577" END="4578">we</charseq>
+      </extent>
+      <head>
+			<charseq START="4577" END="4578">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E8-199" ROLE="GPE">
+      <extent>
+			<charseq START="4819" END="4828">government</charseq>
+      </extent>
+      <head>
+			<charseq START="4819" END="4828">government</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E8-159" ROLE="GPE">
+      <extent>
+			<charseq START="5876" END="5887">this country</charseq>
+      </extent>
+      <head>
+			<charseq START="5881" END="5887">country</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E8-180" ROLE="LOC">
+      <extent>
+			<charseq START="6361" END="6377">the
+United States</charseq>
+      </extent>
+      <head>
+			<charseq START="6365" END="6377">United States</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="United States">
+			<charseq START="549" END="561">United States</charseq>
+      </name>
+      <name NAME="United States">
+			<charseq START="820" END="832">United States</charseq>
+      </name>
+      <name NAME="United States">
+			<charseq START="2549" END="2561">United States</charseq>
+      </name>
+      <name NAME="United States">
+			<charseq START="6365" END="6377">United States</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E9" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E9-11">
+      <extent>
+			<charseq START="578" END="607">East Asia Intelligence sources</charseq>
+      </extent>
+      <head>
+			<charseq START="601" END="607">sources</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E10" TYPE="WEA" SUBTYPE="Nuclear" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E10-13">
+      <extent>
+			<charseq START="648" END="670">nuclear tipped missiles</charseq>
+      </extent>
+      <head>
+			<charseq START="663" END="670">missiles</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E10-196">
+      <extent>
+			<charseq START="835" END="870">Missiles
+launched from these vessels</charseq>
+      </extent>
+      <head>
+			<charseq START="835" END="842">Missiles</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E10-69">
+      <extent>
+			<charseq START="2142" END="2158">workable missiles</charseq>
+      </extent>
+      <head>
+			<charseq START="2151" END="2158">missiles</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E11" TYPE="VEH" SUBTYPE="Water" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E11-14">
+      <extent>
+			<charseq START="675" END="832">Freighters and Fishing trawlers
+that are sailing under foreign flags of convenience, that are stationed
+off the west coast and East coast of the United States</charseq>
+      </extent>
+      <head>
+			<charseq START="675" END="684">Freighters</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E12" TYPE="VEH" SUBTYPE="Water" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E12-15">
+      <extent>
+			<charseq START="675" END="832">Freighters and Fishing trawlers
+that are sailing under foreign flags of convenience, that are stationed
+off the west coast and East coast of the United States</charseq>
+      </extent>
+      <head>
+			<charseq START="698" END="705">trawlers</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E13" TYPE="VEH" SUBTYPE="Water" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E13-16">
+      <extent>
+			<charseq START="707" END="710">that</charseq>
+      </extent>
+      <head>
+			<charseq START="707" END="710">that</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E13-17">
+      <extent>
+			<charseq START="760" END="763">that</charseq>
+      </extent>
+      <head>
+			<charseq START="760" END="763">that</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E13-21">
+      <extent>
+			<charseq START="858" END="870">these vessels</charseq>
+      </extent>
+      <head>
+			<charseq START="864" END="870">vessels</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E14" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E14-18">
+      <extent>
+			<charseq START="783" END="832">the west coast and East coast of the United States</charseq>
+      </extent>
+      <head>
+			<charseq START="792" END="796">coast</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E15" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E15-19">
+      <extent>
+			<charseq START="783" END="832">the west coast and East coast of the United States</charseq>
+      </extent>
+      <head>
+			<charseq START="807" END="811">coast</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E16" TYPE="GPE" SUBTYPE="Population-Center" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E16-22" ROLE="LOC">
+      <extent>
+			<charseq START="899" END="929">90% percent of
+the major cities</charseq>
+      </extent>
+      <head>
+			<charseq START="903" END="909">percent</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E17" TYPE="GPE" SUBTYPE="Population-Center" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E17-23" ROLE="LOC">
+      <extent>
+			<charseq START="914" END="929">the major cities</charseq>
+      </extent>
+      <head>
+			<charseq START="924" END="929">cities</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E18" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E18-41">
+      <extent>
+			<charseq START="106" END="140">The Independent of Clackamas County</charseq>
+      </extent>
+      <head>
+			<charseq START="106" END="140">The Independent of Clackamas County</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-24">
+      <extent>
+			<charseq START="984" END="984">I</charseq>
+      </extent>
+      <head>
+			<charseq START="984" END="984">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-27">
+      <extent>
+			<charseq START="1023" END="1023">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1023" END="1023">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-28">
+      <extent>
+			<charseq START="1058" END="1058">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1058" END="1058">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-29">
+      <extent>
+			<charseq START="1101" END="1102">my</charseq>
+      </extent>
+      <head>
+			<charseq START="1101" END="1102">my</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-34">
+      <extent>
+			<charseq START="1168" END="1168">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1168" END="1168">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-39">
+      <extent>
+			<charseq START="1234" END="1234">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1234" END="1234">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E18-40">
+      <extent>
+			<charseq START="1258" END="1292">The Independent of Clackamas County</charseq>
+      </extent>
+      <head>
+			<charseq START="1258" END="1292">The Independent of Clackamas County</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E18-42">
+      <extent>
+			<charseq START="1497" END="1531">The Independent of Clackamas County</charseq>
+      </extent>
+      <head>
+			<charseq START="1497" END="1531">The Independent of Clackamas County</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-46">
+      <extent>
+			<charseq START="1644" END="1644">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1644" END="1644">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-109">
+      <extent>
+			<charseq START="3770" END="3770">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3770" END="3770">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-131">
+      <extent>
+			<charseq START="5072" END="5072">I</charseq>
+      </extent>
+      <head>
+			<charseq START="5072" END="5072">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-160">
+      <extent>
+			<charseq START="5907" END="5907">I</charseq>
+      </extent>
+      <head>
+			<charseq START="5907" END="5907">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-173">
+      <extent>
+			<charseq START="6097" END="6097">I</charseq>
+      </extent>
+      <head>
+			<charseq START="6097" END="6097">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-174">
+      <extent>
+			<charseq START="6179" END="6180">my</charseq>
+      </extent>
+      <head>
+			<charseq START="6179" END="6180">my</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E18-193">
+      <extent>
+			<charseq START="6588" END="6589">my</charseq>
+      </extent>
+      <head>
+			<charseq START="6588" END="6589">my</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="The Independent of Clackamas County">
+			<charseq START="1258" END="1292">The Independent of Clackamas County</charseq>
+      </name>
+      <name NAME="The Independent of Clackamas County">
+			<charseq START="106" END="140">The Independent of Clackamas County</charseq>
+      </name>
+      <name NAME="The Independent of Clackamas County">
+			<charseq START="1497" END="1531">The Independent of Clackamas County</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E19" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E19-25">
+      <extent>
+			<charseq START="1003" END="1017">the rest of you</charseq>
+      </extent>
+      <head>
+			<charseq START="1007" END="1010">rest</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E20" TYPE="PER" SUBTYPE="Group" CLASS="GEN">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E20-26">
+      <extent>
+			<charseq START="1015" END="1017">you</charseq>
+      </extent>
+      <head>
+			<charseq START="1015" END="1017">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E20-32">
+      <extent>
+			<charseq START="1139" END="1141">you</charseq>
+      </extent>
+      <head>
+			<charseq START="1139" END="1141">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E20-33">
+      <extent>
+			<charseq START="1155" END="1157">you</charseq>
+      </extent>
+      <head>
+			<charseq START="1155" END="1157">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E21" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E21-30">
+      <extent>
+			<charseq START="1101" END="1125">my site in eastern Oregon</charseq>
+      </extent>
+      <head>
+			<charseq START="1104" END="1107">site</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E22" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E22-31">
+      <extent>
+			<charseq START="1112" END="1125">eastern Oregon</charseq>
+      </extent>
+      <head>
+			<charseq START="1120" END="1125">Oregon</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E23" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E23-35">
+      <extent>
+			<charseq START="1182" END="1202">the pot bellied
+idiot</charseq>
+      </extent>
+      <head>
+			<charseq START="1198" END="1202">idiot</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E23-36">
+      <extent>
+			<charseq START="1204" END="1215">Kim Junk Ill</charseq>
+      </extent>
+      <head>
+			<charseq START="1204" END="1215">Kim Junk Ill</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E23-38">
+      <extent>
+			<charseq START="1248" END="1250">him</charseq>
+      </extent>
+      <head>
+			<charseq START="1248" END="1250">him</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E23-137">
+      <extent>
+			<charseq START="5225" END="5343">a rational Kim Junk Ill (who lets large numbers of his
+people starve to death every year so he can have nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="5236" END="5247">Kim Junk Ill</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E23-138">
+      <extent>
+			<charseq START="5250" END="5252">who</charseq>
+      </extent>
+      <head>
+			<charseq START="5250" END="5252">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E23-139">
+      <extent>
+			<charseq START="5276" END="5278">his</charseq>
+      </extent>
+      <head>
+			<charseq START="5276" END="5278">his</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E23-140">
+      <extent>
+			<charseq START="5317" END="5318">he</charseq>
+      </extent>
+      <head>
+			<charseq START="5317" END="5318">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E23-141">
+      <extent>
+			<charseq START="5413" END="5414">he</charseq>
+      </extent>
+      <head>
+			<charseq START="5413" END="5414">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E23-147">
+      <extent>
+			<charseq START="5459" END="5470">Kim Jung Ill</charseq>
+      </extent>
+      <head>
+			<charseq START="5459" END="5470">Kim Jung Ill</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E23-151">
+      <extent>
+			<charseq START="5562" END="5573">Kim Junk Ill</charseq>
+      </extent>
+      <head>
+			<charseq START="5562" END="5573">Kim Junk Ill</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Kim Junk Ill">
+			<charseq START="1204" END="1215">Kim Junk Ill</charseq>
+      </name>
+      <name NAME="Kim Junk Ill">
+			<charseq START="5236" END="5247">Kim Junk Ill</charseq>
+      </name>
+      <name NAME="Kim Jung Ill">
+			<charseq START="5459" END="5470">Kim Jung Ill</charseq>
+      </name>
+      <name NAME="Kim Junk Ill">
+			<charseq START="5562" END="5573">Kim Junk Ill</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E25" TYPE="PER" SUBTYPE="Group" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E25-43">
+      <extent>
+			<charseq START="1346" END="1351">people</charseq>
+      </extent>
+      <head>
+			<charseq START="1346" END="1351">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E26" TYPE="ORG" SUBTYPE="Government" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E26-44">
+      <extent>
+			<charseq START="1357" END="1367">governments</charseq>
+      </extent>
+      <head>
+			<charseq START="1357" END="1367">governments</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E27" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E27-45">
+      <extent>
+			<charseq START="1452" END="1481">George Wilhelm Friedrich Hegel</charseq>
+      </extent>
+      <head>
+			<charseq START="1452" END="1481">George Wilhelm Friedrich Hegel</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="George Wilhelm Friedrich Hegel">
+			<charseq START="1452" END="1481">George Wilhelm Friedrich Hegel</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E28" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E28-47">
+      <extent>
+			<charseq START="1655" END="1658">many</charseq>
+      </extent>
+      <head>
+			<charseq START="1655" END="1658">many</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E29" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E29-50">
+      <extent>
+			<charseq START="1772" END="1797">the Clinton Administration</charseq>
+      </extent>
+      <head>
+			<charseq START="1784" END="1797">Administration</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E29-52">
+      <extent>
+			<charseq START="1801" END="1826">The Clinton Administration</charseq>
+      </extent>
+      <head>
+			<charseq START="1813" END="1826">Administration</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E30" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E30-51">
+      <extent>
+			<charseq START="1776" END="1782">Clinton</charseq>
+      </extent>
+      <head>
+			<charseq START="1776" END="1782">Clinton</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E30-53">
+      <extent>
+			<charseq START="1805" END="1811">Clinton</charseq>
+      </extent>
+      <head>
+			<charseq START="1805" END="1811">Clinton</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Clinton">
+			<charseq START="1776" END="1782">Clinton</charseq>
+      </name>
+      <name NAME="Clinton">
+			<charseq START="1805" END="1811">Clinton</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E32" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E32-54">
+      <extent>
+			<charseq START="1841" END="1845">Loral</charseq>
+      </extent>
+      <head>
+			<charseq START="1841" END="1845">Loral</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Loral">
+			<charseq START="1841" END="1845">Loral</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E33" TYPE="WEA" SUBTYPE="Projectile" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E33-55">
+      <extent>
+			<charseq START="1855" END="1861">Missile</charseq>
+      </extent>
+      <head>
+			<charseq START="1855" END="1861">Missile</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E33-65">
+      <extent>
+			<charseq START="2067" END="2073">missile</charseq>
+      </extent>
+      <head>
+			<charseq START="2067" END="2073">missile</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E34" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E34-56" ROLE="ORG">
+      <extent>
+			<charseq START="1877" END="1937">China, who have been helping Pakistan to build their missiles</charseq>
+      </extent>
+      <head>
+			<charseq START="1877" END="1881">China</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E34-57" ROLE="ORG">
+      <extent>
+			<charseq START="1884" END="1886">who</charseq>
+      </extent>
+      <head>
+			<charseq START="1884" END="1886">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E34-183" ROLE="LOC">
+      <extent>
+			<charseq START="6395" END="6399">China</charseq>
+      </extent>
+      <head>
+			<charseq START="6395" END="6399">China</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="China">
+			<charseq START="1877" END="1881">China</charseq>
+      </name>
+      <name NAME="China">
+			<charseq START="6395" END="6399">China</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E35" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E35-58" ROLE="ORG">
+      <extent>
+			<charseq START="1906" END="1913">Pakistan</charseq>
+      </extent>
+      <head>
+			<charseq START="1906" END="1913">Pakistan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E35-59" ROLE="ORG">
+      <extent>
+			<charseq START="1924" END="1928">their</charseq>
+      </extent>
+      <head>
+			<charseq START="1924" END="1928">their</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E35-62" ROLE="ORG">
+      <extent>
+			<charseq START="2001" END="2008">Pakistan</charseq>
+      </extent>
+      <head>
+			<charseq START="2001" END="2008">Pakistan</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Pakistan">
+			<charseq START="1906" END="1913">Pakistan</charseq>
+      </name>
+      <name NAME="Pakistan">
+			<charseq START="2001" END="2008">Pakistan</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E36" TYPE="WEA" SUBTYPE="Projectile" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E36-60">
+      <extent>
+			<charseq START="1924" END="1937">their missiles</charseq>
+      </extent>
+      <head>
+			<charseq START="1930" END="1937">missiles</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E37" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E37-64" ROLE="ORG">
+      <extent>
+			<charseq START="2011" END="2014">Iran</charseq>
+      </extent>
+      <head>
+			<charseq START="2011" END="2014">Iran</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E37-72" ROLE="ORG">
+      <extent>
+			<charseq START="2251" END="2254">Iran</charseq>
+      </extent>
+      <head>
+			<charseq START="2251" END="2254">Iran</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E37-74" ROLE="ORG">
+      <extent>
+			<charseq START="2333" END="2336">they</charseq>
+      </extent>
+      <head>
+			<charseq START="2333" END="2336">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E37-77" ROLE="ORG">
+      <extent>
+			<charseq START="2463" END="2466">Iran</charseq>
+      </extent>
+      <head>
+			<charseq START="2463" END="2466">Iran</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E37-133" ROLE="GPE">
+      <extent>
+			<charseq START="5133" END="5136">Iran</charseq>
+      </extent>
+      <head>
+			<charseq START="5133" END="5136">Iran</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Iran">
+			<charseq START="2011" END="2014">Iran</charseq>
+      </name>
+      <name NAME="Iran">
+			<charseq START="2251" END="2254">Iran</charseq>
+      </name>
+      <name NAME="Iran">
+			<charseq START="2463" END="2466">Iran</charseq>
+      </name>
+      <name NAME="Iran">
+			<charseq START="5133" END="5136">Iran</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E39" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E39-66">
+      <extent>
+			<charseq START="2097" END="2098">we</charseq>
+      </extent>
+      <head>
+			<charseq START="2097" END="2098">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E39-201">
+      <extent>
+			<charseq START="3055" END="3055">s</charseq>
+      </extent>
+      <head>
+			<charseq START="3055" END="3055">s</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E39-208">
+      <extent>
+			<charseq START="5083" END="5084">we</charseq>
+      </extent>
+      <head>
+			<charseq START="5083" END="5084">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E40" TYPE="WEA" SUBTYPE="Nuclear" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E40-73">
+      <extent>
+			<charseq START="2269" END="2283">nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="2277" END="2283">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E40-75">
+      <extent>
+			<charseq START="2346" END="2359">a small number</charseq>
+      </extent>
+      <head>
+			<charseq START="2354" END="2359">number</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E40-76">
+      <extent>
+			<charseq START="2397" END="2412">a bigger arsenal</charseq>
+      </extent>
+      <head>
+			<charseq START="2406" END="2412">arsenal</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E40-216">
+      <extent>
+			<charseq START="2491" END="2505">nuclear weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="2499" END="2505">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E41" TYPE="PER" SUBTYPE="Group" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E41-78">
+      <extent>
+			<charseq START="2510" END="2516">Islamic</charseq>
+      </extent>
+      <head>
+			<charseq START="2510" END="2516">Islamic</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E42" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E42-79">
+      <extent>
+			<charseq START="2510" END="2527">Islamic extremists</charseq>
+      </extent>
+      <head>
+			<charseq START="2518" END="2527">extremists</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E43" TYPE="FAC" SUBTYPE="Path" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E43-81">
+      <extent>
+			<charseq START="2631" END="2641">Wall street</charseq>
+      </extent>
+      <head>
+			<charseq START="2631" END="2641">Wall street</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Wall street">
+			<charseq START="2631" END="2641">Wall street</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E44" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E44-82">
+      <extent>
+			<charseq START="2644" END="2658">the large banks</charseq>
+      </extent>
+      <head>
+			<charseq START="2654" END="2658">banks</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E45" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E45-83">
+      <extent>
+			<charseq START="2661" END="2689">the large Insurance companies</charseq>
+      </extent>
+      <head>
+			<charseq START="2681" END="2689">companies</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E46" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E46-84">
+      <extent>
+			<charseq START="2692" END="2722">the large sock brokerage houses</charseq>
+      </extent>
+      <head>
+			<charseq START="2717" END="2722">houses</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E47" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E47-85">
+      <extent>
+			<charseq START="2728" END="2771">many other world wide financial
+institutions</charseq>
+      </extent>
+      <head>
+			<charseq START="2760" END="2771">institutions</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E48" TYPE="WEA" SUBTYPE="Nuclear" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E48-86">
+      <extent>
+			<charseq START="2595" END="2600">2 or 3</charseq>
+      </extent>
+      <head>
+			<charseq START="2600" END="2600">3</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E49" TYPE="WEA" SUBTYPE="Nuclear" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E49-87">
+      <extent>
+			<charseq START="2792" END="2800">2 weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="2794" END="2800">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E50" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E50-88" ROLE="LOC">
+      <extent>
+			<charseq START="2812" END="2824">Washington DC</charseq>
+      </extent>
+      <head>
+			<charseq START="2812" END="2824">Washington DC</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Washington DC">
+			<charseq START="2812" END="2824">Washington DC</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E51" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E51-89">
+      <extent>
+			<charseq START="2839" END="2851">the
+President</charseq>
+      </extent>
+      <head>
+			<charseq START="2843" END="2851">President</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E52" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E52-90">
+      <extent>
+			<charseq START="2854" END="2871">the Vice President</charseq>
+      </extent>
+      <head>
+			<charseq START="2863" END="2871">President</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E53" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E53-91">
+      <extent>
+			<charseq START="2874" END="2884">80 Senators</charseq>
+      </extent>
+      <head>
+			<charseq START="2877" END="2884">Senators</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E54" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E54-92">
+      <extent>
+			<charseq START="2891" END="2905">350 congressmen</charseq>
+      </extent>
+      <head>
+			<charseq START="2895" END="2905">congressmen</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E55" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E55-93">
+      <extent>
+			<charseq START="2918" END="2996">the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce</charseq>
+      </extent>
+      <head>
+			<charseq START="2922" END="2931">department</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E56" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E56-94">
+      <extent>
+			<charseq START="3006" END="3018">Federal Court</charseq>
+      </extent>
+      <head>
+			<charseq START="3014" END="3018">Court</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E57" TYPE="WEA" SUBTYPE="Nuclear" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E57-95">
+      <extent>
+			<charseq START="3069" END="3071">one</charseq>
+      </extent>
+      <head>
+			<charseq START="3069" END="3071">one</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E58" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E58-96">
+      <extent>
+			<charseq START="3085" END="3096">the Pentagon</charseq>
+      </extent>
+      <head>
+			<charseq START="3089" END="3096">Pentagon</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Pentagon">
+			<charseq START="3089" END="3096">Pentagon</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E59" TYPE="PER" SUBTYPE="Indeterminate" CLASS="GEN">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E59-98">
+      <extent>
+			<charseq START="3133" END="3136">your</charseq>
+      </extent>
+      <head>
+			<charseq START="3133" END="3136">your</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E59-99">
+      <extent>
+			<charseq START="3170" END="3173">your</charseq>
+      </extent>
+      <head>
+			<charseq START="3170" END="3173">your</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E59-124">
+      <extent>
+			<charseq START="4682" END="4684">you</charseq>
+      </extent>
+      <head>
+			<charseq START="4682" END="4684">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E59-148">
+      <extent>
+			<charseq START="5512" END="5514">you</charseq>
+      </extent>
+      <head>
+			<charseq START="5512" END="5514">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E60" TYPE="ORG" SUBTYPE="Commercial" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E60-100">
+      <extent>
+			<charseq START="3205" END="3208">bank</charseq>
+      </extent>
+      <head>
+			<charseq START="3205" END="3208">bank</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E61" TYPE="PER" SUBTYPE="Group" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E61-103">
+      <extent>
+			<charseq START="3260" END="3276">federal employees</charseq>
+      </extent>
+      <head>
+			<charseq START="3268" END="3276">employees</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E62" TYPE="ORG" SUBTYPE="Educational" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E62-104">
+      <extent>
+			<charseq START="3318" END="3324">schools</charseq>
+      </extent>
+      <head>
+			<charseq START="3318" END="3324">schools</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E63" TYPE="ORG" SUBTYPE="Government" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E63-105">
+      <extent>
+			<charseq START="3340" END="3345">police</charseq>
+      </extent>
+      <head>
+			<charseq START="3340" END="3345">police</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E64" TYPE="ORG" SUBTYPE="Government" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E64-106">
+      <extent>
+			<charseq START="3348" END="3353">courts</charseq>
+      </extent>
+      <head>
+			<charseq START="3348" END="3353">courts</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E65" TYPE="VEH" SUBTYPE="Land" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E65-107">
+      <extent>
+			<charseq START="3624" END="3627">Cars</charseq>
+      </extent>
+      <head>
+			<charseq START="3624" END="3627">Cars</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E66" TYPE="VEH" SUBTYPE="Land" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E66-108">
+      <extent>
+			<charseq START="3630" END="3635">Trucks</charseq>
+      </extent>
+      <head>
+			<charseq START="3630" END="3635">Trucks</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E67" TYPE="GPE" SUBTYPE="County-or-District" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E67-110" ROLE="GPE">
+      <extent>
+			<charseq START="3832" END="3837">county</charseq>
+      </extent>
+      <head>
+			<charseq START="3832" END="3837">county</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E68" TYPE="GPE" SUBTYPE="State-or-Province" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E68-111" ROLE="GPE">
+      <extent>
+			<charseq START="3844" END="3848">state</charseq>
+      </extent>
+      <head>
+			<charseq START="3844" END="3848">state</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E69" TYPE="ORG" SUBTYPE="Government" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E69-112">
+      <extent>
+			<charseq START="3825" END="3860">local, county,
+and state governments</charseq>
+      </extent>
+      <head>
+			<charseq START="3850" END="3860">governments</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E69-113">
+      <extent>
+			<charseq START="3895" END="3898">they</charseq>
+      </extent>
+      <head>
+			<charseq START="3895" END="3898">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E70" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E70-114">
+      <extent>
+			<charseq START="3947" END="3955">the farms</charseq>
+      </extent>
+      <head>
+			<charseq START="3951" END="3955">farms</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E71" TYPE="ORG" SUBTYPE="Commercial" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E71-115">
+      <extent>
+			<charseq START="3960" END="3976">food manufactures</charseq>
+      </extent>
+      <head>
+			<charseq START="3965" END="3976">manufactures</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E72" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E72-116">
+      <extent>
+			<charseq START="3981" END="3996">local warehouses</charseq>
+      </extent>
+      <head>
+			<charseq START="3987" END="3996">warehouses</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E72-118">
+      <extent>
+			<charseq START="4146" END="4161">local warehouses</charseq>
+      </extent>
+      <head>
+			<charseq START="4152" END="4161">warehouses</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E73" TYPE="FAC" SUBTYPE="Path" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E73-117">
+      <extent>
+			<charseq START="4124" END="4141">the ports of entry</charseq>
+      </extent>
+      <head>
+			<charseq START="4128" END="4132">ports</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E74" TYPE="ORG" SUBTYPE="Commercial" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E74-119">
+      <extent>
+			<charseq START="4167" END="4180">local retailer</charseq>
+      </extent>
+      <head>
+			<charseq START="4173" END="4180">retailer</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E75" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E75-121">
+      <extent>
+			<charseq START="4356" END="4376">people driven by
+fear</charseq>
+      </extent>
+      <head>
+			<charseq START="4356" END="4361">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E76" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E76-122" ROLE="LOC">
+      <extent>
+			<charseq START="4501" END="4506">Canada</charseq>
+      </extent>
+      <head>
+			<charseq START="4501" END="4506">Canada</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Canada">
+			<charseq START="4501" END="4506">Canada</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E77" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E77-123">
+      <extent>
+			<charseq START="4516" END="4520">homes</charseq>
+      </extent>
+      <head>
+			<charseq START="4516" END="4520">homes</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E78" TYPE="LOC" SUBTYPE="Land-Region-Natural" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E78-125">
+      <extent>
+			<charseq START="4704" END="4712">the mines</charseq>
+      </extent>
+      <head>
+			<charseq START="4708" END="4712">mines</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E79" TYPE="FAC" SUBTYPE="Plant" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E79-126">
+      <extent>
+			<charseq START="4717" END="4732">the
+power plants</charseq>
+      </extent>
+      <head>
+			<charseq START="4727" END="4732">plants</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E80" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E80-127">
+      <extent>
+			<charseq START="4790" END="4807">Dependent Children</charseq>
+      </extent>
+      <head>
+			<charseq START="4800" END="4807">Children</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E81" TYPE="ORG" SUBTYPE="Commercial" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E81-128">
+      <extent>
+			<charseq START="4928" END="4931">they</charseq>
+      </extent>
+      <head>
+			<charseq START="4928" END="4931">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E82" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E82-212" ROLE="LOC">
+      <extent>
+			<charseq START="2605" END="2617">New York City</charseq>
+      </extent>
+      <head>
+			<charseq START="2605" END="2617">New York City</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E82-129" ROLE="GPE">
+      <extent>
+			<charseq START="4958" END="4965">New York</charseq>
+      </extent>
+      <head>
+			<charseq START="4958" END="4965">New York</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="New York">
+			<charseq START="4958" END="4965">New York</charseq>
+      </name>
+      <name NAME="New York City">
+			<charseq START="2605" END="2617">New York City</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E83" TYPE="PER" SUBTYPE="Individual" CLASS="NEG">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E83-130">
+      <extent>
+			<charseq START="4999" END="5005">no body</charseq>
+      </extent>
+      <head>
+			<charseq START="4999" END="5005">no body</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E84" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E84-132">
+      <extent>
+			<charseq START="5118" END="5136">the Mullahs of Iran</charseq>
+      </extent>
+      <head>
+			<charseq START="5122" END="5128">Mullahs</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E84-134">
+      <extent>
+			<charseq START="5178" END="5218">people who train and fund suicide
+bombers</charseq>
+      </extent>
+      <head>
+			<charseq START="5178" END="5183">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E84-135">
+      <extent>
+			<charseq START="5185" END="5187">who</charseq>
+      </extent>
+      <head>
+			<charseq START="5185" END="5187">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E85" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E85-136">
+      <extent>
+			<charseq START="5204" END="5218">suicide
+bombers</charseq>
+      </extent>
+      <head>
+			<charseq START="5212" END="5218">bombers</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E86" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E86-142">
+      <extent>
+			<charseq START="5259" END="5285">large numbers of his
+people</charseq>
+      </extent>
+      <head>
+			<charseq START="5280" END="5285">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E87" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E87-144" ROLE="GPE">
+      <extent>
+			<charseq START="5354" END="5361">Japanese</charseq>
+      </extent>
+      <head>
+			<charseq START="5354" END="5361">Japanese</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Japanese">
+			<charseq START="5354" END="5361">Japanese</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E88" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E88-145">
+      <extent>
+			<charseq START="5354" END="5370">Japanese Citizens</charseq>
+      </extent>
+      <head>
+			<charseq START="5363" END="5370">Citizens</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E89" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E89-146">
+      <extent>
+			<charseq START="5398" END="5408">movie stars</charseq>
+      </extent>
+      <head>
+			<charseq START="5404" END="5408">stars</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E90" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E90-149">
+      <extent>
+			<charseq START="5531" END="5536">Hitler</charseq>
+      </extent>
+      <head>
+			<charseq START="5531" END="5536">Hitler</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E90-150">
+      <extent>
+			<charseq START="5542" END="5573">a saint compared
+to Kim Junk Ill</charseq>
+      </extent>
+      <head>
+			<charseq START="5544" END="5548">saint</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E90-213">
+      <extent>
+			<charseq START="5801" END="5804">Herr</charseq>
+      </extent>
+      <head>
+			<charseq START="5801" END="5804">Herr</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E90-157">
+      <extent>
+			<charseq START="5801" END="5811">Herr Hitler</charseq>
+      </extent>
+      <head>
+			<charseq START="5806" END="5811">Hitler</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Hitler">
+			<charseq START="5531" END="5536">Hitler</charseq>
+      </name>
+      <name NAME="Hitler">
+			<charseq START="5806" END="5811">Hitler</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E92" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E92-152">
+      <extent>
+			<charseq START="5640" END="5658">the
+neo-chamberlins</charseq>
+      </extent>
+      <head>
+			<charseq START="5648" END="5658">chamberlins</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E92-214">
+      <extent>
+			<charseq START="5661" END="5703">most of the leftist that most on this board</charseq>
+      </extent>
+      <head>
+			<charseq START="5661" END="5664">most</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E92-172">
+      <extent>
+			<charseq START="6051" END="6065">neo-chamberlins</charseq>
+      </extent>
+      <head>
+			<charseq START="6055" END="6065">chamberlins</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E93" TYPE="ORG" SUBTYPE="Commercial" CLASS="NEG">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E93-153">
+      <extent>
+			<charseq START="4904" END="4924">no banks to cash them</charseq>
+      </extent>
+      <head>
+			<charseq START="4907" END="4911">banks</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E94" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E94-155">
+      <extent>
+			<charseq START="5716" END="5729">prime minister</charseq>
+      </extent>
+      <head>
+			<charseq START="5722" END="5729">minister</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E94-154">
+      <extent>
+			<charseq START="5716" END="5740">prime minister chamberlin</charseq>
+      </extent>
+      <head>
+			<charseq START="5731" END="5740">chamberlin</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E94-156">
+      <extent>
+			<charseq START="5753" END="5755">his</charseq>
+      </extent>
+      <head>
+			<charseq START="5753" END="5755">his</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="chamberlin">
+			<charseq START="5731" END="5740">chamberlin</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E96" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E96-158">
+      <extent>
+			<charseq START="5827" END="5829">our</charseq>
+      </extent>
+      <head>
+			<charseq START="5827" END="5829">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E97" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E97-161">
+      <extent>
+			<charseq START="5919" END="5923">Kerry</charseq>
+      </extent>
+      <head>
+			<charseq START="5919" END="5923">Kerry</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Kerry">
+			<charseq START="5919" END="5923">Kerry</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E98" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E98-162">
+      <extent>
+			<charseq START="5926" END="5929">Dean</charseq>
+      </extent>
+      <head>
+			<charseq START="5926" END="5929">Dean</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Dean">
+			<charseq START="5926" END="5929">Dean</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E99" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E99-163">
+      <extent>
+			<charseq START="5932" END="5938">Kennedy</charseq>
+      </extent>
+      <head>
+			<charseq START="5932" END="5938">Kennedy</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Kennedy">
+			<charseq START="5932" END="5938">Kennedy</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E100" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E100-164">
+      <extent>
+			<charseq START="5941" END="5950">Carl Levin</charseq>
+      </extent>
+      <head>
+			<charseq START="5941" END="5950">Carl Levin</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Carl Levin">
+			<charseq START="5941" END="5950">Carl Levin</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E101" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E101-165">
+      <extent>
+			<charseq START="5953" END="5958">Lathey</charseq>
+      </extent>
+      <head>
+			<charseq START="5953" END="5958">Lathey</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Lathey">
+			<charseq START="5953" END="5958">Lathey</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E102" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E102-166">
+      <extent>
+			<charseq START="5961" END="5965">Murry</charseq>
+      </extent>
+      <head>
+			<charseq START="5961" END="5965">Murry</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Murry">
+			<charseq START="5961" END="5965">Murry</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E103" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E103-167">
+      <extent>
+			<charseq START="5968" END="5976">Finestien</charseq>
+      </extent>
+      <head>
+			<charseq START="5968" END="5976">Finestien</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Finestien">
+			<charseq START="5968" END="5976">Finestien</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E104" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E104-168">
+      <extent>
+			<charseq START="5979" END="5983">Boxer</charseq>
+      </extent>
+      <head>
+			<charseq START="5979" END="5983">Boxer</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Boxer">
+			<charseq START="5979" END="5983">Boxer</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E105" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E105-169">
+      <extent>
+			<charseq START="5995" END="6020">the whole Democratic party</charseq>
+      </extent>
+      <head>
+			<charseq START="6005" END="6020">Democratic party</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Democratic party">
+			<charseq START="6005" END="6020">Democratic party</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E106" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E106-170">
+      <extent>
+			<charseq START="6027" END="6046">members of
+the press</charseq>
+      </extent>
+      <head>
+			<charseq START="6027" END="6033">members</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E107" TYPE="ORG" SUBTYPE="Media" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E107-171">
+      <extent>
+			<charseq START="6038" END="6046">the press</charseq>
+      </extent>
+      <head>
+			<charseq START="6042" END="6046">press</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E108" TYPE="GPE" SUBTYPE="State-or-Province" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E108-175" ROLE="LOC">
+      <extent>
+			<charseq START="6236" END="6249">here in Oregon</charseq>
+      </extent>
+      <head>
+			<charseq START="6236" END="6239">here</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E108-176" ROLE="LOC">
+      <extent>
+			<charseq START="6244" END="6249">Oregon</charseq>
+      </extent>
+      <head>
+			<charseq START="6244" END="6249">Oregon</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E108-192" ROLE="LOC">
+      <extent>
+			<charseq START="6568" END="6573">Oregon</charseq>
+      </extent>
+      <head>
+			<charseq START="6568" END="6573">Oregon</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Oregon">
+			<charseq START="6244" END="6249">Oregon</charseq>
+      </name>
+      <name NAME="Oregon">
+			<charseq START="6568" END="6573">Oregon</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E109" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E109-177">
+      <extent>
+			<charseq START="6281" END="6286">Intell</charseq>
+      </extent>
+      <head>
+			<charseq START="6281" END="6286">Intell</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Intell">
+			<charseq START="6281" END="6286">Intell</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E110" TYPE="ORG" SUBTYPE="Commercial" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E110-178">
+      <extent>
+			<charseq START="6310" END="6321">other places</charseq>
+      </extent>
+      <head>
+			<charseq START="6316" END="6321">places</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E111" TYPE="ORG" SUBTYPE="Commercial" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E111-179">
+      <extent>
+			<charseq START="6335" END="6347">Hi tech firms</charseq>
+      </extent>
+      <head>
+			<charseq START="6343" END="6347">firms</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E111-181">
+      <extent>
+			<charseq START="6384" END="6387">they</charseq>
+      </extent>
+      <head>
+			<charseq START="6384" END="6387">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E112" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E112-182" ROLE="LOC">
+      <extent>
+			<charseq START="6404" END="6408">India</charseq>
+      </extent>
+      <head>
+			<charseq START="6404" END="6408">India</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="India">
+			<charseq START="6404" END="6408">India</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E113" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E113-184">
+      <extent>
+			<charseq START="6438" END="6452">Hewlett Packard</charseq>
+      </extent>
+      <head>
+			<charseq START="6438" END="6452">Hewlett Packard</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E113-185">
+      <extent>
+			<charseq START="6471" END="6473">its</charseq>
+      </extent>
+      <head>
+			<charseq START="6471" END="6473">its</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Hewlett Packard">
+			<charseq START="6438" END="6452">Hewlett Packard</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E114" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E114-186">
+      <extent>
+			<charseq START="6471" END="6489">its plant in
+Eugene</charseq>
+      </extent>
+      <head>
+			<charseq START="6475" END="6479">plant</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E115" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E115-187" ROLE="LOC">
+      <extent>
+			<charseq START="6484" END="6489">Eugene</charseq>
+      </extent>
+      <head>
+			<charseq START="6484" END="6489">Eugene</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Eugene">
+			<charseq START="6484" END="6489">Eugene</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E116" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E116-188">
+      <extent>
+			<charseq START="6499" END="6501">you</charseq>
+      </extent>
+      <head>
+			<charseq START="6499" END="6501">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E116-190">
+      <extent>
+			<charseq START="6513" END="6514">MS</charseq>
+      </extent>
+      <head>
+			<charseq START="6513" END="6514">MS</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E116-189">
+      <extent>
+			<charseq START="6513" END="6523">MS. Fiorina</charseq>
+      </extent>
+      <head>
+			<charseq START="6517" END="6523">Fiorina</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Fiorina">
+			<charseq START="6517" END="6523">Fiorina</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E118" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="misc.survivalism_20050210.0232-E118-191">
+      <extent>
+			<charseq START="6529" END="6545">SUN Micro systems</charseq>
+      </extent>
+      <head>
+			<charseq START="6529" END="6545">SUN Micro systems</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="SUN Micro systems">
+			<charseq START="6529" END="6545">SUN Micro systems</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E119" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="misc.survivalism_20050210.0232-E119-194">
+      <extent>
+			<charseq START="6609" END="6667">a engineered to
+specification custom manufacturing facility</charseq>
+      </extent>
+      <head>
+			<charseq START="6660" END="6667">facility</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E121" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E121-195">
+      <extent>
+			<charseq START="5259" END="5285">large numbers of his
+people</charseq>
+      </extent>
+      <head>
+			<charseq START="5265" END="5271">numbers</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="misc.survivalism_20050210.0232-E128" TYPE="PER" SUBTYPE="Indeterminate" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="misc.survivalism_20050210.0232-E128-215">
+      <extent>
+			<charseq START="5707" END="5709">you</charseq>
+      </extent>
+      <head>
+			<charseq START="5707" END="5709">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <value ID="misc.survivalism_20050210.0232-V1" TYPE="Numeric" SUBTYPE="Percent">
+    <value_mention ID="misc.survivalism_20050210.0232-V1-1">
+      <extent>
+			<charseq START="899" END="909">90% percent</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <value ID="misc.survivalism_20050210.0232-V2" TYPE="Numeric" SUBTYPE="Percent">
+    <value_mention ID="misc.survivalism_20050210.0232-V2-1">
+      <extent>
+			<charseq START="3496" END="3498">80%</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <value ID="misc.survivalism_20050210.0232-V3" TYPE="Numeric" SUBTYPE="Percent">
+    <value_mention ID="misc.survivalism_20050210.0232-V3-1">
+      <extent>
+			<charseq START="6165" END="6167">20%</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <value ID="misc.survivalism_20050210.0232-V4" TYPE="Numeric" SUBTYPE="Money">
+    <value_mention ID="misc.survivalism_20050210.0232-V4-1">
+      <extent>
+			<charseq START="6263" END="6268">$14.00</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <value ID="misc.survivalism_20050210.0232-V5" TYPE="Numeric" SUBTYPE="Money">
+    <value_mention ID="misc.survivalism_20050210.0232-V5-1">
+      <extent>
+			<charseq START="6289" END="6297">up to
+$20</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <timex2 ID="misc.survivalism_20050210.0232-T1" VAL="2005-02-10T02:32:00">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T1-1">
+      <extent>
+			<charseq START="46" END="64">2005-02-10T02:32:00</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T2" VAL="P61Y" ANCHOR_VAL="1831" ANCHOR_DIR="ENDING">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T2-1">
+      <extent>
+			<charseq START="1483" END="1491">1770-1831</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T3" VAL="2005-02-09T23:32:07-08">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T3-1">
+      <extent>
+			<charseq START="144" END="174">Wed, 09 Feb 2005 23:32:07 -0800</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T4" VAL="PRESENT_REF" ANCHOR_VAL="2005-02-10T06:49:47" ANCHOR_DIR="AS_OF">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T4-1">
+      <extent>
+			<charseq START="2093" END="2095">now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T5">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T5-1">
+      <extent>
+			<charseq START="3100" END="3102">Now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T6" VAL="XXXX-XX-XXTXX:02:30">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T6-1">
+      <extent>
+			<charseq START="939" END="980">2 and one half minutes from time of launch</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T7" VAL="FUTURE_REF" ANCHOR_VAL="2005-W06" ANCHOR_DIR="AFTER">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T7-1">
+      <extent>
+			<charseq START="1039" END="1056">the next few
+weeks</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T8">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T8-1">
+      <extent>
+			<charseq START="3386" END="3388">now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T9">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T9-1">
+      <extent>
+			<charseq START="3156" END="3158">now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T10">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T10-1">
+      <extent>
+			<charseq START="3673" END="3675">now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T11" VAL="2005-02-10T06:49:47-08">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T11-1">
+      <extent>
+			<charseq START="1535" END="1565">Thu, 10 Feb 2005 06:49:47 -0800</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T12" VAL="2005-02-10">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T12-1">
+      <extent>
+			<charseq START="6120" END="6124">today</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T13" VAL="PXY" ANCHOR_VAL="2005" ANCHOR_DIR="ENDING">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T13-1">
+      <extent>
+			<charseq START="1724" END="1738">for a few years</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T14" VAL="XXXX-WXX-3T10:00">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T14-1">
+      <extent>
+			<charseq START="2570" END="2589">10 AM on a Wednesday</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T15" VAL="XXXX-WXX-3T10:00">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T15-1">
+      <extent>
+			<charseq START="2778" END="2790">the same time</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T16" VAL="PXW" ANCHOR_VAL="2005-W06-4" ANCHOR_DIR="STARTING">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T16-1">
+      <extent>
+			<charseq START="3806" END="3820">for a few weeks</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T17" VAL="2005-WXX">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T17-1">
+      <extent>
+			<charseq START="4027" END="4045">in a few week or so</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T18" VAL="PRESENT_REF" ANCHOR_VAL="2005-02-10T02:32:00" ANCHOR_DIR="AS_OF">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T18-1">
+      <extent>
+			<charseq START="4107" END="4116">these days</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T19" VAL="FUTURE_REF" ANCHOR_VAL="2005-02" ANCHOR_DIR="AFTER">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T19-1">
+      <extent>
+			<charseq START="4288" END="4300">a month or so</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T20">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T20-1">
+      <extent>
+			<charseq START="4421" END="4434">the first week</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T21" VAL="XXXX-WI">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T21-1">
+      <extent>
+			<charseq START="4469" END="4478">the winter</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T22" VAL="PXW" ANCHOR_VAL="XXXX-WI" ANCHOR_DIR="WITHIN">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T22-1">
+      <extent>
+			<charseq START="4624" END="4640">a couple of weeks</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T23" VAL="XXXX" SET="YES">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T23-1">
+      <extent>
+			<charseq START="5303" END="5312">every year</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T24" VAL="P1DE" ANCHOR_VAL="2005" ANCHOR_DIR="ENDING">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T24-1">
+      <extent>
+			<charseq START="5481" END="5506">over
+the last decade or so</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T25" VAL="P1DE" ANCHOR_VAL="2005" ANCHOR_DIR="STARTING">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T25-1">
+      <extent>
+			<charseq START="5610" END="5634">for the next decade or so</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T26" VAL="PRESENT_REF" ANCHOR_VAL="2005-02-10T02:32:00" ANCHOR_DIR="AS_OF">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T26-1">
+      <extent>
+			<charseq START="5827" END="5834">our time</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T27" VAL="TXX" SET="YES">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T27-1">
+      <extent>
+			<charseq START="6270" END="6276">an hour</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T28" VAL="TXX" SET="YES">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T28-1">
+      <extent>
+			<charseq START="6299" END="6305">an hour</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="misc.survivalism_20050210.0232-T29" VAL="2005-02-09">
+    <timex2_mention ID="misc.survivalism_20050210.0232-T29-1">
+      <extent>
+			<charseq START="6423" END="6431">yesterday</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="misc.survivalism_20050210.0232-R1" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="misc.survivalism_20050210.0232-E52" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E50" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R1-1" p="1.000">
+      <extent>
+			<charseq START="2775" END="3025">At the same time 2 weapons go off in Washington DC and take out the
+President, the Vice President, 80 Senators, and 350 congressmen as well
+as the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce and the Federal Court system</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E52-90" ROLE="Arg-1">
+          <extent>
+            <charseq START="2854" END="2871">the Vice President</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E50-88" ROLE="Arg-2">
+          <extent>
+            <charseq START="2812" END="2824">Washington DC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R2" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="misc.survivalism_20050210.0232-E53" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E50" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R2-1" p="1.000">
+      <extent>
+			<charseq START="2775" END="3025">At the same time 2 weapons go off in Washington DC and take out the
+President, the Vice President, 80 Senators, and 350 congressmen as well
+as the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce and the Federal Court system</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E53-91" ROLE="Arg-1">
+          <extent>
+            <charseq START="2874" END="2884">80 Senators</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E50-88" ROLE="Arg-2">
+          <extent>
+            <charseq START="2812" END="2824">Washington DC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R3" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="misc.survivalism_20050210.0232-E54" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E50" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R3-1" p="1.000">
+      <extent>
+			<charseq START="2775" END="3025">At the same time 2 weapons go off in Washington DC and take out the
+President, the Vice President, 80 Senators, and 350 congressmen as well
+as the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce and the Federal Court system</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E54-92" ROLE="Arg-1">
+          <extent>
+            <charseq START="2891" END="2905">350 congressmen</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E50-88" ROLE="Arg-2">
+          <extent>
+            <charseq START="2812" END="2824">Washington DC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R4" TYPE="GEN-AFF" SUBTYPE="Org-Location">    <relation_argument REFID="misc.survivalism_20050210.0232-E55" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E50" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R4-1" p="1.000">
+      <extent>
+			<charseq START="2775" END="3025">At the same time 2 weapons go off in Washington DC and take out the
+President, the Vice President, 80 Senators, and 350 congressmen as well
+as the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce and the Federal Court system</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E55-93" ROLE="Arg-1">
+          <extent>
+            <charseq START="2918" END="2996">the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E50-88" ROLE="Arg-2">
+          <extent>
+            <charseq START="2812" END="2824">Washington DC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R5" TYPE="PART-WHOLE" SUBTYPE="Subsidiary">    <relation_argument REFID="misc.survivalism_20050210.0232-E69" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E67" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R5-1" p="1.000">
+      <extent>
+			<charseq START="3825" END="3860">local, county,
+and state governments</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E69-112" ROLE="Arg-1">
+          <extent>
+            <charseq START="3825" END="3860">local, county,
+and state governments</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E67-110" ROLE="Arg-2">
+          <extent>
+            <charseq START="3832" END="3837">county</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R6" TYPE="PART-WHOLE" SUBTYPE="Subsidiary">    <relation_argument REFID="misc.survivalism_20050210.0232-E69" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E68" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R6-1" p="1.000">
+      <extent>
+			<charseq START="3825" END="3860">local, county,
+and state governments</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E69-112" ROLE="Arg-1">
+          <extent>
+            <charseq START="3825" END="3860">local, county,
+and state governments</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E68-111" ROLE="Arg-2">
+          <extent>
+            <charseq START="3844" END="3848">state</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R7" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="misc.survivalism_20050210.0232-E84" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E37" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R7-1" p="1.000">
+      <extent>
+			<charseq START="5118" END="5136">the Mullahs of Iran</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E84-132" ROLE="Arg-1">
+          <extent>
+            <charseq START="5118" END="5136">the Mullahs of Iran</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E37-133" ROLE="Arg-2">
+          <extent>
+            <charseq START="5133" END="5136">Iran</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R8" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="misc.survivalism_20050210.0232-E23" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E3" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R8-1" p="1.000">
+      <extent>
+			<charseq START="5080" END="5448">Oh we can work on the assumption that the Mullahs of Iran will be
+rational, (but how rational are people who train and fund suicide
+bombers) and a rational Kim Junk Ill (who lets large numbers of his
+people starve to death every year so he can have nuclear weapons)
+kidnaps Japanese Citizens to teach English, Kidnaps movie stars so he
+can have private performances etc</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E23-140" ROLE="Arg-1">
+          <extent>
+            <charseq START="5317" END="5318">he</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E3-143" ROLE="Arg-2">
+          <extent>
+            <charseq START="5329" END="5343">nuclear weapons</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R9" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="misc.survivalism_20050210.0232-E51" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E50" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R9-1" p="1.000">
+      <extent>
+			<charseq START="2775" END="3025">At the same time 2 weapons go off in Washington DC and take out the
+President, the Vice President, 80 Senators, and 350 congressmen as well
+as the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce and the Federal Court system</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E51-89" ROLE="Arg-1">
+          <extent>
+            <charseq START="2839" END="2851">the
+President</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E50-88" ROLE="Arg-2">
+          <extent>
+            <charseq START="2812" END="2824">Washington DC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R10" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="misc.survivalism_20050210.0232-E88" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E87" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R10-1" p="1.000">
+      <extent>
+			<charseq START="5354" END="5370">Japanese Citizens</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E88-145" ROLE="Arg-1">
+          <extent>
+            <charseq START="5354" END="5370">Japanese Citizens</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E87-144" ROLE="Arg-2">
+          <extent>
+            <charseq START="5354" END="5361">Japanese</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R11" TYPE="ORG-AFF" SUBTYPE="Membership">    <relation_argument REFID="misc.survivalism_20050210.0232-E106" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E107" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R11-1" p="1.000">
+      <extent>
+			<charseq START="6027" END="6046">members of
+the press</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E106-170" ROLE="Arg-1">
+          <extent>
+            <charseq START="6027" END="6046">members of
+the press</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E107-171" ROLE="Arg-2">
+          <extent>
+            <charseq START="6038" END="6046">the press</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R12" TYPE="PART-WHOLE" SUBTYPE="Subsidiary">    <relation_argument REFID="misc.survivalism_20050210.0232-E114" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E113" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R12-1" p="1.000">
+      <extent>
+			<charseq START="6471" END="6489">its plant in
+Eugene</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E114-186" ROLE="Arg-1">
+          <extent>
+            <charseq START="6471" END="6489">its plant in
+Eugene</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E113-185" ROLE="Arg-2">
+          <extent>
+            <charseq START="6471" END="6473">its</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R13" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="misc.survivalism_20050210.0232-E114" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E115" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R13-1" p="1.000">
+      <extent>
+			<charseq START="6471" END="6489">its plant in
+Eugene</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E114-186" ROLE="Arg-1">
+          <extent>
+            <charseq START="6471" END="6489">its plant in
+Eugene</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E115-187" ROLE="Arg-2">
+          <extent>
+            <charseq START="6484" END="6489">Eugene</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R14" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="misc.survivalism_20050210.0232-E1" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E2" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R14-1" p="1.000">
+      <extent>
+			<charseq START="213" END="247">The foreign minister of North Korea</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E1-217" ROLE="Arg-1">
+          <extent>
+            <charseq START="213" END="247">The foreign minister of North Korea</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E2-1" ROLE="Arg-2">
+          <extent>
+            <charseq START="237" END="247">North Korea</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R15" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="misc.survivalism_20050210.0232-E2" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E3" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R15-1" p="1.000">
+      <extent>
+			<charseq START="213" END="386">The foreign minister of North Korea has state that North Korea has
+nuclear weapons and has officially with drawn from the 6 nation talks on
+Nuclear proliferation in east Asia</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E2-2" ROLE="Arg-1">
+          <extent>
+            <charseq START="264" END="274">North Korea</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E3-3" ROLE="Arg-2">
+          <extent>
+            <charseq START="280" END="294">nuclear weapons</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="misc.survivalism_20050210.0232-R15-2" p="1.000">
+      <extent>
+			<charseq START="1685" END="1797">If North Korea has had nuclear weapons for a few years then they
+developed them during the Clinton Administration</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E2-48" ROLE="Arg-1">
+          <extent>
+            <charseq START="1688" END="1698">North Korea</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E3-210" ROLE="Arg-2">
+          <extent>
+            <charseq START="1708" END="1722">nuclear weapons</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="misc.survivalism_20050210.0232-R15-3" p="1.000">
+      <extent>
+			<charseq START="1685" END="1797">If North Korea has had nuclear weapons for a few years then they
+developed them during the Clinton Administration</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E2-49" ROLE="Arg-1">
+          <extent>
+            <charseq START="1745" END="1748">they</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E3-211" ROLE="Arg-2">
+          <extent>
+            <charseq START="1760" END="1763">them</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="misc.survivalism_20050210.0232-R15-4" p="1.000">
+      <extent>
+			<charseq START="2090" END="2158">So now we have North Korea with nuclear weapons and workable missiles</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E2-67" ROLE="Arg-1">
+          <extent>
+            <charseq START="2105" END="2115">North Korea</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E3-68" ROLE="Arg-2">
+          <extent>
+            <charseq START="2122" END="2136">nuclear weapons</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R16" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="misc.survivalism_20050210.0232-E2" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E6" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R16-1" p="1.000">
+      <extent>
+			<charseq START="390" END="561">The Foreign minister also indicated that North Korea will continue to
+develop long range missiles capable of obliterating any target within
+the borders of the United States</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E2-7" ROLE="Arg-1">
+          <extent>
+            <charseq START="431" END="441">North Korea</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E6-8" ROLE="Arg-2">
+          <extent>
+            <charseq START="468" END="561">long range missiles capable of obliterating any target within
+the borders of the United States</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R17" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="misc.survivalism_20050210.0232-E7" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E8" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R17-1" p="1.000">
+      <extent>
+			<charseq START="530" END="561">the borders of the United States</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E7-9" ROLE="Arg-1">
+          <extent>
+            <charseq START="530" END="561">the borders of the United States</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E8-10" ROLE="Arg-2">
+          <extent>
+            <charseq START="545" END="561">the United States</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R18" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="misc.survivalism_20050210.0232-E9" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E5" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R18-1" p="1.000">
+      <extent>
+			<charseq START="578" END="607">East Asia Intelligence sources</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E9-11" ROLE="Arg-1">
+          <extent>
+            <charseq START="578" END="607">East Asia Intelligence sources</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E5-209" ROLE="Arg-2">
+          <extent>
+            <charseq START="578" END="586">East Asia</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R19" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="misc.survivalism_20050210.0232-E2" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E10" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R19-1" p="1.000">
+      <extent>
+			<charseq START="565" END="832">According to East Asia Intelligence sources, North Korea has already
+prepositioned nuclear tipped missiles on Freighters and Fishing trawlers
+that are sailing under foreign flags of convenience, that are stationed
+off the west coast and East coast of the United States</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E2-12" ROLE="Arg-1">
+          <extent>
+            <charseq START="610" END="620">North Korea</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E10-13" ROLE="Arg-2">
+          <extent>
+            <charseq START="648" END="670">nuclear tipped missiles</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="misc.survivalism_20050210.0232-R19-2" p="1.000">
+      <extent>
+			<charseq START="2090" END="2158">So now we have North Korea with nuclear weapons and workable missiles</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E2-67" ROLE="Arg-1">
+          <extent>
+            <charseq START="2105" END="2115">North Korea</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E10-69" ROLE="Arg-2">
+          <extent>
+            <charseq START="2142" END="2158">workable missiles</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R20" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="misc.survivalism_20050210.0232-E14" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E8" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R20-1" p="1.000">
+      <extent>
+			<charseq START="783" END="832">the west coast and East coast of the United States</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E14-18" ROLE="Arg-1">
+          <extent>
+            <charseq START="783" END="832">the west coast and East coast of the United States</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E8-20" ROLE="Arg-2">
+          <extent>
+            <charseq START="816" END="832">the United States</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R21" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="misc.survivalism_20050210.0232-E15" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E8" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R21-1" p="1.000">
+      <extent>
+			<charseq START="783" END="832">the west coast and East coast of the United States</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E15-19" ROLE="Arg-1">
+          <extent>
+            <charseq START="783" END="832">the west coast and East coast of the United States</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E8-20" ROLE="Arg-2">
+          <extent>
+            <charseq START="816" END="832">the United States</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R22" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="misc.survivalism_20050210.0232-E21" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E22" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R22-1" p="1.000">
+      <extent>
+			<charseq START="1101" END="1125">my site in eastern Oregon</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E21-30" ROLE="Arg-1">
+          <extent>
+            <charseq START="1101" END="1125">my site in eastern Oregon</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E22-31" ROLE="Arg-2">
+          <extent>
+            <charseq START="1112" END="1125">eastern Oregon</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R25" TYPE="ORG-AFF" SUBTYPE="Membership">    <relation_argument REFID="misc.survivalism_20050210.0232-E30" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E29" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R25-1" p="1.000">
+      <extent>
+			<charseq START="1772" END="1797">the Clinton Administration</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E30-51" ROLE="Arg-1">
+          <extent>
+            <charseq START="1776" END="1782">Clinton</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E29-50" ROLE="Arg-2">
+          <extent>
+            <charseq START="1772" END="1797">the Clinton Administration</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="misc.survivalism_20050210.0232-R25-2" p="1.000">
+      <extent>
+			<charseq START="1801" END="1826">The Clinton Administration</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E30-53" ROLE="Arg-1">
+          <extent>
+            <charseq START="1805" END="1811">Clinton</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E29-52" ROLE="Arg-2">
+          <extent>
+            <charseq START="1801" END="1826">The Clinton Administration</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R27" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="misc.survivalism_20050210.0232-E35" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E36" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R27-1" p="1.000">
+      <extent>
+			<charseq START="1924" END="1937">their missiles</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E35-59" ROLE="Arg-1">
+          <extent>
+            <charseq START="1924" END="1928">their</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E36-60" ROLE="Arg-2">
+          <extent>
+            <charseq START="1924" END="1937">their missiles</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R30" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="misc.survivalism_20050210.0232-E37" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E40" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R30-1" p="1.000">
+      <extent>
+			<charseq START="2286" END="2412">The simple and
+wisest action is to assume that they do have a small number and are
+working feverishly to build a bigger arsenal</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E37-74" ROLE="Arg-1">
+          <extent>
+            <charseq START="2333" END="2336">they</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E40-75" ROLE="Arg-2">
+          <extent>
+            <charseq START="2346" END="2359">a small number</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="misc.survivalism_20050210.0232-R30-2" p="1.000">
+      <extent>
+			<charseq START="2286" END="2412">The simple and
+wisest action is to assume that they do have a small number and are
+working feverishly to build a bigger arsenal</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E37-74" ROLE="Arg-1">
+          <extent>
+            <charseq START="2333" END="2336">they</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E40-76" ROLE="Arg-2">
+          <extent>
+            <charseq START="2397" END="2412">a bigger arsenal</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R32" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="misc.survivalism_20050210.0232-E42" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E41" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R32-1" p="1.000">
+      <extent>
+			<charseq START="2510" END="2527">Islamic extremists</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E42-79" ROLE="Arg-1">
+          <extent>
+            <charseq START="2510" END="2527">Islamic extremists</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E41-78" ROLE="Arg-2">
+          <extent>
+            <charseq START="2510" END="2516">Islamic</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R33" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="misc.survivalism_20050210.0232-E42" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E40" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R33-1" p="1.000">
+      <extent>
+			<charseq START="2416" END="2771">Now the nut of the question should be, What if Iran gives, sells,
+provides nuclear weapons to Islamic extremists to smuggle into the
+United States and at 10 AM on a Wednesday pop 2 or 3 in New York City,
+destroying Wall street, the large banks, the large Insurance companies,
+the large sock brokerage houses and many other world wide financial
+institutions</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E42-79" ROLE="Arg-1">
+          <extent>
+            <charseq START="2510" END="2527">Islamic extremists</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E40-216" ROLE="Arg-2">
+          <extent>
+            <charseq START="2491" END="2505">nuclear weapons</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="misc.survivalism_20050210.0232-R34" TYPE="GEN-AFF" SUBTYPE="Org-Location">    <relation_argument REFID="misc.survivalism_20050210.0232-E56" ROLE="Arg-1" />
+    <relation_argument REFID="misc.survivalism_20050210.0232-E50" ROLE="Arg-2" />
+      <relation_mention ID="misc.survivalism_20050210.0232-R34-1" p="1.000">
+      <extent>
+			<charseq START="2775" END="3025">At the same time 2 weapons go off in Washington DC and take out the
+President, the Vice President, 80 Senators, and 350 congressmen as well
+as the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce and the Federal Court system</charseq>
+      </extent>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E56-94" ROLE="Arg-1">
+          <extent>
+            <charseq START="3006" END="3018">Federal Court</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="misc.survivalism_20050210.0232-E50-88" ROLE="Arg-2">
+          <extent>
+            <charseq START="2812" END="2824">Washington DC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <event ID="misc.survivalism_20050210.0232-EV4" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Other" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E2" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E8" ROLE="Place" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E6" ROLE="Instrument" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV4-1" p="1.000">
+      <extent>
+			<charseq START="431" END="561">North Korea will continue to
+develop long range missiles capable of obliterating any target within
+the borders of the United States</charseq>
+      </extent>
+      <anchor>
+			<charseq START="499" END="510">obliterating</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E2-7" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="431" END="441">North Korea</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E8-10" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="545" END="561">the United States</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E6-8" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="468" END="561">long range missiles capable of obliterating any target within
+the borders of the United States</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV10" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Other" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E10" ROLE="Instrument" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV10-1" p="1.000">
+      <extent>
+			<charseq START="835" END="870">Missiles
+launched from these vessels</charseq>
+      </extent>
+      <anchor>
+			<charseq START="844" END="851">launched</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E10-196" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="835" END="870">Missiles
+launched from these vessels</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV5" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Other" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E10" ROLE="Instrument" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-T6" ROLE="Time-Within" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV5-1" p="1.000">
+      <extent>
+			<charseq START="835" END="980">Missiles
+launched from these vessels are said to be able to hit 90% percent of
+the major cities with in 2 and one half minutes from time of launch</charseq>
+      </extent>
+      <anchor>
+			<charseq START="895" END="897">hit</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E10-196" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="835" END="870">Missiles
+launched from these vessels</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-T6-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="939" END="980">2 and one half minutes from time of launch</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV9" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Other" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E10" ROLE="Instrument" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV9-1" p="1.000">
+      <extent>
+			<charseq START="835" END="980">Missiles
+launched from these vessels are said to be able to hit 90% percent of
+the major cities with in 2 and one half minutes from time of launch</charseq>
+      </extent>
+      <anchor>
+			<charseq START="975" END="980">launch</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E10-196" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="835" END="870">Missiles
+launched from these vessels</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV2" TYPE="Movement" SUBTYPE="Transport" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Future" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E18" ROLE="Agent" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E21" ROLE="Destination" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-T7" ROLE="Time-Within" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV2-1" p="1.000">
+      <extent>
+			<charseq START="1039" END="1125">the next few
+weeks I will be moving supplies and equipment to my site in eastern Oregon</charseq>
+      </extent>
+      <anchor>
+			<charseq START="1068" END="1073">moving</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E18-28" ROLE="Agent" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1058" END="1058">I</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E21-30" ROLE="Destination" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1101" END="1125">my site in eastern Oregon</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-T7-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1039" END="1056">the next few
+weeks</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV1" TYPE="Transaction" SUBTYPE="Transfer-Ownership" MODALITY="Other" POLARITY="Positive" GENERICITY="Specific" TENSE="Future" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E37" ROLE="Seller" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E42" ROLE="Buyer" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E40" ROLE="Artifact" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV1-1" p="1.000">
+      <extent>
+			<charseq START="2463" END="2527">Iran gives, sells,
+provides nuclear weapons to Islamic extremists</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2475" END="2479">sells</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E37-77" ROLE="Seller" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2463" END="2466">Iran</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E42-79" ROLE="Buyer" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2510" END="2527">Islamic extremists</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E40-216" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2491" END="2505">nuclear weapons</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="misc.survivalism_20050210.0232-EV1-2" p="1.000">
+      <extent>
+			<charseq START="2463" END="2527">Iran gives, sells,
+provides nuclear weapons to Islamic extremists</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2482" END="2489">provides</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E37-77" ROLE="Seller" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2463" END="2466">Iran</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E42-79" ROLE="Buyer" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2510" END="2527">Islamic extremists</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E40-216" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2491" END="2505">nuclear weapons</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="misc.survivalism_20050210.0232-EV1-3" p="1.000">
+      <extent>
+			<charseq START="2463" END="2527">Iran gives, sells,
+provides nuclear weapons to Islamic extremists</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2468" END="2472">gives</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E37-77" ROLE="Seller" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2463" END="2466">Iran</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E42-79" ROLE="Buyer" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2510" END="2527">Islamic extremists</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E40-216" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2491" END="2505">nuclear weapons</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV3" TYPE="Movement" SUBTYPE="Transport" MODALITY="Other" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E42" ROLE="Agent" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E8" ROLE="Destination" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E40" ROLE="Artifact" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV3-1" p="1.000">
+      <extent>
+			<charseq START="2491" END="2561">nuclear weapons to Islamic extremists to smuggle into the
+United States</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2532" END="2538">smuggle</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E42-79" ROLE="Agent" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2510" END="2527">Islamic extremists</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E8-80" ROLE="Destination" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2545" END="2561">the
+United States</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E40-216" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2491" END="2505">nuclear weapons</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV6" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Other" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E42" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E82" ROLE="Place" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E43" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E45" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E46" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E47" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E48" ROLE="Instrument" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-T14" ROLE="Time-Within" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV6-1" p="1.000">
+      <extent>
+			<charseq START="2510" END="2771">Islamic extremists to smuggle into the
+United States and at 10 AM on a Wednesday pop 2 or 3 in New York City,
+destroying Wall street, the large banks, the large Insurance companies,
+the large sock brokerage houses and many other world wide financial
+institutions</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2620" END="2629">destroying</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E42-79" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2510" END="2527">Islamic extremists</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E82-212" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2605" END="2617">New York City</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E43-81" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2631" END="2641">Wall street</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E45-83" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2661" END="2689">the large Insurance companies</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E46-84" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2692" END="2722">the large sock brokerage houses</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E47-85" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2728" END="2771">many other world wide financial
+institutions</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E48-86" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2595" END="2600">2 or 3</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-T14-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2570" END="2589">10 AM on a Wednesday</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV13" TYPE="Business" SUBTYPE="End-Org" MODALITY="Other" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E50" ROLE="Place" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-T15" ROLE="Time-Within" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV13-1" p="1.000">
+      <extent>
+			<charseq START="2778" END="2824">the same time 2 weapons go off in Washington DC</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2802" END="2807">go off</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E50-88" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2812" END="2824">Washington DC</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-T15-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2778" END="2790">the same time</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV8" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Other" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E50" ROLE="Place" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E51" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E52" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E53" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E54" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E55" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E56" ROLE="Target" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E49" ROLE="Instrument" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV8-1" p="1.000">
+      <extent>
+			<charseq START="2792" END="3018">2 weapons go off in Washington DC and take out the
+President, the Vice President, 80 Senators, and 350 congressmen as well
+as the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce and the Federal Court</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2830" END="2837">take out</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E50-88" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2812" END="2824">Washington DC</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E51-89" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2839" END="2851">the
+President</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E52-90" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2854" END="2871">the Vice President</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E53-91" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2874" END="2884">80 Senators</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E54-92" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2891" END="2905">350 congressmen</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E55-93" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2918" END="2996">the department of the treasury, Interior, Health and Welfare,
+Justice, Commerce</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E56-94" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3006" END="3018">Federal Court</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E49-87" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2792" END="2800">2 weapons</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV7" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Other" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E57" ROLE="Instrument" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E58" ROLE="Place" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV7-1" p="1.000">
+      <extent>
+			<charseq START="3069" END="3096">one goes off at the Pentagon</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3073" END="3080">goes off</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E57-95" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3069" END="3071">one</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E58-96" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3085" END="3096">the Pentagon</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV11" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Other" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-T21" ROLE="Time-Within" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV11-1" p="1.000">
+      <extent>
+			<charseq START="4445" END="4478">attack should happen in the winter</charseq>
+      </extent>
+      <anchor>
+			<charseq START="4445" END="4450">attack</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-T21-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="4469" END="4478">the winter</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV15" TYPE="Life" SUBTYPE="Die" MODALITY="Other" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E85" ROLE="Victim" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV15-1" p="1.000">
+      <extent>
+			<charseq START="5204" END="5218">suicide
+bombers</charseq>
+      </extent>
+      <anchor>
+			<charseq START="5204" END="5210">suicide</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E85-136" ROLE="Victim" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="5204" END="5218">suicide
+bombers</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV14" TYPE="Life" SUBTYPE="Die" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-T23" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E86" ROLE="Victim" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV14-1" p="1.000">
+      <extent>
+			<charseq START="5259" END="5312">large numbers of his
+people starve to death every year</charseq>
+      </extent>
+      <anchor>
+			<charseq START="5297" END="5301">death</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-T23-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="5303" END="5312">every year</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E86-142" ROLE="Victim" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="5259" END="5285">large numbers of his
+people</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="misc.survivalism_20050210.0232-EV12" TYPE="Business" SUBTYPE="End-Org" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="misc.survivalism_20050210.0232-E115" ROLE="Place" p="1.0"/>
+    <event_argument REFID="misc.survivalism_20050210.0232-E114" ROLE="Org" p="1.0"/>
+    <event_mention ID="misc.survivalism_20050210.0232-EV12-1" p="1.000">
+      <extent>
+			<charseq START="6457" END="6489">shutting down its plant in
+Eugene</charseq>
+      </extent>
+      <anchor>
+			<charseq START="6457" END="6469">shutting down</charseq>
+      </anchor>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E115-187" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="6484" END="6489">Eugene</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="misc.survivalism_20050210.0232-E114-186" ROLE="Org" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="6471" END="6489">its plant in
+Eugene</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+</document>
+</source_file>

@@ -1,0 +1,1835 @@
+package cuny.blender.englishie.algorithm.clustering;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.io.PrintWriter;
+
+import java.io.*;
+import java.text.DecimalFormat;
+import java.util.*;
+
+import com.aliasi.cluster.ClusterScore;
+
+import cuny.blender.englishie.algorithm.graph.KuhnMunkresAlgorithm;
+import cuny.blender.englishie.evaluation.ClusterEvaluator;
+import cuny.blender.englishie.evaluation.ContingencyTable;
+
+import edu.ucla.sspace.clustering.Assignments;
+
+import edu.ucla.sspace.clustering.ClutoClustering.Criterion;
+import edu.ucla.sspace.clustering.ClutoClustering.Method;
+import edu.ucla.sspace.common.Similarity;
+import edu.ucla.sspace.matrix.ArrayMatrix;
+import edu.ucla.sspace.matrix.Matrix;
+import edu.ucla.sspace.matrix.MatrixIO;
+import edu.ucla.sspace.matrix.Normalize;
+import edu.ucla.sspace.matrix.TfIdfTransform;
+import edu.ucla.sspace.matrix.TfIdfTransposeTransform;
+import edu.ucla.sspace.matrix.Transform;
+import edu.ucla.sspace.matrix.YaleSparseMatrix;
+import edu.ucla.sspace.vector.DoubleVector;
+
+public class ClutoClusterer {
+
+	public static int num_clusters;
+	public static String method;
+	public static String criterior;
+
+	public static String colmodel;
+	public static int sampleSize = 100;
+	public static int colSize = 100;
+	public static int runs = 1;
+	public static int colruns = 100;
+	public static ArrayList<String> items = new ArrayList<String>();
+
+	public static void main(String[] args) throws IOException {
+		
+		/*String base = outdir+"classic.mat"+".sample.100"+".run.1"; 
+		int sampleSize = 100; //analyzeClusteringByMetric();
+		analyzeClusteringDistribution(base, sampleSize);
+		double base_nmi = evaluate(new File(base), sampleSize, "nmi");
+		System.out.println(base_nmi); 
+		double coeff= ClusterAnalysis.computeSilhouette(new File(base), false, sampleSize);
+		System.out.println(coeff); 
+		coeff= ClusterAnalysis.computeSilhouette(new File(base), true, sampleSize);
+		System.out.println(coeff); */
+		 /* 
+		 * base = outdir+"hitech.mat"+".sample.100"+".run.0.rand.col.100";
+		 * analyzeClusteringDistribution(base, sampleSize);
+		 * 
+		 * base_nmi = evaluate(new File(base), sampleSize, "nmi");
+		 * System.out.println(base_nmi); ClusterAnalysis.computeSilhouette(base,
+		 * false, 100);
+		 * 
+		 * base = outdir+"hitech.mat"+".sample.100"+".run.0.pagerank.col.100";
+		 * analyzeClusteringDistribution(base, sampleSize);
+		 * 
+		 * base_nmi = evaluate(new File(base), sampleSize, "nmi");
+		 * System.out.println(base_nmi); ClusterAnalysis.computeSilhouette(base,
+		 * false, 100);*/
+		 
+
+		// System.out.println(ClusterAnalysis.computeSilhouette(base, false));
+		// test();
+
+		//testClusteringAlgorithm(args[0],args[1],Integer.parseInt(args[2]), args[3]);
+		//testHillClimbing(args[0],args[1],Integer.parseInt(args[2]), args[3]);
+		testbaseline(args[0],args[1],Integer.parseInt(args[2]), args[3]);
+	}
+
+	public static void test() throws IOException {
+		String name = "classic.mat";
+		String path = "tools/cluto/datasets/k1b.mat";
+		ClusterDataset db = new ClusterDataset(name, path, 100, 100);
+		db.loadDataset(path);
+		// db.loadPagerank();
+		num_clusters = 6;
+		method = "rbr";
+		criterior = "g1";
+		colmodel = "none";
+		sampleSize = 100;
+		colSize = 100;
+
+		DecimalFormat df = new DecimalFormat("#.####");
+		for (int i = 0; i < runs; i++) {
+			File f = sampleItems(db, i);
+			File out = new File(f.getAbsolutePath() + ".rclass.sys");
+			String result = null;
+
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel,
+					out, num_clusters);
+			System.out.print("runs=" + i + "\t");
+
+			double nmi = evaluate(f, sampleSize, "nmi");
+			System.out.print(df.format(nmi));
+			System.out.print("\t");
+
+			/*
+			 * double base_v = evaluate(f, sampleSize, "v");
+			 * System.out.print(df.format(base_v)); System.out.print("\t");
+			 */
+
+			File colf1 = findCollaboratorsRandomly(db,i);
+			out = new File(colf1.getAbsolutePath() + ".rclass.sys");
+			result = ClutoWrapper.cluster(null, colf1, method, criterior,
+					colmodel, out, num_clusters);
+			nmi = evaluate(colf1, sampleSize, "nmi");
+			System.out.print(df.format(nmi));
+			System.out.print("\t");
+			/*
+			 * double v_score = evaluate(colf, sampleSize, "v");
+			 * System.out.print(df.format(v_score));
+			 */
+
+		/*	File colf2 = findCollaboratorsWithHighPageranks(db);
+			out = new File(colf2.getAbsolutePath() + ".rclass.sys");
+			result = ClutoWrapper.cluster(null, colf2, method, criterior,
+					colmodel, out, num_clusters);
+			nmi = evaluate(colf2, sampleSize, "nmi");
+			System.out.print(df.format(nmi));
+			System.out.println();*/
+		}
+	}
+
+	public static void testHillClimbing(String name, String path, int clusters,String outputFile) throws IOException {
+		num_clusters = clusters;
+		colmodel = "none";
+
+		ClusterDataset db = new ClusterDataset(name, path, 100, 100);
+		db.loadDataset(path+name);
+	//	File output = new File(outputFile);
+		
+		
+		
+		
+		for (int i = 0; i < runs; i++) {
+			/*File f = sampleItems(db, i);
+			File out = new File(f.getAbsolutePath() + ".rclass.sys");
+			ClutoWrapper.cluster(null, f, method, criterior, colmodel, out,
+					num_clusters);
+			System.out.print("runs=" + i+"\t");
+
+			double nmi = evaluate(f, sampleSize, "nmi");
+			System.out.print(df.format(nmi));
+			System.out.print("\t");
+
+			double bcube = evaluate(f, sampleSize, "b-cube");
+			System.out.print(df.format(bcube));
+			System.out.print("\t");
+			
+			double silhouette1 = ClusterAnalysis.computeSilhouette(f, true, sampleSize);
+			System.out.print(df.format(silhouette1));
+			System.out.print("\t");
+			
+			double silhouette2 = ClusterAnalysis.computeSilhouette(f, false, sampleSize);
+			System.out.print(df.format(silhouette2));
+			System.out.print("\t");
+
+			File colf1 = findCollaboratorsRandomly(db,i);
+			out = new File(colf1.getAbsolutePath() + ".rclass.sys");
+			ClutoWrapper.cluster(null, colf1, method, criterior,
+					colmodel, out, num_clusters);
+			nmi = evaluate(colf1, sampleSize, "nmi");
+			System.out.print(df.format(nmi));
+			System.out.print("\t");
+			
+			bcube = evaluate(colf1, sampleSize, "b-cube");
+			System.out.print(df.format(bcube));
+			System.out.print("\t");
+			
+			silhouette2 = ClusterAnalysis.computeSilhouette(colf1, false, sampleSize);
+			System.out.print(df.format(silhouette2));
+			System.out.print("\t");*/
+			System.out.println("runs="+i);
+			PrintWriter pw = new PrintWriter(new FileOutputStream(outputFile,true));
+			pw.print("runs=" + i + "\t");
+			String fileName = outdir + db.getName() + ".sample." + db.seedSize+ ".run." + i;
+			BufferedReader reader = new BufferedReader(new FileReader(fileName+".index"));
+			String line;
+			ArrayList<Integer> shuffledIndexes = new ArrayList<Integer>();
+			
+			while ((line = reader.readLine()) != null) {
+				shuffledIndexes.add(Integer.parseInt(line));
+			}
+			reader.close();
+			
+			/*System.out.println("direct");
+			method = "direct";
+			criterior = "i1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+			criterior = "i2";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+			
+			criterior = "e1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "g1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+			criterior = "g1p";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+			criterior = "h1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "h2";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));*/
+			
+			System.out.println("rbr");
+			method = "rbr";
+			criterior = "i1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+			
+			criterior = "i2";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+			
+			criterior = "e1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "g1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "g1p";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "h1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "h2";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			
+	/*		System.out.println("agglo");
+			method = "agglo";
+			criterior = "slink";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "clink";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "upgma";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			*/
+			
+			/*criterior = "i1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+			criterior = "i2";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+			
+			criterior = "e1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "g1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "g1p";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+			criterior = "h1";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			
+
+			criterior = "h2";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));*/
+		/*	
+			method = "bagglo";
+			criterior = "upgma";
+			pw.print(findBestNIndex(shuffledIndexes,db, i));
+			*/
+			pw.close();
+		}
+	}
+
+	public static void findBestIndex(ClusterDataset db, int runs)
+			throws IOException {
+		ArrayList<Integer> selectedIndexes = new ArrayList<Integer>(
+				db.getShuffledIndexes());
+		ArrayList<Integer> bestIndexes = new ArrayList<Integer>();
+		ArrayList<Double> bestSilhouette = new ArrayList<Double>();
+		ArrayList<Double> bestNMI = new ArrayList<Double>();
+		int seedSize = db.getSeedSize();
+		DecimalFormat df = new DecimalFormat("#.####");
+
+		for (int i = 0; i < selectedIndexes.size() - seedSize; i++) {
+
+			ArrayList<Integer> seedIndexes = new ArrayList<Integer>();
+			for (int j = 0; j < seedSize; j++) {
+				seedIndexes.add(selectedIndexes.get(j));
+			}
+			seedIndexes.addAll(bestIndexes);
+
+			ArrayList<Integer> tmp = new ArrayList<Integer>(selectedIndexes);
+			tmp.removeAll(seedIndexes);
+
+			double max_silhouette = 0;
+			int best_index = -1;
+			double max_nmi = 0;
+			System.out.println((i + 1) + " collaborators:");
+			for (int k = 0; k < tmp.size(); k++) {
+				System.out.print(k + "/" + tmp.size() + "\t");
+				ArrayList<Integer> candidates = new ArrayList<Integer>(
+						seedIndexes);
+				candidates.add(tmp.get(k));
+
+				String outfileName = outdir + db.getName() + ".sample."
+						+ seedSize + ".run." + runs + ".hill";
+				
+				db.writeSample(outfileName, candidates);
+				File f = new File(outfileName);
+				File out = new File(f.getAbsolutePath() + ".rclass.sys");
+				ClutoWrapper.cluster(null, f, method, criterior, colmodel, out,
+						num_clusters);
+
+				double nmi = evaluate(f, sampleSize, "nmi");
+				System.out.print(df.format(nmi));
+				System.out.print("\t");
+
+				double silhouette = ClusterAnalysis.computeSilhouette(f, false,
+						sampleSize);
+				System.out.print(df.format(silhouette));
+				System.out.print("\n");
+
+				if (silhouette > max_silhouette) {
+					best_index = tmp.get(k);
+					max_silhouette = silhouette;
+					max_nmi = nmi;
+				}
+			}
+
+			if (best_index == -1) {
+				System.err.println("No best collaborative instance was found.");
+				return;
+			}
+			bestIndexes.add(best_index);
+			bestSilhouette.add(max_silhouette);
+			bestNMI.add(max_nmi);
+		}
+
+		double max = 0;
+		double pos = -1;
+		for (int i = 0; i < bestSilhouette.size(); i++) {
+			if (bestSilhouette.get(i) > max) {
+				max = bestSilhouette.get(i);
+				pos = i;
+			}
+		}
+		System.out.println("Best collaborator sequence (" + pos + 1 + ")=");
+		for (int i = 0; i < pos; i++) {
+			System.out.println(bestIndexes.get(i) + " ");
+		}
+		System.out.println("nmi: " + max);
+	}
+
+	public static ArrayList<Integer> getRandomN(ArrayList<Integer> OriginalList, int NumberOfSelectedItems) {
+		if (NumberOfSelectedItems>OriginalList.size())
+			throw new IllegalStateException(
+				     "the number of selected items is larger than the total number");
+		ArrayList<Integer> temp = new ArrayList<Integer>(OriginalList);
+		ArrayList<Integer> selectedItems = new ArrayList<Integer>();
+		Random rnd = new Random();
+		int n;
+		int i = 0;
+		while (i < NumberOfSelectedItems) {
+			int index = rnd.nextInt(temp.size());
+			n = temp.get(index);
+			selectedItems.add(n);
+			temp.remove(index);
+			i++;
+		}
+		return selectedItems;
+	}
+
+	public static String findBestNIndex(ArrayList<Integer> shuffledIndexes, ClusterDataset db, int runs)
+			throws IOException {
+		//ArrayList<Integer> selectedIndexes = new ArrayList<Integer>(shuffledIndexes);
+		ArrayList<Integer> bestIndexes = new ArrayList<Integer>();
+		ArrayList<Double> bestSilhouette = new ArrayList<Double>();
+		ArrayList<Double> bestNMI = new ArrayList<Double>();
+		ArrayList<Double> bestBCube = new ArrayList<Double>();
+		ArrayList<Double> bestF = new ArrayList<Double>();
+		int seedSize = db.getSeedSize();
+		DecimalFormat df = new DecimalFormat("#.####");
+
+		int STEP = 20;
+		int RUNS = 5;
+		int MAXCOL = 100;
+		ArrayList<ArrayList<Integer>> bestDices = new ArrayList<ArrayList<Integer>>();
+		for (int i = 0; i < MAXCOL;) {
+
+			ArrayList<Integer> seedIndexes = new ArrayList<Integer>(shuffledIndexes);
+			/*for (int j = 0; j < seedSize; j++) {
+				seedIndexes.add(selectedIndexes.get(j));
+			}*/
+			seedIndexes.addAll(bestIndexes);
+
+			ArrayList<Integer> tmp = new ArrayList<Integer>();
+			for (int num=0;num<db.items.size();num++){
+				tmp.add(num);
+			}
+			tmp.removeAll(seedIndexes);
+			if (tmp.size()<STEP)
+				break;
+
+			double max_silhouette = Double.MIN_VALUE;
+			int best_index = -1;
+			double max_nmi = 0;
+			double max_bcube = 0;
+			double max_f = 0;
+		//	System.out.println((i + STEP) + " collaborators:");
+			ArrayList<ArrayList<Integer>> dices = new ArrayList<ArrayList<Integer>>();
+			for (int k = 0; k < RUNS; k++) {
+				ArrayList<Integer> randN=getRandomN(tmp,STEP);
+				dices.add(randN);
+			//	System.out.print(k + "/" + RUNS + "\t");
+				ArrayList<Integer> candidates = new ArrayList<Integer>(
+						seedIndexes);
+				candidates.addAll(randN);
+
+				String outfileName = outdir + db.getName() + ".sample."+ seedSize + ".run." + runs + ".hill";
+				
+				db.writeSample(outfileName, candidates);
+				File f = new File(outfileName);
+				File out = new File(f.getAbsolutePath() + ".rclass.sys");
+				ClutoWrapper.cluster(null, f, method, criterior, colmodel, out,num_clusters);
+
+				double nmi = evaluate(f, sampleSize, "nmi");
+				double bcube = evaluate(f, sampleSize, "b-cube");
+				double fmeasure = evaluate(f, sampleSize, "f-measure");
+				/*System.out.print(df.format(nmi));
+				System.out.print("\t");*/
+
+				double silhouette = ClusterAnalysis.computeSilhouette(f, false, sampleSize);
+			/*	System.out.print(df.format(silhouette));
+				System.out.print("\n");
+			 */
+				if (silhouette > max_silhouette) {
+					best_index = k;
+					max_silhouette = silhouette;
+					max_nmi = nmi;
+					max_bcube = bcube;
+					max_f = fmeasure;
+				}
+			}
+
+			if (best_index == -1) {
+				System.err.println("No best collaborative instance was found.");
+				return "";
+			}
+			bestIndexes.addAll(dices.get(best_index));
+			bestDices.add(dices.get(best_index));
+			bestSilhouette.add(max_silhouette);
+			bestNMI.add(max_nmi);
+			bestBCube.add(max_bcube);
+			bestF.add(max_f);
+			i+=STEP;
+		}
+
+		double max = 0;
+		int pos = -1;
+		for (int i = 0; i < bestSilhouette.size(); i++) {
+			if (bestSilhouette.get(i) > max) {
+				max = bestSilhouette.get(i);
+				pos = i;
+			}
+		}
+		/*System.out.println("Best collaborator sequence (" + pos + 1 + ")=");
+		for (int i = 0; i < pos; i++) {
+			System.out.print(bestDices.get(i) + " ");
+		}*/
+		//System.out.println(df.format(bestNMI.get(pos))+"\t"+df.format(bestBCube.get(pos))+"\t" + df.format(bestSilhouette.get(pos)));
+		return df.format(bestNMI.get(pos))+"\t"+df.format(bestBCube.get(pos))+"\t" + df.format(bestF.get(pos))+"\t";
+	}
+
+	public static void testClusteringAlgorithm(String name, String path, int num_clusters,String outputFile) throws IOException {
+	//	String name = "k1b.mat";
+	//	String path = "tools/cluto/datasets/k1b.mat";
+		ClusterDataset dataset = new ClusterDataset(name, path+File.separator+name, 100);
+		dataset.loadDataset(path+File.separator+name);
+	//	num_clusters = 6;
+		colmodel = "none";
+		File output = new File(outputFile);
+		
+		PrintWriter pw = new PrintWriter(output);
+		DecimalFormat df = new DecimalFormat("#.####");
+		for (int i = 0; i < runs; i++) {
+			File f = sampleItems(dataset, i);
+			String result = null;
+			System.out.println("Run="+i);
+			pw.print("runs=" + i + "\t");
+			method = "direct";
+			criterior = "i1";
+			File out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			double nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			double bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			double fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+			
+			criterior = "i2";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+			
+			criterior = "e1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "g1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "g1p";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "h1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "h2";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+			
+			method = "rbr";
+			criterior = "i1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+			
+			criterior = "i2";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+			
+			criterior = "e1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "g1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "g1p";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "h1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "h2";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			method = "agglo";
+			criterior = "slink";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "clink";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "upgma";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+			
+			criterior = "i1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+			
+			criterior = "i2";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+			
+			criterior = "e1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "g1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "g1p";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "h1";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			criterior = "h2";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\t");
+
+			
+			method = "bagglo";
+			criterior = "upgma";
+			out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+			result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+			nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+			pw.print(df.format(nmi));
+			pw.print("\t");
+			bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+			pw.print(df.format(bcube));
+			pw.print("\t");
+			fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+			pw.print(df.format(fmeasure));
+			pw.print("\n");
+		}
+		pw.close();
+	}
+
+	public static void testbaseline(String name, String path, int num_clusters,String outputFile) throws IOException {
+		//	String name = "k1b.mat";
+		//	String path = "tools/cluto/datasets/k1b.mat";
+			ClusterDataset dataset = new ClusterDataset(name, path+File.separator+name, 100);
+			dataset.loadDataset(path+File.separator+name);
+		//	num_clusters = 6;
+			colmodel = "none";
+			File output = new File(outputFile);
+			
+			PrintWriter pw = new PrintWriter(output);
+			DecimalFormat df = new DecimalFormat("#.####");
+			for (int i = 0; i < runs; i++) {
+				File f = new File(outdir + dataset.getName() + ".sample." + dataset.getSeedSize()+ ".run." + i);
+				String result = null;
+				System.out.println("Run="+i);
+				pw.print("runs=" + i + "\t");
+				method = "direct";
+				criterior = "i1";
+				File out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				double nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*double bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				double fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "i2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "e1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+			/*	bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1p";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");/*
+				bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				method = "rbr";
+				criterior = "i1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "i2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "e1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1p";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+			/*	bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				method = "agglo";
+				criterior = "i1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "i2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "e1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+			/*	bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1p";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				
+				criterior = "slink";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "clink";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "upgma";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				
+				method = "bagglo";
+				criterior = "upgma";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\n");*/
+				
+				
+				method = "rb";
+				criterior = "i1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "i2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "e1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1p";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+			/*	bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				
+				method = "graph";
+				criterior = "i1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "i2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+				
+				criterior = "e1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "g1p";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h1";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\t");
+				/*bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+
+				criterior = "h2";
+				out = new File(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys");
+				result = ClutoWrapper.cluster(null, f, method, criterior, colmodel, out, num_clusters);
+				nmi = evaluate(f, sampleSize, "nmi",method, criterior);
+				pw.print(df.format(nmi));
+				pw.print("\n");
+			/*	bcube = evaluate(f, sampleSize, "b-cube",method, criterior);
+				pw.print(df.format(bcube));
+				pw.print("\t");
+				fmeasure = evaluate(f, sampleSize, "f-measure",method, criterior);
+				pw.print(df.format(fmeasure));
+				pw.print("\t");*/
+			}
+			pw.close();
+		}
+	
+	public static double evaluate(File f, int size, String metric)
+			throws IOException {
+		TreeMap<String, Set<String>> references = new TreeMap<String, Set<String>>();
+		TreeMap<String, Set<String>> responses = new TreeMap<String, Set<String>>();
+
+		loadClusters(f.getAbsolutePath() + ".rclass", size, references);
+		loadClusters(f.getAbsolutePath() + ".rclass.sys", size, responses);
+
+		ClusterEvaluator eval = new ClusterEvaluator();
+
+		Double[][] data = new Double[responses.keySet().size()][references
+				.keySet().size()];
+
+		Iterator<String> it1 = responses.keySet().iterator();
+		int rows = 0;
+		while (it1.hasNext()) {
+			String key1 = it1.next();
+			Set<String> values1 = responses.get(key1);
+			Iterator<String> it2 = references.keySet().iterator();
+			int cols = 0;
+			while (it2.hasNext()) {
+				String key2 = it2.next();
+				Set<String> values2 = references.get(key2);
+				Set<String> tmp = new TreeSet<String>(values2);
+				tmp.retainAll(values1);
+				data[rows][cols] = (double) tmp.size();
+				cols++;
+			}
+			rows++;
+		}
+		eval.setData(new ContingencyTable(data));
+
+		//
+		if (metric.equals("entropy")) {
+			return eval.getEntropy();
+		} else if (metric.equals("purity")) {
+			return eval.getPurity();
+		} else if (metric.equals("f-measure")) {
+			return eval.getFMeasure();
+		} else if (metric.equals("v")) {
+			return eval.getVMeasure(1);
+		} else if (metric.equals("vi")) {
+			return eval.getVI();
+		} else if (metric.equals("vi")) {
+			return eval.getVI();
+		} else if (metric.equals("b-cube")) {
+			// ClusterScore scorer = new ClusterScore(referencesets,
+			// responsesets);
+			// return df.format(scorer.b3ElementF());
+			return eval.getBCubed(references, responses);
+		} else if (metric.equals("nmi")) {
+			return eval.getNMI(references, responses, size);
+		} else if (metric.equals("muc")) {
+			Set referencesets = new HashSet();
+			Set responsesets = new HashSet();
+
+			Iterator<String> it = responses.keySet().iterator();
+			Object[] xs = new Object[responses.keySet().size()];
+			int i = 0;
+			while (it.hasNext()) {
+				String key = it.next();
+				Set<String> values = responses.get(key);
+				xs[i] = values;
+				i++;
+			}
+			responsesets = set(xs);
+
+			it = references.keySet().iterator();
+			xs = new Object[references.keySet().size()];
+			i = 0;
+			while (it.hasNext()) {
+				String key = it.next();
+				Set<String> values = references.get(key);
+				xs[i] = values;
+				i++;
+			}
+			referencesets = set(xs);
+			ClusterScore scorer = new ClusterScore(referencesets, responsesets);
+			return scorer.mucF();
+		}
+		return -1;
+	}
+
+	public static double evaluate(File f, int size, String metric, String method, String criterior)
+			throws IOException {
+		TreeMap<String, Set<String>> references = new TreeMap<String, Set<String>>();
+		TreeMap<String, Set<String>> responses = new TreeMap<String, Set<String>>();
+
+		loadClusters(f.getAbsolutePath() + ".rclass", size, references);
+		loadClusters(f.getAbsolutePath() +"."+ method+"."+criterior+".rclass.sys", size, responses);
+
+		ClusterEvaluator eval = new ClusterEvaluator();
+
+		Double[][] data = new Double[responses.keySet().size()][references
+				.keySet().size()];
+
+		Iterator<String> it1 = responses.keySet().iterator();
+		int rows = 0;
+		while (it1.hasNext()) {
+			String key1 = it1.next();
+			Set<String> values1 = responses.get(key1);
+			Iterator<String> it2 = references.keySet().iterator();
+			int cols = 0;
+			while (it2.hasNext()) {
+				String key2 = it2.next();
+				Set<String> values2 = references.get(key2);
+				Set<String> tmp = new TreeSet<String>(values2);
+				tmp.retainAll(values1);
+				data[rows][cols] = (double) tmp.size();
+				cols++;
+			}
+			rows++;
+		}
+		eval.setData(new ContingencyTable(data));
+
+		//
+		if (metric.equals("entropy")) {
+			return eval.getEntropy();
+		} else if (metric.equals("purity")) {
+			return eval.getPurity();
+		} else if (metric.equals("f-measure")) {
+			return eval.getFMeasure();
+		} else if (metric.equals("v")) {
+			return eval.getVMeasure(1);
+		} else if (metric.equals("vi")) {
+			return eval.getVI();
+		} else if (metric.equals("vi")) {
+			return eval.getVI();
+		} else if (metric.equals("b-cube")) {
+			// ClusterScore scorer = new ClusterScore(referencesets,
+			// responsesets);
+			// return df.format(scorer.b3ElementF());
+			return eval.getBCubed(references, responses);
+		} else if (metric.equals("nmi")) {
+			return eval.getNMI(references, responses, size);
+		} else if (metric.equals("muc")) {
+			Set referencesets = new HashSet();
+			Set responsesets = new HashSet();
+
+			Iterator<String> it = responses.keySet().iterator();
+			Object[] xs = new Object[responses.keySet().size()];
+			int i = 0;
+			while (it.hasNext()) {
+				String key = it.next();
+				Set<String> values = responses.get(key);
+				xs[i] = values;
+				i++;
+			}
+			responsesets = set(xs);
+
+			it = references.keySet().iterator();
+			xs = new Object[references.keySet().size()];
+			i = 0;
+			while (it.hasNext()) {
+				String key = it.next();
+				Set<String> values = references.get(key);
+				xs[i] = values;
+				i++;
+			}
+			referencesets = set(xs);
+			ClusterScore scorer = new ClusterScore(referencesets, responsesets);
+			return scorer.mucF();
+		}
+		return -1;
+	}
+	
+	static Set set(Object[] xs) {
+		HashSet set = new HashSet();
+		for (int i = 0; i < xs.length; ++i)
+			set.add(xs[i]);
+		return set;
+	}
+
+	/*
+	 * load clusters into TreeMap<String,Set<String>> from a file only the first
+	 * "size" items are needed
+	 */
+	public static void loadClusters(String filename, int size,
+			TreeMap<String, Set<String>> clusters) throws IOException {
+
+		BufferedReader reader = new BufferedReader(new FileReader(filename));
+		String line;
+		int index = 0;
+		while ((line = reader.readLine()) != null) {
+			if (clusters.get(line) == null) {
+				clusters.put(line, new TreeSet<String>());
+			}
+			Set<String> ids = clusters.get(line);
+			ids.add(Integer.toString(index));
+			index++;
+			if (index > size) {
+				break;
+			}
+		}
+
+		reader.close();
+	}
+
+	public static void analyzeClusteringByMetric()
+			throws NumberFormatException, IOException {
+		String base = outdir + "hitech.mat" + ".sample.100" + ".run.0.col.100";
+		ClusterAnalysis.computeSilhouette(new File(base), true, 100);
+	}
+
+	public static void analyzeClusteringDistribution(String base, int sampleSize)
+			throws NumberFormatException, IOException {
+
+		String filename = base + ".index";
+		// map from line number to instance index
+		TreeMap<Integer, Integer> indexMap = new TreeMap<Integer, Integer>();
+		BufferedReader reader = new BufferedReader(new FileReader(filename));
+		String line;
+		int count = 0;
+		while ((line = reader.readLine()) != null) {
+			indexMap.put(count, Integer.parseInt(line));
+			count++;
+			if (count >= sampleSize)
+				break;
+		}
+		reader.close();
+
+		TreeMap<String, TreeSet<Integer>> referenceMap = new TreeMap<String, TreeSet<Integer>>();
+		TreeMap<String, TreeSet<Integer>> responseMap = new TreeMap<String, TreeSet<Integer>>();
+
+		TreeMap<Integer, String> refkeyMap = new TreeMap<Integer, String>();
+		filename = base + ".rclass";
+		reader = new BufferedReader(new FileReader(filename));
+		count = 0;
+		while ((line = reader.readLine()) != null) {
+			if (referenceMap.get(line) == null) {
+				referenceMap.put(line, new TreeSet<Integer>());
+			}
+			TreeSet<Integer> set = referenceMap.get(line);
+			set.add(indexMap.get(count));
+			count++;
+			if (count >= sampleSize)
+				break;
+		}
+		reader.close();
+
+		filename = base + ".rclass.sys";
+		reader = new BufferedReader(new FileReader(filename));
+		count = 0;
+		while ((line = reader.readLine()) != null) {
+			if (responseMap.get(line) == null) {
+				responseMap.put(line, new TreeSet<Integer>());
+			}
+			TreeSet<Integer> set = responseMap.get(line);
+			set.add(indexMap.get(count));
+			count++;
+			if (count >= sampleSize)
+				break;
+		}
+		reader.close();
+
+		Iterator<String> it = referenceMap.keySet().iterator();
+		int index = 0;
+		while (it.hasNext()) {
+			String key = it.next();
+			refkeyMap.put(index, key);
+			index++;
+			System.out.println(key + ":" + referenceMap.get(key));
+		}
+
+		System.out.println("------------------------------");
+		it = responseMap.keySet().iterator();
+		while (it.hasNext()) {
+			String key = it.next();
+			System.out.println(key + ":" + responseMap.get(key));
+		}
+
+		float[][] costMatrix = new float[referenceMap.size()][responseMap
+				.size()];
+		int row = 0;
+		Iterator<String> it1 = referenceMap.keySet().iterator();
+		while (it1.hasNext()) {
+			String key1 = it1.next();
+			TreeSet<Integer> set1 = referenceMap.get(key1);
+
+			Iterator<String> it2 = responseMap.keySet().iterator();
+			int col = 0;
+			while (it2.hasNext()) {
+				String key2 = it2.next();
+				TreeSet<Integer> set2 = responseMap.get(key2);
+				TreeSet<Integer> tmp = new TreeSet<Integer>(set1);
+				tmp.retainAll(set2);
+				costMatrix[row][col] = tmp.size();
+				col++;
+			}
+			row++;
+		}
+
+		for (int i = 0; i < referenceMap.size(); i++) {
+			for (int j = 0; j < responseMap.size(); j++) {
+				System.out.print(costMatrix[i][j] + "\t");
+			}
+			System.out.println();
+		}
+		KuhnMunkresAlgorithm alg = new KuhnMunkresAlgorithm();
+		alg.convert2Min(costMatrix);
+		int[][] assignment = alg.computeAssignments(costMatrix);
+		for (int i = 0; i < assignment.length; i++) {
+			System.out.println(i + ":" + refkeyMap.get(assignment[i][0]));
+		}
+	}
+
+	public static File findCollaboratorsRandomly(ClusterDataset db, int runs)
+			throws IOException {
+		ArrayList<Integer> selectedIndexes = new ArrayList<Integer>(
+				db.getShuffledIndexes());
+		int seedSize = db.getSeedSize();
+		int colSize = db.getColSize();
+
+		if (seedSize > selectedIndexes.size()) {
+			System.err
+					.print("The size of seed items is beyond the number in total");
+		}
+		if (colSize + seedSize > selectedIndexes.size()) {
+			System.err
+					.print("The size of seed items is beyond the number in total");
+		}
+
+		ArrayList<Integer> seedIndexes = new ArrayList<Integer>();
+		for (int i = 0; i < seedSize; i++) {
+			seedIndexes.add(selectedIndexes.get(i));
+		}
+
+		ArrayList<Integer> tmp = new ArrayList<Integer>(selectedIndexes);
+		tmp.removeAll(seedIndexes);
+		Collections.shuffle(tmp);
+
+		for (int i = 0; i < colSize; i++) {
+			seedIndexes.add(tmp.get(i));
+		}
+		String outfileName = outdir + db.getName() + ".sample."
+				+ seedSize + ".run." + runs + ".rand";
+
+		db.writeSample(outfileName, seedIndexes);
+
+		return new File(outfileName);
+	}
+
+	public static File findCollaboratorsWithHighPageranks(ClusterDataset db)
+			throws IOException {
+		ArrayList<Integer> selectedIndexes = new ArrayList<Integer>(
+				db.getShuffledIndexes());
+		int seedSize = db.getSeedSize();
+		int colSize = db.getColSize();
+
+		if (seedSize > selectedIndexes.size()) {
+			System.err
+					.print("The size of seed items is beyond the number in total");
+		}
+		if (colSize + seedSize > selectedIndexes.size()) {
+			System.err
+					.print("The size of seed items is beyond the number in total");
+		}
+
+		ArrayList<Integer> seedIndexes = new ArrayList<Integer>();
+		for (int i = 0; i < seedSize; i++) {
+			seedIndexes.add(selectedIndexes.get(i));
+		}
+
+		ArrayList<PageRankItem> pageranks = db.getPageRanks();
+
+		int count = 0;
+		for (int i = 0; i < pageranks.size(); i++) {
+			PageRankItem item = pageranks.get(i);
+			int id = item.getId();
+			if (seedIndexes.contains(id))
+				continue;
+			else {
+				if (count >= colSize)
+					break;
+				seedIndexes.add(id);
+				count++;
+			}
+		}
+
+		String outfileName = outdir + db.getName() + ".sample." + seedSize
+				+ ".run." + runs + ".pagerank.col." + colSize;
+		
+		db.writeSample(outfileName, seedIndexes);
+
+		return new File(outfileName);
+	}
+
+	private static String outdir = "./tools/cluto/exp/";
+
+	public static File sampleItems(ClusterDataset db, int runs)
+			throws IOException {
+		db.makeShuffledIndexes();
+		ArrayList<Integer> selectedIndexes = new ArrayList<Integer>(
+				db.getShuffledIndexes());
+		int seedSize = db.getSeedSize();
+
+		if (seedSize > selectedIndexes.size()) {
+			System.err
+					.print("The size of seed items is beyond the number in total");
+		}
+
+		ArrayList<Integer> seedIndexes = new ArrayList<Integer>();
+		for (int i = 0; i < seedSize; i++) {
+			seedIndexes.add(selectedIndexes.get(i));
+		}
+		String outfileName = outdir + db.getName() + ".sample." + seedSize
+				+ ".run." + runs;
+		
+		db.writeSample(outfileName, seedIndexes);
+
+		return new File(outfileName);
+	}
+
+	private static double getEntropyScore(String clutoOutput)
+			throws IOException {
+		double score = 0;
+		BufferedReader reader = new BufferedReader(
+				new StringReader(clutoOutput));
+		String line = null;
+		while ((line = reader.readLine()) != null) {
+			if (line.contains("Entropy:")) {
+				int index = line.indexOf("Entropy:");
+				int endOfIndex = line.indexOf(",", index);
+
+				return Double.parseDouble(line.substring(index + 8, endOfIndex).trim());
+			}
+		}
+		return 0;
+	}
+
+	private static double getPurityScore(String clutoOutput) throws IOException {
+		double score = 0;
+		BufferedReader reader = new BufferedReader(
+				new StringReader(clutoOutput));
+		String line = null;
+		while ((line = reader.readLine()) != null) {
+			if (line.contains("Purity:")) {
+				int index = line.indexOf("Purity:");
+
+				return Double.parseDouble(line.substring(index + 7).trim());
+			}
+		}
+		return 0;
+	}
+}

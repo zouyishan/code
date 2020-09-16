@@ -1,0 +1,26 @@
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/rec.music.phish_20041215.1554.ne.txt
+loading dicts ... 
+loading brown cluster...
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/alt.books.tom-clancy_20050130.1848.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/alt.politics.economics_20041206.1835.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/soc.culture.iraq_20050211.0445.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/misc.survivalism_20050210.0232.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/rec.travel.cruises_20050222.0313.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/uk.gay-lesbian-bi_20050127.0311.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/rec.arts.sf.written.robert-jordan_20050208.1350.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/rec.music.makers.guitar.acoustic_20041228.1628.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/marcellapr_20050211.2013.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/alt.gossip.celebrities_20041118.2331.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/rec.travel.europe_20050101.1800.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/misc.legal.moderated_20041202.1648.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/rec.sport.disc_20050209.2202.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/misc.legal.moderated_20050129.2225.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/alt.politics_20050124.0640.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/soc.culture.jewish_20050130.2105.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/alt.atheism_20041104.2428.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/marcellapr_20050228.2219.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/soc.culture.indian_20041104.2348.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/rec.parks.theme_20050217.2019.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/rec.travel.usa-canada_20050128.0121.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/alt.obituaries_20041121.1339.ne.txt
+process /m1/Data_2011/BOLT/ACE_NE/2005-ne/un/talk.politics.misc_20050216.1337.ne.txt

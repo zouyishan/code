@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="lib/nametagging.jar"/>
+	<classpathentry kind="lib" path="lib/stanford-postagger.jar"/>
+	<classpathentry kind="lib" path="lib/sspace-1.0.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/dbparser.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/jyaml-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/log4j.jar"/>
+	<classpathentry kind="lib" path="lib/mallet.jar"/>
+	<classpathentry kind="lib" path="lib/stanford-parser.jar"/>
+	<classpathentry kind="lib" path="lib/trove.jar"/>
+	<classpathentry kind="lib" path="lib/weka.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/lucene-core-3.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/mallet-deps.jar"/>
+	<classpathentry kind="lib" path="lib/RadixTree-0.3.jar"/>
+	<classpathentry kind="lib" path="lib/mallet_old.jar"/>
+	<classpathentry kind="lib" path="lib/opennlp-maxent-3.0.1-incubating.jar"/>
+	<classpathentry kind="lib" path="lib/opennlp-tools-1.5.1-incubating.jar"/>
+	<classpathentry kind="lib" path="lib/javelin.jar"/>
+	<classpathentry kind="lib" path="lib/pnuts.jar"/>
+	<classpathentry kind="lib" path="lib/indri.jar"/>
+	<classpathentry kind="lib" path="lib/colt-nohep.jar"/>
+	<classpathentry kind="lib" path="lib/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="lib/lingpipe-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jung2-2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

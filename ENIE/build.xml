@@ -1,0 +1,85 @@
+<project basedir="." default="dist" name="ENIE">
+    <description>
+        build file for enietoolkit
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="dist"/>
+<property name="docs" location="javadocs" />
+
+<path id="ENIE.classpath">
+<pathelement location="lib/weka.jar"/>
+        <pathelement location="lib/nametagging.jar"/>
+        <pathelement location="lib/stanford-postagger.jar"/>
+        <pathelement location="bin"/>
+        <pathelement location="lib/colt-nohep.jar"/>
+        <pathelement location="lib/indri.jar"/>
+        <pathelement location="lib/dbparser.jar"/>
+        <pathelement location="lib/dom4j-1.6.1.jar"/>
+        <pathelement location="lib/javelin.jar"/>
+        <pathelement location="lib/jaxen-1.1.1.jar"/>
+        <pathelement location="lib/joda-time-1.6.jar"/>
+        <pathelement location="lib/jyaml-1.3.jar"/>
+        <pathelement location="lib/log4j.jar"/>
+        <pathelement location="lib/mallet.jar"/>
+        <pathelement location="lib/pnuts.jar"/>
+        <pathelement location="lib/seg.jar"/>
+        <pathelement location="lib/stanford-parser.jar"/>
+        <pathelement location="lib/trove.jar"/>
+        
+        <pathelement location="lib/lucene-core-3.0.2.jar"/>
+        <pathelement location="lib/mallet-deps.jar"/>
+        <pathelement location="lib/RadixTree-0.3.jar"/>
+        <pathelement location="lib/mallet_old.jar"/>
+        <pathelement location="lib/opennlp-maxent-3.0.1-incubating.jar"/>
+        <pathelement location="lib/opennlp-tools-1.5.1-incubating.jar"/>
+    </path>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+	<copy includeemptydirs="false" todir="${build}">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+
+  </target>
+
+<!-- Creates Javadoc -->
+	<target name="docs" depends="compile">
+		<javadoc packagenames="src" sourcepath="${src}" destdir="${docs}">
+			<!-- Define which files / directory should get included, we include all -->
+			<fileset dir="${src}">
+				<include name="**" />
+			</fileset>
+		</javadoc>
+	</target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}" includeantruntime="false">
+<classpath refid="ENIE.classpath"/>
+</javac>
+  </target>
+
+  <target name="dist" depends="compile"
+        description="generate the distribution" >
+    <!-- Create the distribution directory -->
+    <mkdir dir="${dist}/lib"/>
+
+    <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+    <jar jarfile="${dist}/lib/enietoolkit-1.0.0.jar" basedir="${build}"/>
+  </target>
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+</project>

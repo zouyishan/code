@@ -1,0 +1,3504 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="fsh_29121.sgm" SOURCE="telephone" TYPE="text">
+<document DOCID="fsh_29121">
+  <entity ID="fsh_29121-E1" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-203">
+      <extent>
+			<charseq START="425" END="428">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="425" END="428">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-204">
+      <extent>
+			<charseq START="478" END="481">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="478" END="481">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-255">
+      <extent>
+			<charseq START="492" END="492">I</charseq>
+      </extent>
+      <head>
+			<charseq START="492" END="492">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-2">
+      <extent>
+			<charseq START="496" END="499">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="496" END="499">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-3">
+      <extent>
+			<charseq START="514" END="517">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="514" END="517">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-205">
+      <extent>
+			<charseq START="523" END="526">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="523" END="526">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-206">
+      <extent>
+			<charseq START="622" END="625">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="622" END="625">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-207">
+      <extent>
+			<charseq START="676" END="679">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="676" END="679">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-9">
+      <extent>
+			<charseq START="695" END="695">I</charseq>
+      </extent>
+      <head>
+			<charseq START="695" END="695">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-208">
+      <extent>
+			<charseq START="749" END="752">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="749" END="752">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-172">
+      <extent>
+			<charseq START="877" END="877">I</charseq>
+      </extent>
+      <head>
+			<charseq START="877" END="877">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-16">
+      <extent>
+			<charseq START="888" END="888">I</charseq>
+      </extent>
+      <head>
+			<charseq START="888" END="888">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-17">
+      <extent>
+			<charseq START="917" END="917">I</charseq>
+      </extent>
+      <head>
+			<charseq START="917" END="917">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-209">
+      <extent>
+			<charseq START="950" END="953">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="950" END="953">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-210">
+      <extent>
+			<charseq START="1063" END="1066">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="1063" END="1066">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-211">
+      <extent>
+			<charseq START="1311" END="1314">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="1311" END="1314">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-212">
+      <extent>
+			<charseq START="1417" END="1420">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="1417" END="1420">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-39">
+      <extent>
+			<charseq START="1492" END="1494">you</charseq>
+      </extent>
+      <head>
+			<charseq START="1492" END="1494">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-214">
+      <extent>
+			<charseq START="1505" END="1508">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="1505" END="1508">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-40">
+      <extent>
+			<charseq START="1511" END="1511">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1511" END="1511">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-215">
+      <extent>
+			<charseq START="1601" END="1604">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="1601" END="1604">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-216">
+      <extent>
+			<charseq START="1686" END="1689">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="1686" END="1689">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-217">
+      <extent>
+			<charseq START="1771" END="1774">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="1771" END="1774">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-218">
+      <extent>
+			<charseq START="1982" END="1985">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="1982" END="1985">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-219">
+      <extent>
+			<charseq START="2380" END="2383">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="2380" END="2383">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-220">
+      <extent>
+			<charseq START="2461" END="2464">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="2461" END="2464">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-221">
+      <extent>
+			<charseq START="2674" END="2677">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="2674" END="2677">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-222">
+      <extent>
+			<charseq START="2817" END="2820">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="2817" END="2820">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-223">
+      <extent>
+			<charseq START="2884" END="2887">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="2884" END="2887">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-96">
+      <extent>
+			<charseq START="2890" END="2890">I</charseq>
+      </extent>
+      <head>
+			<charseq START="2890" END="2890">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-224">
+      <extent>
+			<charseq START="2943" END="2946">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="2943" END="2946">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-99">
+      <extent>
+			<charseq START="2964" END="2966">you</charseq>
+      </extent>
+      <head>
+			<charseq START="2964" END="2966">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-225">
+      <extent>
+			<charseq START="2999" END="3002">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="2999" END="3002">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-100">
+      <extent>
+			<charseq START="3057" END="3059">you</charseq>
+      </extent>
+      <head>
+			<charseq START="3057" END="3059">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-226">
+      <extent>
+			<charseq START="3090" END="3093">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="3090" END="3093">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-101">
+      <extent>
+			<charseq START="3121" END="3121">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3121" END="3121">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-102">
+      <extent>
+			<charseq START="3161" END="3163">you</charseq>
+      </extent>
+      <head>
+			<charseq START="3161" END="3163">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-227">
+      <extent>
+			<charseq START="3178" END="3181">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="3178" END="3181">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-103">
+      <extent>
+			<charseq START="3196" END="3196">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3196" END="3196">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-105">
+      <extent>
+			<charseq START="3252" END="3254">you</charseq>
+      </extent>
+      <head>
+			<charseq START="3252" END="3254">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-107">
+      <extent>
+			<charseq START="3280" END="3282">you</charseq>
+      </extent>
+      <head>
+			<charseq START="3280" END="3282">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-108">
+      <extent>
+			<charseq START="3342" END="3344">you</charseq>
+      </extent>
+      <head>
+			<charseq START="3342" END="3344">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-228">
+      <extent>
+			<charseq START="3367" END="3370">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="3367" END="3370">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-110">
+      <extent>
+			<charseq START="3386" END="3386">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3386" END="3386">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-113">
+      <extent>
+			<charseq START="3458" END="3458">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3458" END="3458">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-117">
+      <extent>
+			<charseq START="3518" END="3518">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3518" END="3518">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-119">
+      <extent>
+			<charseq START="3551" END="3551">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3551" END="3551">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-229">
+      <extent>
+			<charseq START="3604" END="3607">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="3604" END="3607">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-121">
+      <extent>
+			<charseq START="3625" END="3625">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3625" END="3625">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-123">
+      <extent>
+			<charseq START="3661" END="3661">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3661" END="3661">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-230">
+      <extent>
+			<charseq START="3730" END="3733">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="3730" END="3733">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-124">
+      <extent>
+			<charseq START="3736" END="3736">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3736" END="3736">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-231">
+      <extent>
+			<charseq START="3790" END="3793">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="3790" END="3793">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-127">
+      <extent>
+			<charseq START="3934" END="3936">you</charseq>
+      </extent>
+      <head>
+			<charseq START="3934" END="3936">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-130">
+      <extent>
+			<charseq START="3977" END="3979">you</charseq>
+      </extent>
+      <head>
+			<charseq START="3977" END="3979">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-232">
+      <extent>
+			<charseq START="4007" END="4010">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="4007" END="4010">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E1-132">
+      <extent>
+			<charseq START="4021" END="4021">I</charseq>
+      </extent>
+      <head>
+			<charseq START="4021" END="4021">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-233">
+      <extent>
+			<charseq START="4066" END="4069">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="4066" END="4069">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-234">
+      <extent>
+			<charseq START="4183" END="4186">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="4183" END="4186">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-235">
+      <extent>
+			<charseq START="4357" END="4360">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="4357" END="4360">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-236">
+      <extent>
+			<charseq START="4395" END="4398">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="4395" END="4398">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E1-237">
+      <extent>
+			<charseq START="4517" END="4520">Mark</charseq>
+      </extent>
+      <head>
+			<charseq START="4517" END="4520">Mark</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Mark">
+			<charseq START="496" END="499">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="514" END="517">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="425" END="428">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="478" END="481">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="523" END="526">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="622" END="625">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="676" END="679">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="749" END="752">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="950" END="953">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="1063" END="1066">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="1311" END="1314">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="1417" END="1420">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="1505" END="1508">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="1601" END="1604">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="1686" END="1689">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="1771" END="1774">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="1982" END="1985">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="2380" END="2383">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="2461" END="2464">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="2674" END="2677">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="2817" END="2820">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="2884" END="2887">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="2943" END="2946">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="2999" END="3002">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="3090" END="3093">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="3178" END="3181">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="3367" END="3370">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="3604" END="3607">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="3730" END="3733">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="3790" END="3793">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="4007" END="4010">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="4066" END="4069">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="4183" END="4186">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="4357" END="4360">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="4395" END="4398">Mark</charseq>
+      </name>
+      <name NAME="Mark">
+			<charseq START="4517" END="4520">Mark</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E3" TYPE="PER" SUBTYPE="Group" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E3-12">
+      <extent>
+			<charseq START="808" END="813">people</charseq>
+      </extent>
+      <head>
+			<charseq START="808" END="813">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E4" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E4-23">
+      <extent>
+			<charseq START="1187" END="1228">a company,  called Pacesetters
+Corporation</charseq>
+      </extent>
+      <head>
+			<charseq START="1189" END="1195">company</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E4-24">
+      <extent>
+			<charseq START="1206" END="1228">Pacesetters
+Corporation</charseq>
+      </extent>
+      <head>
+			<charseq START="1206" END="1228">Pacesetters
+Corporation</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E4-25">
+      <extent>
+			<charseq START="1238" END="1239">it</charseq>
+      </extent>
+      <head>
+			<charseq START="1238" END="1239">it</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E4-27">
+      <extent>
+			<charseq START="1243" END="1257">a sales company</charseq>
+      </extent>
+      <head>
+			<charseq START="1251" END="1257">company</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E4-29">
+      <extent>
+			<charseq START="1270" END="1273">They</charseq>
+      </extent>
+      <head>
+			<charseq START="1270" END="1273">They</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E4-32">
+      <extent>
+			<charseq START="1341" END="1344">they</charseq>
+      </extent>
+      <head>
+			<charseq START="1341" END="1344">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E4-33">
+      <extent>
+			<charseq START="1349" END="1411">the largest -- home improvement -- company in the United
+States</charseq>
+      </extent>
+      <head>
+			<charseq START="1384" END="1390">company</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E4-72">
+      <extent>
+			<charseq START="2409" END="2412">they</charseq>
+      </extent>
+      <head>
+			<charseq START="2409" END="2412">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E4-73">
+      <extent>
+			<charseq START="2418" END="2422">their</charseq>
+      </extent>
+      <head>
+			<charseq START="2418" END="2422">their</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Pacesetters Corporation">
+			<charseq START="1206" END="1228">Pacesetters Corporation</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E7" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E7-30">
+      <extent>
+			<charseq START="1278" END="1281">home</charseq>
+      </extent>
+      <head>
+			<charseq START="1278" END="1281">home</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E7-35">
+      <extent>
+			<charseq START="1364" END="1367">home</charseq>
+      </extent>
+      <head>
+			<charseq START="1364" END="1367">home</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E7-70">
+      <extent>
+			<charseq START="2333" END="2336">home</charseq>
+      </extent>
+      <head>
+			<charseq START="2333" END="2336">home</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E8" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E8-31">
+      <extent>
+			<charseq START="1302" END="1306">Sears</charseq>
+      </extent>
+      <head>
+			<charseq START="1302" END="1306">Sears</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Sears">
+			<charseq START="1302" END="1306">Sears</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E10" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E10-34" ROLE="LOC">
+      <extent>
+			<charseq START="1395" END="1411">the United
+States</charseq>
+      </extent>
+      <head>
+			<charseq START="1399" END="1411">United
+States</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="United States">
+			<charseq START="1399" END="1411">United States</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E12" TYPE="GPE" SUBTYPE="State-or-Province" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E12-37" ROLE="LOC">
+      <extent>
+			<charseq START="1449" END="1461">West Virginia</charseq>
+      </extent>
+      <head>
+			<charseq START="1449" END="1461">West Virginia</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E12-93" ROLE="LOC">
+      <extent>
+			<charseq START="2747" END="2759">West Virginia</charseq>
+      </extent>
+      <head>
+			<charseq START="2747" END="2759">West Virginia</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E12-111" ROLE="LOC">
+      <extent>
+			<charseq START="3406" END="3418">West Virginia</charseq>
+      </extent>
+      <head>
+			<charseq START="3406" END="3418">West Virginia</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E12-120" ROLE="LOC">
+      <extent>
+			<charseq START="3568" END="3580">West Virginia</charseq>
+      </extent>
+      <head>
+			<charseq START="3568" END="3580">West Virginia</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E12-122" ROLE="GPE">
+      <extent>
+			<charseq START="3657" END="3658">it</charseq>
+      </extent>
+      <head>
+			<charseq START="3657" END="3658">it</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E12-167" ROLE="LOC">
+      <extent>
+			<charseq START="3671" END="3672">It</charseq>
+      </extent>
+      <head>
+			<charseq START="3671" END="3672">It</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E12-169" ROLE="GPE">
+      <extent>
+			<charseq START="3777" END="3778">It</charseq>
+      </extent>
+      <head>
+			<charseq START="3777" END="3778">It</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E12-171" ROLE="GPE">
+      <extent>
+			<charseq START="3836" END="3837">it</charseq>
+      </extent>
+      <head>
+			<charseq START="3836" END="3837">it</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E12-157" ROLE="PER">
+      <extent>
+			<charseq START="4241" END="4243">our</charseq>
+      </extent>
+      <head>
+			<charseq START="4241" END="4243">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E12-143" ROLE="LOC">
+      <extent>
+			<charseq START="4261" END="4273">West Virginia</charseq>
+      </extent>
+      <head>
+			<charseq START="4261" END="4273">West Virginia</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E12-148" ROLE="PER">
+      <extent>
+			<charseq START="4436" END="4437">We</charseq>
+      </extent>
+      <head>
+			<charseq START="4436" END="4437">We</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E12-149" ROLE="PER">
+      <extent>
+			<charseq START="4450" END="4451">we</charseq>
+      </extent>
+      <head>
+			<charseq START="4450" END="4451">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E12-151" ROLE="PER">
+      <extent>
+			<charseq START="4497" END="4499">our</charseq>
+      </extent>
+      <head>
+			<charseq START="4497" END="4499">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E12-150" ROLE="GPE">
+      <extent>
+			<charseq START="4497" END="4511">our whole
+state</charseq>
+      </extent>
+      <head>
+			<charseq START="4507" END="4511">state</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="West Virginia">
+			<charseq START="1449" END="1461">West Virginia</charseq>
+      </name>
+      <name NAME="West Virginia">
+			<charseq START="2747" END="2759">West Virginia</charseq>
+      </name>
+      <name NAME="West Virginia">
+			<charseq START="3406" END="3418">West Virginia</charseq>
+      </name>
+      <name NAME="West Virginia">
+			<charseq START="3568" END="3580">West Virginia</charseq>
+      </name>
+      <name NAME="West Virginia">
+			<charseq START="4261" END="4273">West Virginia</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E13" TYPE="GPE" SUBTYPE="State-or-Province" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E13-41" ROLE="LOC">
+      <extent>
+			<charseq START="1520" END="1530">Connecticut</charseq>
+      </extent>
+      <head>
+			<charseq START="1520" END="1530">Connecticut</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E13-42" ROLE="GPE">
+      <extent>
+			<charseq START="1541" END="1551">Connecticut</charseq>
+      </extent>
+      <head>
+			<charseq START="1541" END="1551">Connecticut</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E13-43" ROLE="LOC">
+      <extent>
+			<charseq START="1572" END="1576">there</charseq>
+      </extent>
+      <head>
+			<charseq START="1572" END="1576">there</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E13-128" ROLE="LOC">
+      <extent>
+			<charseq START="3946" END="3956">Connecticut</charseq>
+      </extent>
+      <head>
+			<charseq START="3946" END="3956">Connecticut</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Connecticut">
+			<charseq START="1520" END="1530">Connecticut</charseq>
+      </name>
+      <name NAME="Connecticut">
+			<charseq START="1541" END="1551">Connecticut</charseq>
+      </name>
+      <name NAME="Connecticut">
+			<charseq START="3946" END="3956">Connecticut</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E14" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="fsh_29121-E14-44">
+      <extent>
+			<charseq START="1625" END="1626">We</charseq>
+      </extent>
+      <head>
+			<charseq START="1625" END="1626">We</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E15" TYPE="PER" SUBTYPE="Indeterminate" CLASS="GEN">
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-1">
+      <extent>
+			<charseq START="122" END="125">your</charseq>
+      </extent>
+      <head>
+			<charseq START="122" END="125">your</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-245">
+      <extent>
+			<charseq START="253" END="255">you</charseq>
+      </extent>
+      <head>
+			<charseq START="253" END="255">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-152">
+      <extent>
+			<charseq START="296" END="298">you</charseq>
+      </extent>
+      <head>
+			<charseq START="296" END="298">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-242">
+      <extent>
+			<charseq START="335" END="337">you</charseq>
+      </extent>
+      <head>
+			<charseq START="335" END="337">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-244">
+      <extent>
+			<charseq START="345" END="348">your</charseq>
+      </extent>
+      <head>
+			<charseq START="345" END="348">your</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-7">
+      <extent>
+			<charseq START="592" END="595">your</charseq>
+      </extent>
+      <head>
+			<charseq START="592" END="595">your</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-11">
+      <extent>
+			<charseq START="760" END="763">your</charseq>
+      </extent>
+      <head>
+			<charseq START="760" END="763">your</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-240">
+      <extent>
+			<charseq START="831" END="833">you</charseq>
+      </extent>
+      <head>
+			<charseq START="831" END="833">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-28">
+      <extent>
+			<charseq START="1260" END="1262">you</charseq>
+      </extent>
+      <head>
+			<charseq START="1260" END="1262">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-63">
+      <extent>
+			<charseq START="2225" END="2227">You</charseq>
+      </extent>
+      <head>
+			<charseq START="2225" END="2227">You</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-75">
+      <extent>
+			<charseq START="2521" END="2523">you</charseq>
+      </extent>
+      <head>
+			<charseq START="2521" END="2523">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E15-160">
+      <extent>
+			<charseq START="3862" END="3864">you</charseq>
+      </extent>
+      <head>
+			<charseq START="3862" END="3864">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E16" TYPE="FAC" SUBTYPE="Subarea-Facility" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E16-48">
+      <extent>
+			<charseq START="1797" END="1826">an office that you&apos;re in a lot</charseq>
+      </extent>
+      <head>
+			<charseq START="1800" END="1805">office</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E16-49">
+      <extent>
+			<charseq START="1807" END="1810">that</charseq>
+      </extent>
+      <head>
+			<charseq START="1807" END="1810">that</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E16-168">
+      <extent>
+			<charseq START="1862" END="1870">an office</charseq>
+      </extent>
+      <head>
+			<charseq START="1865" END="1870">office</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E16-170">
+      <extent>
+			<charseq START="1917" END="1921">there</charseq>
+      </extent>
+      <head>
+			<charseq START="1917" END="1921">there</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E17" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-53">
+      <extent>
+			<charseq START="1899" END="1900">we</charseq>
+      </extent>
+      <head>
+			<charseq START="1899" END="1900">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-54">
+      <extent>
+			<charseq START="1905" END="1906">we</charseq>
+      </extent>
+      <head>
+			<charseq START="1905" END="1906">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-55">
+      <extent>
+			<charseq START="1927" END="1928">we</charseq>
+      </extent>
+      <head>
+			<charseq START="1927" END="1928">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-56">
+      <extent>
+			<charseq START="1930" END="1931">we</charseq>
+      </extent>
+      <head>
+			<charseq START="1930" END="1931">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-57">
+      <extent>
+			<charseq START="1938" END="1940">our</charseq>
+      </extent>
+      <head>
+			<charseq START="1938" END="1940">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-59">
+      <extent>
+			<charseq START="2047" END="2048">we</charseq>
+      </extent>
+      <head>
+			<charseq START="2047" END="2048">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-60">
+      <extent>
+			<charseq START="2124" END="2127">they</charseq>
+      </extent>
+      <head>
+			<charseq START="2124" END="2127">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-61">
+      <extent>
+			<charseq START="2136" END="2137">we</charseq>
+      </extent>
+      <head>
+			<charseq START="2136" END="2137">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-62">
+      <extent>
+			<charseq START="2169" END="2171">our</charseq>
+      </extent>
+      <head>
+			<charseq START="2169" END="2171">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-64">
+      <extent>
+			<charseq START="2235" END="2236">we</charseq>
+      </extent>
+      <head>
+			<charseq START="2235" END="2236">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-74">
+      <extent>
+			<charseq START="2480" END="2481">We</charseq>
+      </extent>
+      <head>
+			<charseq START="2480" END="2481">We</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-76">
+      <extent>
+			<charseq START="2531" END="2532">we</charseq>
+      </extent>
+      <head>
+			<charseq START="2531" END="2532">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-81">
+      <extent>
+			<charseq START="2584" END="2586">our</charseq>
+      </extent>
+      <head>
+			<charseq START="2584" END="2586">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-82">
+      <extent>
+			<charseq START="2601" END="2602">we</charseq>
+      </extent>
+      <head>
+			<charseq START="2601" END="2602">we</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E17-85">
+      <extent>
+			<charseq START="2635" END="2637">our</charseq>
+      </extent>
+      <head>
+			<charseq START="2635" END="2637">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E18" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E18-65">
+      <extent>
+			<charseq START="2262" END="2302">people that come to ~K Mart or
+Sam&apos;s Club</charseq>
+      </extent>
+      <head>
+			<charseq START="2262" END="2267">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E18-66">
+      <extent>
+			<charseq START="2269" END="2272">that</charseq>
+      </extent>
+      <head>
+			<charseq START="2269" END="2272">that</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E18-69">
+      <extent>
+			<charseq START="2306" END="2309">They</charseq>
+      </extent>
+      <head>
+			<charseq START="2306" END="2309">They</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E18-71">
+      <extent>
+			<charseq START="2356" END="2359">they</charseq>
+      </extent>
+      <head>
+			<charseq START="2356" END="2359">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E19" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E19-67">
+      <extent>
+			<charseq START="2283" END="2288">K Mart</charseq>
+      </extent>
+      <head>
+			<charseq START="2283" END="2288">K Mart</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="K Mart">
+			<charseq START="2283" END="2288">K Mart</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E20" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E20-68">
+      <extent>
+			<charseq START="2293" END="2302">Sam&apos;s Club</charseq>
+      </extent>
+      <head>
+			<charseq START="2293" END="2302">Sam&apos;s Club</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Sam&apos;s Club">
+			<charseq START="2293" END="2302">Sam&apos;s Club</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E22" TYPE="ORG" SUBTYPE="Commercial" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E22-246">
+      <extent>
+			<charseq START="122" END="153">your
+current or former workplace</charseq>
+      </extent>
+      <head>
+			<charseq START="145" END="153">workplace</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E22-26">
+      <extent>
+			<charseq START="177" END="181">there</charseq>
+      </extent>
+      <head>
+			<charseq START="177" END="181">there</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E22-243">
+      <extent>
+			<charseq START="345" END="356">your company</charseq>
+      </extent>
+      <head>
+			<charseq START="350" END="356">company</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E22-250">
+      <extent>
+			<charseq START="396" END="397">it</charseq>
+      </extent>
+      <head>
+			<charseq START="396" END="397">it</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E22-6">
+      <extent>
+			<charseq START="592" END="605">your workplace</charseq>
+      </extent>
+      <head>
+			<charseq START="597" END="605">workplace</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E22-79">
+      <extent>
+			<charseq START="707" END="715">workplace</charseq>
+      </extent>
+      <head>
+			<charseq START="707" END="715">workplace</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E22-10">
+      <extent>
+			<charseq START="782" END="792">the company</charseq>
+      </extent>
+      <head>
+			<charseq START="786" END="792">company</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E22-15">
+      <extent>
+			<charseq START="866" END="870">there</charseq>
+      </extent>
+      <head>
+			<charseq START="866" END="870">there</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E22-78">
+      <extent>
+			<charseq START="2574" END="2578">there</charseq>
+      </extent>
+      <head>
+			<charseq START="2574" END="2578">there</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E23" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E23-80">
+      <extent>
+			<charseq START="2584" END="2599">our local office</charseq>
+      </extent>
+      <head>
+			<charseq START="2594" END="2599">office</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E23-86">
+      <extent>
+			<charseq START="2712" END="2724">the -- office</charseq>
+      </extent>
+      <head>
+			<charseq START="2719" END="2724">office</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E23-87">
+      <extent>
+			<charseq START="2727" END="2730">That</charseq>
+      </extent>
+      <head>
+			<charseq START="2727" END="2730">That</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E23-90">
+      <extent>
+			<charseq START="2762" END="2763">it</charseq>
+      </extent>
+      <head>
+			<charseq START="2762" END="2763">it</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E24" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E24-83">
+      <extent>
+			<charseq START="2635" END="2651">our sales manager</charseq>
+      </extent>
+      <head>
+			<charseq START="2645" END="2651">manager</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E25" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E25-84">
+      <extent>
+			<charseq START="2655" END="2668">Branch manager</charseq>
+      </extent>
+      <head>
+			<charseq START="2662" END="2668">manager</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E26" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="fsh_29121-E26-89">
+      <extent>
+			<charseq START="2618" END="2626">about
+ten</charseq>
+      </extent>
+      <head>
+			<charseq START="2624" END="2626">ten</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E26-88">
+      <extent>
+			<charseq START="2699" END="2724">about ten in the -- office</charseq>
+      </extent>
+      <head>
+			<charseq START="2705" END="2707">ten</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E27" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E27-92" ROLE="LOC">
+      <extent>
+			<charseq START="2737" END="2759">Fairmont, West Virginia</charseq>
+      </extent>
+      <head>
+			<charseq START="2737" END="2744">Fairmont</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E27-109" ROLE="LOC">
+      <extent>
+			<charseq START="3354" END="3361">Fairmont</charseq>
+      </extent>
+      <head>
+			<charseq START="3354" END="3361">Fairmont</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Fairmont">
+			<charseq START="2737" END="2744">Fairmont</charseq>
+      </name>
+      <name NAME="Fairmont">
+			<charseq START="3354" END="3361">Fairmont</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E28" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E28-94" ROLE="LOC">
+      <extent>
+			<charseq START="2787" END="2796">Charleston</charseq>
+      </extent>
+      <head>
+			<charseq START="2787" END="2796">Charleston</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E28-14" ROLE="GPE">
+      <extent>
+			<charseq START="4241" END="4273">our largest city in West Virginia</charseq>
+      </extent>
+      <head>
+			<charseq START="4253" END="4256">city</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E28-141" ROLE="PER">
+      <extent>
+			<charseq START="4285" END="4319">less
+than a hundred thousand people</charseq>
+      </extent>
+      <head>
+			<charseq START="4314" END="4319">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E28-239" ROLE="GPE">
+      <extent>
+			<charseq START="4322" END="4325">That</charseq>
+      </extent>
+      <head>
+			<charseq START="4322" END="4325">That</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E28-146" ROLE="GPE">
+      <extent>
+			<charseq START="4329" END="4338">Charleston</charseq>
+      </extent>
+      <head>
+			<charseq START="4329" END="4338">Charleston</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E28-145" ROLE="GPE">
+      <extent>
+			<charseq START="4341" END="4351">the capital</charseq>
+      </extent>
+      <head>
+			<charseq START="4345" END="4351">capital</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Charleston">
+			<charseq START="2787" END="2796">Charleston</charseq>
+      </name>
+      <name NAME="Charleston">
+			<charseq START="4329" END="4338">Charleston</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E29" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E29-95" ROLE="LOC">
+      <extent>
+			<charseq START="2802" END="2811">Pittsburgh</charseq>
+      </extent>
+      <head>
+			<charseq START="2802" END="2811">Pittsburgh</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E29-104" ROLE="LOC">
+      <extent>
+			<charseq START="3211" END="3220">Pittsburgh</charseq>
+      </extent>
+      <head>
+			<charseq START="3211" END="3220">Pittsburgh</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E29-106" ROLE="LOC">
+      <extent>
+			<charseq START="3264" END="3273">Pittsburgh</charseq>
+      </extent>
+      <head>
+			<charseq START="3264" END="3273">Pittsburgh</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E29-112" ROLE="LOC">
+      <extent>
+			<charseq START="3446" END="3455">Pittsburgh</charseq>
+      </extent>
+      <head>
+			<charseq START="3446" END="3455">Pittsburgh</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E29-116" ROLE="LOC">
+      <extent>
+			<charseq START="3496" END="3505">Pittsburgh</charseq>
+      </extent>
+      <head>
+			<charseq START="3496" END="3505">Pittsburgh</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Pittsburgh">
+			<charseq START="2802" END="2811">Pittsburgh</charseq>
+      </name>
+      <name NAME="Pittsburgh">
+			<charseq START="3211" END="3220">Pittsburgh</charseq>
+      </name>
+      <name NAME="Pittsburgh">
+			<charseq START="3264" END="3273">Pittsburgh</charseq>
+      </name>
+      <name NAME="Pittsburgh">
+			<charseq START="3446" END="3455">Pittsburgh</charseq>
+      </name>
+      <name NAME="Pittsburgh">
+			<charseq START="3496" END="3505">Pittsburgh</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E30" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E30-98" ROLE="LOC">
+      <extent>
+			<charseq START="2928" END="2937">Morgantown</charseq>
+      </extent>
+      <head>
+			<charseq START="2928" END="2937">Morgantown</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E30-163" ROLE="LOC">
+      <extent>
+			<charseq START="2985" END="2993">that area</charseq>
+      </extent>
+      <head>
+			<charseq START="2990" END="2993">area</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E30-164" ROLE="LOC">
+      <extent>
+			<charseq START="3028" END="3029">It</charseq>
+      </extent>
+      <head>
+			<charseq START="3028" END="3029">It</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E30-165" ROLE="LOC">
+      <extent>
+			<charseq START="3100" END="3101">it</charseq>
+      </extent>
+      <head>
+			<charseq START="3100" END="3101">it</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Morgantown">
+			<charseq START="2928" END="2937">Morgantown</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E31" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E31-114">
+      <extent>
+			<charseq START="3464" END="3505">relatives that lived outside of Pittsburgh</charseq>
+      </extent>
+      <head>
+			<charseq START="3464" END="3472">relatives</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E31-115">
+      <extent>
+			<charseq START="3474" END="3477">that</charseq>
+      </extent>
+      <head>
+			<charseq START="3474" END="3477">that</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E32" TYPE="GPE" SUBTYPE="State-or-Province" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E32-118" ROLE="LOC">
+      <extent>
+			<charseq START="3528" END="3534">Florida</charseq>
+      </extent>
+      <head>
+			<charseq START="3528" END="3534">Florida</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Florida">
+			<charseq START="3528" END="3534">Florida</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E33" TYPE="GPE" SUBTYPE="Population-Center" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E33-125" ROLE="LOC">
+      <extent>
+			<charseq START="3881" END="3890">a big city</charseq>
+      </extent>
+      <head>
+			<charseq START="3887" END="3890">city</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E34" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E34-131" ROLE="LOC">
+      <extent>
+			<charseq START="3991" END="3999">New Haven</charseq>
+      </extent>
+      <head>
+			<charseq START="3991" END="3999">New Haven</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="New Haven">
+			<charseq START="3991" END="3999">New Haven</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E35" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E35-133" ROLE="LOC">
+      <extent>
+			<charseq START="4080" END="4088">Waterbury</charseq>
+      </extent>
+      <head>
+			<charseq START="4080" END="4088">Waterbury</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Waterbury">
+			<charseq START="4080" END="4088">Waterbury</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E36" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E36-134" ROLE="LOC">
+      <extent>
+			<charseq START="4094" END="4101">Hartford</charseq>
+      </extent>
+      <head>
+			<charseq START="4094" END="4101">Hartford</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E36-135" ROLE="LOC">
+      <extent>
+			<charseq START="4112" END="4119">Hartford</charseq>
+      </extent>
+      <head>
+			<charseq START="4112" END="4119">Hartford</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E36-136" ROLE="GPE">
+      <extent>
+			<charseq START="4129" END="4146">Such a big er city</charseq>
+      </extent>
+      <head>
+			<charseq START="4143" END="4146">city</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E36-137" ROLE="GPE">
+      <extent>
+			<charseq START="4150" END="4157">Hartford</charseq>
+      </extent>
+      <head>
+			<charseq START="4150" END="4157">Hartford</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E36-138" ROLE="GPE">
+      <extent>
+			<charseq START="4195" END="4196">it</charseq>
+      </extent>
+      <head>
+			<charseq START="4195" END="4196">it</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Hartford">
+			<charseq START="4094" END="4101">Hartford</charseq>
+      </name>
+      <name NAME="Hartford">
+			<charseq START="4112" END="4119">Hartford</charseq>
+      </name>
+      <name NAME="Hartford">
+			<charseq START="4150" END="4157">Hartford</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E37" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="fsh_29121-E37-91">
+      <extent>
+			<charseq START="272" END="308">some of the people that you work with</charseq>
+      </extent>
+      <head>
+			<charseq START="272" END="275">some</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E37-241">
+      <extent>
+			<charseq START="323" END="326">they</charseq>
+      </extent>
+      <head>
+			<charseq START="323" END="326">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E40" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E40-147" ROLE="GPE">
+      <extent>
+			<charseq START="4413" END="4420">Wheeling</charseq>
+      </extent>
+      <head>
+			<charseq START="4413" END="4420">Wheeling</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Wheeling">
+			<charseq START="4413" END="4420">Wheeling</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E41" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E41-142">
+      <extent>
+			<charseq START="4463" END="4511">one point eight million people in our whole
+state</charseq>
+      </extent>
+      <head>
+			<charseq START="4487" END="4492">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E42" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E42-166">
+      <extent>
+			<charseq START="3485" END="3505">outside of Pittsburgh</charseq>
+      </extent>
+      <head>
+			<charseq START="3485" END="3491">outside</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E42-154">
+      <extent>
+			<charseq START="3541" END="3545">there</charseq>
+      </extent>
+      <head>
+			<charseq START="3541" END="3545">there</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E43" TYPE="PER" SUBTYPE="Group" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E43-156">
+      <extent>
+			<charseq START="280" END="308">the people that you work with</charseq>
+      </extent>
+      <head>
+			<charseq START="284" END="289">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E43-213">
+      <extent>
+			<charseq START="291" END="294">that</charseq>
+      </extent>
+      <head>
+			<charseq START="291" END="294">that</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E43-13">
+      <extent>
+			<charseq START="845" END="870">the people that work there</charseq>
+      </extent>
+      <head>
+			<charseq START="849" END="854">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E43-238">
+      <extent>
+			<charseq START="856" END="859">that</charseq>
+      </extent>
+      <head>
+			<charseq START="856" END="859">that</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E44" TYPE="LOC" SUBTYPE="Region-General" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E44-174">
+      <extent>
+			<charseq START="4050" END="4060">the country</charseq>
+      </extent>
+      <head>
+			<charseq START="4054" END="4060">country</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E46" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="fsh_29121-E46-247">
+      <extent>
+			<charseq START="156" END="170">How many people</charseq>
+      </extent>
+      <head>
+			<charseq START="165" END="170">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="fsh_29121-E46-77">
+      <extent>
+			<charseq START="2553" END="2567">how many people</charseq>
+      </extent>
+      <head>
+			<charseq START="2562" END="2567">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E47" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="fsh_29121-E47-248">
+      <extent>
+			<charseq START="212" END="214">Who</charseq>
+      </extent>
+      <head>
+			<charseq START="212" END="214">Who</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E48" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="fsh_29121-E48-249">
+      <extent>
+			<charseq START="226" END="229">whom</charseq>
+      </extent>
+      <head>
+			<charseq START="226" END="229">whom</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="fsh_29121-E49" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-153">
+      <extent>
+			<charseq START="410" END="412">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="410" END="412">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-155">
+      <extent>
+			<charseq START="448" END="450">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="448" END="450">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-251">
+      <extent>
+			<charseq START="458" END="458">I</charseq>
+      </extent>
+      <head>
+			<charseq START="458" END="458">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-252">
+      <extent>
+			<charseq START="462" END="462">I</charseq>
+      </extent>
+      <head>
+			<charseq START="462" END="462">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-253">
+      <extent>
+			<charseq START="466" END="468">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="466" END="468">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-254">
+      <extent>
+			<charseq START="487" END="489">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="487" END="489">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-158">
+      <extent>
+			<charseq START="505" END="507">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="505" END="507">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-4">
+      <extent>
+			<charseq START="536" END="538">you</charseq>
+      </extent>
+      <head>
+			<charseq START="536" END="538">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-159">
+      <extent>
+			<charseq START="550" END="552">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="550" END="552">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-5">
+      <extent>
+			<charseq START="562" END="562">I</charseq>
+      </extent>
+      <head>
+			<charseq START="562" END="562">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-161">
+      <extent>
+			<charseq START="637" END="639">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="637" END="639">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-8">
+      <extent>
+			<charseq START="642" END="642">I</charseq>
+      </extent>
+      <head>
+			<charseq START="642" END="642">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-162">
+      <extent>
+			<charseq START="735" END="737">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="735" END="737">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-175">
+      <extent>
+			<charseq START="933" END="935">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="933" END="935">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-176">
+      <extent>
+			<charseq START="986" END="988">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="986" END="988">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-18">
+      <extent>
+			<charseq START="1042" END="1043">me</charseq>
+      </extent>
+      <head>
+			<charseq START="1042" END="1043">me</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-19">
+      <extent>
+			<charseq START="1046" END="1046">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1046" END="1046">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-177">
+      <extent>
+			<charseq START="1085" END="1087">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="1085" END="1087">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-20">
+      <extent>
+			<charseq START="1133" END="1133">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1133" END="1133">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-21">
+      <extent>
+			<charseq START="1140" END="1140">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1140" END="1140">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-22">
+      <extent>
+			<charseq START="1147" END="1147">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1147" END="1147">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-173">
+      <extent>
+			<charseq START="1151" END="1151">i</charseq>
+      </extent>
+      <head>
+			<charseq START="1151" END="1151">i</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-178">
+      <extent>
+			<charseq START="1326" END="1328">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="1326" END="1328">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-179">
+      <extent>
+			<charseq START="1431" END="1433">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="1431" END="1433">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-36">
+      <extent>
+			<charseq START="1440" END="1440">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1440" END="1440">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-38">
+      <extent>
+			<charseq START="1464" END="1464">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1464" END="1464">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-180">
+      <extent>
+			<charseq START="1536" END="1538">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="1536" END="1538">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-181">
+      <extent>
+			<charseq START="1646" END="1648">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="1646" END="1648">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-182">
+      <extent>
+			<charseq START="1704" END="1706">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="1704" END="1706">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-45">
+      <extent>
+			<charseq START="1738" END="1738">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1738" END="1738">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-46">
+      <extent>
+			<charseq START="1751" END="1751">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1751" END="1751">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-47">
+      <extent>
+			<charseq START="1783" END="1785">you</charseq>
+      </extent>
+      <head>
+			<charseq START="1783" END="1785">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-50">
+      <extent>
+			<charseq START="1812" END="1814">you</charseq>
+      </extent>
+      <head>
+			<charseq START="1812" END="1814">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-183">
+      <extent>
+			<charseq START="1835" END="1837">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="1835" END="1837">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-51">
+      <extent>
+			<charseq START="1855" END="1855">I</charseq>
+      </extent>
+      <head>
+			<charseq START="1855" END="1855">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-52">
+      <extent>
+			<charseq START="1880" END="1881">me</charseq>
+      </extent>
+      <head>
+			<charseq START="1880" END="1881">me</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-184">
+      <extent>
+			<charseq START="2007" END="2009">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="2007" END="2009">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-58">
+      <extent>
+			<charseq START="2039" END="2039">I</charseq>
+      </extent>
+      <head>
+			<charseq START="2039" END="2039">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-185">
+      <extent>
+			<charseq START="2393" END="2395">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="2393" END="2395">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-186">
+      <extent>
+			<charseq START="2475" END="2477">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="2475" END="2477">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-187">
+      <extent>
+			<charseq START="2689" END="2691">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="2689" END="2691">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-188">
+      <extent>
+			<charseq START="2836" END="2838">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="2836" END="2838">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-189">
+      <extent>
+			<charseq START="2900" END="2902">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="2900" END="2902">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-97">
+      <extent>
+			<charseq START="2919" END="2919">I</charseq>
+      </extent>
+      <head>
+			<charseq START="2919" END="2919">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-190">
+      <extent>
+			<charseq START="2956" END="2958">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="2956" END="2958">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-191">
+      <extent>
+			<charseq START="3023" END="3025">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="3023" END="3025">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-192">
+      <extent>
+			<charseq START="3137" END="3139">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="3137" END="3139">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-193">
+      <extent>
+			<charseq START="3230" END="3232">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="3230" END="3232">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-194">
+      <extent>
+			<charseq START="3586" END="3588">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="3586" END="3588">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-195">
+      <extent>
+			<charseq START="3666" END="3668">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="3666" END="3668">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-196">
+      <extent>
+			<charseq START="3765" END="3767">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="3765" END="3767">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-197">
+      <extent>
+			<charseq START="3825" END="3827">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="3825" END="3827">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-126">
+      <extent>
+			<charseq START="3915" END="3915">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3915" END="3915">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-129">
+      <extent>
+			<charseq START="3965" END="3965">I</charseq>
+      </extent>
+      <head>
+			<charseq START="3965" END="3965">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-198">
+      <extent>
+			<charseq START="4030" END="4032">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="4030" END="4032">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-199">
+      <extent>
+			<charseq START="4107" END="4109">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="4107" END="4109">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-200">
+      <extent>
+			<charseq START="4216" END="4218">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="4216" END="4218">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-139">
+      <extent>
+			<charseq START="4225" END="4225">I</charseq>
+      </extent>
+      <head>
+			<charseq START="4225" END="4225">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="fsh_29121-E49-140">
+      <extent>
+			<charseq START="4233" END="4233">I</charseq>
+      </extent>
+      <head>
+			<charseq START="4233" END="4233">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-201">
+      <extent>
+			<charseq START="4381" END="4383">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="4381" END="4383">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="fsh_29121-E49-202">
+      <extent>
+			<charseq START="4431" END="4433">Jim</charseq>
+      </extent>
+      <head>
+			<charseq START="4431" END="4433">Jim</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Jim">
+			<charseq START="410" END="412">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="448" END="450">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="505" END="507">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="550" END="552">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="637" END="639">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="735" END="737">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="933" END="935">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="986" END="988">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="1085" END="1087">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="1326" END="1328">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="1431" END="1433">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="1536" END="1538">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="1646" END="1648">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="1704" END="1706">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="1835" END="1837">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="2007" END="2009">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="2393" END="2395">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="2475" END="2477">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="2689" END="2691">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="2836" END="2838">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="2900" END="2902">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="2956" END="2958">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="3023" END="3025">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="3137" END="3139">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="3230" END="3232">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="3586" END="3588">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="3666" END="3668">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="3765" END="3767">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="3825" END="3827">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="4030" END="4032">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="4107" END="4109">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="4216" END="4218">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="4381" END="4383">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="4431" END="4433">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="466" END="468">Jim</charseq>
+      </name>
+      <name NAME="Jim">
+			<charseq START="487" END="489">Jim</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <timex2 ID="fsh_29121-T1" VAL="2004-11-30T14:08:43">
+    <timex2_mention ID="fsh_29121-T1-1">
+      <extent>
+			<charseq START="29" END="45">20041130-14:08:43</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="fsh_29121-T2" VAL="PRESENT_REF" ANCHOR_VAL="2004-11-30-T14:08:43" ANCHOR_DIR="AS_OF">
+    <timex2_mention ID="fsh_29121-T2-1">
+      <extent>
+			<charseq START="127" END="133">current</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="fsh_29121-T3" VAL="PAST_REF" ANCHOR_VAL="2004-11-30-T14:08:43" ANCHOR_DIR="BEFORE">
+    <timex2_mention ID="fsh_29121-T3-1">
+      <extent>
+			<charseq START="138" END="143">former</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="fsh_29121-T4" VAL="XXXX-XX-XXTMO" SET="YES">
+    <timex2_mention ID="fsh_29121-T4-1">
+      <extent>
+			<charseq START="1964" END="1976">every morning</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="fsh_29121-T5" VAL="XXXX-XX-XX">
+    <timex2_mention ID="fsh_29121-T5-1">
+      <extent>
+			<charseq START="2105" END="2112">that day</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="fsh_29121-T6" VAL="TAF">
+    <timex2_mention ID="fsh_29121-T6-1">
+      <extent>
+			<charseq START="2189" END="2201">the afternoon</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="fsh_29121-T7" VAL="TEV">
+    <timex2_mention ID="fsh_29121-T7-1">
+      <extent>
+			<charseq START="2211" END="2222">the evenings</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="fsh_29121-T8" VAL="PRESENT_REF" ANCHOR_VAL="2004-11-30T14:08:43" ANCHOR_DIR="AS_OF">
+    <timex2_mention ID="fsh_29121-T8-1">
+      <extent>
+			<charseq START="1578" END="1586">right now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="fsh_29121-R1" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="fsh_29121-E17" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E23" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R1-1" p="1.000">
+      <extent>
+			<charseq START="2584" END="2599">our local office</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E17-81" ROLE="Arg-1">
+          <extent>
+            <charseq START="2584" END="2586">our</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E23-80" ROLE="Arg-2">
+          <extent>
+            <charseq START="2584" END="2599">our local office</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R2" TYPE="PER-SOC" SUBTYPE="Business">    <relation_argument REFID="fsh_29121-E47" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E48" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R2-1" p="1.000">
+      <extent>
+			<charseq START="212" END="229">Who works for whom</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E47-248" ROLE="Arg-1">
+          <extent>
+            <charseq START="212" END="214">Who</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E48-249" ROLE="Arg-2">
+          <extent>
+            <charseq START="226" END="229">whom</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R3" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="fsh_29121-E49" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E16" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R3-1" p="1.000">
+      <extent>
+			<charseq START="1777" END="1830">So do you have like an office that you&apos;re in a lot, or</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E49-47" ROLE="Arg-1">
+          <extent>
+            <charseq START="1783" END="1785">you</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E16-48" ROLE="Arg-2">
+          <extent>
+            <charseq START="1797" END="1826">an office that you're in a lot</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="fsh_29121-R3-2" p="1.000">
+      <extent>
+			<charseq START="1855" END="1870">I have an office</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E49-51" ROLE="Arg-1">
+          <extent>
+            <charseq START="1855" END="1855">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E16-168" ROLE="Arg-2">
+          <extent>
+            <charseq START="1862" END="1870">an office</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R4" TYPE="PER-SOC" SUBTYPE="Business">    <relation_argument REFID="fsh_29121-E17" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E24" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R4-1" p="1.000">
+      <extent>
+			<charseq START="2635" END="2651">our sales manager</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E17-85" ROLE="Arg-1">
+          <extent>
+            <charseq START="2635" END="2637">our</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E24-83" ROLE="Arg-2">
+          <extent>
+            <charseq START="2635" END="2651">our sales manager</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R5" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="fsh_29121-E15" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E22" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R5-1" p="1.000">
+      <extent>
+			<charseq START="122" END="153">your
+current or former workplace</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E15-1" ROLE="Arg-1">
+          <extent>
+            <charseq START="122" END="125">your</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E22-246" ROLE="Arg-2">
+          <extent>
+            <charseq START="122" END="153">your
+current or former workplace</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="fsh_29121-R5-2" p="1.000">
+      <extent>
+			<charseq START="345" END="356">your company</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E15-244" ROLE="Arg-1">
+          <extent>
+            <charseq START="345" END="348">your</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E22-243" ROLE="Arg-2">
+          <extent>
+            <charseq START="345" END="356">your company</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="fsh_29121-R5-3" p="1.000">
+      <extent>
+			<charseq START="592" END="605">your workplace</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E15-7" ROLE="Arg-1">
+          <extent>
+            <charseq START="592" END="595">your</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E22-6" ROLE="Arg-2">
+          <extent>
+            <charseq START="592" END="605">your workplace</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R6" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="fsh_29121-E46" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E22" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R6-1" p="1.000">
+      <extent>
+			<charseq START="156" END="208">How many people work there, and what is
+the hierarchy</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E46-247" ROLE="Arg-1">
+          <extent>
+            <charseq START="156" END="170">How many people</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E22-26" ROLE="Arg-2">
+          <extent>
+            <charseq START="177" END="181">there</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="fsh_29121-R6-2" p="1.000">
+      <extent>
+			<charseq START="2553" END="2578">how many people work there</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E46-77" ROLE="Arg-1">
+          <extent>
+            <charseq START="2553" END="2567">how many people</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E22-78" ROLE="Arg-2">
+          <extent>
+            <charseq START="2574" END="2578">there</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R7" TYPE="PER-SOC" SUBTYPE="Business">    <relation_argument REFID="fsh_29121-E43" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E15" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R7-1" p="1.000">
+      <extent>
+			<charseq START="263" END="329">Describe some of the people that you work with and the jobs they do</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E43-156" ROLE="Arg-1">
+          <extent>
+            <charseq START="280" END="308">the people that you work with</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E15-152" ROLE="Arg-2">
+          <extent>
+            <charseq START="296" END="298">you</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R10" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="fsh_29121-E43" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E22" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R10-1" p="1.000">
+      <extent>
+			<charseq START="845" END="870">the people that work there</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E43-13" ROLE="Arg-1">
+          <extent>
+            <charseq START="845" END="870">the people that work there</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E22-15" ROLE="Arg-2">
+          <extent>
+            <charseq START="866" END="870">there</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R11" TYPE="GEN-AFF" SUBTYPE="Org-Location">    <relation_argument REFID="fsh_29121-E4" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E10" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R11-1" p="1.000">
+      <extent>
+			<charseq START="1349" END="1411">the largest -- home improvement -- company in the United
+States</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E4-33" ROLE="Arg-1">
+          <extent>
+            <charseq START="1349" END="1411">the largest -- home improvement -- company in the United
+States</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E10-34" ROLE="Arg-2">
+          <extent>
+            <charseq START="1395" END="1411">the United
+States</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R12" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="fsh_29121-E49" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E12" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R12-1" p="1.000">
+      <extent>
+			<charseq START="1436" END="1461">Oh, I&apos;m from West Virginia</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E49-36" ROLE="Arg-1">
+          <extent>
+            <charseq START="1440" END="1440">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E12-37" ROLE="Arg-2">
+          <extent>
+            <charseq START="1449" END="1461">West Virginia</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R13" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="fsh_29121-E1" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E13" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R13-1" p="1.000">
+      <extent>
+			<charseq START="1511" END="1530">I&apos;m from Connecticut</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-40" ROLE="Arg-1">
+          <extent>
+            <charseq START="1511" END="1511">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E13-41" ROLE="Arg-2">
+          <extent>
+            <charseq START="1520" END="1530">Connecticut</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="fsh_29121-R13-2" p="1.000">
+      <extent>
+			<charseq START="3859" END="4002">If you&apos;re in the like a big city or even
+in -- oh well, I don&apos;t know where you live in Connecticut but -- I mean,
+are you like near New Haven or</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-127" ROLE="Arg-1">
+          <extent>
+            <charseq START="3934" END="3936">you</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E13-128" ROLE="Arg-2">
+          <extent>
+            <charseq START="3946" END="3956">Connecticut</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R15" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="fsh_29121-E26" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E23" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R15-1" p="1.000">
+      <extent>
+			<charseq START="2699" END="2724">about ten in the -- office</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E26-88" ROLE="Arg-1">
+          <extent>
+            <charseq START="2699" END="2724">about ten in the -- office</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E23-86" ROLE="Arg-2">
+          <extent>
+            <charseq START="2712" END="2724">the -- office</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="fsh_29121-R15-2" p="1.000">
+      <extent>
+			<charseq START="2581" END="2626">In our local office we probably have about
+ten</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E26-89" ROLE="Arg-1">
+          <extent>
+            <charseq START="2618" END="2626">about
+ten</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E23-80" ROLE="Arg-2">
+          <extent>
+            <charseq START="2584" END="2599">our local office</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R16" TYPE="GEN-AFF" SUBTYPE="Org-Location">    <relation_argument REFID="fsh_29121-E23" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E27" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R16-1" p="1.000">
+      <extent>
+			<charseq START="2727" END="2759">That&apos;s in Fairmont, West Virginia</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E23-87" ROLE="Arg-1">
+          <extent>
+            <charseq START="2727" END="2730">That</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E27-92" ROLE="Arg-2">
+          <extent>
+            <charseq START="2737" END="2759">Fairmont, West Virginia</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R17" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="fsh_29121-E27" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E12" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R17-1" p="1.000">
+      <extent>
+			<charseq START="2737" END="2759">Fairmont, West Virginia</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E27-92" ROLE="Arg-1">
+          <extent>
+            <charseq START="2737" END="2759">Fairmont, West Virginia</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E12-93" ROLE="Arg-2">
+          <extent>
+            <charseq START="2747" END="2759">West Virginia</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R18" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="fsh_29121-E49" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E30" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R18-1" p="1.000">
+      <extent>
+			<charseq START="2913" END="2937">Yeah, I&apos;m from Morgantown</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E49-97" ROLE="Arg-1">
+          <extent>
+            <charseq START="2919" END="2919">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E30-98" ROLE="Arg-2">
+          <extent>
+            <charseq START="2928" END="2937">Morgantown</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R19" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="fsh_29121-E1" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E29" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R19-1" p="1.000">
+      <extent>
+			<charseq START="3192" END="3224">But I have been to Pittsburgh, so</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-103" ROLE="Arg-1">
+          <extent>
+            <charseq START="3196" END="3196">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E29-104" ROLE="Arg-2">
+          <extent>
+            <charseq START="3211" END="3220">Pittsburgh</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="fsh_29121-R19-2" p="1.000">
+      <extent>
+			<charseq START="3249" END="3361">So you were in Pittsburgh, and you went a hundred miles
+to the south, or eighty miles south, you&apos;d be in Fairmont</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-105" ROLE="Arg-1">
+          <extent>
+            <charseq START="3252" END="3254">you</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E29-106" ROLE="Arg-2">
+          <extent>
+            <charseq START="3264" END="3273">Pittsburgh</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="fsh_29121-R19-3" p="1.000">
+      <extent>
+			<charseq START="3380" END="3455">Yeah, I did go through -- West Virginia, one time through -- from
+Pittsburgh</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-110" ROLE="Arg-1">
+          <extent>
+            <charseq START="3386" END="3386">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E29-112" ROLE="Arg-2">
+          <extent>
+            <charseq START="3446" END="3455">Pittsburgh</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R21" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="fsh_29121-E1" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E27" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R21-1" p="1.000">
+      <extent>
+			<charseq START="3249" END="3361">So you were in Pittsburgh, and you went a hundred miles
+to the south, or eighty miles south, you&apos;d be in Fairmont</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-108" ROLE="Arg-1">
+          <extent>
+            <charseq START="3342" END="3344">you</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E27-109" ROLE="Arg-2">
+          <extent>
+            <charseq START="3354" END="3361">Fairmont</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R22" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="fsh_29121-E1" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E12" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R22-1" p="1.000">
+      <extent>
+			<charseq START="3380" END="3455">Yeah, I did go through -- West Virginia, one time through -- from
+Pittsburgh</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-110" ROLE="Arg-1">
+          <extent>
+            <charseq START="3386" END="3386">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E12-111" ROLE="Arg-2">
+          <extent>
+            <charseq START="3406" END="3418">West Virginia</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="fsh_29121-R22-2" p="1.000">
+      <extent>
+			<charseq START="3458" END="3580">I had relatives that lived outside of Pittsburgh, once,
+and I went to Florida from there, so I did go through West Virginia</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-119" ROLE="Arg-1">
+          <extent>
+            <charseq START="3551" END="3551">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E12-120" ROLE="Arg-2">
+          <extent>
+            <charseq START="3568" END="3580">West Virginia</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R24" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="fsh_29121-E1" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E32" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R24-1" p="1.000">
+      <extent>
+			<charseq START="3458" END="3580">I had relatives that lived outside of Pittsburgh, once,
+and I went to Florida from there, so I did go through West Virginia</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-117" ROLE="Arg-1">
+          <extent>
+            <charseq START="3518" END="3518">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E32-118" ROLE="Arg-2">
+          <extent>
+            <charseq START="3528" END="3534">Florida</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R26" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="fsh_29121-E49" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E16" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R26-1" p="1.000">
+      <extent>
+			<charseq START="1797" END="1826">an office that you&apos;re in a lot</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E49-50" ROLE="Arg-1">
+          <extent>
+            <charseq START="1812" END="1814">you</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E16-48" ROLE="Arg-2">
+          <extent>
+            <charseq START="1797" END="1826">an office that you're in a lot</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R27" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="fsh_29121-E15" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E33" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R27-1" p="1.000">
+      <extent>
+			<charseq START="3859" END="4002">If you&apos;re in the like a big city or even
+in -- oh well, I don&apos;t know where you live in Connecticut but -- I mean,
+are you like near New Haven or</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E15-160" ROLE="Arg-1">
+          <extent>
+            <charseq START="3862" END="3864">you</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E33-125" ROLE="Arg-2">
+          <extent>
+            <charseq START="3881" END="3890">a big city</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R29" TYPE="PHYS" SUBTYPE="Near">    <relation_argument REFID="fsh_29121-E1" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E34" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R29-1" p="1.000">
+      <extent>
+			<charseq START="3859" END="4002">If you&apos;re in the like a big city or even
+in -- oh well, I don&apos;t know where you live in Connecticut but -- I mean,
+are you like near New Haven or</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-130" ROLE="Arg-1">
+          <extent>
+            <charseq START="3977" END="3979">you</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E34-131" ROLE="Arg-2">
+          <extent>
+            <charseq START="3991" END="3999">New Haven</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R30" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="fsh_29121-E28" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E12" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R30-1" p="1.000">
+      <extent>
+			<charseq START="4241" END="4273">our largest city in West Virginia</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E28-14" ROLE="Arg-1">
+          <extent>
+            <charseq START="4241" END="4273">our largest city in West Virginia</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E12-143" ROLE="Arg-2">
+          <extent>
+            <charseq START="4261" END="4273">West Virginia</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R32" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="fsh_29121-E31" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E42" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R32-1" p="1.000">
+      <extent>
+			<charseq START="3458" END="3580">I had relatives that lived outside of Pittsburgh, once,
+and I went to Florida from there, so I did go through West Virginia</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E31-115" ROLE="Arg-1">
+          <extent>
+            <charseq START="3474" END="3477">that</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E42-166" ROLE="Arg-2">
+          <extent>
+            <charseq START="3485" END="3505">outside of Pittsburgh</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R33" TYPE="PER-SOC" SUBTYPE="Family">    <relation_argument REFID="fsh_29121-E1" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E31" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R33-1" p="1.000">
+      <extent>
+			<charseq START="3458" END="3580">I had relatives that lived outside of Pittsburgh, once,
+and I went to Florida from there, so I did go through West Virginia</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E1-113" ROLE="Arg-1">
+          <extent>
+            <charseq START="3458" END="3458">I</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E31-114" ROLE="Arg-2">
+          <extent>
+            <charseq START="3464" END="3505">relatives that lived outside of Pittsburgh</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R34" TYPE="PHYS" SUBTYPE="Near">    <relation_argument REFID="fsh_29121-E42" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E29" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R34-1" p="1.000">
+      <extent>
+			<charseq START="3485" END="3505">outside of Pittsburgh</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E42-166" ROLE="Arg-1">
+          <extent>
+            <charseq START="3485" END="3505">outside of Pittsburgh</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E29-116" ROLE="Arg-2">
+          <extent>
+            <charseq START="3496" END="3505">Pittsburgh</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R35" TYPE="PHYS" SUBTYPE="Near">    <relation_argument REFID="fsh_29121-E35" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E36" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R35-1" p="1.000">
+      <extent>
+			<charseq START="4072" END="4101">between Waterbury and Hartford</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E35-133" ROLE="Arg-1">
+          <extent>
+            <charseq START="4080" END="4088">Waterbury</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E36-134" ROLE="Arg-2">
+          <extent>
+            <charseq START="4094" END="4101">Hartford</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R36" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="fsh_29121-E41" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E12" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R36-1" p="1.000">
+      <extent>
+			<charseq START="4463" END="4511">one point eight million people in our whole
+state</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E41-142" ROLE="Arg-1">
+          <extent>
+            <charseq START="4463" END="4511">one point eight million people in our whole
+state</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E12-150" ROLE="Arg-2">
+          <extent>
+            <charseq START="4497" END="4511">our whole
+state</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="fsh_29121-R37" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="fsh_29121-E17" ROLE="Arg-1" />
+    <relation_argument REFID="fsh_29121-E16" ROLE="Arg-2" />
+      <relation_mention ID="fsh_29121-R37-1" p="1.000">
+      <extent>
+			<charseq START="1873" END="1976">Uh not me personally, but we uh we
+all meet there and we we have our little sales meetings every morning</charseq>
+      </extent>
+        <relation_mention_argument REFID="fsh_29121-E17-55" ROLE="Arg-1">
+          <extent>
+            <charseq START="1927" END="1928">we</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="fsh_29121-E16-170" ROLE="Arg-2">
+          <extent>
+            <charseq START="1917" END="1921">there</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <event ID="fsh_29121-EV7" TYPE="Contact" SUBTYPE="Meet" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="fsh_29121-E16" ROLE="Place" p="1.0"/>
+    <event_argument REFID="fsh_29121-E17" ROLE="Entity" p="1.0"/>
+    <event_argument REFID="fsh_29121-T4" ROLE="Time-Within" p="1.0"/>
+    <event_mention ID="fsh_29121-EV7-1" p="1.000">
+      <extent>
+			<charseq START="1899" END="1976">we uh we
+all meet there and we we have our little sales meetings every morning</charseq>
+      </extent>
+      <anchor>
+			<charseq START="1955" END="1962">meetings</charseq>
+      </anchor>
+      <event_mention_argument REFID="fsh_29121-E16-170" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1917" END="1921">there</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E17-53" ROLE="Entity" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1899" END="1900">we</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-T4-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1964" END="1976">every morning</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="fsh_29121-EV6" TYPE="Movement" SUBTYPE="Transport" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="fsh_29121-E17" ROLE="Artifact" p="1.0"/>
+    <event_argument REFID="fsh_29121-T7" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="fsh_29121-T6" ROLE="Time-Within" p="1.0"/>
+    <event_mention ID="fsh_29121-EV6-1" p="1.000">
+      <extent>
+			<charseq START="2136" END="2222">we just kind of -- go
+out and do our appointments in the afternoon,  or in the evenings</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2155" END="2156">go</charseq>
+      </anchor>
+      <event_mention_argument REFID="fsh_29121-E17-61" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2136" END="2137">we</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-T7-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2211" END="2222">the evenings</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-T6-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2189" END="2201">the afternoon</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="fsh_29121-EV9" TYPE="Contact" SUBTYPE="Meet" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="fsh_29121-E17" ROLE="Entity" p="1.0"/>
+    <event_argument REFID="fsh_29121-T7" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="fsh_29121-T6" ROLE="Time-Within" p="1.0"/>
+    <event_mention ID="fsh_29121-EV9-1" p="1.000">
+      <extent>
+			<charseq START="2136" END="2222">we just kind of -- go
+out and do our appointments in the afternoon,  or in the evenings</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2173" END="2184">appointments</charseq>
+      </anchor>
+      <event_mention_argument REFID="fsh_29121-E17-61" ROLE="Entity" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2136" END="2137">we</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-T7-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2211" END="2222">the evenings</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-T6-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2189" END="2201">the afternoon</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="fsh_29121-EV8" TYPE="Contact" SUBTYPE="Meet" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="fsh_29121-E17" ROLE="Entity" p="1.0"/>
+    <event_argument REFID="fsh_29121-E18" ROLE="Entity" p="1.0"/>
+    <event_mention ID="fsh_29121-EV8-1" p="1.000">
+      <extent>
+			<charseq START="2235" END="2302">we have to meet with uh -- people that come to ~K Mart or
+Sam&apos;s Club</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2246" END="2249">meet</charseq>
+      </anchor>
+      <event_mention_argument REFID="fsh_29121-E17-64" ROLE="Entity" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2235" END="2236">we</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E18-65" ROLE="Entity" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2262" END="2302">people that come to ~K Mart or
+Sam&apos;s Club</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="fsh_29121-EV5" TYPE="Movement" SUBTYPE="Transport" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="fsh_29121-E18" ROLE="Artifact" p="1.0"/>
+    <event_mention ID="fsh_29121-EV5-1" p="1.000">
+      <extent>
+			<charseq START="2262" END="2302">people that come to ~K Mart or
+Sam&apos;s Club</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2274" END="2277">come</charseq>
+      </anchor>
+      <event_mention_argument REFID="fsh_29121-E18-65" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2262" END="2302">people that come to ~K Mart or
+Sam&apos;s Club</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="fsh_29121-EV2" TYPE="Movement" SUBTYPE="Transport" MODALITY="Other" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="fsh_29121-E1" ROLE="Artifact" p="1.0"/>
+    <event_argument REFID="fsh_29121-E1" ROLE="Agent" p="1.0"/>
+    <event_argument REFID="fsh_29121-E27" ROLE="Destination" p="1.0"/>
+    <event_argument REFID="fsh_29121-E29" ROLE="Origin" p="1.0"/>
+    <event_mention ID="fsh_29121-EV2-1" p="1.000">
+      <extent>
+			<charseq START="3264" END="3361">Pittsburgh, and you went a hundred miles
+to the south, or eighty miles south, you&apos;d be in Fairmont</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3284" END="3287">went</charseq>
+      </anchor>
+      <event_mention_argument REFID="fsh_29121-E1-108" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3342" END="3344">you</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E1-107" ROLE="Agent" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3280" END="3282">you</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E27-109" ROLE="Destination" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3354" END="3361">Fairmont</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E29-106" ROLE="Origin" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3264" END="3273">Pittsburgh</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="fsh_29121-EV1" TYPE="Movement" SUBTYPE="Transport" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="fsh_29121-E12" ROLE="Destination" p="1.0"/>
+    <event_argument REFID="fsh_29121-E29" ROLE="Origin" p="1.0"/>
+    <event_argument REFID="fsh_29121-E1" ROLE="Artifact" p="1.0"/>
+    <event_mention ID="fsh_29121-EV1-1" p="1.000">
+      <extent>
+			<charseq START="3386" END="3455">I did go through -- West Virginia, one time through -- from
+Pittsburgh</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3392" END="3393">go</charseq>
+      </anchor>
+      <event_mention_argument REFID="fsh_29121-E12-111" ROLE="Destination" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3406" END="3418">West Virginia</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E29-112" ROLE="Origin" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3446" END="3455">Pittsburgh</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E1-110" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3386" END="3386">I</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="fsh_29121-EV4" TYPE="Movement" SUBTYPE="Transport" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="fsh_29121-E1" ROLE="Artifact" p="1.0"/>
+    <event_argument REFID="fsh_29121-E32" ROLE="Destination" p="1.0"/>
+    <event_argument REFID="fsh_29121-E42" ROLE="Origin" p="1.0"/>
+    <event_mention ID="fsh_29121-EV4-1" p="1.000">
+      <extent>
+			<charseq START="3518" END="3545">I went to Florida from there</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3520" END="3523">went</charseq>
+      </anchor>
+      <event_mention_argument REFID="fsh_29121-E1-117" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3518" END="3518">I</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E32-118" ROLE="Destination" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3528" END="3534">Florida</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E42-154" ROLE="Origin" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3541" END="3545">there</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="fsh_29121-EV3" TYPE="Movement" SUBTYPE="Transport" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="fsh_29121-E1" ROLE="Artifact" p="1.0"/>
+    <event_argument REFID="fsh_29121-E32" ROLE="Destination" p="1.0"/>
+    <event_argument REFID="fsh_29121-E42" ROLE="Origin" p="1.0"/>
+    <event_mention ID="fsh_29121-EV3-1" p="1.000">
+      <extent>
+			<charseq START="3528" END="3558">Florida from there, so I did go</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3557" END="3558">go</charseq>
+      </anchor>
+      <event_mention_argument REFID="fsh_29121-E1-119" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3551" END="3551">I</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E32-118" ROLE="Destination" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3528" END="3534">Florida</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="fsh_29121-E42-154" ROLE="Origin" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3541" END="3545">there</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+</document>
+</source_file>

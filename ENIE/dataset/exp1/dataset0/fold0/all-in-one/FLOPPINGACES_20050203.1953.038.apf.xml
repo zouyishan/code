@@ -1,0 +1,3055 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="FLOPPINGACES_20050203.1953.038.sgm" SOURCE="weblog" TYPE="text">
+<document DOCID="FLOPPINGACES_20050203.1953.038">
+  <entity ID="FLOPPINGACES_20050203.1953.038-E1" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E1-107">
+      <extent>
+			<charseq START="107" END="110">Curt</charseq>
+      </extent>
+      <head>
+			<charseq START="107" END="110">Curt</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Curt">
+			<charseq START="107" END="110">Curt</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E2" TYPE="PER" SUBTYPE="Individual" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E2-2">
+      <extent>
+			<charseq START="632" END="638">Insider</charseq>
+      </extent>
+      <head>
+			<charseq START="632" END="638">Insider</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E3" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-178">
+      <extent>
+			<charseq START="302" END="315">united nations</charseq>
+      </extent>
+      <head>
+			<charseq START="302" END="315">united nations</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-179">
+      <extent>
+			<charseq START="421" END="423">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="421" END="423">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-182">
+      <extent>
+			<charseq START="482" END="484">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="482" END="484">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-184">
+      <extent>
+			<charseq START="527" END="529">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="527" END="529">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-188">
+      <extent>
+			<charseq START="557" END="559">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="557" END="559">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-164">
+      <extent>
+			<charseq START="618" END="620">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="618" END="620">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-1">
+      <extent>
+			<charseq START="651" END="657">the U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="655" END="657">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-3">
+      <extent>
+			<charseq START="679" END="685">the U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="683" END="685">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-5">
+      <extent>
+			<charseq START="719" END="721">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="719" END="721">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E3-15">
+      <extent>
+			<charseq START="1053" END="1105">one of the finest and most
+important governing bodies</charseq>
+      </extent>
+      <head>
+			<charseq START="1100" END="1105">bodies</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-18">
+      <extent>
+			<charseq START="1126" END="1128">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="1126" END="1128">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-42">
+      <extent>
+			<charseq START="1710" END="1716">the U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="1714" END="1716">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-45">
+      <extent>
+			<charseq START="1766" END="1768">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="1766" END="1768">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-60">
+      <extent>
+			<charseq START="2146" END="2152">the U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="2150" END="2152">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-65">
+      <extent>
+			<charseq START="2237" END="2243">the U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="2241" END="2243">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-79">
+      <extent>
+			<charseq START="2544" END="2546">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="2544" END="2546">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-161">
+      <extent>
+			<charseq START="2868" END="2870">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="2868" END="2870">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-89">
+      <extent>
+			<charseq START="2934" END="2936">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="2934" END="2936">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-101">
+      <extent>
+			<charseq START="3164" END="3166">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="3164" END="3166">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-110">
+      <extent>
+			<charseq START="3353" END="3355">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="3353" END="3355">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-115">
+      <extent>
+			<charseq START="3545" END="3547">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="3545" END="3547">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-162">
+      <extent>
+			<charseq START="4512" END="4528">the United Nation</charseq>
+      </extent>
+      <head>
+			<charseq START="4516" END="4528">United Nation</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-163">
+      <extent>
+			<charseq START="4683" END="4689">the U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="4687" END="4689">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E3-143">
+      <extent>
+			<charseq START="4751" END="4753">its</charseq>
+      </extent>
+      <head>
+			<charseq START="4751" END="4753">its</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E3-150">
+      <extent>
+			<charseq START="4950" END="4952">U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="4950" END="4952">U.N</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="U.N">
+			<charseq START="655" END="657">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="683" END="685">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="719" END="721">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="1126" END="1128">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="1714" END="1716">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="1766" END="1768">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="2150" END="2152">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="2241" END="2243">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="2544" END="2546">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="2934" END="2936">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="3164" END="3166">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="3353" END="3355">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="3545" END="3547">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="4950" END="4952">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="2868" END="2870">U.N</charseq>
+      </name>
+      <name NAME="United Nation">
+			<charseq START="4516" END="4528">United Nation</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="4687" END="4689">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="618" END="620">U.N</charseq>
+      </name>
+      <name NAME="united nations">
+			<charseq START="302" END="315">united nations</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="421" END="423">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="482" END="484">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="527" END="529">U.N</charseq>
+      </name>
+      <name NAME="U.N">
+			<charseq START="557" END="559">U.N</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E4" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E4-9">
+      <extent>
+			<charseq START="838" END="865">Ted Turner&apos;s U.N. Foundation</charseq>
+      </extent>
+      <head>
+			<charseq START="851" END="865">U.N. Foundation</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="U.N. Foundation">
+			<charseq START="851" END="865">U.N. Foundation</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E5" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E5-10">
+      <extent>
+			<charseq START="838" END="847">Ted Turner</charseq>
+      </extent>
+      <head>
+			<charseq START="838" END="847">Ted Turner</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E5-64">
+      <extent>
+			<charseq START="2187" END="2196">Ted Turner</charseq>
+      </extent>
+      <head>
+			<charseq START="2187" END="2196">Ted Turner</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Ted Turner">
+			<charseq START="838" END="847">Ted Turner</charseq>
+      </name>
+      <name NAME="Ted Turner">
+			<charseq START="2187" END="2196">Ted Turner</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E6" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E6-11">
+      <extent>
+			<charseq START="871" END="891">Better
+World Campaign</charseq>
+      </extent>
+      <head>
+			<charseq START="871" END="891">Better
+World Campaign</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Better World Campaign">
+			<charseq START="871" END="891">Better World Campaign</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E7" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E7-14">
+      <extent>
+			<charseq START="969" END="997">the Rockefeller Brothers Fund</charseq>
+      </extent>
+      <head>
+			<charseq START="973" END="997">Rockefeller Brothers Fund</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Rockefeller Brothers Fund">
+			<charseq START="973" END="997">Rockefeller Brothers Fund</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E8" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-17">
+      <extent>
+			<charseq START="1122" END="1135">the U.N. chief</charseq>
+      </extent>
+      <head>
+			<charseq START="1131" END="1135">chief</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-23">
+      <extent>
+			<charseq START="1247" END="1257">Kofi] Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="1247" END="1257">Kofi] Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-24">
+      <extent>
+			<charseq START="1276" END="1292">Secretary
+General</charseq>
+      </extent>
+      <head>
+			<charseq START="1276" END="1284">Secretary</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E8-26">
+      <extent>
+			<charseq START="1308" END="1310">His</charseq>
+      </extent>
+      <head>
+			<charseq START="1308" END="1310">His</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E8-28">
+      <extent>
+			<charseq START="1407" END="1409">him</charseq>
+      </extent>
+      <head>
+			<charseq START="1407" END="1409">him</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-31">
+      <extent>
+			<charseq START="1477" END="1495">a Secretary
+General</charseq>
+      </extent>
+      <head>
+			<charseq START="1479" END="1487">Secretary</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-32">
+      <extent>
+			<charseq START="1497" END="1506">Kofi Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="1497" END="1506">Kofi Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-34">
+      <extent>
+			<charseq START="1545" END="1548">Kofi</charseq>
+      </extent>
+      <head>
+			<charseq START="1545" END="1548">Kofi</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-67">
+      <extent>
+			<charseq START="2313" END="2317">Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="2313" END="2317">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-76">
+      <extent>
+			<charseq START="2534" END="2538">Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="2534" END="2538">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-77">
+      <extent>
+			<charseq START="2544" END="2587">U.N. Undersecretary General for
+peacekeeping</charseq>
+      </extent>
+      <head>
+			<charseq START="2549" END="2562">Undersecretary</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E8-80">
+      <extent>
+			<charseq START="2607" END="2608">he</charseq>
+      </extent>
+      <head>
+			<charseq START="2607" END="2608">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-81">
+      <extent>
+			<charseq START="2617" END="2618">SG</charseq>
+      </extent>
+      <head>
+			<charseq START="2617" END="2618">SG</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-82">
+      <extent>
+			<charseq START="2621" END="2637">Secretary General</charseq>
+      </extent>
+      <head>
+			<charseq START="2621" END="2629">Secretary</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-83">
+      <extent>
+			<charseq START="2641" END="2645">Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="2641" END="2645">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-84">
+      <extent>
+			<charseq START="2729" END="2733">Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="2729" END="2733">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-86">
+      <extent>
+			<charseq START="2856" END="2884">director of U.N. peacekeeping</charseq>
+      </extent>
+      <head>
+			<charseq START="2856" END="2863">director</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-87">
+      <extent>
+			<charseq START="2887" END="2891">Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="2887" END="2891">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-104">
+      <extent>
+			<charseq START="3201" END="3210">Kofi
+Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="3201" END="3210">Kofi
+Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-117">
+      <extent>
+			<charseq START="3693" END="3697">Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="3693" END="3697">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-121">
+      <extent>
+			<charseq START="3978" END="3990">good ole Kofi</charseq>
+      </extent>
+      <head>
+			<charseq START="3987" END="3990">Kofi</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-124">
+      <extent>
+			<charseq START="4100" END="4110">a great guy</charseq>
+      </extent>
+      <head>
+			<charseq START="4108" END="4110">guy</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E8-123">
+      <extent>
+			<charseq START="4112" END="4113">he</charseq>
+      </extent>
+      <head>
+			<charseq START="4112" END="4113">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E8-125">
+      <extent>
+			<charseq START="4124" END="4125">he</charseq>
+      </extent>
+      <head>
+			<charseq START="4124" END="4125">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-127">
+      <extent>
+			<charseq START="4265" END="4272">this guy</charseq>
+      </extent>
+      <head>
+			<charseq START="4270" END="4272">guy</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-128">
+      <extent>
+			<charseq START="4282" END="4290">a good SG</charseq>
+      </extent>
+      <head>
+			<charseq START="4289" END="4290">SG</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E8-129">
+      <extent>
+			<charseq START="4297" END="4299">him</charseq>
+      </extent>
+      <head>
+			<charseq START="4297" END="4299">him</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-134">
+      <extent>
+			<charseq START="4481" END="4482">Mr</charseq>
+      </extent>
+      <head>
+			<charseq START="4481" END="4482">Mr</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-133">
+      <extent>
+			<charseq START="4481" END="4489">Mr. Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="4485" END="4489">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E8-135">
+      <extent>
+			<charseq START="4497" END="4498">he</charseq>
+      </extent>
+      <head>
+			<charseq START="4497" END="4498">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-136">
+      <extent>
+			<charseq START="4504" END="4550">head of the United Nation&apos;s peacekeeping office</charseq>
+      </extent>
+      <head>
+			<charseq START="4504" END="4507">head</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-145">
+      <extent>
+			<charseq START="4818" END="4822">Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="4818" END="4822">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E8-152">
+      <extent>
+			<charseq START="4997" END="4998">Mr</charseq>
+      </extent>
+      <head>
+			<charseq START="4997" END="4998">Mr</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-151">
+      <extent>
+			<charseq START="4997" END="5005">Mr. Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="5001" END="5005">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E8-153">
+      <extent>
+			<charseq START="5022" END="5024">his</charseq>
+      </extent>
+      <head>
+			<charseq START="5022" END="5024">his</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E8-159">
+      <extent>
+			<charseq START="5105" END="5109">Annan</charseq>
+      </extent>
+      <head>
+			<charseq START="5105" END="5109">Annan</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Kofi] Annan">
+			<charseq START="1247" END="1257">Kofi] Annan</charseq>
+      </name>
+      <name NAME="Kofi Annan">
+			<charseq START="1497" END="1506">Kofi Annan</charseq>
+      </name>
+      <name NAME="Kofi">
+			<charseq START="1545" END="1548">Kofi</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="2313" END="2317">Annan</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="2534" END="2538">Annan</charseq>
+      </name>
+      <name NAME="SG">
+			<charseq START="2617" END="2618">SG</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="2641" END="2645">Annan</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="2729" END="2733">Annan</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="2887" END="2891">Annan</charseq>
+      </name>
+      <name NAME="Kofi Annan">
+			<charseq START="3201" END="3210">Kofi Annan</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="3693" END="3697">Annan</charseq>
+      </name>
+      <name NAME="Kofi">
+			<charseq START="3987" END="3990">Kofi</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="4485" END="4489">Annan</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="4818" END="4822">Annan</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="5001" END="5005">Annan</charseq>
+      </name>
+      <name NAME="Annan">
+			<charseq START="5105" END="5109">Annan</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E10" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E10-8">
+      <extent>
+			<charseq START="208" END="253">a supposed straight shooting reporter with NBC</charseq>
+      </extent>
+      <head>
+			<charseq START="237" END="244">reporter</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E10-176">
+      <extent>
+			<charseq START="478" END="494">Its U.N. reporter</charseq>
+      </extent>
+      <head>
+			<charseq START="487" END="494">reporter</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E10-186">
+      <extent>
+			<charseq START="539" END="550">Linda Fasulo</charseq>
+      </extent>
+      <head>
+			<charseq START="539" END="550">Linda Fasulo</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E10-187">
+      <extent>
+			<charseq START="553" END="597">the U.N. correspondent for NBC News and
+MSNBC</charseq>
+      </extent>
+      <head>
+			<charseq START="562" END="574">correspondent</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E10-6">
+      <extent>
+			<charseq START="783" END="815">a supposed straight news
+reporter</charseq>
+      </extent>
+      <head>
+			<charseq START="808" END="815">reporter</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E10-7">
+      <extent>
+			<charseq START="818" END="823">Fasulo</charseq>
+      </extent>
+      <head>
+			<charseq START="818" END="823">Fasulo</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-12">
+      <extent>
+			<charseq START="935" END="937">her</charseq>
+      </extent>
+      <head>
+			<charseq START="935" END="937">her</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-13">
+      <extent>
+			<charseq START="953" END="955">She</charseq>
+      </extent>
+      <head>
+			<charseq START="953" END="955">She</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-16">
+      <extent>
+			<charseq START="1109" END="1111">she</charseq>
+      </extent>
+      <head>
+			<charseq START="1109" END="1111">she</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-19">
+      <extent>
+			<charseq START="1138" END="1140">she</charseq>
+      </extent>
+      <head>
+			<charseq START="1138" END="1140">she</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E10-20">
+      <extent>
+			<charseq START="1154" END="1179">a school girl with a crush</charseq>
+      </extent>
+      <head>
+			<charseq START="1163" END="1166">girl</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-25">
+      <extent>
+			<charseq START="1296" END="1298">she</charseq>
+      </extent>
+      <head>
+			<charseq START="1296" END="1298">she</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-27">
+      <extent>
+			<charseq START="1348" END="1350">she</charseq>
+      </extent>
+      <head>
+			<charseq START="1348" END="1350">she</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E10-39">
+      <extent>
+			<charseq START="1673" END="1687">an NBC reporter</charseq>
+      </extent>
+      <head>
+			<charseq START="1680" END="1687">reporter</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-41">
+      <extent>
+			<charseq START="1690" END="1692">who</charseq>
+      </extent>
+      <head>
+			<charseq START="1690" END="1692">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E10-56">
+      <extent>
+			<charseq START="1996" END="2001">Fasulo</charseq>
+      </extent>
+      <head>
+			<charseq START="1996" END="2001">Fasulo</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E10-66">
+      <extent>
+			<charseq START="2284" END="2289">Fasulo</charseq>
+      </extent>
+      <head>
+			<charseq START="2284" END="2289">Fasulo</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-69">
+      <extent>
+			<charseq START="2358" END="2360">She</charseq>
+      </extent>
+      <head>
+			<charseq START="2358" END="2360">She</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-74">
+      <extent>
+			<charseq START="2470" END="2472">She</charseq>
+      </extent>
+      <head>
+			<charseq START="2470" END="2472">She</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-85">
+      <extent>
+			<charseq START="2793" END="2795">she</charseq>
+      </extent>
+      <head>
+			<charseq START="2793" END="2795">she</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E10-154">
+      <extent>
+			<charseq START="5056" END="5079">a journalist for NBC New</charseq>
+      </extent>
+      <head>
+			<charseq START="5058" END="5067">journalist</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-157">
+      <extent>
+			<charseq START="5093" END="5095">her</charseq>
+      </extent>
+      <head>
+			<charseq START="5093" END="5095">her</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E10-158">
+      <extent>
+			<charseq START="5136" END="5138">she</charseq>
+      </extent>
+      <head>
+			<charseq START="5136" END="5138">she</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Fasulo">
+			<charseq START="818" END="823">Fasulo</charseq>
+      </name>
+      <name NAME="Fasulo">
+			<charseq START="1996" END="2001">Fasulo</charseq>
+      </name>
+      <name NAME="Fasulo">
+			<charseq START="2284" END="2289">Fasulo</charseq>
+      </name>
+      <name NAME="Linda Fasulo">
+			<charseq START="539" END="550">Linda Fasulo</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E11" TYPE="PER" SUBTYPE="Individual" CLASS="GEN">
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E11-21">
+      <extent>
+			<charseq START="1202" END="1292">anyone who can
+mount a serious criticism of [Kofi] Annan&apos;s performance as Secretary
+General</charseq>
+      </extent>
+      <head>
+			<charseq START="1202" END="1207">anyone</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E11-22">
+      <extent>
+			<charseq START="1209" END="1211">who</charseq>
+      </extent>
+      <head>
+			<charseq START="1209" END="1211">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E13" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E13-29">
+      <extent>
+			<charseq START="1412" END="1428">One U.S.
+official</charseq>
+      </extent>
+      <head>
+			<charseq START="1421" END="1428">official</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E14" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E14-30" ROLE="GPE">
+      <extent>
+			<charseq START="1416" END="1418">U.S</charseq>
+      </extent>
+      <head>
+			<charseq START="1416" END="1418">U.S</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E14-70" ROLE="GPE">
+      <extent>
+			<charseq START="2377" END="2383">the U.S</charseq>
+      </extent>
+      <head>
+			<charseq START="2381" END="2383">U.S</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="U.S">
+			<charseq START="1416" END="1418">U.S</charseq>
+      </name>
+      <name NAME="U.S">
+			<charseq START="2381" END="2383">U.S</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E17" TYPE="PER" SUBTYPE="Indeterminate" CLASS="GEN">
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E17-33">
+      <extent>
+			<charseq START="1524" END="1526">you</charseq>
+      </extent>
+      <head>
+			<charseq START="1524" END="1526">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E18" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E18-35">
+      <extent>
+			<charseq START="1598" END="1610">the democrats</charseq>
+      </extent>
+      <head>
+			<charseq START="1602" END="1610">democrats</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E18-36">
+      <extent>
+			<charseq START="1617" END="1621">their</charseq>
+      </extent>
+      <head>
+			<charseq START="1617" END="1621">their</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E18-37">
+      <extent>
+			<charseq START="1623" END="1625">own</charseq>
+      </extent>
+      <head>
+			<charseq START="1623" END="1625">own</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E19" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E19-38">
+      <extent>
+			<charseq START="1627" END="1635">Armstrong</charseq>
+      </extent>
+      <head>
+			<charseq START="1627" END="1635">Armstrong</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Armstrong">
+			<charseq START="1627" END="1635">Armstrong</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E20" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E20-155">
+      <extent>
+			<charseq START="251" END="253">NBC</charseq>
+      </extent>
+      <head>
+			<charseq START="251" END="253">NBC</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E20-180">
+      <extent>
+			<charseq START="446" END="448">NBC</charseq>
+      </extent>
+      <head>
+			<charseq START="446" END="448">NBC</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E20-181">
+      <extent>
+			<charseq START="478" END="480">Its</charseq>
+      </extent>
+      <head>
+			<charseq START="478" END="480">Its</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E20-189">
+      <extent>
+			<charseq START="580" END="582">NBC</charseq>
+      </extent>
+      <head>
+			<charseq START="580" END="582">NBC</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E20-40">
+      <extent>
+			<charseq START="1676" END="1678">NBC</charseq>
+      </extent>
+      <head>
+			<charseq START="1676" END="1678">NBC</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E20-49">
+      <extent>
+			<charseq START="1803" END="1805">NBC</charseq>
+      </extent>
+      <head>
+			<charseq START="1803" END="1805">NBC</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E20-156">
+      <extent>
+			<charseq START="5073" END="5075">NBC</charseq>
+      </extent>
+      <head>
+			<charseq START="5073" END="5075">NBC</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="NBC">
+			<charseq START="1676" END="1678">NBC</charseq>
+      </name>
+      <name NAME="NBC">
+			<charseq START="1803" END="1805">NBC</charseq>
+      </name>
+      <name NAME="NBC">
+			<charseq START="251" END="253">NBC</charseq>
+      </name>
+      <name NAME="NBC">
+			<charseq START="5073" END="5075">NBC</charseq>
+      </name>
+      <name NAME="NBC">
+			<charseq START="446" END="448">NBC</charseq>
+      </name>
+      <name NAME="NBC">
+			<charseq START="580" END="582">NBC</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E21" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E21-43">
+      <extent>
+			<charseq START="1723" END="1743">National
+Public Radio</charseq>
+      </extent>
+      <head>
+			<charseq START="1723" END="1743">National
+Public Radio</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="National Public Radio">
+			<charseq START="1723" END="1743">National Public Radio</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E23" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E23-47">
+      <extent>
+			<charseq START="1794" END="1817">longtime
+NBC News anchor</charseq>
+      </extent>
+      <head>
+			<charseq START="1812" END="1817">anchor</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E23-46">
+      <extent>
+			<charseq START="1794" END="1828">longtime
+NBC News anchor Tom Brokaw</charseq>
+      </extent>
+      <head>
+			<charseq START="1819" END="1828">Tom Brokaw</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E23-50">
+      <extent>
+			<charseq START="1834" END="1836">his</charseq>
+      </extent>
+      <head>
+			<charseq START="1834" END="1836">his</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E23-53">
+      <extent>
+			<charseq START="1893" END="1912">master of ceremonies</charseq>
+      </extent>
+      <head>
+			<charseq START="1893" END="1898">master</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E23-55">
+      <extent>
+			<charseq START="1972" END="1977">Brokaw</charseq>
+      </extent>
+      <head>
+			<charseq START="1972" END="1977">Brokaw</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Tom Brokaw">
+			<charseq START="1819" END="1828">Tom Brokaw</charseq>
+      </name>
+      <name NAME="Brokaw">
+			<charseq START="1972" END="1977">Brokaw</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E26" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E26-51">
+      <extent>
+			<charseq START="1859" END="1869">the UNA-USA</charseq>
+      </extent>
+      <head>
+			<charseq START="1863" END="1869">UNA-USA</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="UNA-USA">
+			<charseq START="1863" END="1869">UNA-USA</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E27" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E27-52">
+      <extent>
+			<charseq START="1875" END="1878">BCUN</charseq>
+      </extent>
+      <head>
+			<charseq START="1875" END="1878">BCUN</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="BCUN">
+			<charseq START="1875" END="1878">BCUN</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E29" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E29-54">
+      <extent>
+			<charseq START="1917" END="1921">their</charseq>
+      </extent>
+      <head>
+			<charseq START="1917" END="1921">their</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E31" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E31-48">
+      <extent>
+			<charseq START="3596" END="3600">lives</charseq>
+      </extent>
+      <head>
+			<charseq START="3596" END="3600">lives</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E32" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E32-57">
+      <extent>
+			<charseq START="2089" END="2105">Barbara Crossette</charseq>
+      </extent>
+      <head>
+			<charseq START="2089" END="2105">Barbara Crossette</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E32-59">
+      <extent>
+			<charseq START="2108" END="2243">former New York Times bureau chief at the U.N. who
+now writes for U.N. Wire, a Ted Turner-funded online news service that
+covers the U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="2137" END="2141">chief</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E32-173">
+      <extent>
+			<charseq START="2155" END="2157">who</charseq>
+      </extent>
+      <head>
+			<charseq START="2155" END="2157">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Barbara Crossette">
+			<charseq START="2089" END="2105">Barbara Crossette</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E34" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E34-68" ROLE="GPE">
+      <extent>
+			<charseq START="2350" END="2355">Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="2350" END="2355">Rwanda</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E34-100" ROLE="GPE">
+      <extent>
+			<charseq START="2502" END="2507">Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="2502" END="2507">Rwanda</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E34-90" ROLE="LOC">
+      <extent>
+			<charseq START="2955" END="2960">Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="2955" END="2960">Rwanda</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E34-102" ROLE="LOC">
+      <extent>
+			<charseq START="3179" END="3184">Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="3179" END="3184">Rwanda</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E34-167" ROLE="GPE">
+      <extent>
+			<charseq START="3261" END="3267">Rwandan</charseq>
+      </extent>
+      <head>
+			<charseq START="3261" END="3267">Rwandan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E34-168" ROLE="GPE">
+      <extent>
+			<charseq START="3847" END="3853">Rwandan</charseq>
+      </extent>
+      <head>
+			<charseq START="3847" END="3853">Rwandan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E34-58" ROLE="ORG">
+      <extent>
+			<charseq START="3843" END="3864">the Rwandan government</charseq>
+      </extent>
+      <head>
+			<charseq START="3855" END="3864">government</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E34-75" ROLE="ORG">
+      <extent>
+			<charseq START="4043" END="4092">the very government that was planning the genocide</charseq>
+      </extent>
+      <head>
+			<charseq START="4052" END="4061">government</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E34-141" ROLE="LOC">
+      <extent>
+			<charseq START="4636" END="4641">Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="4636" END="4641">Rwanda</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E34-160" ROLE="GPE">
+      <extent>
+			<charseq START="4870" END="4876">Rwandan</charseq>
+      </extent>
+      <head>
+			<charseq START="4870" END="4876">Rwandan</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Rwanda">
+			<charseq START="2350" END="2355">Rwanda</charseq>
+      </name>
+      <name NAME="Rwanda">
+			<charseq START="2955" END="2960">Rwanda</charseq>
+      </name>
+      <name NAME="Rwanda">
+			<charseq START="2502" END="2507">Rwanda</charseq>
+      </name>
+      <name NAME="Rwanda">
+			<charseq START="3179" END="3184">Rwanda</charseq>
+      </name>
+      <name NAME="Rwanda">
+			<charseq START="4636" END="4641">Rwanda</charseq>
+      </name>
+      <name NAME="Rwandan">
+			<charseq START="4870" END="4876">Rwandan</charseq>
+      </name>
+      <name NAME="Rwandan">
+			<charseq START="3261" END="3267">Rwandan</charseq>
+      </name>
+      <name NAME="Rwandan">
+			<charseq START="3847" END="3853">Rwandan</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E35" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E35-62">
+      <extent>
+			<charseq START="2174" END="2182">U.N. Wire</charseq>
+      </extent>
+      <head>
+			<charseq START="2174" END="2182">U.N. Wire</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E35-63">
+      <extent>
+			<charseq START="2185" END="2243">a Ted Turner-funded online news service that
+covers the U.N</charseq>
+      </extent>
+      <head>
+			<charseq START="2217" END="2223">service</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="U.N. Wire">
+			<charseq START="2174" END="2182">U.N. Wire</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E39" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E39-71">
+      <extent>
+			<charseq START="2407" END="2426">the Security Council</charseq>
+      </extent>
+      <head>
+			<charseq START="2411" END="2426">Security Council</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Security Council">
+			<charseq START="2411" END="2426">Security Council</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E40" TYPE="GPE" SUBTYPE="Nation" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E40-72" ROLE="GPE">
+      <extent>
+			<charseq START="2390" END="2426">other members of the Security Council</charseq>
+      </extent>
+      <head>
+			<charseq START="2396" END="2402">members</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E41" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E41-73">
+      <extent>
+			<charseq START="2444" END="2456">enough troops</charseq>
+      </extent>
+      <head>
+			<charseq START="2451" END="2456">troops</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E47" TYPE="PER" SUBTYPE="Group" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E47-88">
+      <extent>
+			<charseq START="2934" END="2960">U.N. peacekeepers in Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="2939" END="2950">peacekeepers</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E49" TYPE="WEA" SUBTYPE="Underspecified" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E49-91">
+      <extent>
+			<charseq START="2971" END="2977">weapons</charseq>
+      </extent>
+      <head>
+			<charseq START="2971" END="2977">weapons</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E49-175">
+      <extent>
+			<charseq START="3376" END="3400">the government stockpiles</charseq>
+      </extent>
+      <head>
+			<charseq START="3391" END="3400">stockpiles</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E50" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E50-93">
+      <extent>
+			<charseq START="3001" END="3006">Writer</charseq>
+      </extent>
+      <head>
+			<charseq START="3001" END="3006">Writer</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E50-94">
+      <extent>
+			<charseq START="3012" END="3017">author</charseq>
+      </extent>
+      <head>
+			<charseq START="3012" END="3017">author</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E50-92">
+      <extent>
+			<charseq START="3001" END="3035">Writer and author Philip Gourevitch</charseq>
+      </extent>
+      <head>
+			<charseq START="3019" END="3035">Philip Gourevitch</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E50-147">
+      <extent>
+			<charseq START="4894" END="4895">Mr</charseq>
+      </extent>
+      <head>
+			<charseq START="4894" END="4895">Mr</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E50-146">
+      <extent>
+			<charseq START="4894" END="4907">Mr. Gourevitch</charseq>
+      </extent>
+      <head>
+			<charseq START="4898" END="4907">Gourevitch</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Philip Gourevitch">
+			<charseq START="3019" END="3035">Philip Gourevitch</charseq>
+      </name>
+      <name NAME="Gourevitch">
+			<charseq START="4898" END="4907">Gourevitch</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E53" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E53-97">
+      <extent>
+			<charseq START="3100" END="3112">Major General</charseq>
+      </extent>
+      <head>
+			<charseq START="3106" END="3112">General</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E53-96">
+      <extent>
+			<charseq START="3100" END="3127">Major General Romeo Dallaire</charseq>
+      </extent>
+      <head>
+			<charseq START="3114" END="3127">Romeo Dallaire</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E53-98">
+      <extent>
+			<charseq START="3130" END="3184">the
+commander of several thousand U.N. troops in Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="3134" END="3142">commander</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E53-105">
+      <extent>
+			<charseq START="3229" END="3230">he</charseq>
+      </extent>
+      <head>
+			<charseq START="3229" END="3230">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E53-166">
+      <extent>
+			<charseq START="3526" END="3536">the general</charseq>
+      </extent>
+      <head>
+			<charseq START="3530" END="3536">general</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E53-165">
+      <extent>
+			<charseq START="3603" END="3604">He</charseq>
+      </extent>
+      <head>
+			<charseq START="3603" END="3604">He</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E53-118">
+      <extent>
+			<charseq START="3758" END="3760">him</charseq>
+      </extent>
+      <head>
+			<charseq START="3758" END="3760">him</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E53-119">
+      <extent>
+			<charseq START="3767" END="3768">he</charseq>
+      </extent>
+      <head>
+			<charseq START="3767" END="3768">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Romeo Dallaire">
+			<charseq START="3114" END="3127">Romeo Dallaire</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E56" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E56-99">
+      <extent>
+			<charseq START="3147" END="3184">several thousand U.N. troops in Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="3169" END="3174">troops</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E56-174">
+      <extent>
+			<charseq START="3353" END="3363">U.N. forces</charseq>
+      </extent>
+      <head>
+			<charseq START="3358" END="3363">forces</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E58" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E58-103">
+      <extent>
+			<charseq START="3201" END="3219">Kofi
+Annan&apos;s office</charseq>
+      </extent>
+      <head>
+			<charseq START="3214" END="3219">office</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E58-116">
+      <extent>
+			<charseq START="3693" END="3706">Annan&apos;s office</charseq>
+      </extent>
+      <head>
+			<charseq START="3701" END="3706">office</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E59" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E59-106">
+      <extent>
+			<charseq START="3259" END="3288">a Rwandan
+government informant</charseq>
+      </extent>
+      <head>
+			<charseq START="3280" END="3288">informant</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E59-109">
+      <extent>
+			<charseq START="3323" END="3335">The informant</charseq>
+      </extent>
+      <head>
+			<charseq START="3327" END="3335">informant</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E59-111">
+      <extent>
+			<charseq START="3448" END="3460">the informant</charseq>
+      </extent>
+      <head>
+			<charseq START="3452" END="3460">informant</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E59-112">
+      <extent>
+			<charseq START="3498" END="3504">himself</charseq>
+      </extent>
+      <head>
+			<charseq START="3498" END="3504">himself</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E59-114">
+      <extent>
+			<charseq START="3510" END="3512">his</charseq>
+      </extent>
+      <head>
+			<charseq START="3510" END="3512">his</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E59-120">
+      <extent>
+			<charseq START="3810" END="3833">the confidential witness</charseq>
+      </extent>
+      <head>
+			<charseq START="3827" END="3833">witness</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E59-122">
+      <extent>
+			<charseq START="3997" END="4009">this poor guy</charseq>
+      </extent>
+      <head>
+			<charseq START="4007" END="4009">guy</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E61" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E61-113">
+      <extent>
+			<charseq START="3510" END="3519">his family</charseq>
+      </extent>
+      <head>
+			<charseq START="3514" END="3519">family</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E63" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E63-108">
+      <extent>
+			<charseq START="898" END="902">their</charseq>
+      </extent>
+      <head>
+			<charseq START="898" END="902">their</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E65" TYPE="GPE" SUBTYPE="GPE-Cluster" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E65-126" ROLE="GPE">
+      <extent>
+			<charseq START="4186" END="4194">the Congo</charseq>
+      </extent>
+      <head>
+			<charseq START="4190" END="4194">Congo</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Congo">
+			<charseq START="4190" END="4194">Congo</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E67" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E67-130">
+      <extent>
+			<charseq START="4363" END="4378">Washington Times</charseq>
+      </extent>
+      <head>
+			<charseq START="4363" END="4378">Washington Times</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Washington Times">
+			<charseq START="4363" END="4378">Washington Times</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E68" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E68-131">
+      <extent>
+			<charseq START="4388" END="4398">Nat Hentoff</charseq>
+      </extent>
+      <head>
+			<charseq START="4388" END="4398">Nat Hentoff</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E68-142">
+      <extent>
+			<charseq START="4664" END="4670">Hentoff</charseq>
+      </extent>
+      <head>
+			<charseq START="4664" END="4670">Hentoff</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E68-144">
+      <extent>
+			<charseq START="4808" END="4809">he</charseq>
+      </extent>
+      <head>
+			<charseq START="4808" END="4809">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Nat Hentoff">
+			<charseq START="4388" END="4398">Nat Hentoff</charseq>
+      </name>
+      <name NAME="Hentoff">
+			<charseq START="4664" END="4670">Hentoff</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E69" TYPE="ORG" SUBTYPE="Media" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E69-132">
+      <extent>
+			<charseq START="4411" END="4419">the media</charseq>
+      </extent>
+      <head>
+			<charseq START="4415" END="4419">media</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E72" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E72-137">
+      <extent>
+			<charseq START="4512" END="4550">the United Nation&apos;s peacekeeping office</charseq>
+      </extent>
+      <head>
+			<charseq START="4545" END="4550">office</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E72-138">
+      <extent>
+			<charseq START="4553" END="4555">who</charseq>
+      </extent>
+      <head>
+			<charseq START="4553" END="4555">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E73" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E73-139">
+      <extent>
+			<charseq START="4595" END="4641">800,000 Tutsis and their
+sympathizers in Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="4603" END="4608">Tutsis</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E73-177">
+      <extent>
+			<charseq START="4614" END="4618">their</charseq>
+      </extent>
+      <head>
+			<charseq START="4614" END="4618">their</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E74" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E74-140">
+      <extent>
+			<charseq START="4595" END="4641">800,000 Tutsis and their
+sympathizers in Rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="4620" END="4631">sympathizers</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E76" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E76-148">
+      <extent>
+			<charseq START="4913" END="4918">others</charseq>
+      </extent>
+      <head>
+			<charseq START="4913" END="4918">others</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E77" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E77-149">
+      <extent>
+			<charseq START="4934" END="4960">less than 5,000 U.N. troops</charseq>
+      </extent>
+      <head>
+			<charseq START="4955" END="4960">troops</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E87" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E87-171">
+      <extent>
+			<charseq START="3259" END="3278">a Rwandan
+government</charseq>
+      </extent>
+      <head>
+			<charseq START="3269" END="3278">government</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E87-172">
+      <extent>
+			<charseq START="3380" END="3389">government</charseq>
+      </extent>
+      <head>
+			<charseq START="3380" END="3389">government</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E87-170">
+      <extent>
+			<charseq START="3866" END="3870">which</charseq>
+      </extent>
+      <head>
+			<charseq START="3866" END="3870">which</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20050203.1953.038-E87-169">
+      <extent>
+			<charseq START="4063" END="4066">that</charseq>
+      </extent>
+      <head>
+			<charseq START="4063" END="4066">that</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E92" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E92-78">
+      <extent>
+			<charseq START="2115" END="2128">New York Times</charseq>
+      </extent>
+      <head>
+			<charseq START="2115" END="2128">New York Times</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="New York Times">
+			<charseq START="2115" END="2128">New York Times</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E95" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E95-183">
+      <extent>
+			<charseq START="523" END="536">the U.N. lobby</charseq>
+      </extent>
+      <head>
+			<charseq START="532" END="536">lobby</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E95-4">
+      <extent>
+			<charseq START="711" END="728">the pro-U.N. lobby</charseq>
+      </extent>
+      <head>
+			<charseq START="724" END="728">lobby</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20050203.1953.038-E95-44">
+      <extent>
+			<charseq START="1762" END="1775">the U.N. lobby</charseq>
+      </extent>
+      <head>
+			<charseq START="1771" END="1775">lobby</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20050203.1953.038-E101" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20050203.1953.038-E101-190">
+      <extent>
+			<charseq START="593" END="597">MSNBC</charseq>
+      </extent>
+      <head>
+			<charseq START="593" END="597">MSNBC</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="MSNBC">
+			<charseq START="593" END="597">MSNBC</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <value ID="FLOPPINGACES_20050203.1953.038-V1" TYPE="Job-Title">
+    <value_mention ID="FLOPPINGACES_20050203.1953.038-V1-1">
+      <extent>
+			<charseq START="2115" END="2152">New York Times bureau chief at the U.N</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T1" VAL="PRESENT_REF" ANCHOR_VAL="2005-02-03-T19:53:00" ANCHOR_DIR="AS_OF">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T1-1">
+      <extent>
+			<charseq START="2159" END="2161">now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T2" VAL="PRESENT_REF" ANCHOR_VAL="2005-02-03T19:53:00" ANCHOR_DIR="AS_OF">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T2-1">
+      <extent>
+			<charseq START="3660" END="3662">now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T3">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T3-1">
+      <extent>
+			<charseq START="4198" END="4200">Now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T4" VAL="2005-02-03T19:53:00">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T4-1">
+      <extent>
+			<charseq START="46" END="64">2005-02-03T19:53:00</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T5" VAL="2005-02-03T19:53:00">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T5-1">
+      <extent>
+			<charseq START="114" END="132">2005-02-03T19:53:00</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T6" VAL="2005-02-02">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T6-1">
+      <extent>
+			<charseq START="188" END="196">yesterday</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T7" VAL="2001">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T7-1">
+      <extent>
+			<charseq START="1923" END="1926">2001</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T8" VAL="1994">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T8-1">
+      <extent>
+			<charseq START="2333" END="2336">1994</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T9" VAL="XXXX-XX" ANCHOR_VAL="1994-XX" ANCHOR_DIR="BEFORE">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T9-1">
+      <extent>
+			<charseq START="3066" END="3097">three months before the genocide</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T10" VAL="2005-02-03">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T10-1">
+      <extent>
+			<charseq START="4223" END="4227">today</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T11" VAL="2001-04-30">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T11-1">
+      <extent>
+			<charseq START="4347" END="4360">April 30, 2001</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T12" VAL="1999">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T12-1">
+      <extent>
+			<charseq START="4711" END="4714">1999</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T13" VAL="P5.5Y" ANCHOR_VAL="1994" ANCHOR_DIR="STARTING">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T13-1">
+      <extent>
+			<charseq START="4785" END="4805">five and a half years</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T14" VAL="1994">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T14-1">
+      <extent>
+			<charseq START="4646" END="4649">1994</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20050203.1953.038-T15" VAL="PAST_REF" ANCHOR_VAL="2005-02-03-T19:53:00" ANCHOR_DIR="BEFORE">
+    <timex2_mention ID="FLOPPINGACES_20050203.1953.038-T15-1">
+      <extent>
+			<charseq START="2108" END="2113">former</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R1" TYPE="ORG-AFF" SUBTYPE="Membership">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E40" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E39" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R1-1" p="1.000">
+      <extent>
+			<charseq START="2390" END="2426">other members of the Security Council</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E40-72" ROLE="Arg-1">
+          <extent>
+            <charseq START="2390" END="2426">other members of the Security Council</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E39-71" ROLE="Arg-2">
+          <extent>
+            <charseq START="2407" END="2426">the Security Council</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R2" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E20" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R2-1" p="1.000">
+      <extent>
+			<charseq START="208" END="253">a supposed straight shooting reporter with NBC</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-8" ROLE="Arg-1">
+          <extent>
+            <charseq START="208" END="253">a supposed straight shooting reporter with NBC</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E20-155" ROLE="Arg-2">
+          <extent>
+            <charseq START="251" END="253">NBC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R2-2" p="1.000">
+      <extent>
+			<charseq START="478" END="494">Its U.N. reporter</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-176" ROLE="Arg-1">
+          <extent>
+            <charseq START="478" END="494">Its U.N. reporter</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E20-181" ROLE="Arg-2">
+          <extent>
+            <charseq START="478" END="480">Its</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R2-3" p="1.000">
+      <extent>
+			<charseq START="553" END="597">the U.N. correspondent for NBC News and
+MSNBC</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-187" ROLE="Arg-1">
+          <extent>
+            <charseq START="553" END="597">the U.N. correspondent for NBC News and
+MSNBC</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E20-189" ROLE="Arg-2">
+          <extent>
+            <charseq START="580" END="582">NBC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R2-4" p="1.000">
+      <extent>
+			<charseq START="1673" END="1687">an NBC reporter</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-39" ROLE="Arg-1">
+          <extent>
+            <charseq START="1673" END="1687">an NBC reporter</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E20-40" ROLE="Arg-2">
+          <extent>
+            <charseq START="1676" END="1678">NBC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R2-5" p="1.000">
+      <extent>
+			<charseq START="5056" END="5079">a journalist for NBC New</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-154" ROLE="Arg-1">
+          <extent>
+            <charseq START="5056" END="5079">a journalist for NBC New</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E20-156" ROLE="Arg-2">
+          <extent>
+            <charseq START="5073" END="5075">NBC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R3" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E101" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R3-1" p="1.000">
+      <extent>
+			<charseq START="553" END="597">the U.N. correspondent for NBC News and
+MSNBC</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-187" ROLE="Arg-1">
+          <extent>
+            <charseq START="553" END="597">the U.N. correspondent for NBC News and
+MSNBC</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E101-190" ROLE="Arg-2">
+          <extent>
+            <charseq START="593" END="597">MSNBC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R4" TYPE="PER-SOC" SUBTYPE="Business">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E95" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R4-1" p="1.000">
+      <extent>
+			<charseq START="478" END="536">Its U.N. reporter has been on the payroll of
+the U.N. lobby</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-176" ROLE="Arg-1">
+          <extent>
+            <charseq START="478" END="494">Its U.N. reporter</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E95-183" ROLE="Arg-2">
+          <extent>
+            <charseq START="523" END="536">the U.N. lobby</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R5" TYPE="ORG-AFF" SUBTYPE="Founder">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E5" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E4" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R5-1" p="1.000">
+      <extent>
+			<charseq START="838" END="865">Ted Turner&apos;s U.N. Foundation</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E5-10" ROLE="Arg-1">
+          <extent>
+            <charseq START="838" END="847">Ted Turner</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E4-9" ROLE="Arg-2">
+          <extent>
+            <charseq START="838" END="865">Ted Turner's U.N. Foundation</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R6" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E8" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E3" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R6-1" p="1.000">
+      <extent>
+			<charseq START="1122" END="1135">the U.N. chief</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E8-17" ROLE="Arg-1">
+          <extent>
+            <charseq START="1122" END="1135">the U.N. chief</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-18" ROLE="Arg-2">
+          <extent>
+            <charseq START="1126" END="1128">U.N</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R6-2" p="1.000">
+      <extent>
+			<charseq START="2544" END="2587">U.N. Undersecretary General for
+peacekeeping</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E8-77" ROLE="Arg-1">
+          <extent>
+            <charseq START="2544" END="2587">U.N. Undersecretary General for
+peacekeeping</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-79" ROLE="Arg-2">
+          <extent>
+            <charseq START="2544" END="2546">U.N</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R6-3" p="1.000">
+      <extent>
+			<charseq START="2856" END="2891">director of U.N. peacekeeping, Annan</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E8-86" ROLE="Arg-1">
+          <extent>
+            <charseq START="2856" END="2884">director of U.N. peacekeeping</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-161" ROLE="Arg-2">
+          <extent>
+            <charseq START="2868" END="2870">U.N</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R7" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E13" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E14" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R7-1" p="1.000">
+      <extent>
+			<charseq START="1412" END="1428">One U.S.
+official</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E13-29" ROLE="Arg-1">
+          <extent>
+            <charseq START="1412" END="1428">One U.S.
+official</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E14-30" ROLE="Arg-2">
+          <extent>
+            <charseq START="1416" END="1418">U.S</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R8" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E21" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R8-1" p="1.000">
+      <extent>
+			<charseq START="1690" END="1743">who also reports on the U.N. for National
+Public Radio</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-41" ROLE="Arg-1">
+          <extent>
+            <charseq START="1690" END="1692">who</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E21-43" ROLE="Arg-2">
+          <extent>
+            <charseq START="1723" END="1743">National
+Public Radio</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R9" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E23" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E20" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R9-1" p="1.000">
+      <extent>
+			<charseq START="1794" END="1817">longtime
+NBC News anchor</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E23-47" ROLE="Arg-1">
+          <extent>
+            <charseq START="1794" END="1817">longtime
+NBC News anchor</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E20-49" ROLE="Arg-2">
+          <extent>
+            <charseq START="1803" END="1805">NBC</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R14" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E8" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E72" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R14-1" p="1.000">
+      <extent>
+			<charseq START="4504" END="4550">head of the United Nation&apos;s peacekeeping office</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E8-136" ROLE="Arg-1">
+          <extent>
+            <charseq START="4504" END="4550">head of the United Nation's peacekeeping office</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E72-137" ROLE="Arg-2">
+          <extent>
+            <charseq START="4512" END="4550">the United Nation's peacekeeping office</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R15" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E77" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E3" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R15-1" p="1.000">
+      <extent>
+			<charseq START="4934" END="4960">less than 5,000 U.N. troops</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E77-149" ROLE="Arg-1">
+          <extent>
+            <charseq START="4934" END="4960">less than 5,000 U.N. troops</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-150" ROLE="Arg-2">
+          <extent>
+            <charseq START="4950" END="4952">U.N</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R16" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E32" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E35" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R16-1" p="1.000">
+      <extent>
+			<charseq START="2155" END="2243">who
+now writes for U.N. Wire, a Ted Turner-funded online news service that
+covers the U.N</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E32-173" ROLE="Arg-1">
+          <extent>
+            <charseq START="2155" END="2157">who</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E35-62" ROLE="Arg-2">
+          <extent>
+            <charseq START="2174" END="2182">U.N. Wire</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R18" TYPE="ORG-AFF" SUBTYPE="Investor-Shareholder">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E5" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E35" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R18-1" p="1.000">
+      <extent>
+			<charseq START="2185" END="2243">a Ted Turner-funded online news service that
+covers the U.N</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E5-64" ROLE="Arg-1">
+          <extent>
+            <charseq START="2187" END="2196">Ted Turner</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E35-63" ROLE="Arg-2">
+          <extent>
+            <charseq START="2185" END="2243">a Ted Turner-funded online news service that
+covers the U.N</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R19" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E41" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E14" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R19-1" p="1.000">
+      <extent>
+			<charseq START="2358" END="2467">She tries to
+blame the U.S. and other members of the Security Council for not sending
+enough troops to stop it</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E41-73" ROLE="Arg-1">
+          <extent>
+            <charseq START="2444" END="2456">enough troops</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E14-70" ROLE="Arg-2">
+          <extent>
+            <charseq START="2377" END="2383">the U.S</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R22" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E47" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R22-1" p="1.000">
+      <extent>
+			<charseq START="2934" END="2960">U.N. peacekeepers in Rwanda</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E47-88" ROLE="Arg-1">
+          <extent>
+            <charseq START="2934" END="2960">U.N. peacekeepers in Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-90" ROLE="Arg-2">
+          <extent>
+            <charseq START="2955" END="2960">Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R23" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E47" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E3" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R23-1" p="1.000">
+      <extent>
+			<charseq START="2934" END="2960">U.N. peacekeepers in Rwanda</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E47-88" ROLE="Arg-1">
+          <extent>
+            <charseq START="2934" END="2960">U.N. peacekeepers in Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-89" ROLE="Arg-2">
+          <extent>
+            <charseq START="2934" END="2936">U.N</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R24" TYPE="PER-SOC" SUBTYPE="Business">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E53" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E56" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R24-1" p="1.000">
+      <extent>
+			<charseq START="3130" END="3184">the
+commander of several thousand U.N. troops in Rwanda</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E53-98" ROLE="Arg-1">
+          <extent>
+            <charseq START="3130" END="3184">the
+commander of several thousand U.N. troops in Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E56-99" ROLE="Arg-2">
+          <extent>
+            <charseq START="3147" END="3184">several thousand U.N. troops in Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R25" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E56" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E3" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R25-1" p="1.000">
+      <extent>
+			<charseq START="3147" END="3184">several thousand U.N. troops in Rwanda</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E56-99" ROLE="Arg-1">
+          <extent>
+            <charseq START="3147" END="3184">several thousand U.N. troops in Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-101" ROLE="Arg-2">
+          <extent>
+            <charseq START="3164" END="3166">U.N</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R25-2" p="1.000">
+      <extent>
+			<charseq START="3353" END="3363">U.N. forces</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E56-174" ROLE="Arg-1">
+          <extent>
+            <charseq START="3353" END="3363">U.N. forces</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-110" ROLE="Arg-2">
+          <extent>
+            <charseq START="3353" END="3355">U.N</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R26" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E56" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R26-1" p="1.000">
+      <extent>
+			<charseq START="3147" END="3184">several thousand U.N. troops in Rwanda</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E56-99" ROLE="Arg-1">
+          <extent>
+            <charseq START="3147" END="3184">several thousand U.N. troops in Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-102" ROLE="Arg-2">
+          <extent>
+            <charseq START="3179" END="3184">Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R27" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E59" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E87" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R27-1" p="1.000">
+      <extent>
+			<charseq START="3259" END="3288">a Rwandan
+government informant</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E59-106" ROLE="Arg-1">
+          <extent>
+            <charseq START="3259" END="3288">a Rwandan
+government informant</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E87-171" ROLE="Arg-2">
+          <extent>
+            <charseq START="3259" END="3278">a Rwandan
+government</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R28" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E87" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E49" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R28-1" p="1.000">
+      <extent>
+			<charseq START="3376" END="3400">the government stockpiles</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E87-172" ROLE="Arg-1">
+          <extent>
+            <charseq START="3380" END="3389">government</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E49-175" ROLE="Arg-2">
+          <extent>
+            <charseq START="3376" END="3400">the government stockpiles</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R29" TYPE="PER-SOC" SUBTYPE="Family">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E59" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E61" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R29-1" p="1.000">
+      <extent>
+			<charseq START="3510" END="3519">his family</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E59-114" ROLE="Arg-1">
+          <extent>
+            <charseq START="3510" END="3512">his</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E61-113" ROLE="Arg-2">
+          <extent>
+            <charseq START="3510" END="3519">his family</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R30" TYPE="PART-WHOLE" SUBTYPE="Subsidiary">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E72" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E3" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R30-1" p="1.000">
+      <extent>
+			<charseq START="4512" END="4550">the United Nation&apos;s peacekeeping office</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E72-137" ROLE="Arg-1">
+          <extent>
+            <charseq START="4512" END="4550">the United Nation's peacekeeping office</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-162" ROLE="Arg-2">
+          <extent>
+            <charseq START="4512" END="4528">the United Nation</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R31" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E73" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R31-1" p="1.000">
+      <extent>
+			<charseq START="4481" END="4649">Mr. Annan, when he was head of the United Nation&apos;s peacekeeping office,
+who could have prevented the slaughter of 800,000 Tutsis and their
+sympathizers in Rwanda in 1994</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E73-139" ROLE="Arg-1">
+          <extent>
+            <charseq START="4595" END="4641">800,000 Tutsis and their
+sympathizers in Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-141" ROLE="Arg-2">
+          <extent>
+            <charseq START="4636" END="4641">Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20050203.1953.038-R32" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E74" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20050203.1953.038-R32-1" p="1.000">
+      <extent>
+			<charseq START="4481" END="4649">Mr. Annan, when he was head of the United Nation&apos;s peacekeeping office,
+who could have prevented the slaughter of 800,000 Tutsis and their
+sympathizers in Rwanda in 1994</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E74-140" ROLE="Arg-1">
+          <extent>
+            <charseq START="4595" END="4641">800,000 Tutsis and their
+sympathizers in Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-141" ROLE="Arg-2">
+          <extent>
+            <charseq START="4636" END="4641">Rwanda</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <event ID="FLOPPINGACES_20050203.1953.038-EV1" TYPE="Transaction" SUBTYPE="Transfer-Money" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Recipient" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E95" ROLE="Giver" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Recipient" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E3" ROLE="Giver" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Beneficiary" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E95" ROLE="Giver" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E4" ROLE="Giver" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E6" ROLE="Giver" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Recipient" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E7" ROLE="Giver" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Recipient" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E95" ROLE="Giver" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E10" ROLE="Recipient" p="1.0"/>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV1-1" p="1.000">
+      <extent>
+			<charseq START="208" END="270">a supposed straight shooting reporter with NBC was taking money</charseq>
+      </extent>
+      <anchor>
+			<charseq START="259" END="270">taking money</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-8" ROLE="Recipient" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="208" END="253">a supposed straight shooting reporter with NBC</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV1-2" p="1.000">
+      <extent>
+			<charseq START="478" END="536">Its U.N. reporter has been on the payroll of
+the U.N. lobby</charseq>
+      </extent>
+      <anchor>
+			<charseq START="512" END="518">payroll</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E95-183" ROLE="Giver" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="523" END="536">the U.N. lobby</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-176" ROLE="Recipient" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="478" END="494">Its U.N. reporter</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV1-3" p="1.000">
+      <extent>
+			<charseq START="539" END="691">Linda Fasulo, the U.N. correspondent for NBC News and
+MSNBC, has written a pro-U.N. book, An Insider&apos;s Guide to the U.N. ,
+which reads like the U.N. paid</charseq>
+      </extent>
+      <anchor>
+			<charseq START="688" END="691">paid</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-3" ROLE="Giver" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="679" END="685">the U.N</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-186" ROLE="Beneficiary" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="539" END="550">Linda Fasulo</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV1-4" p="1.000">
+      <extent>
+			<charseq START="711" END="733">the pro-U.N. lobby paid</charseq>
+      </extent>
+      <anchor>
+			<charseq START="730" END="733">paid</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E95-4" ROLE="Giver" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="711" END="728">the pro-U.N. lobby</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV1-5" p="1.000">
+      <extent>
+			<charseq START="783" END="929">a supposed straight news
+reporter, Fasulo acknowledges Ted Turner&apos;s U.N. Foundation and Better
+World Campaign for &quot;their generous financial support</charseq>
+      </extent>
+      <anchor>
+			<charseq START="923" END="929">support</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E4-9" ROLE="Giver" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="838" END="865">Ted Turner&apos;s U.N. Foundation</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E6-11" ROLE="Giver" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="871" END="891">Better
+World Campaign</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-6" ROLE="Recipient" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="783" END="815">a supposed straight news
+reporter</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV1-6" p="1.000">
+      <extent>
+			<charseq START="953" END="1018">She also thanks the Rockefeller Brothers Fund &quot;for helping to
+fund</charseq>
+      </extent>
+      <anchor>
+			<charseq START="1015" END="1018">fund</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E7-14" ROLE="Giver" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="969" END="997">the Rockefeller Brothers Fund</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-13" ROLE="Recipient" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="953" END="955">She</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV1-7" p="1.000">
+      <extent>
+			<charseq START="1673" END="1775">an NBC reporter (who also reports on the U.N. for National
+Public Radio) take money from the U.N. lobby</charseq>
+      </extent>
+      <anchor>
+			<charseq START="1751" END="1755">money</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E95-44" ROLE="Giver" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1762" END="1775">the U.N. lobby</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E10-39" ROLE="Recipient" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1673" END="1687">an NBC reporter</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="FLOPPINGACES_20050203.1953.038-EV2" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Place" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-T8" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Place" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Place" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E49" ROLE="Instrument" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Place" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E49" ROLE="Instrument" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Place" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E73" ROLE="Target" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E74" ROLE="Target" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-T14" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E3" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E34" ROLE="Place" p="1.0"/>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-1" p="1.000">
+      <extent>
+			<charseq START="2333" END="2355">1994 genocide in Rwanda</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2338" END="2345">genocide</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-68" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2350" END="2355">Rwanda</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-T8-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2333" END="2336">1994</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-2" p="1.000">
+      <extent>
+			<charseq START="2502" END="2517">Rwanda
+massacres</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2509" END="2517">massacres</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-100" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2502" END="2507">Rwanda</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-3" p="1.000">
+      <extent>
+			<charseq START="2955" END="2998">Rwanda to seize weapons and prevent
+genocide</charseq>
+      </extent>
+      <anchor>
+			<charseq START="2991" END="2998">genocide</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-90" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2955" END="2960">Rwanda</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E49-91" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="2971" END="2977">weapons</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-4" p="1.000">
+      <extent>
+			<charseq START="3179" END="3302">Rwanda, sent a fax to Kofi
+Annan&apos;s office, saying he had received evidence from a Rwandan
+government informant that genocide</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3295" END="3302">genocide</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-102" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3179" END="3184">Rwanda</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-5" p="1.000">
+      <extent>
+			<charseq START="3376" END="3427">the government stockpiles to be
+used in the genocide</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3420" END="3427">genocide</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E49-175" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3376" END="3400">the government stockpiles</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-6" p="1.000">
+      <extent>
+			<charseq START="3843" END="3896">the Rwandan government which was planning the genocide</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3889" END="3896">genocide</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-58" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3843" END="3864">the Rwandan government</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-7" p="1.000">
+      <extent>
+			<charseq START="3952" END="3959">genocide</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3952" END="3959">genocide</charseq>
+      </anchor>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-8" p="1.000">
+      <extent>
+			<charseq START="4043" END="4092">the very government that was planning the genocide</charseq>
+      </extent>
+      <anchor>
+			<charseq START="4085" END="4092">genocide</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-75" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="4043" END="4092">the very government that was planning the genocide</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-9" p="1.000">
+      <extent>
+			<charseq START="4582" END="4649">slaughter of 800,000 Tutsis and their
+sympathizers in Rwanda in 1994</charseq>
+      </extent>
+      <anchor>
+			<charseq START="4582" END="4590">slaughter</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-141" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="4636" END="4641">Rwanda</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E73-139" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="4595" END="4641">800,000 Tutsis and their
+sympathizers in Rwanda</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E74-140" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="4595" END="4641">800,000 Tutsis and their
+sympathizers in Rwanda</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-T14-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="4646" END="4649">1994</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-10" p="1.000">
+      <extent>
+			<charseq START="4751" END="4774">its role in
+the killings</charseq>
+      </extent>
+      <anchor>
+			<charseq START="4767" END="4774">killings</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E3-143" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="4751" END="4753">its</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV2-11" p="1.000">
+      <extent>
+			<charseq START="4870" END="4886">Rwandan holocaust</charseq>
+      </extent>
+      <anchor>
+			<charseq START="4878" END="4886">holocaust</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E34-160" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="4870" END="4876">Rwandan</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="FLOPPINGACES_20050203.1953.038-EV3" TYPE="Contact" SUBTYPE="Phone-Write" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E53" ROLE="Entity" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E58" ROLE="Entity" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E53" ROLE="Entity" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20050203.1953.038-E58" ROLE="Entity" p="1.0"/>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV3-1" p="1.000">
+      <extent>
+			<charseq START="3100" END="3219">Major General Romeo Dallaire, the
+commander of several thousand U.N. troops in Rwanda, sent a fax to Kofi
+Annan&apos;s office</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3194" END="3196">fax</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E53-96" ROLE="Entity" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3100" END="3127">Major General Romeo Dallaire</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E58-103" ROLE="Entity" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3201" END="3219">Kofi
+Annan&apos;s office</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="FLOPPINGACES_20050203.1953.038-EV3-2" p="1.000">
+      <extent>
+			<charseq START="3603" END="3706">He asked for that
+approval but the answer came back in a now-infamous &quot;genocide fax&quot; from
+Annan&apos;s office</charseq>
+      </extent>
+      <anchor>
+			<charseq START="3683" END="3685">fax</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E53-165" ROLE="Entity" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3603" END="3604">He</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20050203.1953.038-E58-116" ROLE="Entity" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="3693" END="3706">Annan&apos;s office</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+</document>
+</source_file>

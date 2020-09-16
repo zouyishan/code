@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="CNN_ENG_20030618_150128.5.sgm" SOURCE="broadcast news" TYPE="text">
+<document DOCID="CNN_ENG_20030618_150128.5">
+  <entity ID="CNN_ENG_20030618_150128.5-E1" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_150128.5-E1-2">
+      <extent>
+			<charseq START="67" END="117">the head of the catholic church in phoenix, arizona</charseq>
+      </extent>
+      <head>
+			<charseq START="71" END="74">head</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_150128.5-E1-8">
+      <extent>
+			<charseq START="120" END="125">bishop</charseq>
+      </extent>
+      <head>
+			<charseq START="120" END="125">bishop</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030618_150128.5-E1-7">
+      <extent>
+			<charseq START="120" END="140">bishop thomas
+o&apos;brien</charseq>
+      </extent>
+      <head>
+			<charseq START="127" END="140">thomas
+o&apos;brien</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030618_150128.5-E1-9">
+      <extent>
+			<charseq START="204" END="205">he</charseq>
+      </extent>
+      <head>
+			<charseq START="204" END="205">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030618_150128.5-E1-10">
+      <extent>
+			<charseq START="279" END="285">o&apos;brien</charseq>
+      </extent>
+      <head>
+			<charseq START="279" END="285">o&apos;brien</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030618_150128.5-E1-11">
+      <extent>
+			<charseq START="321" END="323">his</charseq>
+      </extent>
+      <head>
+			<charseq START="321" END="323">his</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="thomas o&apos;brien">
+			<charseq START="127" END="140">thomas o&apos;brien</charseq>
+      </name>
+      <name NAME="o&apos;brien">
+			<charseq START="279" END="285">o&apos;brien</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_150128.5-E2" TYPE="ORG" SUBTYPE="Religious" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030618_150128.5-E2-6">
+      <extent>
+			<charseq START="83" END="90">catholic</charseq>
+      </extent>
+      <head>
+			<charseq START="83" END="90">catholic</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_150128.5-E2-3">
+      <extent>
+			<charseq START="79" END="117">the catholic church in phoenix, arizona</charseq>
+      </extent>
+      <head>
+			<charseq START="92" END="97">church</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="catholic">
+			<charseq START="83" END="90">catholic</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_150128.5-E3" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030618_150128.5-E3-4" ROLE="LOC">
+      <extent>
+			<charseq START="102" END="117">phoenix, arizona</charseq>
+      </extent>
+      <head>
+			<charseq START="102" END="108">phoenix</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="phoenix">
+			<charseq START="102" END="108">phoenix</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_150128.5-E4" TYPE="GPE" SUBTYPE="State-or-Province" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030618_150128.5-E4-5" ROLE="LOC">
+      <extent>
+			<charseq START="111" END="117">arizona</charseq>
+      </extent>
+      <head>
+			<charseq START="111" END="117">arizona</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="arizona">
+			<charseq START="111" END="117">arizona</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_150128.5-E8" TYPE="PER" SUBTYPE="Group" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_150128.5-E8-12">
+      <extent>
+			<charseq START="370" END="376">priests</charseq>
+      </extent>
+      <head>
+			<charseq START="370" END="376">priests</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <value ID="CNN_ENG_20030618_150128.5-V1" TYPE="Crime">
+    <value_mention ID="CNN_ENG_20030618_150128.5-V1-1">
+      <extent>
+			<charseq START="321" END="376">his handling of sexual
+abuse allegations against priests</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <value ID="CNN_ENG_20030618_150128.5-V2" TYPE="Job-Title">
+    <value_mention ID="CNN_ENG_20030618_150128.5-V2-1">
+      <extent>
+			<charseq START="120" END="125">bishop</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <value ID="CNN_ENG_20030618_150128.5-V3" TYPE="Crime">
+    <value_mention ID="CNN_ENG_20030618_150128.5-V3-1">
+      <extent>
+			<charseq START="194" END="201">a felony</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <timex2 ID="CNN_ENG_20030618_150128.5-T1" VAL="2003-06-18T15:22:21">
+    <timex2_mention ID="CNN_ENG_20030618_150128.5-T1-1">
+      <extent>
+			<charseq START="43" END="61">2003-06-18 15:22:21</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030618_150128.5-T2" VAL="2003-06-18">
+    <timex2_mention ID="CNN_ENG_20030618_150128.5-T2-1">
+      <extent>
+			<charseq START="156" END="201">just one day after being charged with a felony</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030618_150128.5-T3" VAL="2003-06" MOD="START">
+    <timex2_mention ID="CNN_ENG_20030618_150128.5-T3-1">
+      <extent>
+			<charseq START="268" END="277">this
+month</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="CNN_ENG_20030618_150128.5-R1" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="CNN_ENG_20030618_150128.5-E3" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030618_150128.5-E4" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030618_150128.5-R1-1" p="1.000">
+      <extent>
+			<charseq START="102" END="117">phoenix, arizona</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030618_150128.5-E3-4" ROLE="Arg-1">
+          <extent>
+            <charseq START="102" END="117">phoenix, arizona</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030618_150128.5-E4-5" ROLE="Arg-2">
+          <extent>
+            <charseq START="111" END="117">arizona</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030618_150128.5-R2" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="CNN_ENG_20030618_150128.5-E1" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030618_150128.5-E2" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030618_150128.5-R2-1" p="1.000">
+      <extent>
+			<charseq START="67" END="117">the head of the catholic church in phoenix, arizona</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030618_150128.5-E1-2" ROLE="Arg-1">
+          <extent>
+            <charseq START="67" END="117">the head of the catholic church in phoenix, arizona</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030618_150128.5-E2-3" ROLE="Arg-2">
+          <extent>
+            <charseq START="79" END="117">the catholic church in phoenix, arizona</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030618_150128.5-R3" TYPE="GEN-AFF" SUBTYPE="Org-Location">    <relation_argument REFID="CNN_ENG_20030618_150128.5-E2" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030618_150128.5-E3" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030618_150128.5-R3-1" p="1.000">
+      <extent>
+			<charseq START="79" END="117">the catholic church in phoenix, arizona</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030618_150128.5-E2-3" ROLE="Arg-1">
+          <extent>
+            <charseq START="79" END="117">the catholic church in phoenix, arizona</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030618_150128.5-E3-4" ROLE="Arg-2">
+          <extent>
+            <charseq START="102" END="117">phoenix, arizona</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+</document>
+</source_file>

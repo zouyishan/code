@@ -1,0 +1,599 @@
+AFP_ENG_20030304.0250:Attack|2:3,2	Die|3:2,1,1	Injure|2:4,1	Transport|1:1	
+AFP_ENG_20030305.0918:Arrest-Jail|1:1	Attack|17:2,18,1,1,2,1,1,1,1,1,1,2,2,1,1,1,1	Die|11:1,2,3,1,1,1,1,1,1,1,2	Injure|3:1,1,1	Meet|2:1,1	Start-Position|1:1	Transport|3:1,1,1	
+AFP_ENG_20030311.0491:Charge-Indict|1:1	Convict|1:1	Sentence|1:1	Sue|2:1,2	Transfer-Money|3:1,5,1	
+AFP_ENG_20030314.0238:Attack|5:1,1,1,1,1	Meet|6:1,1,1,1,1,1	Transport|3:1,1,1	
+AFP_ENG_20030319.0879:End-Position|3:1,1,1	Start-Position|2:1,1	Transfer-Ownership|2:1,1	
+AFP_ENG_20030320.0722:Attack|7:1,20,3,1,1,1,1	Demonstrate|7:2,2,1,1,1,1,1	Die|1:1	Injure|2:1,1	
+AFP_ENG_20030323.0020:Arrest-Jail|3:2,1,1	Attack|10:1,1,15,1,1,1,1,1,1,2	Demonstrate|14:5,2,1,1,1,1,1,1,1,1,1,1,1,1	Die|1:1	Transport|3:1,1,1	
+AFP_ENG_20030327.0022:Appeal|5:1,1,1,1,1	Attack|1:1	Convict|4:1,1,1,1	Die|5:1,2,3,1,1	Execute|4:1,1,1,1	Sentence|2:1,1	
+AFP_ENG_20030327.0224:Attack|4:7,1,1,1	End-Position|1:1	Meet|2:1,1	Transport|6:1,1,1,1,1,1	
+AFP_ENG_20030330.0211:Attack|1:5	Demonstrate|2:2,1	
+AFP_ENG_20030401.0476:End-Position|4:1,2,1,1	Nominate|1:1	Start-Position|2:1,1	
+AFP_ENG_20030413.0098:Attack|1:8	Meet|1:3	Transfer-Money|1:1	Transport|1:1	
+AFP_ENG_20030415.0734:Attack|1:1	Marry|1:1	Meet|1:1	Start-Org|1:1	
+AFP_ENG_20030417.0004:Arrest-Jail|1:1	Attack|2:2,1	Die|3:1,1,1	Phone-Write|1:1	Transport|1:1	
+AFP_ENG_20030417.0307:Attack|2:11,1	Elect|1:2	Meet|3:1,2,1	Phone-Write|1:1	Transfer-Money|1:1	
+AFP_ENG_20030417.0764:Appeal|2:1,1	Arrest-Jail|1:1	Charge-Indict|2:1,1	Convict|1:1	Demonstrate|1:1	End-Position|1:1	Release-Parole|1:1	Sentence|2:2,2	Trial-Hearing|1:1	
+AFP_ENG_20030418.0556:Divorce|2:2,1	Marry|1:1	Sue|1:1	Transfer-Money|1:1	
+AFP_ENG_20030425.0408:Attack|1:1	Meet|1:1	Transfer-Ownership|1:1	Transport|2:1,1	
+AFP_ENG_20030427.0118:Acquit|1:1	Charge-Indict|2:1,1	Convict|2:2,1	Demonstrate|1:2	Die|1:2	Execute|2:1,1	Fine|1:1	Sentence|2:1,1	
+AFP_ENG_20030428.0720:Meet|3:1,3,1	
+AFP_ENG_20030429.0007:Elect|2:2,1	End-Org|1:2	Start-Org|2:1,2	Start-Position|1:1	
+AFP_ENG_20030430.0075:Start-Org|2:1,3	Transfer-Money|1:1	Transfer-Ownership|2:1,1	Transport|1:1	
+AFP_ENG_20030502.0614:End-Org|1:1	Meet|1:1	Transfer-Ownership|3:1,4,1	
+AFP_ENG_20030504.0248:Elect|1:2	End-Position|1:1	Start-Org|1:2	Start-Position|1:2	
+AFP_ENG_20030508.0118:Start-Org|1:1	Transfer-Ownership|1:5	
+AFP_ENG_20030508.0357:Appeal|3:1,2,1	Convict|2:1,1	End-Position|1:1	Marry|1:2	Sentence|3:1,1,2	Transport|1:2	Trial-Hearing|1:1	
+AFP_ENG_20030509.0345:Start-Org|3:1,1,2	Sue|1:1	
+AFP_ENG_20030514.0706:Meet|2:4,1	Start-Position|2:1,1	Transport|1:1	
+AFP_ENG_20030519.0049:Charge-Indict|1:1	Fine|2:2,1	Transfer-Money|2:1,2	Transfer-Ownership|2:1,1	
+AFP_ENG_20030519.0372:Attack|2:1,2	Demonstrate|1:3	Elect|3:2,3,1	End-Org|1:1	Meet|1:1	Transport|1:1	
+AFP_ENG_20030522.0878:Attack|2:1,1	End-Position|1:1	Meet|2:3,1	Start-Position|1:2	Transport|3:2,1,1	
+AFP_ENG_20030527.0616:Attack|1:1	Meet|1:4	Phone-Write|1:3	Transport|1:1	
+AFP_ENG_20030528.0561:Declare-Bankruptcy|2:1,1	Sue|2:1,1	
+AFP_ENG_20030530.0132:Die|1:1	Transport|1:1	
+AFP_ENG_20030601.0262:Attack|3:1,1,1	Meet|5:5,1,1,1,1	Transfer-Money|1:1	Transport|2:1,1	
+AFP_ENG_20030607.0030:Die|1:1	
+AFP_ENG_20030616.0715:Arrest-Jail|2:1,1	Be-Born|2:1,1	Charge-Indict|1:1	Die|3:1,1,3	Transport|2:2,1	
+AFP_ENG_20030617.0846:Be-Born|1:1	Divorce|1:2	Marry|4:1,1,1,1	
+AFP_ENG_20030625.0057:Start-Org|1:1	Transfer-Ownership|2:3,1	
+AFP_ENG_20030630.0271:Attack|2:6,1	Transport|5:1,1,1,1,1	
+AGGRESSIVEVOICEDAILY_20041101.1144:Attack|1:1	Start-Position|1:1	
+AGGRESSIVEVOICEDAILY_20041101.1806:Attack|2:1,1	Die|1:1	Elect|1:1	Injure|1:1	Meet|1:1	Transfer-Ownership|1:1	Transport|1:1	
+AGGRESSIVEVOICEDAILY_20041116.1347:Attack|7:1,1,1,1,1,2,1	Die|5:1,1,1,1,1	Injure|1:1	
+AGGRESSIVEVOICEDAILY_20041201.2313:Charge-Indict|1:1	Convict|1:2	Die|2:7,1	Sentence|1:1	
+AGGRESSIVEVOICEDAILY_20041203.1959:Meet|1:1	
+AGGRESSIVEVOICEDAILY_20041208.2133:Attack|2:1,1	Meet|1:1	Transfer-Ownership|1:1	Transport|1:1	
+AGGRESSIVEVOICEDAILY_20041215.2302:Die|1:1	
+AGGRESSIVEVOICEDAILY_20041218.0146:
+AGGRESSIVEVOICEDAILY_20041218.1004:Arrest-Jail|1:2	Attack|3:1,2,2	Be-Born|2:3,1	Charge-Indict|3:1,1,1	Die|2:1,1	Phone-Write|3:1,2,1	Transport|1:1	
+AGGRESSIVEVOICEDAILY_20041223.1449:Elect|3:1,1,1	End-Position|2:1,1	Transfer-Money|1:1	
+AGGRESSIVEVOICEDAILY_20041226.1712:Die|1:1	End-Position|1:1	
+AGGRESSIVEVOICEDAILY_20050105.1344:
+AGGRESSIVEVOICEDAILY_20050106.1310:Appeal|1:1	Convict|1:2	Die|1:3	Sentence|1:1	Transfer-Money|1:1	Trial-Hearing|3:1,1,1	
+AGGRESSIVEVOICEDAILY_20050107.2012:Be-Born|2:1,1	Die|1:1	End-Position|1:1	Sentence|1:1	
+AGGRESSIVEVOICEDAILY_20050109.1627:
+AGGRESSIVEVOICEDAILY_20050113.1400:Attack|1:1	
+AGGRESSIVEVOICEDAILY_20050114.1922:
+AGGRESSIVEVOICEDAILY_20050116.2149:Transfer-Ownership|1:1	
+AGGRESSIVEVOICEDAILY_20050124.1354:Demonstrate|1:2	
+AGGRESSIVEVOICEDAILY_20050125.0136:
+AGGRESSIVEVOICEDAILY_20050203.1356:Die|2:1,1	Transport|1:1	
+AGGRESSIVEVOICEDAILY_20050205.1954:Sue|1:1	Transfer-Money|1:3	Transport|2:1,1	
+AGGRESSIVEVOICEDAILY_20050208.1142:Be-Born|1:1	Die|1:1	
+AGGRESSIVEVOICEDAILY_20050213.2123:Attack|2:3,1	Injure|2:1,2	Transport|1:2	
+AGGRESSIVEVOICEDAILY_20050224.1207:Attack|3:2,4,1	Die|3:1,3,1	Injure|1:1	Phone-Write|1:1	
+AGGRESSIVEVOICEDAILY_20050224.2252:Acquit|1:1	Attack|1:1	Die|3:1,2,1	Divorce|1:1	
+alt.atheism_20041104.2428:Attack|7:1,1,1,1,1,1,1	Demonstrate|1:1	Die|6:1,1,1,1,1,1	Marry|1:1	
+alt.books.tom-clancy_20050130.1848:Attack|13:1,1,1,2,1,1,1,1,1,1,1,1,1	Die|2:2,1	Elect|1:1	Injure|2:1,1	
+alt.collecting.autographs_20050224.2438:Phone-Write|1:1	Transfer-Money|1:1	
+alt.corel_20041228.0503:Die|1:1	Phone-Write|3:1,2,1	Transport|1:1	
+alt.gossip.celebrities_20041118.2331:Be-Born|1:1	
+alt.gossip.celebrities_20050218.0826:Die|2:6,1	Injure|1:1	
+alt.obituaries_20041121.1339:Attack|2:1,1	Die|5:2,1,4,1,4	Transport|1:1	
+alt.politics.economics_20041206.1835:Phone-Write|2:1,1	
+alt.politics_20050124.0640:
+alt.religion.mormon_20050103.0854:Die|1:1	Marry|9:4,3,2,3,1,1,1,1,1	Transport|1:1	
+alt.support.divorce_20050113.2451:Divorce|3:7,4,1	Marry|8:1,1,2,3,2,1,1,1	Transport|2:1,1	
+alt.sys.pc-clone.dell_20050226.2350:Sue|8:1,9,1,2,1,2,1,6	Transfer-Money|1:1	
+alt.vacation.las-vegas_20050109.0133:Transfer-Money|11:1,1,2,2,1,1,1,1,1,1,1	
+APW_ENG_20030304.0555:Attack|2:3,1	Meet|2:1,1	Transfer-Money|1:1	Transport|1:1	
+APW_ENG_20030306.0191:Attack|1:1	Charge-Indict|2:1,1	End-Position|2:1,1	Extradite|1:1	Sentence|1:1	Start-Position|1:1	Transfer-Ownership|1:1	Trial-Hearing|1:3	
+APW_ENG_20030308.0314:Attack|4:3,1,1,1	Meet|1:2	Transport|1:1	
+APW_ENG_20030310.0719:Transfer-Ownership|1:2	
+APW_ENG_20030311.0775:Arrest-Jail|1:2	Attack|4:1,1,3,1	Demonstrate|1:1	Elect|2:2,1	End-Position|2:1,2	Meet|1:1	Phone-Write|1:1	Transfer-Money|1:1	Transport|4:4,1,1,1	
+APW_ENG_20030318.0689:Attack|8:10,1,1,1,1,1,1,1	Die|1:1	End-Position|1:1	Meet|2:4,1	Transfer-Money|2:1,1	Transport|5:1,1,1,1,1	
+APW_ENG_20030319.0545:End-Position|1:3	Meet|1:1	Start-Org|1:1	Start-Position|2:1,1	Transfer-Money|1:1	Transfer-Ownership|4:1,1,1,2	
+APW_ENG_20030322.0119:Attack|17:2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1	Die|4:1,1,1,1	End-Org|1:1	Injure|1:1	Meet|1:1	Phone-Write|1:1	Start-Org|1:1	Transfer-Ownership|2:1,1	Transport|7:1,1,1,1,1,1,1	
+APW_ENG_20030324.0768:End-Position|1:1	Fine|1:2	Transport|2:1,1	
+APW_ENG_20030325.0786:Divorce|2:3,1	End-Position|3:1,1,1	Marry|2:1,1	Phone-Write|1:1	Start-Position|1:1	Transfer-Money|1:1	
+APW_ENG_20030326.0190:Attack|3:1,2,7	Transfer-Money|1:1	Transport|7:3,1,1,1,1,1,1	
+APW_ENG_20030327.0376:Attack|8:2,1,2,1,1,2,1,1	Transport|10:1,3,1,1,1,1,1,1,1,1	
+APW_ENG_20030331.0410:Appeal|1:4	Attack|2:2,1	Convict|2:1,2	End-Position|2:1,1	Sentence|2:4,1	Start-Position|3:1,1,1	Trial-Hearing|1:1	
+APW_ENG_20030403.0862:Arrest-Jail|1:1	Attack|21:1,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,2,1	Die|10:1,1,1,1,1,1,1,1,1,1	Injure|1:1	Meet|1:1	Start-Org|2:2,1	Transfer-Ownership|2:1,1	Transport|8:1,1,1,1,1,1,1,1	
+APW_ENG_20030404.0439:Transfer-Money|2:2,1	
+APW_ENG_20030406.0191:Attack|3:2,1,1	Meet|5:3,1,1,1,1	Start-Org|1:1	
+APW_ENG_20030407.0030:Attack|19:1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,4,1,1,1	Die|5:1,2,1,1,1	End-Org|2:1,1	Injure|2:2,1	Transfer-Ownership|3:1,1,1	Transport|12:1,2,1,1,1,2,1,1,1,1,1,1	
+APW_ENG_20030408.0090:Meet|1:1	Start-Org|2:1,1	Start-Position|3:1,1,1	
+APW_ENG_20030409.0013:Attack|13:1,3,1,3,1,2,3,1,1,1,1,1,1	Die|7:1,1,1,1,1,1,1	Injure|4:1,1,1,1	Meet|1:1	Start-Org|1:1	Transfer-Ownership|3:2,1,1	Transport|3:1,2,1	
+APW_ENG_20030410.0906:Attack|3:2,1,2	Convict|1:1	Die|1:1	Execute|1:1	Meet|6:2,4,1,1,1,2	Sentence|1:1	Start-Position|1:1	Sue|1:2	Transfer-Money|1:1	Transport|2:1,1	Trial-Hearing|2:1,1	
+APW_ENG_20030411.0304:Appeal|1:2	Charge-Indict|2:2,1	Elect|2:1,1	Trial-Hearing|1:1	
+APW_ENG_20030412.0531:Attack|4:1,5,2,1	Die|2:1,1	Elect|1:1	End-Position|1:1	Meet|1:1	Start-Position|1:1	Transfer-Ownership|5:1,2,1,1,1	Transport|1:1	
+APW_ENG_20030414.0392:
+APW_ENG_20030415.0742:Attack|2:1,1	Demonstrate|2:1,3	Elect|2:1,2	End-Org|1:1	End-Position|1:1	Meet|5:7,2,1,1,1	Start-Org|4:1,1,1,1	Start-Position|2:1,2	Transport|1:2	
+APW_ENG_20030416.0581:Appeal|2:3,2	Convict|1:2	Meet|1:1	Release-Parole|1:4	Sentence|2:1,2	Trial-Hearing|1:1	
+APW_ENG_20030417.0555:Arrest-Jail|2:1,1	Attack|3:2,1,2	Demonstrate|2:1,2	Die|2:1,1	End-Org|1:1	Meet|2:2,1	Start-Position|3:1,1,1	Transport|2:1,1	
+APW_ENG_20030418.0084:Appeal|3:2,2,2	Arrest-Jail|1:1	Charge-Indict|1:1	Convict|4:2,1,1,1	Demonstrate|1:1	End-Position|1:1	Sentence|4:1,1,2,1	
+APW_ENG_20030419.0358:Be-Born|1:6	Die|1:1	Transport|1:3	
+APW_ENG_20030422.0469:Attack|5:1,4,1,1,1	Meet|3:1,1,1	Transport|3:1,1,1	
+APW_ENG_20030422.0485:Attack|1:2	Meet|4:1,1,1,1	Transport|1:1	
+APW_ENG_20030423.0079:Die|2:1,1	Transport|5:1,1,1,1,1	
+APW_ENG_20030424.0532:Attack|7:1,1,1,1,1,2,1	Meet|4:16,1,1,1	Transfer-Money|1:1	Transfer-Ownership|1:1	Transport|2:1,1	
+APW_ENG_20030424.0698:Attack|1:1	Divorce|2:3,1	Marry|6:3,1,1,1,1,2	Transfer-Money|1:1	Transport|1:1	
+APW_ENG_20030502.0470:Attack|1:1	Die|2:7,1	Transport|1:1	
+APW_ENG_20030502.0686:Attack|5:1,1,1,1,1	Meet|4:1,1,1,1	Phone-Write|1:1	Start-Org|1:1	Transfer-Money|1:1	Transport|3:1,1,1	
+APW_ENG_20030508.0772:Arrest-Jail|1:1	Die|1:1	Transport|5:1,1,1,1,1	
+APW_ENG_20030510.0228:Appeal|1:1	Arrest-Jail|1:1	Attack|1:1	Charge-Indict|2:1,1	Convict|2:2,2	Fine|2:3,1	Release-Parole|1:1	Sentence|1:2	Transport|2:1,1	Trial-Hearing|1:1	
+APW_ENG_20030513.0139:Attack|4:2,1,1,1	Injure|1:1	Meet|2:1,1	Transfer-Money|1:1	Transfer-Ownership|1:1	Transport|1:1	
+APW_ENG_20030519.0367:Attack|20:1,5,5,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,2,1	Die|9:1,1,1,1,1,1,1,1,1	Injure|4:2,1,1,1	Meet|7:1,1,1,2,1,2,1	Start-Org|1:1	Transport|2:1,1	
+APW_ENG_20030519.0548:Convict|2:3,1	Elect|4:2,1,1,1	Pardon|1:1	Sentence|2:1,1	
+APW_ENG_20030520.0081:Attack|4:6,1,1,1	Die|3:1,1,1	Injure|2:2,1	Transport|1:1	
+APW_ENG_20030520.0757:Arrest-Jail|1:1	Attack|3:1,2,1	Die|1:1	End-Org|1:1	Injure|2:1,1	Transport|2:1,1	
+APW_ENG_20030527.0232:Attack|20:1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1,2,1,1,3	Demonstrate|1:1	Die|3:2,1,1	Injure|9:1,1,1,1,1,1,1,1,1	Meet|4:1,1,1,1	Transport|5:1,1,1,1,1	
+APW_ENG_20030602.0037:Attack|2:1,1	End-Position|1:1	Meet|5:1,1,1,2,1	Transport|5:1,1,1,3,1	
+APW_ENG_20030603.0303:Acquit|1:2	Appeal|1:1	Attack|1:1	Charge-Indict|3:1,1,1	Die|3:1,1,1	Trial-Hearing|3:1,1,2	
+APW_ENG_20030610.0010:Acquit|1:1	Appeal|4:1,1,1,1	Convict|6:1,1,1,1,1,1	Release-Parole|1:1	Sentence|4:1,1,1,1	Transfer-Money|1:1	Trial-Hearing|1:3	
+APW_ENG_20030610.0554:Die|1:1	Transport|4:3,2,1,1	
+APW_ENG_20030619.0383:Arrest-Jail|1:1	Charge-Indict|2:1,1	Die|1:1	Sentence|1:1	Transport|3:1,1,2	Trial-Hearing|4:1,1,1,1	
+aus.cars_20041206.0903:Arrest-Jail|2:1,1	Charge-Indict|1:1	Convict|1:1	Die|1:1	Transport|2:1,1	
+Austin-Grad-Community_20050212.2454:End-Position|1:1	Marry|1:1	Meet|1:1	Phone-Write|3:1,1,1	Start-Position|1:2	
+BACONSREBELLION_20050123.1639:Elect|2:1,1	End-Position|1:1	Transfer-Money|3:1,1,1	
+BACONSREBELLION_20050125.1108:Elect|1:1	Transfer-Money|8:1,1,3,2,4,1,1,1	
+BACONSREBELLION_20050127.1017:End-Org|1:1	End-Position|1:1	Meet|1:1	Nominate|1:1	
+BACONSREBELLION_20050204.1326:Transfer-Money|1:3	
+BACONSREBELLION_20050205.1919:Attack|1:2	Merge-Org|2:1,1	
+BACONSREBELLION_20050206.1345:End-Position|1:1	
+BACONSREBELLION_20050209.0721:
+BACONSREBELLION_20050210.0728:Transfer-Money|1:1	
+BACONSREBELLION_20050214.0944:Attack|3:1,1,1	Convict|1:1	Die|4:1,1,2,1	Release-Parole|1:1	Sentence|1:1	Trial-Hearing|1:1	
+BACONSREBELLION_20050216.1536:Elect|1:1	Meet|1:1	
+BACONSREBELLION_20050216.1618:
+BACONSREBELLION_20050216.1632:
+BACONSREBELLION_20050217.0744:End-Position|1:1	
+BACONSREBELLION_20050218.0848:End-Position|2:1,1	Nominate|1:1	
+BACONSREBELLION_20050218.1214:Start-Org|1:1	Transport|2:1,1	
+BACONSREBELLION_20050222.0817:
+BACONSREBELLION_20050222.1348:Transfer-Ownership|2:1,1	
+BACONSREBELLION_20050226.1317:Phone-Write|1:1	Start-Position|4:1,1,1,1	Transfer-Money|8:1,1,1,1,1,1,1,1	
+BACONSREBELLION_20050227.1238:
+CNNHL_ENG_20030304_142751.10:Attack|2:1,1	Declare-Bankruptcy|1:1	Die|2:1,1	Injure|1:1	Transport|3:1,1,1	
+CNNHL_ENG_20030312_150218.13:Attack|1:1	Convict|1:1	Die|1:1	Execute|3:1,1,1	
+CNNHL_ENG_20030331_193419.9:Attack|2:3,1	Transport|1:1	
+CNNHL_ENG_20030402_133449.22:Attack|3:1,1,1	Transport|1:1	
+CNNHL_ENG_20030402_193443.5:Attack|1:1	Transport|1:1	
+CNNHL_ENG_20030403_133453.21:Attack|1:1	
+CNNHL_ENG_20030403_193455.30:Attack|2:1,1	Die|1:1	
+CNNHL_ENG_20030407_193547.5:
+CNNHL_ENG_20030410_193626.13:Demonstrate|2:2,1	Transport|1:1	
+CNNHL_ENG_20030411_230640.38:Attack|2:1,1	Charge-Indict|1:1	
+CNNHL_ENG_20030415_193729.5:Convict|1:1	Die|1:1	Sentence|1:1	Transport|1:1	
+CNNHL_ENG_20030416_133739.13:Declare-Bankruptcy|1:1	
+CNNHL_ENG_20030416_133739.9:Transport|3:1,1,1	
+CNNHL_ENG_20030416_193742.26:Attack|1:1	
+CNNHL_ENG_20030416_193742.7:Attack|3:1,1,1	Demonstrate|1:1	Die|2:1,1	Injure|1:1	
+CNNHL_ENG_20030416_230741.33:
+CNNHL_ENG_20030424_123502.25:Die|2:1,3	Transport|1:1	
+CNNHL_ENG_20030425_183518.12:Attack|1:1	Release-Parole|1:1	
+CNNHL_ENG_20030428_123600.14:Transport|3:1,1,1	
+CNNHL_ENG_20030429_220618.15:Meet|1:1	
+CNNHL_ENG_20030430_220712.37:
+CNNHL_ENG_20030505_220734.25:End-Position|1:1	Transfer-Money|1:1	
+CNNHL_ENG_20030513_183907.5:Attack|3:2,1,1	Die|3:1,1,1	Injure|1:1	Transport|3:1,1,1	
+CNNHL_ENG_20030513_220910.11:Attack|2:1,1	Charge-Indict|1:1	Convict|3:1,1,1	Die|1:1	Execute|1:1	Trial-Hearing|3:1,1,1	
+CNNHL_ENG_20030513_220910.32:Sue|3:1,1,1	Transfer-Money|1:1	
+CNNHL_ENG_20030519_124020.23:Attack|1:1	Die|3:1,1,1	Injure|1:1	
+CNNHL_ENG_20030523_221118.14:Meet|2:1,1	
+CNNHL_ENG_20030526_221156.39:Arrest-Jail|1:1	Attack|4:1,1,1,1	Execute|1:1	Phone-Write|1:1	Transport|1:1	
+CNNHL_ENG_20030603_230307.3:Attack|2:1,1	
+CNNHL_ENG_20030604_230238.5:Charge-Indict|2:5,1	Convict|1:1	End-Position|1:3	Fine|1:1	Sentence|1:1	
+CNNHL_ENG_20030609_133335.37:End-Org|1:3	Start-Org|1:1	Start-Position|1:1	Transfer-Ownership|2:1,1	
+CNNHL_ENG_20030610_133347.6:Arrest-Jail|1:1	Charge-Indict|1:1	Fine|2:1,1	Release-Parole|1:1	Sentence|1:1	
+CNNHL_ENG_20030610_230438.14:Arrest-Jail|2:1,1	Charge-Indict|1:1	
+CNNHL_ENG_20030611_133445.24:Charge-Indict|2:1,1	
+CNNHL_ENG_20030616_230155.28:Arrest-Jail|2:1,1	Convict|2:1,1	Pardon|1:1	Release-Parole|1:1	Sentence|1:1	Trial-Hearing|2:1,2	
+CNNHL_ENG_20030616_230155.7:Attack|1:1	Demonstrate|1:2	
+CNNHL_ENG_20030618_230303.36:Meet|1:1	
+CNNHL_ENG_20030618_230303.6:Arrest-Jail|2:1,1	Attack|1:1	Injure|1:1	
+CNNHL_ENG_20030624_133331.33:Charge-Indict|1:1	Die|3:2,1,1	Injure|1:2	Phone-Write|1:2	Transport|4:3,1,1,1	
+CNNHL_ENG_20030624_230338.34:Attack|1:2	Charge-Indict|1:2	Die|1:1	Injure|1:1	Phone-Write|1:1	Transport|4:1,1,1,1	
+CNNHL_ENG_20030625_193346.7:Attack|1:1	Phone-Write|1:1	
+CNNHL_ENG_20030625_230351.4:Attack|1:1	Phone-Write|1:3	Transport|1:1	
+CNN_CF_20030303.1900.00:Attack|1:1	Elect|2:1,1	End-Position|1:1	Nominate|2:1,1	Start-Position|2:1,1	Transport|1:2	
+CNN_CF_20030303.1900.02:Attack|9:1,5,1,1,1,2,1,1,1	Die|3:1,1,1	End-Position|3:1,1,1	Meet|1:1	Transport|6:1,1,1,1,1,1	
+CNN_CF_20030303.1900.05:Attack|2:2,1	Elect|1:1	End-Position|3:1,1,1	Marry|1:1	Meet|1:1	Transport|1:1	
+CNN_CF_20030303.1900.06-1:Attack|1:1	Phone-Write|1:1	Sue|1:1	Transfer-Money|2:1,1	
+CNN_CF_20030303.1900.06-2:Attack|3:3,1,2	Demonstrate|1:1	
+CNN_CF_20030304.1900.01:Die|2:1,4	End-Org|1:1	End-Position|1:1	Fine|6:1,1,1,1,1,1	Injure|3:1,1,1	Start-Org|1:1	Start-Position|1:1	Sue|4:1,2,1,1	Transfer-Money|3:1,1,1	Transport|2:1,1	Trial-Hearing|3:1,1,1	
+CNN_CF_20030304.1900.02:Elect|1:1	End-Org|1:1	End-Position|4:1,1,1,1	Injure|2:1,1	Sue|4:1,1,1,1	Transfer-Money|8:1,2,1,1,1,1,1,1	
+CNN_CF_20030304.1900.04:Attack|11:2,1,1,1,1,1,1,1,1,1,1	Demonstrate|2:1,1	Die|4:1,1,1,1	Injure|1:1	Start-Position|4:1,1,1,1	
+CNN_CF_20030304.1900.06-2:Arrest-Jail|1:5	Attack|2:1,1	
+CNN_CF_20030305.1900.00-1:Attack|6:4,1,1,3,1,1	
+CNN_CF_20030305.1900.00-2:Attack|1:1	End-Position|4:2,2,1,1	
+CNN_CF_20030305.1900.00-3:Attack|2:1,1	Elect|1:1	End-Position|1:1	
+CNN_CF_20030305.1900.02:Arrest-Jail|3:1,1,1	Attack|7:1,1,5,1,1,1,1	Die|2:1,1	End-Position|1:1	Meet|1:1	Transfer-Ownership|1:1	
+CNN_CF_20030305.1900.06-1:Attack|4:1,1,1,7	Phone-Write|3:1,1,1	
+CNN_CF_20030305.1900.06-2:Attack|2:1,1	Die|1:1	Meet|1:1	
+CNN_ENG_20030304_173120.16:Appeal|2:1,1	
+CNN_ENG_20030305_170125.1:Attack|2:5,2	Meet|1:1	
+CNN_ENG_20030306_070606.18:Appeal|1:1	Arrest-Jail|1:1	Attack|1:2	Convict|1:1	Die|1:4	Injure|1:1	Phone-Write|1:1	Sentence|3:1,1,1	
+CNN_ENG_20030306_083604.6:Attack|1:1	Demonstrate|2:1,1	
+CNN_ENG_20030312_083725.3:Attack|3:1,1,1	Die|3:1,1,1	Meet|1:1	Transport|1:1	
+CNN_ENG_20030312_223733.14:Attack|1:1	Meet|1:1	Transport|1:1	
+CNN_ENG_20030313_083739.0:
+CNN_ENG_20030318_140851.8:Attack|1:1	Transport|2:1,1	
+CNN_ENG_20030320_153434.7:Attack|6:1,1,1,4,1,2	Phone-Write|1:1	
+CNN_ENG_20030325_150531.10:Attack|6:1,1,1,1,1,1	End-Position|1:1	Transfer-Ownership|1:1	Transport|1:1	
+CNN_ENG_20030325_220534.6:Attack|3:1,3,1	Transport|1:3	
+CNN_ENG_20030327_163556.20:Attack|2:6,2	
+CNN_ENG_20030328_150609.10:Attack|2:1,1	Transport|9:1,1,1,1,1,1,1,1,1	
+CNN_ENG_20030329_170349.7:Attack|4:1,1,1,1	Die|1:1	
+CNN_ENG_20030331_123648.4:Attack|6:1,1,1,1,1,1	Declare-Bankruptcy|1:1	
+CNN_ENG_20030331_193655.14:Attack|1:2	End-Position|3:2,1,1	Start-Position|1:1	Transport|1:5	
+CNN_ENG_20030401_073033.14:Attack|4:1,1,1,1	
+CNN_ENG_20030401_233449.5:Arrest-Jail|1:1	Transport|2:1,1	
+CNN_ENG_20030402_190500.11:Attack|2:1,1	Die|1:1	Phone-Write|1:1	Transport|3:1,1,1	
+CNN_ENG_20030403_060032.0:Attack|2:1,1	Phone-Write|1:2	Transport|2:1,1	
+CNN_ENG_20030403_080032.9:Attack|2:2,1	Be-Born|1:2	Die|1:1	Injure|1:1	Transport|1:1	
+CNN_ENG_20030403_090032.1:Marry|1:1	Transport|1:1	
+CNN_ENG_20030403_180511.16:Attack|9:1,2,1,1,1,2,1,1,1	Transfer-Ownership|2:1,2	Transport|2:1,1	
+CNN_ENG_20030403_183513.1:Attack|6:1,1,1,1,1,1	Transport|2:1,1	
+CNN_ENG_20030404_073033.4:
+CNN_ENG_20030404_163526.10:Attack|2:2,1	Transfer-Ownership|1:1	
+CNN_ENG_20030407_080037.12:Attack|1:1	Die|2:1,1	Injure|1:1	
+CNN_ENG_20030407_130604.10:Attack|4:1,1,1,1	Meet|1:2	Transport|2:1,1	
+CNN_ENG_20030407_170605.7:Attack|1:1	Transport|1:1	
+CNN_ENG_20030408_083034.11:Attack|1:1	Die|1:1	Meet|2:3,2	Transport|2:1,1	
+CNN_ENG_20030408_123613.0:Attack|2:2,2	Die|1:1	Transport|1:1	
+CNN_ENG_20030408_153616.9:Attack|5:1,2,1,2,1	Die|2:1,1	Meet|1:1	
+CNN_ENG_20030408_200618.14:Attack|5:2,1,1,1,3	Transport|4:1,1,1,1	
+CNN_ENG_20030409_180633.8:Charge-Indict|1:1	Meet|1:1	
+CNN_ENG_20030410_183644.8:Attack|1:1	Die|1:1	End-Position|1:1	
+CNN_ENG_20030411_070039.21:Elect|1:1	
+CNN_ENG_20030411_193701.3:Charge-Indict|2:1,1	
+CNN_ENG_20030411_233701.11:Attack|4:1,1,1,1	Be-Born|1:1	
+CNN_ENG_20030414_130735.7:Attack|2:1,1	Meet|2:1,1	Phone-Write|2:1,1	Transport|3:1,1,1	
+CNN_ENG_20030415_103039.0:Attack|1:1	
+CNN_ENG_20030415_173752.0:Attack|2:1,1	Charge-Indict|1:2	Die|2:1,1	Transfer-Ownership|1:1	
+CNN_ENG_20030415_180754.5:Arrest-Jail|1:1	Attack|1:1	Die|1:1	
+CNN_ENG_20030415_183752.14:Attack|2:1,1	Be-Born|1:1	Die|1:2	Injure|1:1	
+CNN_ENG_20030416_100042.7:Attack|1:1	Declare-Bankruptcy|1:2	End-Position|1:1	
+CNN_ENG_20030416_160804.4:Attack|2:1,1	Convict|1:1	
+CNN_ENG_20030416_180808.15:Attack|2:1,1	
+CNN_ENG_20030416_190806.4:Die|1:1	Sentence|1:2	
+CNN_ENG_20030417_063039.0:Attack|2:1,2	Die|1:1	Transport|1:1	
+CNN_ENG_20030417_073039.2:
+CNN_ENG_20030418_063040.1:Arrest-Jail|1:1	Attack|2:1,2	Transport|1:1	
+CNN_ENG_20030418_083040.11:Attack|1:1	Release-Parole|1:1	
+CNN_ENG_20030418_130831.5:Arrest-Jail|1:1	Attack|1:1	Demonstrate|1:1	Die|1:1	Injure|1:1	Transport|1:1	
+CNN_ENG_20030418_163834.14:Attack|1:1	
+CNN_ENG_20030421_090007.11:Arrest-Jail|1:1	Attack|1:1	Transport|1:1	
+CNN_ENG_20030421_120508.13:End-Org|1:1	End-Position|1:1	
+CNN_ENG_20030421_120508.17:Declare-Bankruptcy|2:2,1	
+CNN_ENG_20030421_133510.6:Declare-Bankruptcy|2:1,1	
+CNN_ENG_20030422_083005.10:Declare-Bankruptcy|1:1	
+CNN_ENG_20030422_213527.4:Attack|1:1	End-Org|1:1	Transport|7:1,1,1,1,1,1,1	
+CNN_ENG_20030423_180539.2:Transport|1:1	
+CNN_ENG_20030424_070008.15:Die|1:1	End-Org|1:1	End-Position|1:1	Meet|1:1	
+CNN_ENG_20030424_073006.4:Attack|1:1	Transport|1:1	
+CNN_ENG_20030424_113549.11:Meet|1:1	Phone-Write|6:1,3,1,4,1,1	Transport|3:2,1,1	
+CNN_ENG_20030424_173553.8:Charge-Indict|2:2,1	Declare-Bankruptcy|1:1	Meet|1:1	
+CNN_ENG_20030424_183556.7:Declare-Bankruptcy|1:2	End-Position|3:2,1,1	Start-Position|1:1	
+CNN_ENG_20030425_063006.5:End-Position|1:3	
+CNN_ENG_20030425_133605.6:Arrest-Jail|1:1	Attack|3:1,1,1	Meet|1:1	Sentence|1:1	Start-Org|1:1	
+CNN_ENG_20030426_160621.0:Attack|1:1	Be-Born|1:1	Meet|2:1,1	
+CNN_ENG_20030428_130651.4:Die|4:1,1,1,1	
+CNN_ENG_20030428_173654.13:Charge-Indict|3:2,1,1	Declare-Bankruptcy|1:1	
+CNN_ENG_20030428_193655.2:Attack|1:1	Die|1:3	Sue|2:1,2	
+CNN_ENG_20030429_083016.5:End-Position|1:1	
+CNN_ENG_20030429_110706.7:Attack|1:1	Demonstrate|1:1	Die|1:1	Phone-Write|1:1	Transport|1:1	
+CNN_ENG_20030429_143706.14:Attack|1:1	Injure|1:1	Meet|1:1	Transport|2:1,1	
+CNN_ENG_20030429_170710.4:Die|1:1	End-Position|3:2,1,1	Marry|1:1	
+CNN_ENG_20030429_190711.14:Transport|2:1,1	
+CNN_ENG_20030430_063016.14:Transport|1:1	
+CNN_ENG_20030430_093016.0:
+CNN_ENG_20030430_160723.6:Attack|2:1,1	Meet|1:1	
+CNN_ENG_20030501_063017.15:
+CNN_ENG_20030501_160459.0:Attack|1:1	Transport|1:1	
+CNN_ENG_20030502_080020.7:Charge-Indict|3:1,1,1	Die|2:1,1	Phone-Write|1:1	Transport|3:1,1,1	
+CNN_ENG_20030502_093018.6:Attack|2:1,1	Be-Born|1:1	Transport|5:1,1,1,2,1	
+CNN_ENG_20030505_090022.1:Die|4:1,1,1,1	Injure|1:1	Phone-Write|1:1	
+CNN_ENG_20030506_053020.14:Merge-Org|1:1	Transfer-Ownership|1:1	
+CNN_ENG_20030506_160524.18:Attack|11:1,1,1,1,1,1,4,1,1,1,1	Die|6:1,2,1,3,1,1	Transport|1:1	
+CNN_ENG_20030506_163523.22:Attack|1:1	End-Position|1:1	Transfer-Money|1:1	Transport|1:1	
+CNN_ENG_20030507_060023.1:Attack|1:1	
+CNN_ENG_20030507_160538.15:Attack|4:1,1,1,1	Die|1:1	Injure|1:1	Transport|1:1	
+CNN_ENG_20030507_170539.0:Attack|3:1,1,2	Die|1:1	
+CNN_ENG_20030508_170552.18:Attack|5:1,3,1,1,1	Demonstrate|1:1	Die|3:1,1,1	Injure|1:1	Meet|1:2	Transport|2:1,1	
+CNN_ENG_20030508_210555.5:Arrest-Jail|1:1	Die|4:2,1,1,1	Transfer-Ownership|1:1	
+CNN_ENG_20030509_090025.5:Charge-Indict|4:4,1,1,1	Start-Position|1:2	Transfer-Money|1:1	
+CNN_ENG_20030509_123601.13:End-Position|2:1,1	Meet|1:2	Start-Position|1:1	Transfer-Money|1:1	
+CNN_ENG_20030512_170454.13:Arrest-Jail|1:2	Attack|3:1,1,6	Die|2:3,2	Injure|1:1	
+CNN_ENG_20030512_190454.7:Die|1:1	
+CNN_ENG_20030513_080020.2:Attack|2:1,1	Transport|2:3,1	
+CNN_ENG_20030513_113501.6:Attack|2:1,1	Die|1:1	Elect|1:2	
+CNN_ENG_20030513_160506.16:Attack|1:1	Charge-Indict|1:1	Convict|1:1	Die|2:1,1	Execute|1:1	Injure|1:1	Sentence|1:1	Trial-Hearing|1:2	
+CNN_ENG_20030514_130518.5:Arrest-Jail|1:1	Attack|1:1	Die|1:1	Injure|1:1	Sentence|1:1	
+CNN_ENG_20030515_063019.6:Arrest-Jail|1:1	Die|1:1	Trial-Hearing|1:1	
+CNN_ENG_20030515_073019.7:Marry|1:1	
+CNN_ENG_20030515_193533.6:Be-Born|1:1	
+CNN_ENG_20030516_090022.7:Die|1:1	Transport|2:1,1	
+CNN_ENG_20030516_123543.8:End-Position|1:1	Meet|1:1	
+CNN_ENG_20030524_143511.4:Marry|1:2	
+CNN_ENG_20030525_143522.8:Meet|2:1,1	
+CNN_ENG_20030525_160525.13:End-Position|3:5,1,1	Marry|1:1	Start-Position|1:1	Sue|1:1	
+CNN_ENG_20030526_133535.4:
+CNN_ENG_20030526_180540.6:Transport|1:1	
+CNN_ENG_20030526_183538.3:Attack|9:1,2,1,1,1,4,1,3,1	Injure|1:2	
+CNN_ENG_20030527_195948.3:Die|1:1	Transport|1:1	
+CNN_ENG_20030527_215946.12:Arrest-Jail|1:5	Die|2:1,1	Extradite|1:1	Phone-Write|2:1,1	
+CNN_ENG_20030528_082823.9:
+CNN_ENG_20030528_125956.8:Demonstrate|1:1	Meet|1:2	Sue|2:1,1	
+CNN_ENG_20030528_165958.16:Meet|1:1	Transport|1:1	
+CNN_ENG_20030528_172957.18:Arrest-Jail|3:1,1,1	Attack|2:1,1	Charge-Indict|1:1	Die|2:1,2	End-Position|1:1	Release-Parole|5:1,1,2,3,1	Sentence|1:1	
+CNN_ENG_20030528_195959.20:Attack|1:1	
+CNN_ENG_20030529_085826.10:Meet|2:1,1	Transport|1:1	
+CNN_ENG_20030529_130011.6:Die|1:1	Transport|3:1,1,1	
+CNN_ENG_20030530_130025.12:Charge-Indict|1:1	Sue|1:1	Transfer-Money|1:1	
+CNN_ENG_20030602_072826.1:Meet|2:2,1	Transport|2:1,1	
+CNN_ENG_20030602_102826.13:Attack|2:1,1	Charge-Indict|2:1,1	Die|1:1	Trial-Hearing|3:1,1,1	
+CNN_ENG_20030602_105829.2:Be-Born|1:3	Transport|1:4	
+CNN_ENG_20030602_133012.9:Transport|4:1,1,1,1	
+CNN_ENG_20030603_095830.17:Meet|2:1,2	
+CNN_ENG_20030603_133025.7:Die|1:1	
+CNN_ENG_20030604_092828.7:Arrest-Jail|1:1	Die|1:1	Trial-Hearing|2:1,1	
+CNN_ENG_20030604_102828.6:Appeal|1:1	Attack|1:1	Charge-Indict|1:1	Convict|1:1	Sentence|4:1,2,1,1	Trial-Hearing|1:1	
+CNN_ENG_20030605_065831.18:Charge-Indict|4:1,1,1,1	Declare-Bankruptcy|2:1,1	End-Position|3:1,1,1	Phone-Write|1:1	
+CNN_ENG_20030605_085831.13:Transport|1:1	Trial-Hearing|1:3	
+CNN_ENG_20030605_105831.11:
+CNN_ENG_20030605_153000.9:
+CNN_ENG_20030605_193002.8:Appeal|1:1	Fine|1:1	
+CNN_ENG_20030605_223004.4:Arrest-Jail|2:2,1	Attack|5:1,1,1,1,1	Charge-Indict|1:1	End-Position|2:1,1	Trial-Hearing|1:3	
+CNN_ENG_20030607_170312.6:Charge-Indict|3:1,1,3	Declare-Bankruptcy|1:1	End-Position|1:1	Meet|1:1	
+CNN_ENG_20030607_173310.4:
+CNN_ENG_20030610_085833.10:Charge-Indict|1:1	Fine|1:1	Sentence|2:2,1	
+CNN_ENG_20030610_095857.4:Sentence|2:1,1	
+CNN_ENG_20030610_105832.1:Attack|1:3	Die|1:1	
+CNN_ENG_20030610_123040.9:Attack|4:1,1,1,1	Die|3:1,1,2	Fine|1:2	Injure|3:1,1,1	Sentence|1:2	
+CNN_ENG_20030610_130042.17:Attack|8:1,1,1,1,2,1,4,1	Die|1:1	Injure|2:1,1	
+CNN_ENG_20030610_133041.17:Transport|5:1,1,4,1,1	
+CNN_ENG_20030611_102832.3:Declare-Bankruptcy|1:1	Sentence|1:2	
+CNN_ENG_20030611_102832.4:Attack|6:5,1,1,1,1,1	Die|4:1,1,1,2	Phone-Write|2:1,1	
+CNN_ENG_20030611_175950.5:Attack|2:1,1	Die|3:1,1,1	
+CNN_ENG_20030612_072835.2:Attack|2:1,1	Meet|1:1	
+CNN_ENG_20030612_160005.13:Elect|2:1,1	End-Position|2:1,1	
+CNN_ENG_20030612_173004.10:Attack|9:1,1,1,1,1,1,1,1,1	Die|5:2,1,1,3,1	
+CNN_ENG_20030612_173004.2:Attack|1:1	Die|1:1	
+CNN_ENG_20030614_173123.4:Attack|9:1,1,1,1,1,1,1,1,2	Die|6:1,1,1,1,1,1	End-Org|1:1	Meet|2:1,1	Start-Org|2:1,1	Transfer-Money|1:1	
+CNN_ENG_20030616_130059.25:Declare-Bankruptcy|1:1	
+CNN_ENG_20030617_065838.21:Attack|1:1	End-Position|2:2,2	Phone-Write|1:1	
+CNN_ENG_20030617_105836.4:Charge-Indict|2:1,1	Phone-Write|1:1	
+CNN_ENG_20030617_112838.4:
+CNN_ENG_20030617_173115.14:Appeal|1:1	Attack|1:2	Die|1:1	Injure|1:1	Marry|1:3	
+CNN_ENG_20030617_173115.22:Transport|1:1	
+CNN_ENG_20030617_193116.10:Be-Born|1:2	Meet|3:1,1,1	Phone-Write|1:1	Transport|4:1,1,1,3	
+CNN_ENG_20030618_065839.11:Attack|1:1	Die|1:1	
+CNN_ENG_20030618_150128.5:Charge-Indict|1:1	Die|1:1	End-Position|1:1	Trial-Hearing|1:1	
+CNN_ENG_20030618_150128.6:Attack|2:4,1	End-Position|1:1	Meet|1:2	Start-Position|1:1	
+CNN_ENG_20030618_193127.17:Start-Org|1:1	Start-Position|2:1,1	
+CNN_ENG_20030619_115954.10:Arrest-Jail|1:1	Attack|1:1	Convict|1:2	
+CNN_ENG_20030619_115954.4:Attack|2:1,1	Die|2:1,1	Meet|2:1,1	Transport|3:1,1,1	
+CNN_ENG_20030619_125955.10:
+CNN_ENG_20030620_085840.7:Arrest-Jail|1:1	Attack|1:1	Convict|1:1	Sentence|1:1	Transport|1:1	Trial-Hearing|1:1	
+CNN_ENG_20030620_095840.4:Transport|2:1,1	
+CNN_ENG_20030620_170011.14:
+CNN_ENG_20030621_115841.16:End-Org|1:1	Meet|2:2,1	
+CNN_ENG_20030621_160254.25:Attack|1:1	Die|1:1	Divorce|1:1	Start-Position|1:1	
+CNN_ENG_20030622_173306.9:Phone-Write|1:1	Transport|9:1,1,1,1,1,1,3,1,1	
+CNN_ENG_20030624_065843.24:Elect|1:1	Marry|1:1	Meet|1:1	
+CNN_ENG_20030624_082841.12:Attack|8:1,1,1,1,1,1,1,1	Die|1:1	Transfer-Ownership|1:2	Transport|2:1,1	
+CNN_ENG_20030624_140104.22:
+CNN_ENG_20030624_153103.16:Transport|4:1,1,1,1	
+CNN_ENG_20030624_153103.17:Attack|1:2	Die|1:1	Transport|1:1	
+CNN_ENG_20030625_210122.0:Arrest-Jail|1:1	Die|1:1	Trial-Hearing|3:1,1,1	
+CNN_ENG_20030625_220123.3:Appeal|1:1	Attack|3:4,1,1	Be-Born|1:2	Transport|1:1	
+CNN_ENG_20030626_193133.8:End-Position|2:1,1	Sue|1:1	Transfer-Money|4:1,1,1,1	
+CNN_ENG_20030626_203133.11:
+CNN_ENG_20030627_065846.3:Die|1:1	Elect|1:1	
+CNN_ENG_20030627_130145.6:Die|3:1,1,3	End-Org|1:1	End-Position|1:1	
+CNN_ENG_20030630_075848.7:Charge-Indict|1:1	End-Position|1:1	Nominate|1:1	Start-Position|1:1	
+CNN_ENG_20030630_085848.18:Injure|1:1	Transport|1:1	
+CNN_IP_20030328.1600.07:Attack|12:1,1,1,1,1,1,1,2,1,1,1,1	Die|14:1,1,1,1,1,1,1,1,1,1,1,1,1,1	Injure|2:1,1	
+CNN_IP_20030329.1600.00-2:Attack|8:1,1,1,1,1,1,1,1	Meet|1:1	Transfer-Ownership|1:1	Transport|2:1,1	
+CNN_IP_20030329.1600.00-3:Attack|5:1,2,1,1,1	Injure|1:1	Transfer-Ownership|1:1	
+CNN_IP_20030329.1600.00-4:Attack|14:3,1,1,1,1,1,1,1,1,1,1,1,1,1	Die|7:1,1,3,1,1,1,1	Injure|1:1	Meet|2:1,1	Transport|2:1,1	
+CNN_IP_20030329.1600.00-5:Arrest-Jail|2:1,1	Attack|4:1,1,1,1	Injure|2:1,1	Transport|2:1,1	
+CNN_IP_20030329.1600.00-6:Attack|5:1,2,1,1,1	Die|1:1	End-Position|2:1,1	
+CNN_IP_20030329.1600.01-1:Attack|9:1,1,1,1,1,1,1,2,1	Phone-Write|1:1	Transport|2:1,1	
+CNN_IP_20030329.1600.01-3:Attack|6:6,1,1,2,1,1	Demonstrate|7:1,1,1,1,5,1,1	Injure|1:1	Transport|4:1,1,1,1	
+CNN_IP_20030329.1600.02:Attack|4:1,1,1,1	Die|2:1,1	Injure|1:1	Phone-Write|1:1	Transport|3:1,4,1	
+CNN_IP_20030330.1600.05-2:Attack|8:1,1,1,1,1,1,1,1	Die|1:1	Transport|4:1,1,1,1	
+CNN_IP_20030330.1600.06:Attack|6:1,3,6,2,1,1	Die|2:1,1	Injure|1:2	
+CNN_IP_20030402.1600.00-1:Attack|12:1,1,1,1,1,1,1,1,1,1,1,1	Die|1:1	Transport|12:1,2,1,1,1,1,1,1,1,1,1,1	
+CNN_IP_20030402.1600.00-2:Attack|14:1,1,1,1,2,1,2,2,1,1,1,1,1,1	Die|5:1,1,1,1,1	End-Org|1:1	Injure|2:1,1	Transport|6:1,1,1,2,1,1	
+CNN_IP_20030402.1600.00-3:Attack|3:1,1,1	Injure|1:1	Transport|5:2,1,1,1,1	
+CNN_IP_20030402.1600.00-4:Attack|3:1,1,2	End-Position|1:2	Start-Org|1:1	Transport|4:1,1,1,1	
+CNN_IP_20030402.1600.02-1:Attack|10:1,1,1,1,1,3,1,1,1,1	Transport|3:1,3,1	
+CNN_IP_20030402.1600.02-2:Attack|8:2,1,1,1,1,1,1,1	Transfer-Ownership|1:3	Transport|8:1,1,1,1,1,1,1,1	
+CNN_IP_20030403.1600.00-1:Attack|9:1,1,1,1,1,2,1,1,1	Meet|1:1	Transfer-Ownership|1:1	Transport|10:1,1,2,1,1,1,1,1,1,1	
+CNN_IP_20030403.1600.00-2:Injure|5:3,2,2,4,1	Phone-Write|1:1	
+CNN_IP_20030403.1600.00-3:Attack|7:2,1,1,1,1,1,1	Die|5:2,1,1,1,1	Injure|2:1,1	Meet|2:1,1	Transport|5:2,1,1,1,1	
+CNN_IP_20030403.1600.00-4:Arrest-Jail|1:1	Attack|7:6,1,1,1,1,1,1	Die|3:1,1,1	Transport|5:1,1,1,1,1	
+CNN_IP_20030404.1600.00-1:Attack|9:1,1,1,1,1,2,1,1,1	Die|1:1	Transport|3:1,1,2	
+CNN_IP_20030404.1600.00-2:Attack|17:1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1	Die|11:1,1,2,1,1,1,1,1,1,1,2	Transport|4:1,1,1,1	
+CNN_IP_20030405.1600.00-2:Attack|6:1,1,1,1,1,1	Die|2:1,1	Transfer-Ownership|1:1	Transport|13:1,1,1,1,1,1,1,1,1,1,1,1,1	
+CNN_IP_20030405.1600.00-3:Arrest-Jail|1:1	Attack|4:1,1,1,1	End-Org|1:1	Execute|1:1	Transport|2:1,1	
+CNN_IP_20030405.1600.01-1:Attack|5:1,1,1,1,1	Transport|3:1,1,1	
+CNN_IP_20030405.1600.01-2:Attack|5:5,1,1,1,1	Transport|2:1,1	
+CNN_IP_20030405.1600.01-3:Attack|3:1,1,1	Die|1:1	Injure|1:1	
+CNN_IP_20030405.1600.02:Attack|6:1,1,1,1,1,1	Die|1:1	Transport|4:1,1,1,1	
+CNN_IP_20030406.1600.03:Attack|11:1,1,1,1,1,1,1,1,1,1,1	Die|2:1,1	Injure|2:1,1	
+CNN_IP_20030407.1600.05:Attack|6:2,1,1,1,1,1	Marry|1:1	Phone-Write|6:1,1,1,1,1,1	Transport|6:1,1,1,1,1,1	
+CNN_IP_20030408.1600.03:Attack|4:1,1,1,1	Die|5:2,1,2,1,1	Execute|3:1,1,1	Injure|3:4,1,1	Meet|1:3	Sentence|1:1	Transport|5:1,1,1,1,1	Trial-Hearing|1:2	
+CNN_IP_20030408.1600.04:Attack|16:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1	Die|15:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1	Meet|1:1	Transport|3:1,1,1	
+CNN_IP_20030409.1600.02:Attack|5:5,3,1,1,1	End-Position|1:2	Meet|1:3	Transport|4:1,1,1,1	
+CNN_IP_20030409.1600.04:Attack|2:2,1	Phone-Write|4:1,1,8,1	Transport|1:1	
+CNN_IP_20030410.1600.03-1:Attack|3:1,1,1	Die|1:1	Transport|1:1	
+CNN_IP_20030410.1600.03-2:Attack|1:2	Die|1:2	Meet|1:1	Transport|1:1	
+CNN_IP_20030412.1600.03:Attack|2:1,1	Elect|1:2	End-Position|1:2	Transport|3:1,2,1	
+CNN_IP_20030412.1600.05:Attack|3:1,1,1	Injure|3:1,1,1	Transport|3:1,1,1	
+CNN_IP_20030414.1600.04:Attack|2:1,1	Be-Born|2:1,1	Phone-Write|6:1,1,1,1,1,1	Transport|2:2,1	
+CNN_IP_20030417.1600.06:Attack|4:1,1,1,1	Die|3:1,2,1	Injure|1:1	
+CNN_IP_20030422.1600.05:End-Position|1:1	Transport|2:1,1	
+CNN_LE_20030504.1200.01:Attack|3:1,2,4	End-Position|1:1	Meet|2:1,1	Phone-Write|2:1,3	Transport|2:1,1	
+CNN_LE_20030504.1200.02-1:Arrest-Jail|1:2	Attack|3:1,1,1	Charge-Indict|1:1	
+CNN_LE_20030504.1200.02-2:Attack|1:1	Elect|1:1	Phone-Write|1:1	Start-Org|1:1	
+FLOPPINGACES_20041113.1528.042:Attack|2:1,1	Die|2:3,1	Elect|1:1	End-Position|1:1	Start-Position|1:1	Transfer-Money|11:1,1,4,1,1,1,1,1,1,1,1	
+FLOPPINGACES_20041114.1240.039:Arrest-Jail|1:1	Transport|2:1,1	
+FLOPPINGACES_20041115.1613.032:Start-Position|1:1	
+FLOPPINGACES_20041116.0833.027:Arrest-Jail|1:1	Attack|4:1,1,1,1	Be-Born|1:1	Demonstrate|1:2	Die|2:1,1	Elect|1:1	End-Position|2:1,1	Release-Parole|2:1,1	Sentence|1:1	Transport|2:1,1	
+FLOPPINGACES_20041117.2002.024:Attack|5:1,1,1,1,1	Die|6:1,1,1,1,1,1	Execute|1:1	Injure|1:1	
+FLOPPINGACES_20041228.0927.010:Attack|3:1,1,1	Die|2:3,1	Injure|1:1	Transport|6:2,1,1,1,1,1	
+FLOPPINGACES_20041230.1844.003:Attack|11:1,1,1,1,1,1,2,1,1,1,1	Injure|2:1,1	Transfer-Money|1:1	Transfer-Ownership|2:1,1	Transport|2:1,1	
+FLOPPINGACES_20050101.2244.048:Attack|1:1	Die|3:2,1,1	Elect|3:1,1,1	
+FLOPPINGACES_20050203.1953.038:Attack|2:9,2	End-Position|1:1	Meet|1:1	Phone-Write|2:1,1	Transfer-Money|2:6,1	Transport|1:1	
+FLOPPINGACES_20050217.1237.014:Attack|3:1,1,1	Die|1:1	End-Position|1:1	Meet|3:1,1,1	Transfer-Money|1:1	
+fsh_29097:Elect|1:1	Nominate|1:1	
+fsh_29105:Elect|4:1,1,2,1	End-Position|1:1	Meet|1:1	Transport|1:1	
+fsh_29121:End-Position|1:1	Meet|3:1,1,1	Transport|6:1,1,1,1,1,1	
+fsh_29138:Start-Position|2:1,3	Transfer-Ownership|1:3	Transport|3:1,2,1	
+fsh_29139:Declare-Bankruptcy|1:2	Merge-Org|2:1,2	Transfer-Money|1:1	
+fsh_29141:
+fsh_29171:Start-Position|3:1,1,2	Transfer-Ownership|1:1	
+fsh_29187:Attack|2:1,4	Elect|1:1	End-Position|3:1,2,1	Start-Position|4:1,2,1,1	
+fsh_29191:Attack|1:1	Elect|1:1	End-Position|4:1,1,1,1	Nominate|2:1,1	Phone-Write|2:1,1	Start-Position|7:1,1,1,1,2,1,1	
+fsh_29192:Elect|2:1,1	End-Position|4:1,1,1,1	Start-Position|4:1,1,2,1	Transport|1:1	
+fsh_29195:Attack|1:4	Elect|2:1,1	End-Position|2:1,1	Start-Position|3:1,2,1	
+fsh_29226:Acquit|1:1	Convict|4:1,1,1,1	Die|2:1,1	Divorce|1:1	Marry|1:1	Sentence|1:1	Trial-Hearing|1:3	
+fsh_29272:Attack|1:1	Convict|1:2	Die|2:2,1	Injure|1:1	Phone-Write|2:1,1	Sentence|1:1	Transport|2:1,1	Trial-Hearing|1:13	
+fsh_29302:Attack|2:1,1	Convict|1:1	Die|3:3,1,1	Execute|3:1,1,1	Sentence|3:1,1,1	Transport|1:1	Trial-Hearing|1:9	
+fsh_29303:Convict|2:1,1	Die|4:7,1,1,2	Sentence|5:1,1,1,1,2	Trial-Hearing|4:1,1,1,1	
+fsh_29326:Appeal|1:1	Convict|1:2	Die|2:1,2	Sentence|3:1,1,1	Trial-Hearing|1:5	
+fsh_29336:Attack|1:2	Die|2:4,1	Elect|1:1	Nominate|1:1	Transfer-Money|1:1	Transfer-Ownership|1:1	
+fsh_29344:Die|1:5	Meet|1:1	Transfer-Ownership|1:1	
+fsh_29348:Attack|2:1,1	Die|1:4	Injure|1:1	Start-Position|1:1	Transport|1:1	
+fsh_29350:Attack|4:2,1,1,1	Die|3:4,1,1	End-Position|1:1	Transport|3:1,1,1	
+fsh_29361:Attack|3:1,1,1	Die|1:4	Meet|2:1,1	
+fsh_29388:Attack|1:1	Convict|1:1	Marry|2:1,1	Phone-Write|1:1	Trial-Hearing|5:1,2,1,1,1	
+fsh_29395:Be-Born|2:1,1	Charge-Indict|2:1,1	Convict|5:1,1,1,1,1	Die|3:1,1,1	Marry|1:1	Sentence|2:1,1	Trial-Hearing|6:1,1,1,1,1,1	
+fsh_29505:Be-Born|3:1,1,1	Elect|2:1,2	Transport|1:1	
+fsh_29520:Attack|2:1,1	Elect|4:3,1,1,1	End-Position|1:1	
+fsh_29521:Attack|1:1	Elect|2:3,1	Sue|1:1	Transport|1:1	
+fsh_29526:Attack|2:1,2	Elect|2:1,1	Meet|1:1	
+fsh_29581_1:Attack|4:2,1,1,1	Die|3:1,1,5	Transport|1:1	
+fsh_29586:Attack|3:1,1,1	Die|2:4,1	Meet|1:1	Transport|2:1,1	
+fsh_29592:Attack|6:1,1,1,1,1,1	Die|8:1,1,2,1,1,1,1,1	End-Position|1:1	Transport|1:1	
+fsh_29601:Attack|3:1,1,1	Die|4:1,1,1,3	Start-Position|1:1	
+fsh_29622:Die|1:1	Transport|2:1,1	
+fsh_29628:Divorce|1:1	End-Position|2:1,3	Transport|2:2,1	
+fsh_29630:Transport|4:1,1,1,1	
+fsh_29770:Meet|2:1,1	Transport|14:1,1,1,1,1,2,1,1,1,1,1,2,1,1	
+fsh_29774:Die|1:2	Injure|1:1	Marry|2:1,1	Phone-Write|2:1,1	Start-Position|1:1	Transport|4:1,2,1,1	
+fsh_29782_2:Attack|8:1,1,1,1,3,1,1,1	Die|1:1	Transfer-Money|2:1,1	Transport|6:1,1,1,1,1,2	
+fsh_29783:Attack|4:1,1,1,1	Die|1:1	Elect|2:1,2	End-Position|7:1,1,1,1,1,1,1	Start-Position|1:1	Transport|4:1,1,1,1	
+fsh_29786:Attack|4:1,5,1,1	Die|1:1	Elect|4:1,5,2,1	Phone-Write|1:1	Start-Org|1:1	Transport|1:1	
+GETTINGPOLITICAL_20050105.0127.001:Arrest-Jail|1:1	Die|1:1	Elect|4:1,1,1,1	Transfer-Ownership|1:1	
+HEALINGIRAQ_20041108.1942.05:Attack|8:1,1,1,2,1,1,1,1	Die|7:1,1,1,1,1,1,1	End-Position|2:1,1	Start-Position|2:1,1	Transport|3:1,1,1	
+Integritas-Group-Community-Forum_20050110.0557:Start-Org|1:1	Transfer-Ownership|1:1	
+marcellapr_20050211.2013:Meet|1:4	Phone-Write|2:1,1	
+marcellapr_20050228.2219:Meet|1:1	Transport|4:1,1,1,1	
+MARKBACKER_20041103.1300:Transport|2:1,1	
+MARKBACKER_20041108.1507:
+MARKBACKER_20041112.0707:Transport|1:1	
+MARKBACKER_20041117.0723:Attack|1:1	
+MARKBACKER_20041117.1107:Charge-Indict|2:1,1	Fine|2:1,2	Sentence|1:1	Transfer-Money|2:3,1	Trial-Hearing|1:1	
+MARKBACKER_20041119.1002:Attack|1:1	
+MARKBACKER_20041128.1641:
+MARKBACKER_20041202.0711:Charge-Indict|1:1	
+MARKBACKER_20041206.0733:Attack|3:1,1,1	End-Position|1:1	
+MARKBACKER_20041216.0656:Meet|1:1	Transfer-Money|2:1,1	
+MARKBACKER_20041217.1639:Transport|1:1	
+MARKBACKER_20041220.0919:Attack|3:4,1,1	Die|1:1	Injure|4:1,1,1,1	Transport|2:1,1	
+MARKBACKER_20050103.0829:Phone-Write|1:1	Transport|2:1,1	
+MARKBACKER_20050105.1526:End-Position|3:1,1,1	Transfer-Money|1:2	
+MARKBACKER_20050105.1632:End-Position|2:1,1	Start-Position|1:1	Transfer-Money|3:1,1,1	
+MARKBACKER_20050217.0647:Attack|1:1	End-Position|1:1	Start-Position|1:1	
+MARKETVIEW_20041209.1401:Arrest-Jail|2:1,1	Convict|1:1	Marry|1:1	Meet|1:1	Merge-Org|1:1	Release-Parole|1:1	
+MARKETVIEW_20041211.1845:End-Org|2:1,1	Transfer-Ownership|1:1	
+MARKETVIEW_20041212.1447:Transfer-Ownership|1:1	
+MARKETVIEW_20041213.0722:End-Position|2:1,1	Merge-Org|1:4	Start-Org|1:1	Transfer-Money|1:1	Transfer-Ownership|1:1	
+MARKETVIEW_20041215.2128:End-Org|1:1	
+MARKETVIEW_20041217.0801:Declare-Bankruptcy|1:1	Transfer-Ownership|1:1	
+MARKETVIEW_20041219.1509:Transfer-Ownership|2:1,2	
+MARKETVIEW_20041220.1537:
+MARKETVIEW_20050105.1901:
+MARKETVIEW_20050120.1641:Transfer-Ownership|1:1	
+MARKETVIEW_20050126.0711:Sue|1:1	
+MARKETVIEW_20050127.0716:
+MARKETVIEW_20050201.0748:
+MARKETVIEW_20050204.1322:
+MARKETVIEW_20050204.1337:
+MARKETVIEW_20050204.1736:End-Org|1:1	
+MARKETVIEW_20050205.1358:End-Org|1:1	
+MARKETVIEW_20050206.1951:
+MARKETVIEW_20050206.2009:Declare-Bankruptcy|1:1	Merge-Org|2:1,1	Transfer-Ownership|3:1,1,2	
+MARKETVIEW_20050207.0746:Sue|1:1	Transfer-Ownership|1:1	
+MARKETVIEW_20050208.2033:Transfer-Ownership|1:1	
+MARKETVIEW_20050208.2059:
+MARKETVIEW_20050209.1923:
+MARKETVIEW_20050210.2138:
+MARKETVIEW_20050212.1607:Transfer-Ownership|1:1	
+MARKETVIEW_20050212.1717:
+MARKETVIEW_20050214.2115:Transfer-Ownership|1:2	
+MARKETVIEW_20050215.1858:End-Position|1:1	
+MARKETVIEW_20050216.2120:Charge-Indict|1:1	Transfer-Money|1:1	
+MARKETVIEW_20050217.2115:
+MARKETVIEW_20050222.0729:
+MARKETVIEW_20050222.1919:
+MARKETVIEW_20050225.0541:
+MARKETVIEW_20050226.1307:Start-Position|2:1,1	Transfer-Money|1:1	Transfer-Ownership|1:1	
+MARKETVIEW_20050226.1444:Transfer-Money|2:1,1	
+MARKETVIEW_20050228.2211:Nominate|1:1	Transfer-Money|1:1	Transfer-Ownership|4:1,1,1,2	
+misc.invest.marketplace_20050208.2406:End-Position|1:1	Transfer-Money|2:1,1	
+misc.kids.pregnancy_20050120.0404:Be-Born|6:4,1,1,3,1,1	
+misc.legal.moderated_20041202.1648:Arrest-Jail|1:1	Charge-Indict|3:1,1,1	Extradite|2:3,2	Release-Parole|1:1	Sentence|5:1,1,1,1,1	Transport|7:1,2,1,1,1,1,2	Trial-Hearing|1:1	
+misc.legal.moderated_20050129.2225:Attack|7:3,3,5,1,1,1,2	Charge-Indict|1:1	Injure|2:2,1	Phone-Write|1:1	Sue|1:1	Transport|11:1,1,1,1,2,1,1,1,1,1,1	
+misc.survivalism_20050210.0232:Attack|7:1,1,2,1,1,1,1	Demonstrate|1:1	Die|2:1,1	End-Org|2:1,1	Meet|1:1	Transfer-Ownership|3:1,1,1	Transport|2:1,1	
+misc.taxes_20050218.1250:Declare-Bankruptcy|2:7,9	Transfer-Money|1:1	Transfer-Ownership|3:1,1,1	
+NYT_ENG_20030403.0008:Attack|19:1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1	Die|2:1,1	Injure|2:1,1	Transport|5:2,1,1,1,1	
+NYT_ENG_20030602.0074:End-Position|1:1	Meet|1:1	Start-Position|2:2,2	
+NYT_ENG_20030630.0079:Attack|1:1	Transport|2:1,1	
+OIADVANTAGE_20041224.1007:Meet|3:2,1,2	
+OIADVANTAGE_20050103.0944:End-Position|6:1,1,1,1,1,1	
+OIADVANTAGE_20050105.0922:Sue|4:1,3,1,1	
+OIADVANTAGE_20050108.1323:End-Position|1:1	Start-Position|1:1	
+OIADVANTAGE_20050109.1947:Declare-Bankruptcy|1:1	End-Org|1:1	
+OIADVANTAGE_20050110.1009:End-Position|1:1	
+OIADVANTAGE_20050203.1000:
+OIADVANTAGE_20050203.2102:
+OIADVANTAGE_20050204.1155:Start-Org|1:1	Transfer-Ownership|1:1	
+rec.arts.mystery_20050219.1126:Arrest-Jail|1:1	Attack|1:3	Die|2:1,3	Phone-Write|2:1,1	Start-Position|1:1	
+rec.arts.sf.written.robert-jordan_20050208.1350:Arrest-Jail|3:1,1,1	Phone-Write|1:1	Release-Parole|3:8,13,1	Sentence|1:3	Transport|2:1,1	Trial-Hearing|1:1	
+rec.boats_20050130.1006:Attack|1:1	Elect|11:3,1,1,2,6,1,1,2,1,1,1	Sue|1:1	
+rec.games.chess.politics_20041216.1047:Elect|1:1	End-Position|5:7,2,1,1,1	Meet|1:1	Start-Position|1:1	Transfer-Money|3:1,1,2	Transfer-Ownership|1:1	Transport|2:1,1	
+rec.games.chess.politics_20041217.2111:Charge-Indict|1:1	Elect|2:1,2	End-Position|3:3,2,1	Meet|2:1,1	Start-Position|5:1,2,3,1,1	Sue|2:3,3	Transfer-Money|8:4,1,1,1,1,1,2,1	
+rec.music.makers.guitar.acoustic_20041228.1628:Elect|3:3,3,1	
+rec.music.phish_20041215.1554:Attack|2:1,1	End-Org|1:1	Transport|2:1,1	
+rec.music.phish_20050217.1804:Attack|8:1,1,9,1,1,1,1,1	Elect|1:1	
+rec.parks.theme_20050217.2019:Die|2:1,1	End-Org|2:1,1	End-Position|1:1	Merge-Org|1:1	Start-Org|2:1,1	
+rec.sport.disc_20050209.2202:Phone-Write|1:1	Transfer-Money|2:1,1	Transport|1:1	
+rec.travel.cruises_20050216.1636:Marry|5:1,1,4,3,5	Phone-Write|3:1,1,1	Transport|1:1	
+rec.travel.cruises_20050222.0313:
+rec.travel.europe_20050101.1800:Die|1:1	Transport|13:1,1,1,1,3,1,1,1,1,1,1,2,1	
+rec.travel.usa-canada_20050128.0121:Transport|13:1,1,1,1,1,1,1,1,1,1,1,4,1	
+seattle.politics_20050122.2412:Attack|2:1,1	
+soc.culture.china_20050203.0639:Attack|1:1	Die|1:1	Elect|2:8,17	Injure|1:1	
+soc.culture.hmong_20050210.1130:Attack|11:1,1,2,1,1,1,1,1,1,1,1	Die|1:1	Transport|1:1	
+soc.culture.indian_20041104.2348:Attack|1:1	Demonstrate|1:1	End-Org|1:1	End-Position|1:1	Sue|2:2,3	Transfer-Money|2:1,2	Transfer-Ownership|3:1,1,1	Transport|1:1	
+soc.culture.iraq_20050211.0445:Attack|5:1,2,2,1,1	Die|2:1,1	Elect|5:1,4,8,1,2	End-Org|1:1	Transport|1:1	
+soc.culture.jewish_20050130.2105:Attack|9:1,1,1,3,1,1,1,1,1	Die|2:4,1	Transfer-Money|1:1	
+soc.history.war.world-war-ii_20050127.2403:Attack|14:3,1,1,1,5,1,1,1,1,9,1,1,2,2	Die|2:1,1	Fine|1:1	Transfer-Ownership|2:4,2	Transport|2:1,1	
+soc.history.what-if_20050129.1404:Attack|1:1	Demonstrate|1:1	Elect|5:1,1,4,1,1	
+soc.org.nonprofit_20050218.1902:Elect|1:1	End-Position|1:1	Meet|2:5,1	Transfer-Money|6:12,3,2,1,5,1	
+talk.politics.misc_20050216.1337:Attack|1:1	
+TTRACY_20050223.1049:Die|1:1	Phone-Write|1:1	Start-Position|1:1	Transfer-Ownership|1:1	
+uk.gay-lesbian-bi_20050127.0311:Arrest-Jail|2:1,1	Convict|1:1	Die|12:1,1,2,1,1,1,3,1,1,1,2,1	Phone-Write|1:1	Sentence|1:1	Transport|2:1,1	
+XIN_ENG_20030314.0208:Attack|1:3	Transport|4:2,1,1,2	
+XIN_ENG_20030317.0177:Attack|2:1,1	End-Position|1:1	Meet|1:1	Transfer-Ownership|2:1,1	
+XIN_ENG_20030324.0191:Attack|5:2,1,1,1,1	Die|4:1,1,1,1	Injure|1:1	Transport|2:1,1	
+XIN_ENG_20030327.0202:Start-Org|1:1	Transport|1:1	
+XIN_ENG_20030408.0341:Attack|1:12	Meet|1:4	Start-Position|1:1	Transport|1:1	
+XIN_ENG_20030415.0379:Nominate|1:1	Transport|1:1	
+XIN_ENG_20030423.0011:Arrest-Jail|1:2	Attack|3:2,1,1	Charge-Indict|4:1,1,1,1	Trial-Hearing|1:2	
+XIN_ENG_20030425.0184:Meet|1:1	
+XIN_ENG_20030509.0137:Arrest-Jail|1:1	Attack|2:3,1	Charge-Indict|3:1,1,2	Die|3:1,1,1	Injure|1:1	Release-Parole|1:1	
+XIN_ENG_20030513.0002:Attack|2:1,1	Die|2:2,1	Phone-Write|1:2	
+XIN_ENG_20030523.0202:Arrest-Jail|1:1	Charge-Indict|1:2	Trial-Hearing|1:1	
+XIN_ENG_20030609.0118:Elect|1:1	End-Position|4:1,2,1,1	Start-Position|2:1,2	
+XIN_ENG_20030610.0299:Charge-Indict|1:1	Fine|1:1	Sentence|1:2	
+XIN_ENG_20030616.0274:Meet|2:1,1	
+XIN_ENG_20030624.0085:

@@ -1,0 +1,883 @@
+package cuny.blender.englishie.algorithm.clustering;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import java.io.*;
+import java.util.*;
+
+import org.apache.commons.collections15.functors.MapTransformer;
+
+import cern.colt.matrix.DoubleMatrix1D;
+import cern.colt.matrix.impl.DenseDoubleMatrix1D;
+
+import com.aliasi.cluster.ClusterScore;
+
+import cuny.blender.englishie.evaluation.ClusterEvaluator;
+import cuny.blender.englishie.evaluation.ContingencyTable;
+import cuny.blender.englishie.nlp.util.FileUtils;
+import cuny.blender.englishie.nlp.util.MapUtil;
+
+import edu.uci.ics.jung.algorithms.scoring.BetweennessCentrality;
+import edu.uci.ics.jung.algorithms.scoring.PageRank;
+import edu.uci.ics.jung.algorithms.scoring.PageRankWithPriors;
+import edu.uci.ics.jung.graph.UndirectedGraph;
+
+import edu.uci.ics.jung.graph.UndirectedSparseGraph;
+import edu.ucla.sspace.clustering.Assignment;
+import edu.ucla.sspace.clustering.Assignments;
+import edu.ucla.sspace.clustering.HardAssignment;
+
+import edu.ucla.sspace.common.Similarity;
+import edu.ucla.sspace.matrix.Matrix;
+import edu.ucla.sspace.matrix.MatrixIO;
+import edu.ucla.sspace.matrix.Normalize;
+import edu.ucla.sspace.matrix.TfIdfTransposeTransform;
+import edu.ucla.sspace.matrix.Transform;
+import edu.ucla.sspace.vector.DoubleVector;
+
+public class ClusterAnalysis {
+
+	public static int num_clusters;
+	public static String method;
+	public static String criterior;
+
+	public static int sampleSize = 100;
+	public static int colSize = 200;
+	public static int runs = 1;
+	public static int colruns = 100;
+	public static ArrayList<String> items = new ArrayList<String>();
+
+	public static ArrayList<String> selectedDataset = new ArrayList<String>();
+
+	public static void getSelectedDataset() {
+		/*
+		 * selectedDataset.add("hitech.mat"); selectedDataset.add("k1b.mat");
+		 * selectedDataset.add("la1.mat"); selectedDataset.add("reviews.mat");
+		 */
+		// selectedDataset.add("sports.mat");
+		selectedDataset.add("classic.mat");
+	}
+
+	public static void computeRank(String fileName)
+			throws NumberFormatException, IOException {
+		System.out.println("processing " + fileName);
+		File in = new File(fileName);
+		if (in.length()>107451406) return;
+		
+		File out = new File(fileName.replace(".sim", ".pagerank2"));
+		/*
+		 * if (out.exists()&&out.length()>0) return;
+		 */
+		UndirectedGraph g = new UndirectedSparseGraph();
+
+		BufferedReader reader = new BufferedReader(new FileReader(fileName));
+
+		String line;
+		int eid = 0;
+		//ArrayList<Integer> vertices = new ArrayList<Integer>();
+		HashMap<Integer, Double> edgeWeights = new HashMap<Integer, Double>();
+		// TreeMap<String, Double> weightMap = new TreeMap<String, Double>();
+		TreeMap<Integer, Map<Integer,Double>> edgeMap = new TreeMap<Integer,Map<Integer,Double>>();
+		TreeMap<Integer, ArrayList<Integer>> nearest = new TreeMap<Integer, ArrayList<Integer>> ();
+		while ((line = reader.readLine()) != null) {
+			String[] items = line.split("=");
+			double score = Double.parseDouble(items[1]);
+			if (score > 0) {
+				// weightMap.put(items[0], score);
+
+				String[] vpair = items[0].split(":");
+				if (vpair[0].equals(vpair[1]))
+					continue;
+				int id1 = Integer.parseInt(vpair[0]);
+				int id2 = Integer.parseInt(vpair[1]); 
+				if (edgeMap.get(id1)==null){
+					edgeMap.put(id1, new HashMap<Integer,Double>());
+				}
+				Map<Integer,Double> emap = edgeMap.get(id1);
+				emap.put(id2, score);
+				if (edgeMap.get(id2)==null){
+					edgeMap.put(id2, new HashMap<Integer,Double>());
+				}
+				emap = edgeMap.get(id2);
+				emap.put(id1, score);
+				
+				/*int vid1 = Integer.parseInt(vpair[0]);
+				int vid2 = Integer.parseInt(vpair[1]);
+				if (!vertices.contains(vid1)) {
+					g.addVertex(vid1);
+					vertices.add(vid1);
+				}
+				if (!vertices.contains(vid2)) {
+					g.addVertex(vid2);
+					vertices.add(vid2);
+				}
+				g.addEdge(eid, vid1, vid2);
+				edgeWeights.put(eid, score);
+				eid++;*/
+			}
+		}
+		reader.close();
+		
+		Iterator it = edgeMap.keySet().iterator();
+		while (it.hasNext()){
+			int id = (Integer)it.next();
+			g.addVertex(id);
+			
+			Map<Integer,Double> emap = edgeMap.get(id);
+			emap = MapUtil.sortByValue(emap);
+			ArrayList<Integer> ids = new ArrayList<Integer>();
+			int size = NEAREST_K<emap.size()? NEAREST_K: emap.size();
+			Iterator it2 = emap.keySet().iterator();
+			int i=0;
+			while (it2.hasNext()){
+				if (i>=size)
+					break;
+				Integer key = (Integer)it2.next();
+				ids.add(key);
+				i++;
+			}
+			nearest.put(id, ids);
+		}
+		
+		
+		for (int i=0;i<nearest.size();i++){
+			ArrayList<Integer> ids1 = nearest.get(i);
+			for (int j=i+1;j<nearest.size();j++){
+				ArrayList<Integer> ids2 = nearest.get(j);
+				if (ids1.contains(j)||ids2.contains(i)){
+					g.addEdge(eid, i, j);
+					edgeWeights.put(eid, edgeMap.get(i).get(j));
+					eid++;
+				}
+			}
+		}
+		System.out.println("\tloading graph [done]");
+		DoubleMatrix1D piVector = new DenseDoubleMatrix1D(g.getVertexCount());
+		PageRankWithPriors<Integer, Integer> pageRank = new PageRank<Integer, Integer>(
+				g, MapTransformer.getInstance(edgeWeights), 0.15);
+		pageRank.setTolerance(10E-8);
+		pageRank.evaluate();
+
+		PrintWriter pw = new PrintWriter(out);
+
+		for (Integer v : (Collection<Integer>) g.getVertices()) {
+			// piVector.set(mIndexer.get(v), pageRank.getVertexScore(v));
+			pw.println(v + "\t" + pageRank.getVertexScore(v));
+		}
+		pw.close();
+
+	}
+
+
+	static int NEAREST_K = 10;
+	public static void computeCentralityRank(String fileName)
+			throws NumberFormatException, IOException {
+		System.out.println("processing " + fileName);
+		File in = new File(fileName);
+		if (in.length()>167451406) return;
+		
+		File out = new File(fileName.replace(".sim", ".centrality2"));
+		/*
+		 * if (out.exists()&&out.length()>0) return;
+		 */
+		UndirectedGraph g = new UndirectedSparseGraph();
+
+		BufferedReader reader = new BufferedReader(new FileReader(fileName));
+
+		String line;
+		int eid = 0;
+		ArrayList<Integer> vertices = new ArrayList<Integer>();
+		HashMap<Integer, Double> edgeWeights = new HashMap<Integer, Double>();
+		// TreeMap<String, Double> weightMap = new TreeMap<String, Double>();
+		TreeMap<Integer, Map<Integer,Double>> edgeMap = new TreeMap<Integer,Map<Integer,Double>>();
+		TreeMap<Integer, ArrayList<Integer>> nearest = new TreeMap<Integer, ArrayList<Integer>> ();
+		while ((line = reader.readLine()) != null) {
+			String[] items = line.split("=");
+			double score = Double.parseDouble(items[1]);
+			if (score > 0) {
+				// weightMap.put(items[0], score);
+
+				String[] vpair = items[0].split(":");
+				if (vpair[0].equals(vpair[1]))
+					continue;
+				int id1 = Integer.parseInt(vpair[0]);
+				int id2 = Integer.parseInt(vpair[1]); 
+				if (edgeMap.get(id1)==null){
+					edgeMap.put(id1, new HashMap<Integer,Double>());
+				}
+				Map<Integer,Double> emap = edgeMap.get(id1);
+				emap.put(id2, score);
+				if (edgeMap.get(id2)==null){
+					edgeMap.put(id2, new HashMap<Integer,Double>());
+				}
+				emap = edgeMap.get(id2);
+				emap.put(id1, score);
+				
+				/*int vid1 = Integer.parseInt(vpair[0]);
+				int vid2 = Integer.parseInt(vpair[1]);
+				if (!vertices.contains(vid1)) {
+					g.addVertex(vid1);
+					vertices.add(vid1);
+				}
+				if (!vertices.contains(vid2)) {
+					g.addVertex(vid2);
+					vertices.add(vid2);
+				}
+				g.addEdge(eid, vid1, vid2);
+				edgeWeights.put(eid, score);
+				eid++;*/
+			}
+		}
+		reader.close();
+		
+		Iterator it = edgeMap.keySet().iterator();
+		while (it.hasNext()){
+			int id = (Integer)it.next();
+			g.addVertex(id);
+			
+			Map<Integer,Double> emap = edgeMap.get(id);
+			emap = MapUtil.sortByValue(emap);
+			ArrayList<Integer> ids = new ArrayList<Integer>();
+			int size = NEAREST_K<emap.size()? NEAREST_K: emap.size();
+			Iterator it2 = emap.keySet().iterator();
+			int i=0;
+			while (it2.hasNext()){
+				if (i>=size)
+					break;
+				Integer key = (Integer)it2.next();
+				ids.add(key);
+				i++;
+			}
+			nearest.put(id, ids);
+		}
+		
+		
+		for (int i=0;i<nearest.size();i++){
+			ArrayList<Integer> ids1 = nearest.get(i);
+			for (int j=i+1;j<edgeMap.size();j++){
+				ArrayList<Integer> ids2 = nearest.get(j);
+				if (ids1.contains(j)||ids2.contains(i)){
+					g.addEdge(eid, i, j);
+					edgeWeights.put(eid, edgeMap.get(i).get(j));
+					eid++;
+				}
+			}
+		}
+		
+		System.out.println("\tloading graph [done]");
+		DoubleMatrix1D piVector = new DenseDoubleMatrix1D(g.getVertexCount());
+		BetweennessCentrality<Integer,Integer> ranker = new BetweennessCentrality<Integer,Integer>(g, MapTransformer.getInstance(edgeWeights));
+		
+
+		PrintWriter pw = new PrintWriter(out);
+
+		for (Integer v : (Collection<Integer>) g.getVertices()) {
+			// piVector.set(mIndexer.get(v), pageRank.getVertexScore(v));
+			pw.println(v + "\t" + ranker.getVertexScore(v));
+		}
+		pw.close();
+
+	}
+	
+	public static void computeMultiRank(String datasetPath)
+			throws NumberFormatException, IOException {
+		/*
+		 * File dir = new File(datasetPath); getSelectedDataset(); for (int i =
+		 * 0; i < selectedDataset.size(); i++) { String filename = datasetPath +
+		 * selectedDataset.get(i); computeRank(filename+".sim"); }
+		 */
+		File dir = new File(datasetPath);
+		ArrayList<String> datasetLists = new ArrayList<String>();
+		if (dir.exists() && dir.isDirectory()) {
+			File[] fileList = FileUtils.getFiles(datasetPath);
+			for (int i = 0; i < fileList.length; i++) {
+				File sgm = fileList[i];
+				if (sgm.getAbsolutePath().endsWith(".mat")) {
+					datasetLists.add(sgm.getName());
+				}
+			}
+		}
+		for (int i = 0; i < datasetLists.size(); i++) {
+			String filename = datasetPath + datasetLists.get(i);
+			computeRank(filename + ".sim");
+		}
+
+	}
+
+	public static void computeMultiCentralityRank(String datasetPath)
+			throws NumberFormatException, IOException {
+		/*
+		 * File dir = new File(datasetPath); getSelectedDataset(); for (int i =
+		 * 0; i < selectedDataset.size(); i++) { String filename = datasetPath +
+		 * selectedDataset.get(i); computeRank(filename+".sim"); }
+		 */
+		File dir = new File(datasetPath);
+		ArrayList<String> datasetLists = new ArrayList<String>();
+		if (dir.exists() && dir.isDirectory()) {
+			File[] fileList = FileUtils.getFiles(datasetPath);
+			for (int i = 0; i < fileList.length; i++) {
+				File sgm = fileList[i];
+				if (sgm.getAbsolutePath().endsWith(".mat")) {
+					datasetLists.add(sgm.getName());
+				}
+			}
+		}
+		for (int i = 0; i < datasetLists.size(); i++) {
+			String filename = datasetPath + datasetLists.get(i);
+			computeCentralityRank(filename + ".sim");
+		}
+
+	}
+
+	
+	public static void printClusterDistribution(String filename)
+			throws IOException {
+		BufferedReader reader = new BufferedReader(new FileReader(filename));
+		String line;
+		int index = 0;
+		TreeMap<String, ArrayList<String>> clusterMap = new TreeMap<String, ArrayList<String>>();
+		while ((line = reader.readLine()) != null) {
+			if (clusterMap.get(line) == null) {
+				clusterMap.put(line, new ArrayList<String>());
+			}
+			ArrayList<String> ids = clusterMap.get(line);
+			ids.add(Integer.toString(index));
+			index++;
+		}
+
+		reader.close();
+
+		Iterator<String> it = clusterMap.keySet().iterator();
+		System.out.print(FileUtils.getFileStem(filename) + "(N=" + index
+				+ ",C=" + clusterMap.size() + "):");
+		StringBuffer buf = new StringBuffer();
+		while (it.hasNext()) {
+			String key = it.next();
+			ArrayList<String> values = clusterMap.get(key);
+			buf.append(key + "=" + values.size() + ",");
+		}
+		String str = buf.toString();
+
+		System.out.println(str.substring(0, str.length() - 1));
+	}
+
+	public static void computeInstanceStatistics(String filename)
+			throws IOException {
+		System.out.println("Processing " + filename);
+		File out = new File(filename + ".statistics");
+		if (out.exists() && out.length() > 0)
+			return;
+		File f = new File(filename+".norm");
+		// row represents document, column represents term
+		Matrix m = MatrixIO.readMatrix(f,
+				MatrixIO.Format.CLUTO_SPARSE, Matrix.Type.SPARSE_IN_MEMORY,
+				false);
+		/*Transform transform = new TfIdfTransposeTransform();
+		Matrix m = transform.transform(inputMatrix);
+		Normalize.byLength(m);*/
+
+		Assignment[] assignments = new Assignment[m.rows()];
+
+		BufferedReader reader = new BufferedReader(new FileReader(filename
+				+ ".rclass"));
+		String line;
+		int index = 0;
+		TreeMap<String, ArrayList<Integer>> clusterMap = new TreeMap<String, ArrayList<Integer>>();
+		TreeMap<String, String> classes = new TreeMap<String, String>();
+		int nClass = 0;
+		while ((line = reader.readLine()) != null) {
+			if (classes.get(line) == null) {
+				classes.put(line, Integer.toString(nClass));
+				nClass++;
+			}
+
+			if (clusterMap.get(classes.get(line)) == null) {
+				clusterMap.put(classes.get(line), new ArrayList<Integer>());
+			}
+			ArrayList<Integer> ids = clusterMap.get(classes.get(line));
+			ids.add(index);
+			assignments[index] = new HardAssignment(Integer.parseInt(classes.get(line)));
+			index++;
+		}
+
+		reader.close();
+
+		Assignments clustering = new Assignments(classes.size(), assignments, m);
+		DoubleVector[] centroids = clustering.getCentroids();
+
+		PrintWriter pw = new PrintWriter(out);
+		pw.println("#" + classes);
+
+		Iterator<String> it = clusterMap.keySet().iterator();
+
+		StringBuffer buf = new StringBuffer();
+		while (it.hasNext()) {
+			String key = it.next();
+			ArrayList<Integer> ids = clusterMap.get(key);
+			for (int i = 0; i < ids.size(); i++) {
+				int id = ids.get(i);
+
+				DoubleVector row = m.getRowVector(id);
+				double simCentroid = Similarity.cosineSimilarity(row,
+						centroids[Integer.parseInt(key)]);
+				double silhouette = computeSilhouette(clusterMap, id, key, m);
+				buf.append(id + "\t" + key + "\t" + simCentroid + "\t"
+						+ silhouette + "\n");
+			}
+		}
+
+		pw.println(buf.toString());
+		pw.close();
+	}
+
+	public static double computeSilhouette(File f, boolean ref, int sampleSize)
+			throws IOException {
+		
+		// row represents document, column represents term
+		Matrix m = MatrixIO.readMatrix(f,MatrixIO.Format.CLUTO_SPARSE, Matrix.Type.SPARSE_IN_MEMORY,false);
+		
+		BufferedReader reader = null;
+		String line;
+		
+		if (ref){
+			reader = new BufferedReader(new FileReader(f.getAbsoluteFile()
+				+ ".rclass"));
+		}
+		else
+		{
+			reader = new BufferedReader(new FileReader(f.getAbsoluteFile()
+				+ ".rclass.sys"));
+		}
+		
+		int index = 0;
+		TreeMap<String, ArrayList<Integer>> clusterMap = new TreeMap<String, ArrayList<Integer>>();
+		//TreeMap<String, Integer> classes = new TreeMap<String, Integer>();
+		
+		while ((line = reader.readLine()) != null) {
+			if (clusterMap.get(line) == null) {
+				clusterMap.put(line, new ArrayList<Integer>());
+			}
+			ArrayList<Integer> ids = clusterMap.get(line);
+			ids.add(index);
+			
+			index++;
+			if (index>=sampleSize)
+				break;
+		}
+
+		reader.close();
+
+		Iterator<String> it = clusterMap.keySet().iterator();
+
+	
+		double clusteringScore = 0;
+		while (it.hasNext()) {
+			String key = it.next();
+			double clusterScore = 0;
+			ArrayList<Integer> ids = clusterMap.get(key);
+			for (int i = 0; i < ids.size(); i++) {
+				int id = ids.get(i);
+
+				double silhouette = computeSilhouette(clusterMap, id, key, m);
+				clusteringScore += silhouette;
+				clusterScore += silhouette;
+				//buf.append(indexMap.get(id) + "\t" + key + "\t"+ silhouette + "\n");
+			}
+			//System.out.println(key+":"+ids.size()+":"+clusterScore/ids.size());
+		}
+		return clusteringScore/index;
+		//System.out.println("clustering:"+clusteringScore/index);
+		//return buf.toString();
+		//return sum/index;
+	}
+
+	
+	public static double computeSilhouette(
+			TreeMap<String, ArrayList<Integer>> clusterMap, int id,
+			String classId, Matrix m) {
+		double silhouette = 0;
+		ArrayList<Integer> instancesInCluster = clusterMap.get(classId);
+		DoubleVector v1 = m.getRowVector(id);
+		// compute average similarity from this instance to the other instances
+		// in the same cluster
+		double inScore = 0;
+		for (int i = 0; i < instancesInCluster.size(); i++) {
+			int instanceInCluster = instancesInCluster.get(i);
+			if (instanceInCluster != id) {
+				DoubleVector v2 = m.getRowVector(instanceInCluster);
+				double s = Similarity.cosineSimilarity(v1, v2);
+				inScore += s;
+			}
+		}
+		if (instancesInCluster.size()==1)
+			inScore = 0;
+		else
+			inScore /= instancesInCluster.size() - 1;
+
+		Iterator<String> it = clusterMap.keySet().iterator();
+
+		double maxOutScore = 0;
+		while (it.hasNext()) {
+			String key = it.next();
+			if (key.equals(classId))
+				continue;
+			ArrayList<Integer> instancesOutCluster = clusterMap.get(key);
+			double outScore = 0;
+			for (int i = 0; i < instancesOutCluster.size(); i++) {
+				int instanceOutCluster = instancesOutCluster.get(i);
+				DoubleVector v2 = m.getRowVector(instanceOutCluster);
+				double s = Similarity.cosineSimilarity(v1, v2);
+				outScore += s;
+			}
+			outScore /= instancesOutCluster.size();
+			if (outScore > maxOutScore) {
+				maxOutScore = outScore;
+			}
+		}
+
+		if (Math.max(inScore, maxOutScore)==0)
+			silhouette = 0;
+		else
+			silhouette = (inScore - maxOutScore) / Math.max(inScore, maxOutScore);
+		return silhouette;
+	}
+
+	public static void printMultiClusterDistribution(String datasetPath)
+			throws IOException {
+		File dir = new File(datasetPath);
+		ArrayList<String> datasetLists = new ArrayList<String>();
+		if (dir.exists() && dir.isDirectory()) {
+			File[] fileList = FileUtils.getFiles(datasetPath);
+			for (int i = 0; i < fileList.length; i++) {
+				File sgm = fileList[i];
+				if (sgm.getAbsolutePath().endsWith(".mat")) {
+					datasetLists.add(sgm.getName());
+				}
+			}
+		}
+		for (int i = 0; i < datasetLists.size(); i++) {
+			String filename = datasetPath + datasetLists.get(i);
+			printClusterDistribution(filename + ".rclass");
+		}
+	}
+
+	public static void makeMultiNormalizedMatrix(String datasetPath)
+			throws IOException {
+		File dir = new File(datasetPath);
+		ArrayList<String> datasetLists = new ArrayList<String>();
+		if (dir.exists() && dir.isDirectory()) {
+			File[] fileList = FileUtils.getFiles(datasetPath);
+			for (int i = 0; i < fileList.length; i++) {
+				File sgm = fileList[i];
+				if (sgm.getAbsolutePath().endsWith(".mat")) {
+					datasetLists.add(sgm.getName());
+				}
+			}
+		}
+		for (int i = 0; i < datasetLists.size(); i++) {
+			String filename = datasetPath + datasetLists.get(i);
+			System.out.println("Processing " + filename);
+			makeNormalizedMatrix(filename);
+		}
+	}
+	
+	public static void makeNormalizedMatrix(String fileName)
+			throws IOException {
+
+		File f = new File(fileName);
+
+		String outfilename = fileName + ".norm";
+		
+	
+		Matrix inputMatrix = MatrixIO.readMatrix(f,
+				MatrixIO.Format.CLUTO_SPARSE, Matrix.Type.SPARSE_IN_MEMORY,
+				false);
+		// Matrix sim = new YaleSparseMatrix(m.rows(), m.rows());
+
+		Transform transform = new TfIdfTransposeTransform();
+		Matrix m = transform.transform(inputMatrix);
+		Normalize.byLength(m);
+
+		File normalized = new File (outfilename);
+		MatrixIO.writeMatrix(m, normalized, MatrixIO.Format.CLUTO_SPARSE);
+		
+		
+	}
+	
+	public static void computeMultiInstanceStatistics(String datasetPath)
+			throws IOException {
+		File dir = new File(datasetPath);
+		ArrayList<String> datasetLists = new ArrayList<String>();
+		if (dir.exists() && dir.isDirectory()) {
+			File[] fileList = FileUtils.getFiles(datasetPath);
+			for (int i = 0; i < fileList.length; i++) {
+				File sgm = fileList[i];
+				if (sgm.getAbsolutePath().endsWith(".mat")) {
+					datasetLists.add(sgm.getName());
+				}
+			}
+		}
+		for (int i = 0; i < datasetLists.size(); i++) {
+			String filename = datasetPath + datasetLists.get(i);
+			computeInstanceStatistics(filename);
+		}
+	}
+
+	public static void computeMultiSimilarityMatrix(String datasetPath)
+			throws IOException {
+
+		File dir = new File(datasetPath);
+		ArrayList<String> datasetLists = new ArrayList<String>();
+		if (dir.exists() && dir.isDirectory()) {
+			File[] fileList = dir.listFiles();
+			for (int i = 0; i < fileList.length; i++) {
+				File sgm = fileList[i];
+				if (sgm.isFile() && sgm.getAbsolutePath().endsWith(".mat")) {
+					datasetLists.add(sgm.getName());
+				}
+			}
+		}
+		for (int i = 0; i < datasetLists.size(); i++) {
+			String filename = datasetPath + datasetLists.get(i);
+
+			System.out.println("Processing " + filename);
+			computeSimilarityMatrix(filename);
+		}
+	}
+
+	public static void computeSimilarityMatrix(String fileName)
+			throws IOException {
+
+		File f = new File(fileName);
+
+		String outfilename = fileName + ".sim";
+		File outFile = new File(outfilename);
+		/*
+		 * if (outFile.exists() && outFile.length() > 0) return;
+		 */
+		PrintStream out = new PrintStream(new FileOutputStream(outFile));
+
+		Matrix inputMatrix = MatrixIO.readMatrix(f,
+				MatrixIO.Format.CLUTO_SPARSE, Matrix.Type.SPARSE_IN_MEMORY,
+				false);
+		// Matrix sim = new YaleSparseMatrix(m.rows(), m.rows());
+
+		Transform transform = new TfIdfTransposeTransform();
+		Matrix m = transform.transform(inputMatrix);
+		Normalize.byLength(m);
+
+		for (int i = 0; i < m.rows(); ++i) {
+			DoubleVector v1 = m.getRowVector(i);
+			for (int j = i; j < m.rows(); ++j) {
+				double similarity = 1;
+				if (j != i) {
+					DoubleVector v2 = m.getRowVector(j);
+					similarity = Similarity.cosineSimilarity(v1, v2);
+				}
+				// sim.set(i, j, similarity);
+				// sim.set(j, i, similarity);
+
+				out.append(i + ":" + j + "=" + similarity + "\n");
+			}
+		}
+
+		// MatrixIO.writeMatrix(sim, outFile, MatrixIO.Format.CLUTO_DENSE);
+		out.close();
+	}
+
+	public static void main(String[] args) throws IOException {
+		String filePath = "./tools/cluto/datasets/";
+		// computeInstanceStatistics(filePath+"tr23.mat");
+		//computeMultiRank(filePath);
+		// computeRank(filePath+"tr23.mat.sim");
+		// printMultiClusterDistribution(filePath);
+	 makeMultiNormalizedMatrix(filePath);
+		
+		//computeMultiCentralityRank(filePath);
+		//computeCentralityRank(filePath+"hitech.mat.sim");
+	}
+
+	public static void testEvaluation() throws IOException {
+		String filePath = "tools/cluto/datasets/fbis.mat";
+
+		num_clusters = 5;
+		method = "rbr";
+		criterior = "i1";
+		sampleSize = 2463;
+		File f = new File(filePath);
+		String result = null;
+		// Assignments ass= cc.cluster(m, num_clusters, method, criterior);
+		File out = new File(f.getAbsolutePath() + ".rclass.sys");
+
+		result = ClutoWrapper.cluster(null, f, method, criterior, out,
+				num_clusters);
+
+		Double entropy = getEntropyScore(result);
+		Double purity = getPurityScore(result);
+
+		System.out.println("Cluto output: entropy=" + entropy + "," + "purity="
+				+ purity);
+
+		System.out.println(evaluate(f, sampleSize, "b-cube"));
+	}
+
+	public static double evaluate(File f, int size, String metric)
+			throws IOException {
+		TreeMap<String, Set<String>> references = new TreeMap<String, Set<String>>();
+		TreeMap<String, Set<String>> responses = new TreeMap<String, Set<String>>();
+
+		loadClusters(f.getAbsolutePath() + ".rclass", size, references);
+		loadClusters(f.getAbsolutePath() + ".rclass.sys", size, responses);
+
+		Set referencesets = new HashSet();
+		Set responsesets = new HashSet();
+
+		Iterator<String> it = responses.keySet().iterator();
+		Object[] xs = new Object[responses.keySet().size()];
+		int i = 0;
+		while (it.hasNext()) {
+			String key = it.next();
+			Set<String> values = responses.get(key);
+			xs[i] = values;
+			i++;
+		}
+		responsesets = set(xs);
+
+		it = references.keySet().iterator();
+		xs = new Object[references.keySet().size()];
+		i = 0;
+		while (it.hasNext()) {
+			String key = it.next();
+			Set<String> values = references.get(key);
+			xs[i] = values;
+			i++;
+		}
+		referencesets = set(xs);
+
+		ClusterEvaluator eval = new ClusterEvaluator();
+
+		Double[][] data = new Double[responses.keySet().size()][references
+				.keySet().size()];
+
+		Iterator<String> it1 = responses.keySet().iterator();
+		int rows = 0;
+		while (it1.hasNext()) {
+			String key1 = it1.next();
+			Set<String> values1 = responses.get(key1);
+			Iterator<String> it2 = references.keySet().iterator();
+			int cols = 0;
+			while (it2.hasNext()) {
+				String key2 = it2.next();
+				Set<String> values2 = references.get(key2);
+				Set<String> tmp = new TreeSet<String>(values2);
+				tmp.retainAll(values1);
+				data[rows][cols] = (double) tmp.size();
+				cols++;
+			}
+			rows++;
+		}
+		eval.setData(new ContingencyTable(data));
+
+		//
+		if (metric.equals("entropy")) {
+			return eval.getEntropy();
+		} else if (metric.equals("purity")) {
+			return eval.getPurity();
+		} else if (metric.equals("f-measure")) {
+			return eval.getFMeasure();
+		} else if (metric.equals("v")) {
+			return eval.getVMeasure(1);
+		} else if (metric.equals("vi")) {
+			return eval.getVI();
+		} else if (metric.equals("vi")) {
+			return eval.getVI();
+		} else if (metric.equals("b-cube")) {
+			// ClusterScore scorer = new ClusterScore(referencesets,
+			// responsesets);
+			// return df.format(scorer.b3ElementF());
+			return eval.getBCubed(references, responses);
+		} else if (metric.equals("muc")) {
+			ClusterScore scorer = new ClusterScore(referencesets, responsesets);
+			return scorer.mucF();
+		}
+		return -1;
+	}
+
+	static Set set(Object[] xs) {
+		HashSet set = new HashSet();
+		for (int i = 0; i < xs.length; ++i)
+			set.add(xs[i]);
+		return set;
+	}
+
+	/*
+	 * load clusters into TreeMap<String,Set<String>> from a file only the first
+	 * "size" items are needed
+	 */
+	public static void loadClusters(String filename, int size,
+			TreeMap<String, Set<String>> clusters) throws IOException {
+
+		BufferedReader reader = new BufferedReader(new FileReader(filename));
+		String line;
+		int index = 0;
+		while ((line = reader.readLine()) != null) {
+			if (clusters.get(line) == null) {
+				clusters.put(line, new TreeSet<String>());
+			}
+			Set<String> ids = clusters.get(line);
+			ids.add(Integer.toString(index));
+			index++;
+			if (index > size) {
+				break;
+			}
+		}
+
+		reader.close();
+	}
+
+	
+
+	static ArrayList<String> classes = new ArrayList<String>();
+
+	private static String columns;
+	private static String entries;
+
+	
+
+	private static double getEntropyScore(String clutoOutput)
+			throws IOException {
+		double score = 0;
+		BufferedReader reader = new BufferedReader(
+				new StringReader(clutoOutput));
+		String line = null;
+		while ((line = reader.readLine()) != null) {
+			if (line.contains("Entropy:")) {
+				int index = line.indexOf("Entropy:");
+				int endOfIndex = line.indexOf(",", index);
+
+				return Double.parseDouble(line.substring(index + 8, endOfIndex)
+						.trim());
+			}
+		}
+		return 0;
+	}
+
+	private static double getPurityScore(String clutoOutput) throws IOException {
+		double score = 0;
+		BufferedReader reader = new BufferedReader(
+				new StringReader(clutoOutput));
+		String line = null;
+		while ((line = reader.readLine()) != null) {
+			if (line.contains("Purity:")) {
+				int index = line.indexOf("Purity:");
+
+				return Double.parseDouble(line.substring(index + 7).trim());
+			}
+		}
+		return 0;
+	}
+}

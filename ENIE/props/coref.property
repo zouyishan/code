@@ -1,0 +1,22 @@
+# parameters for corpus setting
+dataset.filelist=/m1/ACE/ACE05EN/filelist
+dataset.home=/m1/ACE/ACE05EN/
+dataset.srcdir=/m1/ACE/ACE05EN/source/
+#dataset.apfdir=/m1/ACE/ACE05EN/source/
+dataset.apfdir=/m3/KBP/software/EnglishIE/ENIE/dataset/exp1/dataset0/fold0/graph/
+dataset.triggerdir = /m1/ACE/ACE05EN/ACETrigger/
+dataset.indexdir = /m1/GALE/TDT5/english/indriIndex/
+dataset.dtdfile =/m1/ACE/ACE05EN/apf.v5.1.1.dtd
+
+dataset.relmapfile = /m1/GALE/TDT5/english/docid_to_file_mapping.tab
+dataset.relsrcdir = /m1/GALE/TDT5/english/sgm/
+dataset.relapfdir=/m1/GALE/TDT5/english/apf/
+
+
+dataset.total =1
+dataset.folds = 1
+dataset.experimentID = 1
+
+coref.approach = graph
+coref.featureset = 3
+coref.metric = BCube

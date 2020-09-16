@@ -1,0 +1,49 @@
+# parameters for corpus setting
+#ie.corpus.name = BLENDER_Sample_Source_Text_Corpus
+#ie.corpus.home = /m3/KBP/software/EnglishIE/ENIE/example/
+#ie.corpus.datadir = sgm/
+#ie.corpus.tagdir = out/
+#ie.corpus.datasuffix = .pan
+#ie.corpus.tagsuffix = .pan.apf
+#ie.corpus.docmap =/m3/KBP/software/EnglishIE/ENIE/example/docid_to_file_mapping.tab
+#ie.corpus.filelist =/m3/KBP/software/EnglishIE/ENIE/example/sgmlist
+#ie.corpus.dtdfile = /m3/KBP/corpus/TAC_2010_KBP_Source_Data/apf.v5.1.1.dtd
+
+NameTagger.model = crf_model-1-order-ace_nwire.gz
+
+# various resources for entity extraction, relation extraction and event extraction
+Jet.batch        = t
+Jet.dataPath	   = data
+EnglishLex.fileName1 = Jet4.dict
+EnglishLex.fileName2 = titles.dict
+Gazetteer.fileName   = loc.dict
+NameGender.fileName  = gender.dict
+Time.fileName        = time_rules.yaml
+Ace.EDTtype.fileName = ../acedata/EDT type dict 05.txt
+Ace.generic.fileName = ../acedata/generic dict 05.txt
+Ace.NameSubtypeModel.fileName = ../acedata/ACEnameSubtypeModel 05.txt
+Ace.Value.fileName   = ../acedata/values.dict
+Ace.RelationPatterns.fileName = ../acedata/relationPatterns 05-8.txt
+Ace.EventModels.directory = ../acedata/eventModels/
+Ace.RelationModels.directory = ../acedata/relationModels/
+Ace.RelationModels.binary = ../acedata/relationModels/relationIdenModel.log
+Ace.RelationModels.type = ../acedata/relationModels/relationModel.log
+
+Ace.writeEventConfidence = t
+Tags.fileName	   = pos_hmm.txt
+NameTags.fileName    = ../acedata/AceName06HMM.txt
+Pattern.fileName1    = MEchunkPatterns.txt
+Pattern.fileName2	   = NPpatterns.txt
+Chunker.fileName     = chunkModel.txt
+
+# processing steps in IE
+# if document is done with sentence split
+#processTextZone = sentence:processSentence 
+# if document is not done with sentence split, use 
+processTextZone = sentenceSplit, sentence:processSentence
+
+processSentence  = tokenize, lexLookup, pruneTags, tagNames,chunk, \
+                   pat(names), pat(othernames), ng:processNG, pat(fusePossessive), \
+			 pat(vgroups), pat(particles), pat(np), pat(np), pat(conj), \
+                   pat(vp), pat(rnv), pat(s),resolve
+processNG	     = pat(ng-chunks)

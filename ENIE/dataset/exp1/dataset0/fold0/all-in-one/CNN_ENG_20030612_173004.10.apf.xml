@@ -1,0 +1,777 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="CNN_ENG_20030612_173004.10.sgm" SOURCE="broadcast news" TYPE="text">
+<document DOCID="CNN_ENG_20030612_173004.10">
+  <entity ID="CNN_ENG_20030612_173004.10-E1" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E1-2">
+      <extent>
+			<charseq START="1166" END="1187">government-led militia</charseq>
+      </extent>
+      <head>
+			<charseq START="1181" END="1187">militia</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E2" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030612_173004.10-E2-3">
+      <extent>
+			<charseq START="1201" END="1260">an estimated 800,000
+opposition, and opposition sympathizers</charseq>
+      </extent>
+      <head>
+			<charseq START="1222" END="1231">opposition</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E3" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E3-4">
+      <extent>
+			<charseq START="1201" END="1260">an estimated 800,000
+opposition, and opposition sympathizers</charseq>
+      </extent>
+      <head>
+			<charseq START="1249" END="1260">sympathizers</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E4" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E4-5">
+      <extent>
+			<charseq START="1238" END="1247">opposition</charseq>
+      </extent>
+      <head>
+			<charseq START="1238" END="1247">opposition</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E5" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E5-8">
+      <extent>
+			<charseq START="1325" END="1333">president</charseq>
+      </extent>
+      <head>
+			<charseq START="1325" END="1333">president</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E5-7">
+      <extent>
+			<charseq START="1325" END="1341">president clinton</charseq>
+      </extent>
+      <head>
+			<charseq START="1335" END="1341">clinton</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030612_173004.10-E5-10">
+      <extent>
+			<charseq START="1392" END="1393">he</charseq>
+      </extent>
+      <head>
+			<charseq START="1392" END="1393">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="clinton">
+			<charseq START="1335" END="1341">clinton</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E7" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E7-27" ROLE="LOC">
+      <extent>
+			<charseq START="1152" END="1278">rwanda, where government-led militia slaughtered an estimated 800,000
+opposition, and opposition sympathizers in about 100 days</charseq>
+      </extent>
+      <head>
+			<charseq START="1152" END="1157">rwanda</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030612_173004.10-E7-11" ROLE="LOC">
+      <extent>
+			<charseq START="1160" END="1164">where</charseq>
+      </extent>
+      <head>
+			<charseq START="1160" END="1164">where</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E7-9" ROLE="GPE">
+      <extent>
+			<charseq START="1166" END="1175">government</charseq>
+      </extent>
+      <head>
+			<charseq START="1166" END="1175">government</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E7-6" ROLE="GPE">
+      <extent>
+			<charseq START="1287" END="1292">rwanda</charseq>
+      </extent>
+      <head>
+			<charseq START="1287" END="1292">rwanda</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="rwanda">
+			<charseq START="1287" END="1292">rwanda</charseq>
+      </name>
+      <name NAME="rwanda">
+			<charseq START="1152" END="1157">rwanda</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E8" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E8-1" ROLE="LOC">
+      <extent>
+			<charseq START="81" END="85">congo</charseq>
+      </extent>
+      <head>
+			<charseq START="81" END="85">congo</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E8-14" ROLE="GPE">
+      <extent>
+			<charseq START="289" END="299">the country</charseq>
+      </extent>
+      <head>
+			<charseq START="293" END="299">country</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E8-24" ROLE="GPE">
+      <extent>
+			<charseq START="1036" END="1040">congo</charseq>
+      </extent>
+      <head>
+			<charseq START="1036" END="1040">congo</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030612_173004.10-E8-26" ROLE="LOC">
+      <extent>
+			<charseq START="1099" END="1103">there</charseq>
+      </extent>
+      <head>
+			<charseq START="1099" END="1103">there</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="congo">
+			<charseq START="81" END="85">congo</charseq>
+      </name>
+      <name NAME="congo">
+			<charseq START="1036" END="1040">congo</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E9" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E9-12">
+      <extent>
+			<charseq START="163" END="174">rival tribes</charseq>
+      </extent>
+      <head>
+			<charseq START="169" END="174">tribes</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E10" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E10-13">
+      <extent>
+			<charseq START="195" END="204">500
+people</charseq>
+      </extent>
+      <head>
+			<charseq START="199" END="204">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E11" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E11-15" ROLE="LOC">
+      <extent>
+			<charseq START="450" END="453">iraq</charseq>
+      </extent>
+      <head>
+			<charseq START="450" END="453">iraq</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="iraq">
+			<charseq START="450" END="453">iraq</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E12" TYPE="GPE" SUBTYPE="GPE-Cluster" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E12-16" ROLE="LOC">
+      <extent>
+			<charseq START="499" END="513">the middle east</charseq>
+      </extent>
+      <head>
+			<charseq START="503" END="513">middle east</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="middle east">
+			<charseq START="503" END="513">middle east</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E13" TYPE="GPE" SUBTYPE="Continent" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E13-17" ROLE="LOC">
+      <extent>
+			<charseq START="567" END="572">africa</charseq>
+      </extent>
+      <head>
+			<charseq START="567" END="572">africa</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E13-21" ROLE="GPE">
+      <extent>
+			<charseq START="723" END="728">africa</charseq>
+      </extent>
+      <head>
+			<charseq START="723" END="728">africa</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030612_173004.10-E13-22" ROLE="LOC">
+      <extent>
+			<charseq START="861" END="864">here</charseq>
+      </extent>
+      <head>
+			<charseq START="861" END="864">here</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="africa">
+			<charseq START="567" END="572">africa</charseq>
+      </name>
+      <name NAME="africa">
+			<charseq START="723" END="728">africa</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E14" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E14-18">
+      <extent>
+			<charseq START="621" END="647">international relief agency</charseq>
+      </extent>
+      <head>
+			<charseq START="642" END="647">agency</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E15" TYPE="LOC" SUBTYPE="Land-Region-Natural" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E15-19">
+      <extent>
+			<charseq START="871" END="878">the land</charseq>
+      </extent>
+      <head>
+			<charseq START="875" END="878">land</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E16" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030612_173004.10-E16-20">
+      <extent>
+			<charseq START="663" END="688">more than 3
+million people</charseq>
+      </extent>
+      <head>
+			<charseq START="683" END="688">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E17" TYPE="PER" SUBTYPE="Indeterminate" CLASS="GEN">
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030612_173004.10-E17-23">
+      <extent>
+			<charseq START="966" END="968">you</charseq>
+      </extent>
+      <head>
+			<charseq START="966" END="968">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030612_173004.10-E18" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030612_173004.10-E18-25" ROLE="LOC">
+      <extent>
+			<charseq START="1072" END="1088">the united
+states</charseq>
+      </extent>
+      <head>
+			<charseq START="1076" END="1088">united
+states</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="united states">
+			<charseq START="1076" END="1088">united states</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <timex2 ID="CNN_ENG_20030612_173004.10-T1" VAL="PXD" SET="YES">
+    <timex2_mention ID="CNN_ENG_20030612_173004.10-T1-1">
+      <extent>
+			<charseq START="983" END="991">every day</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030612_173004.10-T2" VAL="2003-06-12T17:52:42">
+    <timex2_mention ID="CNN_ENG_20030612_173004.10-T2-1">
+      <extent>
+			<charseq START="44" END="62">2003-06-12 17:52:42</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030612_173004.10-T3" VAL="P1M" ANCHOR_VAL="2003-06" ANCHOR_DIR="ENDING">
+    <timex2_mention ID="CNN_ENG_20030612_173004.10-T3-1">
+      <extent>
+			<charseq START="132" END="138">a
+month</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030612_173004.10-T4" VAL="1998">
+    <timex2_mention ID="CNN_ENG_20030612_173004.10-T4-1">
+      <extent>
+			<charseq START="307" END="310">1998</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030612_173004.10-T5" VAL="P5Y" ANCHOR_VAL="1998" ANCHOR_DIR="STARTING">
+    <timex2_mention ID="CNN_ENG_20030612_173004.10-T5-1">
+      <extent>
+			<charseq START="833" END="842">five years</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030612_173004.10-T6" VAL="1994">
+    <timex2_mention ID="CNN_ENG_20030612_173004.10-T6-1">
+      <extent>
+			<charseq START="1134" END="1137">1994</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030612_173004.10-T7" VAL="P100D" ANCHOR_VAL="1994" ANCHOR_DIR="WITHIN">
+    <timex2_mention ID="CNN_ENG_20030612_173004.10-T7-1">
+      <extent>
+			<charseq START="1271" END="1278">100 days</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030612_173004.10-T8" VAL="1998">
+    <timex2_mention ID="CNN_ENG_20030612_173004.10-T8-1">
+      <extent>
+			<charseq START="1403" END="1406">1998</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030612_173004.10-T9" VAL="PRESENT_REF" ANCHOR_VAL="2003-06-12T17:52:42" ANCHOR_DIR="AS_OF">
+    <timex2_mention ID="CNN_ENG_20030612_173004.10-T9-1">
+      <extent>
+			<charseq START="456" END="458">now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="CNN_ENG_20030612_173004.10-R1" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="CNN_ENG_20030612_173004.10-E1" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030612_173004.10-E7" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030612_173004.10-R1-1" p="1.000">
+      <extent>
+			<charseq START="1166" END="1187">government-led militia</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030612_173004.10-E1-2" ROLE="Arg-1">
+          <extent>
+            <charseq START="1166" END="1187">government-led militia</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030612_173004.10-E7-9" ROLE="Arg-2">
+          <extent>
+            <charseq START="1166" END="1175">government</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <event ID="CNN_ENG_20030612_173004.10-EV2" TYPE="Life" SUBTYPE="Die" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E8" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E10" ROLE="Victim" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E9" ROLE="Agent" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T3" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E8" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T4" ROLE="Time-Starting" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E13" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E16" ROLE="Victim" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E13" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E13" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T5" ROLE="Time-Holds" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E8" ROLE="Place" p="1.0"/>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV2-1" p="1.000">
+      <extent>
+			<charseq START="68" END="85">slaughter in congo</charseq>
+      </extent>
+      <anchor>
+			<charseq START="68" END="76">slaughter</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E8-1" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="81" END="85">congo</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV2-2" p="1.000">
+      <extent>
+			<charseq START="132" END="204">a
+month of bloodleting between rival tribes has already killed 500
+people</charseq>
+      </extent>
+      <anchor>
+			<charseq START="188" END="193">killed</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E10-13" ROLE="Victim" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="195" END="204">500
+people</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E9-12" ROLE="Agent" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="163" END="174">rival tribes</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T3-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="132" END="138">a
+month</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV2-3" p="1.000">
+      <extent>
+			<charseq START="237" END="310">killings and rapes and torture
+that have grippedded the country since 1998</charseq>
+      </extent>
+      <anchor>
+			<charseq START="237" END="244">killings</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E8-14" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="289" END="299">the country</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T4-1" ROLE="Time-Starting" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="307" END="310">1998</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV2-4" p="1.000">
+      <extent>
+			<charseq START="518" END="572">massacre of massive
+proportions is unraveling in africa</charseq>
+      </extent>
+      <anchor>
+			<charseq START="518" END="525">massacre</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E13-17" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="567" END="572">africa</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV2-5" p="1.000">
+      <extent>
+			<charseq START="663" END="728">more than 3
+million people have died in what&apos;s often dubbed africa</charseq>
+      </extent>
+      <anchor>
+			<charseq START="695" END="698">died</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E16-20" ROLE="Victim" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="663" END="688">more than 3
+million people</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E13-21" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="723" END="728">africa</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV2-6" p="1.000">
+      <extent>
+			<charseq START="723" END="746">africa&apos;s first world
+war</charseq>
+      </extent>
+      <anchor>
+			<charseq START="744" END="746">war</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E13-21" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="723" END="728">africa</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV2-7" p="1.000">
+      <extent>
+			<charseq START="779" END="842">conflict since world war ii and has
+been going on for five years</charseq>
+      </extent>
+      <anchor>
+			<charseq START="779" END="786">conflict</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T5-1" ROLE="Time-Holds" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="833" END="842">five years</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV2-8" p="1.000">
+      <extent>
+			<charseq START="1095" END="1103">war there</charseq>
+      </extent>
+      <anchor>
+			<charseq START="1095" END="1097">war</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E8-26" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1099" END="1103">there</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="CNN_ENG_20030612_173004.10-EV1" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Generic" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E9" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E9" ROLE="Target" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T3" ROLE="Time-Holds" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E8" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T4" ROLE="Time-Starting" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E8" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T4" ROLE="Time-Starting" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E11" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E12" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E15" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E1" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E7" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E2" ROLE="Target" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E3" ROLE="Target" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T6" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T7" ROLE="Time-Holds" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E1" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E7" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E2" ROLE="Target" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-E3" ROLE="Target" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T6" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030612_173004.10-T7" ROLE="Time-Holds" p="1.0"/>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV1-1" p="1.000">
+      <extent>
+			<charseq START="132" END="174">a
+month of bloodleting between rival tribes</charseq>
+      </extent>
+      <anchor>
+			<charseq START="143" END="153">bloodleting</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E9-12" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="163" END="174">rival tribes</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E9-12" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="163" END="174">rival tribes</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T3-1" ROLE="Time-Holds" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="132" END="138">a
+month</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV1-2" p="1.000">
+      <extent>
+			<charseq START="250" END="310">rapes and torture
+that have grippedded the country since 1998</charseq>
+      </extent>
+      <anchor>
+			<charseq START="250" END="254">rapes</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E8-14" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="289" END="299">the country</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T4-1" ROLE="Time-Starting" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="307" END="310">1998</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV1-3" p="1.000">
+      <extent>
+			<charseq START="260" END="310">torture
+that have grippedded the country since 1998</charseq>
+      </extent>
+      <anchor>
+			<charseq START="260" END="266">torture</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E8-14" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="289" END="299">the country</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T4-1" ROLE="Time-Starting" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="307" END="310">1998</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV1-4" p="1.000">
+      <extent>
+			<charseq START="443" END="453">war in iraq</charseq>
+      </extent>
+      <anchor>
+			<charseq START="443" END="445">war</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E11-15" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="450" END="453">iraq</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV1-5" p="1.000">
+      <extent>
+			<charseq START="487" END="513">conflict in the middle east</charseq>
+      </extent>
+      <anchor>
+			<charseq START="487" END="494">conflict</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E12-16" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="499" END="513">the middle east</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV1-6" p="1.000">
+      <extent>
+			<charseq START="794" END="805">world war ii</charseq>
+      </extent>
+      <anchor>
+			<charseq START="794" END="805">world war ii</charseq>
+      </anchor>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV1-7" p="1.000">
+      <extent>
+			<charseq START="871" END="921">the land is
+home to other natural gems being fought</charseq>
+      </extent>
+      <anchor>
+			<charseq START="916" END="921">fought</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E15-19" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="871" END="878">the land</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV1-8" p="1.000">
+      <extent>
+			<charseq START="1134" END="1278">1994 civil war in
+rwanda, where government-led militia slaughtered an estimated 800,000
+opposition, and opposition sympathizers in about 100 days</charseq>
+      </extent>
+      <anchor>
+			<charseq START="1145" END="1147">war</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E1-2" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1166" END="1187">government-led militia</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E7-27" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1152" END="1278">rwanda, where government-led militia slaughtered an estimated 800,000
+opposition, and opposition sympathizers in about 100 days</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E2-3" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1201" END="1260">an estimated 800,000
+opposition, and opposition sympathizers</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E3-4" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1201" END="1260">an estimated 800,000
+opposition, and opposition sympathizers</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T6-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1134" END="1137">1994</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T7-1" ROLE="Time-Holds" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1271" END="1278">100 days</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030612_173004.10-EV1-9" p="1.000">
+      <extent>
+			<charseq START="1134" END="1278">1994 civil war in
+rwanda, where government-led militia slaughtered an estimated 800,000
+opposition, and opposition sympathizers in about 100 days</charseq>
+      </extent>
+      <anchor>
+			<charseq START="1189" END="1199">slaughtered</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E1-2" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1166" END="1187">government-led militia</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E7-11" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1160" END="1164">where</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E2-3" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1201" END="1260">an estimated 800,000
+opposition, and opposition sympathizers</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-E3-4" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1201" END="1260">an estimated 800,000
+opposition, and opposition sympathizers</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T6-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1134" END="1137">1994</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030612_173004.10-T7-1" ROLE="Time-Holds" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1271" END="1278">100 days</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+</document>
+</source_file>

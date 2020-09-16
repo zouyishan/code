@@ -1,0 +1,738 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="AFP_ENG_20030304.0250.sgm" SOURCE="newswire" TYPE="text">
+<document DOCID="AFP_ENG_20030304.0250">
+  <entity ID="AFP_ENG_20030304.0250-1" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AFP_ENG_20030304.0250-1-0" ROLE="LOC">
+      <extent>
+			<charseq START="146" END="150">DAVAO</charseq>
+      </extent>
+      <head>
+			<charseq START="146" END="150">DAVAO</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="DAVAO">
+			<charseq START="146" END="150">DAVAO</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-2" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AFP_ENG_20030304.0250-2-0" ROLE="LOC">
+      <extent>
+			<charseq START="153" END="163">Philippines</charseq>
+      </extent>
+      <head>
+			<charseq START="153" END="163">Philippines</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="AFP_ENG_20030304.0250-2-1" ROLE="GPE">
+      <extent>
+			<charseq START="262" END="272">Philippines</charseq>
+      </extent>
+      <head>
+			<charseq START="262" END="272">Philippines</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Philippines">
+			<charseq START="153" END="163">Philippines</charseq>
+      </name>
+      <name NAME="Philippines">
+			<charseq START="262" END="272">Philippines</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-3" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AFP_ENG_20030304.0250-3-0">
+      <extent>
+			<charseq START="175" END="177">AFP</charseq>
+      </extent>
+      <head>
+			<charseq START="175" END="177">AFP</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="AFP">
+			<charseq START="175" END="177">AFP</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-4" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-4-0">
+      <extent>
+			<charseq START="181" END="198">At least 19 people</charseq>
+      </extent>
+      <head>
+			<charseq START="193" END="198">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-5" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-5-0">
+      <extent>
+			<charseq START="216" END="225">114 people</charseq>
+      </extent>
+      <head>
+			<charseq START="220" END="225">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-6" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-6-0">
+      <extent>
+			<charseq START="289" END="297">officials</charseq>
+      </extent>
+      <head>
+			<charseq START="289" END="297">officials</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-6-1">
+      <extent>
+			<charseq START="451" END="459">officials</charseq>
+      </extent>
+      <head>
+			<charseq START="451" END="459">officials</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-7" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AFP_ENG_20030304.0250-7-0">
+      <extent>
+			<charseq START="357" END="374">Radio station DXDC</charseq>
+      </extent>
+      <head>
+			<charseq START="371" END="374">DXDC</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="DXDC">
+			<charseq START="371" END="374">DXDC</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-8" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-8-0">
+      <extent>
+			<charseq START="420" END="427">a
+source</charseq>
+      </extent>
+      <head>
+			<charseq START="422" END="427">source</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-9" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AFP_ENG_20030304.0250-9-0">
+      <extent>
+			<charseq START="493" END="549">The Davao Medical Center, a regional government hospital,</charseq>
+      </extent>
+      <head>
+			<charseq START="497" END="516">Davao Medical Center</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-9-1">
+      <extent>
+			<charseq START="519" END="548">a regional government hospital</charseq>
+      </extent>
+      <head>
+			<charseq START="541" END="548">hospital</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Davao Medical Center">
+			<charseq START="497" END="516">Davao Medical Center</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-10" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-10-0">
+      <extent>
+			<charseq START="587" END="612">Medical evacuation workers</charseq>
+      </extent>
+      <head>
+			<charseq START="606" END="612">workers</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-11" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-11-0">
+      <extent>
+			<charseq START="674" END="690">various hospitals</charseq>
+      </extent>
+      <head>
+			<charseq START="682" END="690">hospitals</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-12" TYPE="WEA" SUBTYPE="Exploding" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-12-0">
+      <extent>
+			<charseq START="694" END="708">A powerful bomb</charseq>
+      </extent>
+      <head>
+			<charseq START="705" END="708">bomb</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-12-1">
+      <extent>
+			<charseq START="924" END="943">a very powerful bomb</charseq>
+      </extent>
+      <head>
+			<charseq START="940" END="943">bomb</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-13" TYPE="FAC" SUBTYPE="Airport" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-13-0">
+      <extent>
+			<charseq START="741" END="776">the Davao City
+international airport</charseq>
+      </extent>
+      <head>
+			<charseq START="770" END="776">airport</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-14" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AFP_ENG_20030304.0250-14-0">
+      <extent>
+			<charseq START="745" END="754">Davao City</charseq>
+      </extent>
+      <head>
+			<charseq START="745" END="754">Davao City</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-14-1">
+      <extent>
+			<charseq START="852" END="859">the city</charseq>
+      </extent>
+      <head>
+			<charseq START="856" END="859">city</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Davao City">
+			<charseq START="745" END="754">Davao City</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-15" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-15-0">
+      <extent>
+			<charseq START="834" END="847">a bus terminal</charseq>
+      </extent>
+      <head>
+			<charseq START="840" END="847">terminal</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-16" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AFP_ENG_20030304.0250-16-0">
+      <extent>
+			<charseq START="989" END="1012">Vice Mayor Luis Bongoyan</charseq>
+      </extent>
+      <head>
+			<charseq START="1000" END="1012">Luis Bongoyan</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-16-1">
+      <extent>
+			<charseq START="994" END="998">Mayor</charseq>
+      </extent>
+      <head>
+			<charseq START="994" END="998">Mayor</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Luis Bongoyan">
+			<charseq START="1000" END="1012">Luis Bongoyan</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-17" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-17-0">
+      <extent>
+			<charseq START="1027" END="1045">local radio station</charseq>
+      </extent>
+      <head>
+			<charseq START="1039" END="1045">station</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-18" TYPE="ORG" SUBTYPE="Sports" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-18-0">
+      <extent>
+			<charseq START="1074" END="1086">medical teams</charseq>
+      </extent>
+      <head>
+			<charseq START="1082" END="1086">teams</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-19" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-19-0">
+      <extent>
+			<charseq START="1101" END="1125">dozens of
+wounded victims</charseq>
+      </extent>
+      <head>
+			<charseq START="1101" END="1106">dozens</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-20" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-20-0">
+      <extent>
+			<charseq START="1111" END="1125">wounded victims</charseq>
+      </extent>
+      <head>
+			<charseq START="1119" END="1125">victims</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-21" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-21-0">
+      <extent>
+			<charseq START="1132" END="1149">fully armed troops</charseq>
+      </extent>
+      <head>
+			<charseq START="1144" END="1149">troops</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-22" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="AFP_ENG_20030304.0250-22-0">
+      <extent>
+			<charseq START="1162" END="1180">Many of the victims</charseq>
+      </extent>
+      <head>
+			<charseq START="1162" END="1165">Many</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-23" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-23-0">
+      <extent>
+			<charseq START="1170" END="1180">the victims</charseq>
+      </extent>
+      <head>
+			<charseq START="1174" END="1180">victims</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-24" TYPE="ORG" SUBTYPE="Sports" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-24-0">
+      <extent>
+			<charseq START="1228" END="1242">teams of nurses</charseq>
+      </extent>
+      <head>
+			<charseq START="1228" END="1232">teams</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-25" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-25-0">
+      <extent>
+			<charseq START="1237" END="1242">nurses</charseq>
+      </extent>
+      <head>
+			<charseq START="1237" END="1242">nurses</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-26" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-26-0">
+      <extent>
+			<charseq START="1248" END="1254">doctors</charseq>
+      </extent>
+      <head>
+			<charseq START="1248" END="1254">doctors</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-27" TYPE="FAC" SUBTYPE="Subarea-Facility" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AFP_ENG_20030304.0250-27-0">
+      <extent>
+			<charseq START="1269" END="1290">packed emergency rooms</charseq>
+      </extent>
+      <head>
+			<charseq START="1286" END="1290">rooms</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AFP_ENG_20030304.0250-28" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="AFP_ENG_20030304.0250-28-0">
+      <extent>
+			<charseq START="1305" END="1315">the wounded</charseq>
+      </extent>
+      <head>
+			<charseq START="1309" END="1315">wounded</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <value ID="AFP_ENG_20030304.0250-V1" TYPE="Crime">
+    <value_mention ID="AFP_ENG_20030304.0250-V1-1">
+      <extent>
+			<charseq START="560" END="568">19
+deaths</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <value ID="AFP_ENG_20030304.0250-V2" TYPE="Job-Title">
+    <value_mention ID="AFP_ENG_20030304.0250-V2-1">
+      <extent>
+			<charseq START="994" END="998">Mayor</charseq>
+      </extent>
+    </value_mention>
+  </value>
+  <timex2 ID="AFP_ENG_20030304.0250-T0" VAL="2003-03-04">
+    <timex2_mention ID="AFP_ENG_20030304.0250-T0-1">
+      <extent>
+			<charseq START="39" END="46">20030304</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AFP_ENG_20030304.0250-T1" VAL="2003-03-04">
+    <timex2_mention ID="AFP_ENG_20030304.0250-T1-1">
+      <extent>
+			<charseq START="166" END="172">March 4</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AFP_ENG_20030304.0250-T2" VAL="2003-03-04">
+    <timex2_mention ID="AFP_ENG_20030304.0250-T2-1">
+      <extent>
+			<charseq START="243" END="249">Tuesday</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AFP_ENG_20030304.0250-T3" VAL="2003-03-04T17:15">
+    <timex2_mention ID="AFP_ENG_20030304.0250-T3-1">
+      <extent>
+			<charseq START="787" END="793">5.15 pm</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AFP_ENG_20030304.0250-T4" VAL="2003-03-04T09:15Z">
+    <timex2_mention ID="AFP_ENG_20030304.0250-T4-1">
+      <extent>
+			<charseq START="796" END="803">0915 GMT</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="AFP_ENG_20030304.0250-R1" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="AFP_ENG_20030304.0250-4" ROLE="Arg-1" />
+    <relation_argument REFID="AFP_ENG_20030304.0250-2" ROLE="Arg-2" />
+      <relation_mention ID="AFP_ENG_20030304.0250-R1-1" p="0.923">
+      <extent>
+			<charseq START="181" END="272">At least 19 people were killed and 114 people were wounded in
+Tuesday&apos;s southern Philippines</charseq>
+      </extent>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-4-0" ROLE="Arg-1">
+          <extent>
+            <charseq START="181" END="198">At least 19 people</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-2-1" ROLE="Arg-2">
+          <extent>
+            <charseq START="262" END="272">Philippines</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AFP_ENG_20030304.0250-R2" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="AFP_ENG_20030304.0250-5" ROLE="Arg-1" />
+    <relation_argument REFID="AFP_ENG_20030304.0250-2" ROLE="Arg-2" />
+      <relation_mention ID="AFP_ENG_20030304.0250-R2-1" p="0.912">
+      <extent>
+			<charseq START="216" END="272">114 people were wounded in
+Tuesday&apos;s southern Philippines</charseq>
+      </extent>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-5-0" ROLE="Arg-1">
+          <extent>
+            <charseq START="216" END="225">114 people</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-2-1" ROLE="Arg-2">
+          <extent>
+            <charseq START="262" END="272">Philippines</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AFP_ENG_20030304.0250-R3" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="AFP_ENG_20030304.0250-9" ROLE="Arg-1" />
+    <relation_argument REFID="AFP_ENG_20030304.0250-9" ROLE="Arg-2" />
+      <relation_mention ID="AFP_ENG_20030304.0250-R3-1" p="0.326">
+      <extent>
+			<charseq START="493" END="549">The Davao Medical Center, a regional government hospital,</charseq>
+      </extent>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-9-0" ROLE="Arg-1">
+          <extent>
+            <charseq START="493" END="549">The Davao Medical Center, a regional government hospital,</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-9-1" ROLE="Arg-2">
+          <extent>
+            <charseq START="519" END="548">a regional government hospital</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AFP_ENG_20030304.0250-R4" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="AFP_ENG_20030304.0250-14" ROLE="Arg-1" />
+    <relation_argument REFID="AFP_ENG_20030304.0250-13" ROLE="Arg-2" />
+      <relation_mention ID="AFP_ENG_20030304.0250-R4-1" p="0.426">
+      <extent>
+			<charseq START="741" END="776">the Davao City
+international airport</charseq>
+      </extent>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-14-0" ROLE="Arg-1">
+          <extent>
+            <charseq START="745" END="754">Davao City</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-13-0" ROLE="Arg-2">
+          <extent>
+            <charseq START="741" END="776">the Davao City
+international airport</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AFP_ENG_20030304.0250-R5" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="AFP_ENG_20030304.0250-19" ROLE="Arg-1" />
+    <relation_argument REFID="AFP_ENG_20030304.0250-20" ROLE="Arg-2" />
+      <relation_mention ID="AFP_ENG_20030304.0250-R5-1" p="0.376">
+      <extent>
+			<charseq START="1101" END="1125">dozens of
+wounded victims</charseq>
+      </extent>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-19-0" ROLE="Arg-1">
+          <extent>
+            <charseq START="1101" END="1125">dozens of
+wounded victims</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-20-0" ROLE="Arg-2">
+          <extent>
+            <charseq START="1111" END="1125">wounded victims</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AFP_ENG_20030304.0250-R6" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="AFP_ENG_20030304.0250-24" ROLE="Arg-1" />
+    <relation_argument REFID="AFP_ENG_20030304.0250-27" ROLE="Arg-2" />
+      <relation_mention ID="AFP_ENG_20030304.0250-R6-1" p="0.373">
+      <extent>
+			<charseq START="1228" END="1290">teams of nurses and doctors were seen in packed emergency rooms</charseq>
+      </extent>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-24-0" ROLE="Arg-1">
+          <extent>
+            <charseq START="1228" END="1242">teams of nurses</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-27-0" ROLE="Arg-2">
+          <extent>
+            <charseq START="1269" END="1290">packed emergency rooms</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AFP_ENG_20030304.0250-R7" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="AFP_ENG_20030304.0250-26" ROLE="Arg-1" />
+    <relation_argument REFID="AFP_ENG_20030304.0250-27" ROLE="Arg-2" />
+      <relation_mention ID="AFP_ENG_20030304.0250-R7-1" p="0.921">
+      <extent>
+			<charseq START="1248" END="1290">doctors were seen in packed emergency rooms</charseq>
+      </extent>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-26-0" ROLE="Arg-1">
+          <extent>
+            <charseq START="1248" END="1254">doctors</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-27-0" ROLE="Arg-2">
+          <extent>
+            <charseq START="1269" END="1290">packed emergency rooms</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AFP_ENG_20030304.0250-R8" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="AFP_ENG_20030304.0250-28" ROLE="Arg-1" />
+    <relation_argument REFID="AFP_ENG_20030304.0250-27" ROLE="Arg-2" />
+      <relation_mention ID="AFP_ENG_20030304.0250-R8-1" p="0.846">
+      <extent>
+			<charseq START="1269" END="1315">packed emergency rooms
+attending to the wounded</charseq>
+      </extent>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-28-0" ROLE="Arg-1">
+          <extent>
+            <charseq START="1305" END="1315">the wounded</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AFP_ENG_20030304.0250-27-0" ROLE="Arg-2">
+          <extent>
+            <charseq START="1269" END="1290">packed emergency rooms</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <event ID="AFP_ENG_20030304.0250-EV1" TYPE="Life" SUBTYPE="Injure" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="AFP_ENG_20030304.0250-5" ROLE="Victim" p="1.0"/>
+    <event_argument REFID="AFP_ENG_20030304.0250-T2" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="AFP_ENG_20030304.0250-2" ROLE="Place" p="0.06945793435303675"/>
+    <event_argument REFID="AFP_ENG_20030304.0250-6" ROLE="Agent" p="0.13833883579747275"/>
+    <event_mention ID="AFP_ENG_20030304.0250-EV1-1" p="1.000">
+      <extent>
+			<charseq START="216" END="249">114 people were wounded in
+Tuesday</charseq>
+      </extent>
+      <anchor>
+			<charseq START="232" END="238">wounded</charseq>
+      </anchor>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-5-0" ROLE="Victim" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="216" END="225">114 people</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-T2-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="243" END="249">Tuesday</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-2-1" ROLE="Place" p="0.142" pRole="0.490">
+      	<extent>
+			<charseq START="262" END="272">Philippines</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-6-0" ROLE="Agent" p="0.183" pRole="0.757">
+      	<extent>
+			<charseq START="289" END="297">officials</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="AFP_ENG_20030304.0250-EV2" TYPE="Movement" SUBTYPE="Transport" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="AFP_ENG_20030304.0250-19" ROLE="Artifact" p="1.0"/>
+    <event_mention ID="AFP_ENG_20030304.0250-EV2-1" p="1.000">
+      <extent>
+			<charseq START="1088" END="1125">carting away dozens of
+wounded victims</charseq>
+      </extent>
+      <anchor>
+			<charseq START="1088" END="1094">carting</charseq>
+      </anchor>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-19-0" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="1101" END="1125">dozens of
+wounded victims</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="AFP_ENG_20030304.0250-EV3" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_mention ID="AFP_ENG_20030304.0250-EV3-1" p="0.589">
+      <extent>
+			<charseq START="282" END="286">blast</charseq>
+      </extent>
+      <anchor>
+			<charseq START="282" END="286">blast</charseq>
+      </anchor>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-2-1" ROLE="Place" p="0.952" pRole="0.596">
+      	<extent>
+			<charseq START="262" END="272">Philippines</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="AFP_ENG_20030304.0250-EV4" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="AFP_ENG_20030304.0250-12" ROLE="Instrument" p="1.0"/>
+    <event_argument REFID="AFP_ENG_20030304.0250-13" ROLE="Place" p="0.22491938786281915"/>
+    <event_mention ID="AFP_ENG_20030304.0250-EV4-1" p="1.000">
+      <extent>
+			<charseq START="694" END="713">A powerful bomb tore</charseq>
+      </extent>
+      <anchor>
+			<charseq START="710" END="713">tore</charseq>
+      </anchor>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-12-0" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="694" END="708">A powerful bomb</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-13-0" ROLE="Place" p="0.309" pRole="0.729">
+      	<extent>
+			<charseq START="741" END="776">the Davao City
+international airport</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="AFP_ENG_20030304.0250-EV5" TYPE="Life" SUBTYPE="Die" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Past" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="AFP_ENG_20030304.0250-4" ROLE="Victim" p="1.0"/>
+    <event_argument REFID="AFP_ENG_20030304.0250-T2" ROLE="Time-Within" p="1.0"/>
+    <event_argument REFID="AFP_ENG_20030304.0250-6" ROLE="Agent" p="0.1067369532641761"/>
+    <event_mention ID="AFP_ENG_20030304.0250-EV5-1" p="1.000">
+      <extent>
+			<charseq START="181" END="249">At least 19 people were killed and 114 people were wounded in
+Tuesday</charseq>
+      </extent>
+      <anchor>
+			<charseq START="205" END="210">killed</charseq>
+      </anchor>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-4-0" ROLE="Victim" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="181" END="198">At least 19 people</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-T2-1" ROLE="Time-Within" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="243" END="249">Tuesday</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="AFP_ENG_20030304.0250-6-0" ROLE="Agent" p="0.129" pRole="0.829">
+      	<extent>
+			<charseq START="289" END="297">officials</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+</document>
+</source_file>

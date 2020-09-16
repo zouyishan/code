@@ -1,0 +1,40 @@
+
+#load environment variables from component.env
+. component.env
+
+#cd to the home directory
+cd $ENIE_HOMEDIR
+
+
+
+#validate the output files
+echo "========================================================"
+echo "validating the output files"
+echo "========================================================"
+
+flagfile="./success"
+outdir="./example/out/ace05/*"
+validate=1
+
+if [ ! -e $flagfile ];then
+rm -rf $flagfile
+fi
+
+for f in $outdir
+do
+  result=$(diff -u $f ${f/ace05/ace05_validate})
+  if [ $? -eq 0 ]; then 
+	 echo "Validating $f: passed!"
+  else 
+    echo "Validating $f: failed!"
+    validate=0
+  fi
+done
+
+if [ $validate -eq 1 ]
+then
+  echo "Sample test: passed!"
+  touch $flagfile
+else 
+  echo "Sample test: failed!"
+fi

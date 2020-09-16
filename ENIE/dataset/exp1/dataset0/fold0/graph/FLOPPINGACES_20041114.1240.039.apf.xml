@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="FLOPPINGACES_20041114.1240.039.sgm" SOURCE="weblog" TYPE="text">
+<document DOCID="FLOPPINGACES_20041114.1240.039">
+  <entity ID="FLOPPINGACES_20041114.1240.039-E1" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20041114.1240.039-E1-1">
+      <extent>
+			<charseq START="92" END="95">Curt</charseq>
+      </extent>
+      <head>
+			<charseq START="92" END="95">Curt</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20041114.1240.039-E1-13">
+      <extent>
+			<charseq START="349" END="349">I</charseq>
+      </extent>
+      <head>
+			<charseq START="349" END="349">I</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Curt">
+			<charseq START="92" END="95">Curt</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E2" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20041114.1240.039-E2-2">
+      <extent>
+			<charseq START="120" END="123">Time</charseq>
+      </extent>
+      <head>
+			<charseq START="120" END="123">Time</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Time">
+			<charseq START="120" END="123">Time</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E3" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20041114.1240.039-E3-3">
+      <extent>
+			<charseq START="149" END="168">a al-Qaeda operative</charseq>
+      </extent>
+      <head>
+			<charseq START="160" END="168">operative</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E4" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20041114.1240.039-E4-4">
+      <extent>
+			<charseq START="151" END="158">al-Qaeda</charseq>
+      </extent>
+      <head>
+			<charseq START="151" END="158">al-Qaeda</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20041114.1240.039-E4-5">
+      <extent>
+			<charseq START="208" END="211">they</charseq>
+      </extent>
+      <head>
+			<charseq START="208" END="211">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="al-Qaeda">
+			<charseq START="151" END="158">al-Qaeda</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E6" TYPE="WEA" SUBTYPE="Nuclear" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20041114.1240.039-E6-6">
+      <extent>
+			<charseq START="247" END="251">nukes</charseq>
+      </extent>
+      <head>
+			<charseq START="247" END="251">nukes</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E7" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20041114.1240.039-E7-7" ROLE="LOC">
+      <extent>
+			<charseq START="258" END="263">the
+US</charseq>
+      </extent>
+      <head>
+			<charseq START="262" END="263">US</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20041114.1240.039-E7-12" ROLE="GPE">
+      <extent>
+			<charseq START="325" END="327">our</charseq>
+      </extent>
+      <head>
+			<charseq START="325" END="327">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20041114.1240.039-E7-18" ROLE="GPE">
+      <extent>
+			<charseq START="475" END="477">our</charseq>
+      </extent>
+      <head>
+			<charseq START="475" END="477">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="US">
+			<charseq START="262" END="263">US</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E8" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20041114.1240.039-E8-8" ROLE="LOC">
+      <extent>
+			<charseq START="270" END="275">Mexico</charseq>
+      </extent>
+      <head>
+			<charseq START="270" END="275">Mexico</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Mexico">
+			<charseq START="270" END="275">Mexico</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E9" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20041114.1240.039-E9-9">
+      <extent>
+			<charseq START="307" END="309">god</charseq>
+      </extent>
+      <head>
+			<charseq START="307" END="309">god</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="god">
+			<charseq START="307" END="309">god</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E10" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="FLOPPINGACES_20041114.1240.039-E10-10">
+      <extent>
+			<charseq START="311" END="314">Bush</charseq>
+      </extent>
+      <head>
+			<charseq START="311" END="314">Bush</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20041114.1240.039-E10-11">
+      <extent>
+			<charseq START="325" END="337">our
+president</charseq>
+      </extent>
+      <head>
+			<charseq START="329" END="337">president</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20041114.1240.039-E10-14">
+      <extent>
+			<charseq START="374" END="376">him</charseq>
+      </extent>
+      <head>
+			<charseq START="374" END="376">him</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="FLOPPINGACES_20041114.1240.039-E10-15">
+      <extent>
+			<charseq START="381" END="383">his</charseq>
+      </extent>
+      <head>
+			<charseq START="381" END="383">his</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Bush">
+			<charseq START="311" END="314">Bush</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E12" TYPE="PER" SUBTYPE="Indeterminate" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20041114.1240.039-E12-16">
+      <extent>
+			<charseq START="451" END="459">the enemy</charseq>
+      </extent>
+      <head>
+			<charseq START="455" END="459">enemy</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="FLOPPINGACES_20041114.1240.039-E13" TYPE="LOC" SUBTYPE="Boundary" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="FLOPPINGACES_20041114.1240.039-E13-17">
+      <extent>
+			<charseq START="475" END="485">our borders</charseq>
+      </extent>
+      <head>
+			<charseq START="479" END="485">borders</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <timex2 ID="FLOPPINGACES_20041114.1240.039-T1" VAL="2004-11-14T12:40:00">
+    <timex2_mention ID="FLOPPINGACES_20041114.1240.039-T1-1">
+      <extent>
+			<charseq START="99" END="117">2004-11-14T12:40:00</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20041114.1240.039-T2" VAL="2004-11-14">
+    <timex2_mention ID="FLOPPINGACES_20041114.1240.039-T2-1">
+      <extent>
+			<charseq START="138" END="142">today</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20041114.1240.039-T3" VAL="FUTURE_REF" ANCHOR_VAL="2004-11-14-T12:40:00" ANCHOR_DIR="AFTER">
+    <timex2_mention ID="FLOPPINGACES_20041114.1240.039-T3-1">
+      <extent>
+			<charseq START="385" END="387">new</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="FLOPPINGACES_20041114.1240.039-T4" VAL="2004-11-14T12:40:00">
+    <timex2_mention ID="FLOPPINGACES_20041114.1240.039-T4-1">
+      <extent>
+			<charseq START="46" END="64">2004-11-14T12:40:00</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="FLOPPINGACES_20041114.1240.039-R1" TYPE="ORG-AFF" SUBTYPE="Membership">    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E3" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E4" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20041114.1240.039-R1-1" p="1.000">
+      <extent>
+			<charseq START="149" END="168">a al-Qaeda operative</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E3-3" ROLE="Arg-1">
+          <extent>
+            <charseq START="149" END="168">a al-Qaeda operative</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E4-4" ROLE="Arg-2">
+          <extent>
+            <charseq START="151" END="158">al-Qaeda</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20041114.1240.039-R2" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E4" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E6" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20041114.1240.039-R2-1" p="1.000">
+      <extent>
+			<charseq START="120" END="297">Time is reporting today that a al-Qaeda operative was captured and is
+spitting out that they have plans in the work to smuggle nukes into the
+US from Mexico, see the article here</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E4-5" ROLE="Arg-1">
+          <extent>
+            <charseq START="208" END="211">they</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E6-6" ROLE="Arg-2">
+          <extent>
+            <charseq START="247" END="251">nukes</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20041114.1240.039-R3" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E10" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E7" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20041114.1240.039-R3-1" p="1.000">
+      <extent>
+			<charseq START="325" END="337">our
+president</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E10-11" ROLE="Arg-1">
+          <extent>
+            <charseq START="325" END="337">our
+president</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E7-12" ROLE="Arg-2">
+          <extent>
+            <charseq START="325" END="327">our</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20041114.1240.039-R4" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E12" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E13" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20041114.1240.039-R4-1" p="1.000">
+      <extent>
+			<charseq START="409" END="485">This policy would just make it easier for the enemy to get
+within our borders</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E12-16" ROLE="Arg-1">
+          <extent>
+            <charseq START="451" END="459">the enemy</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E13-17" ROLE="Arg-2">
+          <extent>
+            <charseq START="475" END="485">our borders</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="FLOPPINGACES_20041114.1240.039-R5" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E13" ROLE="Arg-1" />
+    <relation_argument REFID="FLOPPINGACES_20041114.1240.039-E7" ROLE="Arg-2" />
+      <relation_mention ID="FLOPPINGACES_20041114.1240.039-R5-1" p="1.000">
+      <extent>
+			<charseq START="475" END="485">our borders</charseq>
+      </extent>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E13-17" ROLE="Arg-1">
+          <extent>
+            <charseq START="475" END="485">our borders</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E7-18" ROLE="Arg-2">
+          <extent>
+            <charseq START="475" END="477">our</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <event ID="FLOPPINGACES_20041114.1240.039-EV1" TYPE="Movement" SUBTYPE="Transport" MODALITY="Other" POLARITY="Positive" GENERICITY="Specific" TENSE="Future" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="FLOPPINGACES_20041114.1240.039-E8" ROLE="Origin" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20041114.1240.039-E7" ROLE="Destination" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20041114.1240.039-E4" ROLE="Agent" p="1.0"/>
+    <event_mention ID="FLOPPINGACES_20041114.1240.039-EV1-1" p="1.000">
+      <extent>
+			<charseq START="208" END="275">they have plans in the work to smuggle nukes into the
+US from Mexico</charseq>
+      </extent>
+      <anchor>
+			<charseq START="239" END="245">smuggle</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E8-8" ROLE="Origin" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="270" END="275">Mexico</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E7-7" ROLE="Destination" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="258" END="263">the
+US</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E4-5" ROLE="Agent" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="208" END="211">they</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+  <event ID="FLOPPINGACES_20041114.1240.039-EV2" TYPE="Movement" SUBTYPE="Transport" MODALITY="Other" POLARITY="Positive" GENERICITY="Generic" TENSE="Future" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="FLOPPINGACES_20041114.1240.039-E12" ROLE="Artifact" p="1.0"/>
+    <event_argument REFID="FLOPPINGACES_20041114.1240.039-E13" ROLE="Destination" p="1.0"/>
+    <event_mention ID="FLOPPINGACES_20041114.1240.039-EV2-1" p="1.000">
+      <extent>
+			<charseq START="451" END="485">the enemy to get
+within our borders</charseq>
+      </extent>
+      <anchor>
+			<charseq START="464" END="466">get</charseq>
+      </anchor>
+      <event_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E12-16" ROLE="Artifact" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="451" END="459">the enemy</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="FLOPPINGACES_20041114.1240.039-E13-17" ROLE="Destination" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="475" END="485">our borders</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+</document>
+</source_file>

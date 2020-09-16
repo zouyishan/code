@@ -1,0 +1,7 @@
+20:30:07.234 [main] INFO  Launcher    ********************************************************************************
+20:30:07.244 [main] INFO  Launcher    **                                  Protégé                                   **
+20:30:07.244 [main] INFO  Launcher    ********************************************************************************
+20:30:07.245 [main] INFO  Launcher    
+20:30:07.245 [main] INFO  Launcher    ----------------- Initialising and Starting the OSGi Framework -----------------
+20:30:07.245 [main] INFO  Launcher    FrameworkFactory Class: org.apache.felix.framework.FrameworkFactory
+20:30:07.246 [main] INFO  Launcher    

@@ -1,0 +1,682 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="CNN_ENG_20030329_170349.7.sgm" SOURCE="broadcast news" TYPE="text">
+<document DOCID="CNN_ENG_20030329_170349.7">
+  <entity ID="CNN_ENG_20030329_170349.7-E1" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E1-1">
+      <extent>
+			<charseq START="434" END="439">iraqis</charseq>
+      </extent>
+      <head>
+			<charseq START="434" END="439">iraqis</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E1-6">
+      <extent>
+			<charseq START="526" END="529">they</charseq>
+      </extent>
+      <head>
+			<charseq START="526" END="529">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E2" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030329_170349.7-E2-2" ROLE="GPE">
+      <extent>
+			<charseq START="471" END="473">u.s</charseq>
+      </extent>
+      <head>
+			<charseq START="471" END="473">u.s</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030329_170349.7-E2-12" ROLE="GPE">
+      <extent>
+			<charseq START="636" END="643">american</charseq>
+      </extent>
+      <head>
+			<charseq START="636" END="643">american</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="u.s">
+			<charseq START="471" END="473">u.s</charseq>
+      </name>
+      <name NAME="american">
+			<charseq START="636" END="643">american</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E3" TYPE="VEH" SUBTYPE="Air" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E3-3">
+      <extent>
+			<charseq START="471" END="481">u.s. planes</charseq>
+      </extent>
+      <head>
+			<charseq START="476" END="481">planes</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E3-9">
+      <extent>
+			<charseq START="570" END="579">the planes</charseq>
+      </extent>
+      <head>
+			<charseq START="574" END="579">planes</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E4" TYPE="WEA" SUBTYPE="Exploding" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E4-4">
+      <extent>
+			<charseq START="491" END="496">a bomb</charseq>
+      </extent>
+      <head>
+			<charseq START="493" END="496">bomb</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E5" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E5-5">
+      <extent>
+			<charseq START="503" END="515">northern iraq</charseq>
+      </extent>
+      <head>
+			<charseq START="512" END="515">iraq</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E6" TYPE="LOC" SUBTYPE="Land-Region-Natural" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E6-7">
+      <extent>
+			<charseq START="546" END="554">the ridge</charseq>
+      </extent>
+      <head>
+			<charseq START="550" END="554">ridge</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E7" TYPE="PER" SUBTYPE="Indeterminate" CLASS="GEN">
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E7-8">
+      <extent>
+			<charseq START="557" END="559">you</charseq>
+      </extent>
+      <head>
+			<charseq START="557" END="559">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E7-10">
+      <extent>
+			<charseq START="609" END="611">you</charseq>
+      </extent>
+      <head>
+			<charseq START="609" END="611">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E7-14">
+      <extent>
+			<charseq START="669" END="671">you</charseq>
+      </extent>
+      <head>
+			<charseq START="669" END="671">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E8" TYPE="PER" SUBTYPE="Individual" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E8-11">
+      <extent>
+			<charseq START="632" END="650">any american marine</charseq>
+      </extent>
+      <head>
+			<charseq START="645" END="650">marine</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E8-13">
+      <extent>
+			<charseq START="656" END="659">they</charseq>
+      </extent>
+      <head>
+			<charseq START="656" END="659">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E8-15">
+      <extent>
+			<charseq START="673" END="676">they</charseq>
+      </extent>
+      <head>
+			<charseq START="673" END="676">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E10" TYPE="PER" SUBTYPE="Group" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E10-17">
+      <extent>
+			<charseq START="727" END="741">fallen comrades</charseq>
+      </extent>
+      <head>
+			<charseq START="734" END="741">comrades</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E11" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E11-18">
+      <extent>
+			<charseq START="778" END="839">marines engaged in the fierce battle
+for the city of nasiriyah</charseq>
+      </extent>
+      <head>
+			<charseq START="778" END="784">marines</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E11-38">
+      <extent>
+			<charseq START="881" END="891">the
+marines</charseq>
+      </extent>
+      <head>
+			<charseq START="885" END="891">marines</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E12" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E12-19" ROLE="GPE">
+      <extent>
+			<charseq START="819" END="839">the city of nasiriyah</charseq>
+      </extent>
+      <head>
+			<charseq START="823" END="826">city</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030329_170349.7-E12-20" ROLE="GPE">
+      <extent>
+			<charseq START="831" END="839">nasiriyah</charseq>
+      </extent>
+      <head>
+			<charseq START="831" END="839">nasiriyah</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030329_170349.7-E12-21" ROLE="GPE">
+      <extent>
+			<charseq START="841" END="849">nasiriyah</charseq>
+      </extent>
+      <head>
+			<charseq START="841" END="849">nasiriyah</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E12-16" ROLE="LOC">
+      <extent>
+			<charseq START="870" END="874">there</charseq>
+      </extent>
+      <head>
+			<charseq START="870" END="874">there</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="nasiriyah">
+			<charseq START="831" END="839">nasiriyah</charseq>
+      </name>
+      <name NAME="nasiriyah">
+			<charseq START="841" END="849">nasiriyah</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E13" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030329_170349.7-E13-22">
+      <extent>
+			<charseq START="852" END="865">aless so vinci</charseq>
+      </extent>
+      <head>
+			<charseq START="852" END="865">aless so vinci</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="aless so vinci">
+			<charseq START="852" END="865">aless so vinci</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E14" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E14-23">
+      <extent>
+			<charseq START="107" END="115">oil field</charseq>
+      </extent>
+      <head>
+			<charseq START="111" END="115">field</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E15" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E15-24">
+      <extent>
+			<charseq START="126" END="138">southern
+iraq</charseq>
+      </extent>
+      <head>
+			<charseq START="135" END="138">iraq</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E16" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E16-25">
+      <extent>
+			<charseq START="141" END="152">firefighters</charseq>
+      </extent>
+      <head>
+			<charseq START="141" END="152">firefighters</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E16-26">
+      <extent>
+			<charseq START="163" END="167">their</charseq>
+      </extent>
+      <head>
+			<charseq START="163" END="167">their</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E17" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030329_170349.7-E17-27">
+      <extent>
+			<charseq START="177" END="198">the ramallah oil field</charseq>
+      </extent>
+      <head>
+			<charseq START="194" END="198">field</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E17-37">
+      <extent>
+			<charseq START="345" END="353">the field</charseq>
+      </extent>
+      <head>
+			<charseq START="349" END="353">field</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="field">
+			<charseq START="194" END="198">field</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E18" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030329_170349.7-E18-28" ROLE="GPE">
+      <extent>
+			<charseq START="181" END="188">ramallah</charseq>
+      </extent>
+      <head>
+			<charseq START="181" END="188">ramallah</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="ramallah">
+			<charseq START="181" END="188">ramallah</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E19" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E19-29">
+      <extent>
+			<charseq START="201" END="209">officials</charseq>
+      </extent>
+      <head>
+			<charseq START="201" END="209">officials</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E19-30">
+      <extent>
+			<charseq START="215" END="218">they</charseq>
+      </extent>
+      <head>
+			<charseq START="215" END="218">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E19-34">
+      <extent>
+			<charseq START="310" END="313">they</charseq>
+      </extent>
+      <head>
+			<charseq START="310" END="313">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E20" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E20-31">
+      <extent>
+			<charseq START="251" END="259">two wells</charseq>
+      </extent>
+      <head>
+			<charseq START="255" END="259">wells</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E21" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E21-32">
+      <extent>
+			<charseq START="282" END="307">500 oil fields in the area</charseq>
+      </extent>
+      <head>
+			<charseq START="290" END="295">fields</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E22" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E22-33">
+      <extent>
+			<charseq START="300" END="307">the area</charseq>
+      </extent>
+      <head>
+			<charseq START="304" END="307">area</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030329_170349.7-E23" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030329_170349.7-E23-35">
+      <extent>
+			<charseq START="319" END="368">some iraqis who
+worked in the field before the war</charseq>
+      </extent>
+      <head>
+			<charseq START="324" END="329">iraqis</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E23-36">
+      <extent>
+			<charseq START="331" END="333">who</charseq>
+      </extent>
+      <head>
+			<charseq START="331" END="333">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030329_170349.7-E23-39">
+      <extent>
+			<charseq START="393" END="397">their</charseq>
+      </extent>
+      <head>
+			<charseq START="393" END="397">their</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <timex2 ID="CNN_ENG_20030329_170349.7-T1" VAL="2003-03-29T17:17:30">
+    <timex2_mention ID="CNN_ENG_20030329_170349.7-T1-1">
+      <extent>
+			<charseq START="43" END="61">2003-03-29 17:17:30</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030329_170349.7-T2" VAL="2003-03-29">
+    <timex2_mention ID="CNN_ENG_20030329_170349.7-T2-1">
+      <extent>
+			<charseq START="67" END="71">today</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="CNN_ENG_20030329_170349.7-R1" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="CNN_ENG_20030329_170349.7-E16" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030329_170349.7-E17" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030329_170349.7-R1-1" p="1.000">
+      <extent>
+			<charseq START="141" END="198">firefighters continue their work at the ramallah oil field</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E16-25" ROLE="Arg-1">
+          <extent>
+            <charseq START="141" END="152">firefighters</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E17-27" ROLE="Arg-2">
+          <extent>
+            <charseq START="177" END="198">the ramallah oil field</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030329_170349.7-R2" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="CNN_ENG_20030329_170349.7-E23" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030329_170349.7-E17" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030329_170349.7-R2-1" p="1.000">
+      <extent>
+			<charseq START="310" END="407">they say some iraqis who
+worked in the field before the war already are asking for their jobs
+back</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E23-35" ROLE="Arg-1">
+          <extent>
+            <charseq START="319" END="368">some iraqis who
+worked in the field before the war</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E17-37" ROLE="Arg-2">
+          <extent>
+            <charseq START="345" END="353">the field</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030329_170349.7-R3" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="CNN_ENG_20030329_170349.7-E14" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030329_170349.7-E15" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030329_170349.7-R3-1" p="1.000">
+      <extent>
+			<charseq START="67" END="138">today&apos;s battles include pictures of the oil field fires in southern
+iraq</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E14-23" ROLE="Arg-1">
+          <extent>
+            <charseq START="107" END="115">oil field</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E15-24" ROLE="Arg-2">
+          <extent>
+            <charseq START="126" END="138">southern
+iraq</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030329_170349.7-R4" TYPE="PHYS" SUBTYPE="Near">    <relation_argument REFID="CNN_ENG_20030329_170349.7-E17" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030329_170349.7-E18" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030329_170349.7-R4-1" p="1.000">
+      <extent>
+			<charseq START="177" END="198">the ramallah oil field</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E17-27" ROLE="Arg-1">
+          <extent>
+            <charseq START="177" END="198">the ramallah oil field</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E18-28" ROLE="Arg-2">
+          <extent>
+            <charseq START="181" END="188">ramallah</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030329_170349.7-R5" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="CNN_ENG_20030329_170349.7-E21" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030329_170349.7-E22" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030329_170349.7-R5-1" p="1.000">
+      <extent>
+			<charseq START="282" END="307">500 oil fields in the area</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E21-32" ROLE="Arg-1">
+          <extent>
+            <charseq START="282" END="307">500 oil fields in the area</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E22-33" ROLE="Arg-2">
+          <extent>
+            <charseq START="300" END="307">the area</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030329_170349.7-R6" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="CNN_ENG_20030329_170349.7-E2" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030329_170349.7-E3" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030329_170349.7-R6-1" p="1.000">
+      <extent>
+			<charseq START="471" END="481">u.s. planes</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E2-2" ROLE="Arg-1">
+          <extent>
+            <charseq START="471" END="473">u.s</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E3-3" ROLE="Arg-2">
+          <extent>
+            <charseq START="471" END="481">u.s. planes</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030329_170349.7-R7" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="CNN_ENG_20030329_170349.7-E8" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030329_170349.7-E2" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030329_170349.7-R7-1" p="1.000">
+      <extent>
+			<charseq START="632" END="650">any american marine</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E8-11" ROLE="Arg-1">
+          <extent>
+            <charseq START="632" END="650">any american marine</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E2-12" ROLE="Arg-2">
+          <extent>
+            <charseq START="636" END="643">american</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030329_170349.7-R8" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="CNN_ENG_20030329_170349.7-E13" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030329_170349.7-E12" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030329_170349.7-R8-1" p="1.000">
+      <extent>
+			<charseq START="852" END="891">aless so vinci is there with the
+marines</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E13-22" ROLE="Arg-1">
+          <extent>
+            <charseq START="852" END="865">aless so vinci</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E12-16" ROLE="Arg-2">
+          <extent>
+            <charseq START="870" END="874">there</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030329_170349.7-R9" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="CNN_ENG_20030329_170349.7-E11" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030329_170349.7-E12" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030329_170349.7-R9-1" p="1.000">
+      <extent>
+			<charseq START="852" END="891">aless so vinci is there with the
+marines</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E11-38" ROLE="Arg-1">
+          <extent>
+            <charseq START="881" END="891">the
+marines</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030329_170349.7-E12-16" ROLE="Arg-2">
+          <extent>
+            <charseq START="870" END="874">there</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <event ID="CNN_ENG_20030329_170349.7-EV1" TYPE="Conflict" SUBTYPE="Attack" MODALITY="Asserted" POLARITY="Positive" GENERICITY="Specific" TENSE="Unspecified" MODPROB="1.0" POLPROB="1.0" GENPROB="1.0" TENPROB="1.0">
+    <event_argument REFID="CNN_ENG_20030329_170349.7-E2" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030329_170349.7-E5" ROLE="Place" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030329_170349.7-E4" ROLE="Instrument" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030329_170349.7-E11" ROLE="Attacker" p="1.0"/>
+    <event_argument REFID="CNN_ENG_20030329_170349.7-E11" ROLE="Target" p="1.0"/>
+    <event_mention ID="CNN_ENG_20030329_170349.7-EV1-1" p="1.000">
+      <extent>
+			<charseq START="366" END="368">war</charseq>
+      </extent>
+      <anchor>
+			<charseq START="366" END="368">war</charseq>
+      </anchor>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030329_170349.7-EV1-2" p="1.000">
+      <extent>
+			<charseq START="471" END="515">u.s. planes dropped a bomb near northern iraq</charseq>
+      </extent>
+      <anchor>
+			<charseq START="483" END="489">dropped</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030329_170349.7-E2-2" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="471" END="473">u.s</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030329_170349.7-E5-5" ROLE="Place" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="503" END="515">northern iraq</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030329_170349.7-E4-4" ROLE="Instrument" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="491" END="496">a bomb</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030329_170349.7-EV1-3" p="1.000">
+      <extent>
+			<charseq START="589" END="598">explosions</charseq>
+      </extent>
+      <anchor>
+			<charseq START="589" END="598">explosions</charseq>
+      </anchor>
+    </event_mention>
+    <event_mention ID="CNN_ENG_20030329_170349.7-EV1-4" p="1.000">
+      <extent>
+			<charseq START="778" END="839">marines engaged in the fierce battle
+for the city of nasiriyah</charseq>
+      </extent>
+      <anchor>
+			<charseq START="808" END="813">battle</charseq>
+      </anchor>
+      <event_mention_argument REFID="CNN_ENG_20030329_170349.7-E11-18" ROLE="Attacker" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="778" END="839">marines engaged in the fierce battle
+for the city of nasiriyah</charseq>
+      	</extent>
+      </event_mention_argument>
+      <event_mention_argument REFID="CNN_ENG_20030329_170349.7-E11-18" ROLE="Target" p="1.000" pRole="1.000">
+      	<extent>
+			<charseq START="778" END="839">marines engaged in the fierce battle
+for the city of nasiriyah</charseq>
+      	</extent>
+      </event_mention_argument>
+    </event_mention>
+  </event>
+</document>
+</source_file>

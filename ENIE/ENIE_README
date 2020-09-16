@@ -1,0 +1,27 @@
+Instruction for running ENIE:
+
+Location
+-------------
+The source code and binary of IE pipeline are in the following folder:
+/m3/KBP/software/EnglishIE/ENIE
+
+Scripts
+-------------
+In ./script, there are several useful shell scripts to run the system. 
+
+1. enie_Qi_unsentence.sh works for the case where there are not sentence boundaries in documents. 
+   There are 3 parameters: 
+   # argument 1: file list
+   # arguemnt 2: input dir
+   # argument 3: output dir
+
+2. enie_Qi.sh works for the documents which have sentence boundaries. 
+
+3. enie.sh is an example of running the pipeline using java command for the data in ./example
+   The command calls the java class cuny.blender.englishie.ace.IETagger. 
+   Parameter Description:
+   	     enie.property: the property file
+	     example/filelist: 	    file list of input docs
+	     example/sgm: 	    	    folder of input docs
+	     example/out:		    folder of output xml(apf) docs    
+

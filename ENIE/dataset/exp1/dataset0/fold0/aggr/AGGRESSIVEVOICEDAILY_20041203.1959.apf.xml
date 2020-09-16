@@ -1,0 +1,677 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="AGGRESSIVEVOICEDAILY_20041203.1959.sgm" SOURCE="weblog" TYPE="text">
+<document DOCID="AGGRESSIVEVOICEDAILY_20041203.1959">
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E1" TYPE="PER" SUBTYPE="Indeterminate" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E1-48">
+      <extent>
+			<charseq START="698" END="732">anyone who
+could reach the hospital</charseq>
+      </extent>
+      <head>
+			<charseq START="698" END="703">anyone</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E1-2">
+      <extent>
+			<charseq START="705" END="707">who</charseq>
+      </extent>
+      <head>
+			<charseq START="705" END="707">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E1-33">
+      <extent>
+			<charseq START="737" END="744">patients</charseq>
+      </extent>
+      <head>
+			<charseq START="737" END="744">patients</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E1-6">
+      <extent>
+			<charseq START="762" END="765">them</charseq>
+      </extent>
+      <head>
+			<charseq START="762" END="765">them</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E1-8">
+      <extent>
+			<charseq START="813" END="817">their</charseq>
+      </extent>
+      <head>
+			<charseq START="813" END="817">their</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E2" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E2-3">
+      <extent>
+			<charseq START="721" END="732">the hospital</charseq>
+      </extent>
+      <head>
+			<charseq START="725" END="732">hospital</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E2-22">
+      <extent>
+			<charseq START="1129" END="1140">the hospital</charseq>
+      </extent>
+      <head>
+			<charseq START="1133" END="1140">hospital</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E3" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E3-19">
+      <extent>
+			<charseq START="1043" END="1052">his cousin</charseq>
+      </extent>
+      <head>
+			<charseq START="1047" END="1052">cousin</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E3-4">
+      <extent>
+			<charseq START="1055" END="1071">Luciana Sacerdoti</charseq>
+      </extent>
+      <head>
+			<charseq START="1055" END="1071">Luciana Sacerdoti</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E3-5">
+      <extent>
+			<charseq START="1074" END="1076">who</charseq>
+      </extent>
+      <head>
+			<charseq START="1074" END="1076">who</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Luciana Sacerdoti">
+			<charseq START="1055" END="1071">Luciana Sacerdoti</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E4" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E4-7">
+      <extent>
+			<charseq START="795" END="796">We</charseq>
+      </extent>
+      <head>
+			<charseq START="795" END="796">We</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E4-11">
+      <extent>
+			<charseq START="892" END="893">We</charseq>
+      </extent>
+      <head>
+			<charseq START="892" END="893">We</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E6" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E6-17">
+      <extent>
+			<charseq START="97" END="101">Scott</charseq>
+      </extent>
+      <head>
+			<charseq START="97" END="101">Scott</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Scott">
+			<charseq START="97" END="101">Scott</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E7" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E7-13" ROLE="GPE">
+      <extent>
+			<charseq START="917" END="922">German</charseq>
+      </extent>
+      <head>
+			<charseq START="917" END="922">German</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="German">
+			<charseq START="917" END="922">German</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E9" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E9-20">
+      <extent>
+			<charseq START="913" END="932">the German commander</charseq>
+      </extent>
+      <head>
+			<charseq START="924" END="932">commander</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E9-18">
+      <extent>
+			<charseq START="913" END="943">the German commander
+Kesserling</charseq>
+      </extent>
+      <head>
+			<charseq START="934" END="943">Kesserling</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Kesserling">
+			<charseq START="934" END="943">Kesserling</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E10" TYPE="PER" SUBTYPE="Individual" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E10-23">
+      <extent>
+			<charseq START="1143" END="1149">someone</charseq>
+      </extent>
+      <head>
+			<charseq START="1143" END="1149">someone</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E11" TYPE="FAC" SUBTYPE="Subarea-Facility" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E11-24">
+      <extent>
+			<charseq START="1159" END="1166">our room</charseq>
+      </extent>
+      <head>
+			<charseq START="1163" END="1166">room</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E12" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E12-25">
+      <extent>
+			<charseq START="1159" END="1161">our</charseq>
+      </extent>
+      <head>
+			<charseq START="1159" END="1161">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E13" TYPE="PER" SUBTYPE="Indeterminate" CLASS="GEN">
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E13-26">
+      <extent>
+			<charseq START="1179" END="1181">You</charseq>
+      </extent>
+      <head>
+			<charseq START="1179" END="1181">You</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E13-27">
+      <extent>
+			<charseq START="1198" END="1200">you</charseq>
+      </extent>
+      <head>
+			<charseq START="1198" END="1200">you</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E14" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E14-31" ROLE="GPE">
+      <extent>
+			<charseq START="211" END="217">Italian</charseq>
+      </extent>
+      <head>
+			<charseq START="211" END="217">Italian</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Italian">
+			<charseq START="211" END="217">Italian</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-1">
+      <extent>
+			<charseq START="159" END="172">an unsung hero</charseq>
+      </extent>
+      <head>
+			<charseq START="169" END="172">hero</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-35">
+      <extent>
+			<charseq START="201" END="224">A retired Italian doctor</charseq>
+      </extent>
+      <head>
+			<charseq START="219" END="224">doctor</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-34">
+      <extent>
+			<charseq START="262" END="263">he</charseq>
+      </extent>
+      <head>
+			<charseq START="262" END="263">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-40">
+      <extent>
+			<charseq START="441" END="461">Dr Vittorio Sacerdoti</charseq>
+      </extent>
+      <head>
+			<charseq START="444" END="461">Vittorio Sacerdoti</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-12">
+      <extent>
+			<charseq START="472" END="474">his</charseq>
+      </extent>
+      <head>
+			<charseq START="472" END="474">his</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-43">
+      <extent>
+			<charseq START="570" END="571">he</charseq>
+      </extent>
+      <head>
+			<charseq START="570" END="571">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-47">
+      <extent>
+			<charseq START="676" END="687">Dr Sacerdoti</charseq>
+      </extent>
+      <head>
+			<charseq START="679" END="687">Sacerdoti</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-10">
+      <extent>
+			<charseq START="882" END="883">he</charseq>
+      </extent>
+      <head>
+			<charseq START="882" END="883">he</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-9">
+      <extent>
+			<charseq START="1043" END="1045">his</charseq>
+      </extent>
+      <head>
+			<charseq START="1043" END="1045">his</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Vittorio Sacerdoti">
+			<charseq START="444" END="461">Vittorio Sacerdoti</charseq>
+      </name>
+      <name NAME="Sacerdoti">
+			<charseq START="679" END="687">Sacerdoti</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E16" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E16-32">
+      <extent>
+			<charseq START="190" END="197">BBC
+News</charseq>
+      </extent>
+      <head>
+			<charseq START="190" END="197">BBC
+News</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="BBC News">
+			<charseq START="190" END="197">BBC News</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E19" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E19-36">
+      <extent>
+			<charseq START="308" END="316">the Nazis</charseq>
+      </extent>
+      <head>
+			<charseq START="312" END="316">Nazis</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E19-38">
+      <extent>
+			<charseq START="405" END="413">the Nazis</charseq>
+      </extent>
+      <head>
+			<charseq START="409" END="413">Nazis</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E19-14">
+      <extent>
+			<charseq START="947" END="955">the Nazis</charseq>
+      </extent>
+      <head>
+			<charseq START="951" END="955">Nazis</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E19-15">
+      <extent>
+			<charseq START="1000" END="1003">they</charseq>
+      </extent>
+      <head>
+			<charseq START="1000" END="1003">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E19-21">
+      <extent>
+			<charseq START="1111" END="1119">the Nazis</charseq>
+      </extent>
+      <head>
+			<charseq START="1115" END="1119">Nazis</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E19-28">
+      <extent>
+			<charseq START="1230" END="1233">they</charseq>
+      </extent>
+      <head>
+			<charseq START="1230" END="1233">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E19-29">
+      <extent>
+			<charseq START="1263" END="1266">they</charseq>
+      </extent>
+      <head>
+			<charseq START="1263" END="1266">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="PRO" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E19-30">
+      <extent>
+			<charseq START="1309" END="1312">they</charseq>
+      </extent>
+      <head>
+			<charseq START="1309" END="1312">they</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Nazis">
+			<charseq START="951" END="955">Nazis</charseq>
+      </name>
+      <name NAME="Nazis">
+			<charseq START="1115" END="1119">Nazis</charseq>
+      </name>
+      <name NAME="Nazis">
+			<charseq START="312" END="316">Nazis</charseq>
+      </name>
+      <name NAME="Nazis">
+			<charseq START="409" END="413">Nazis</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E20" TYPE="PER" SUBTYPE="Individual" CLASS="GEN">
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E20-37">
+      <extent>
+			<charseq START="838" END="848">the patient</charseq>
+      </extent>
+      <head>
+			<charseq START="842" END="848">patient</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E21" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E21-46">
+      <extent>
+			<charseq START="364" END="367">Jews</charseq>
+      </extent>
+      <head>
+			<charseq START="364" END="367">Jews</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E21-39">
+      <extent>
+			<charseq START="425" END="437">45 Roman Jews</charseq>
+      </extent>
+      <head>
+			<charseq START="434" END="437">Jews</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E21-44">
+      <extent>
+			<charseq START="608" END="616">45 people</charseq>
+      </extent>
+      <head>
+			<charseq START="611" END="616">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E22" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E22-42" ROLE="GPE">
+      <extent>
+			<charseq START="428" END="432">Roman</charseq>
+      </extent>
+      <head>
+			<charseq START="428" END="432">Roman</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E22-41" ROLE="GPE">
+      <extent>
+			<charseq START="533" END="536">Rome</charseq>
+      </extent>
+      <head>
+			<charseq START="533" END="536">Rome</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="Rome">
+			<charseq START="533" END="536">Rome</charseq>
+      </name>
+      <name NAME="Roman">
+			<charseq START="428" END="432">Roman</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="AGGRESSIVEVOICEDAILY_20041203.1959-E24" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="AGGRESSIVEVOICEDAILY_20041203.1959-E24-45">
+      <extent>
+			<charseq START="642" END="651">other Jews</charseq>
+      </extent>
+      <head>
+			<charseq START="648" END="651">Jews</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <timex2 ID="AGGRESSIVEVOICEDAILY_20041203.1959-T1" VAL="1944">
+    <timex2_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-T1-1">
+      <extent>
+			<charseq START="557" END="567">at the time</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AGGRESSIVEVOICEDAILY_20041203.1959-T2" VAL="2004-12-03T19:59:00">
+    <timex2_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-T2-1">
+      <extent>
+			<charseq START="105" END="123">2004-12-03T19:59:00</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AGGRESSIVEVOICEDAILY_20041203.1959-T3" VAL="P28Y" ANCHOR_VAL="1916" ANCHOR_DIR="STARTING">
+    <timex2_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-T3-1">
+      <extent>
+			<charseq START="544" END="555">28 years old</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AGGRESSIVEVOICEDAILY_20041203.1959-T4" VAL="2004-12-03T19:59:00">
+    <timex2_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-T4-1">
+      <extent>
+			<charseq START="50" END="68">2004-12-03T19:59:00</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AGGRESSIVEVOICEDAILY_20041203.1959-T5" VAL="PRESENT_REF" ANCHOR_VAL="2004-12-03T19:59:00" ANCHOR_DIR="AS_OF">
+    <timex2_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-T5-1">
+      <extent>
+			<charseq START="180" END="182">now</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AGGRESSIVEVOICEDAILY_20041203.1959-T6" VAL="2004">
+    <timex2_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-T6-1">
+      <extent>
+			<charseq START="495" END="514">the 60th
+anniversary</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AGGRESSIVEVOICEDAILY_20041203.1959-T7" VAL="P10Y" ANCHOR_VAL="1934" ANCHOR_DIR="STARTING">
+    <timex2_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-T7-1">
+      <extent>
+			<charseq START="1087" END="1098">10 years
+old</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="AGGRESSIVEVOICEDAILY_20041203.1959-T8">
+    <timex2_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-T8-1">
+      <extent>
+			<charseq START="1103" END="1109">The day</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="AGGRESSIVEVOICEDAILY_20041203.1959-R1" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E15" ROLE="Arg-1" />
+    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E14" ROLE="Arg-2" />
+      <relation_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-R1-1" p="1.000">
+      <extent>
+			<charseq START="201" END="224">A retired Italian doctor</charseq>
+      </extent>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-35" ROLE="Arg-1">
+          <extent>
+            <charseq START="201" END="224">A retired Italian doctor</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E14-31" ROLE="Arg-2">
+          <extent>
+            <charseq START="211" END="217">Italian</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AGGRESSIVEVOICEDAILY_20041203.1959-R2" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity">    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E21" ROLE="Arg-1" />
+    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E22" ROLE="Arg-2" />
+      <relation_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-R2-1" p="1.000">
+      <extent>
+			<charseq START="425" END="437">45 Roman Jews</charseq>
+      </extent>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E21-39" ROLE="Arg-1">
+          <extent>
+            <charseq START="425" END="437">45 Roman Jews</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E22-42" ROLE="Arg-2">
+          <extent>
+            <charseq START="428" END="432">Roman</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AGGRESSIVEVOICEDAILY_20041203.1959-R3" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E9" ROLE="Arg-1" />
+    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E7" ROLE="Arg-2" />
+      <relation_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-R3-1" p="1.000">
+      <extent>
+			<charseq START="913" END="943">the German commander
+Kesserling</charseq>
+      </extent>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E9-20" ROLE="Arg-1">
+          <extent>
+            <charseq START="913" END="932">the German commander</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E7-13" ROLE="Arg-2">
+          <extent>
+            <charseq START="917" END="922">German</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AGGRESSIVEVOICEDAILY_20041203.1959-R4" TYPE="PER-SOC" SUBTYPE="Family">    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E15" ROLE="Arg-1" />
+    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E3" ROLE="Arg-2" />
+      <relation_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-R4-1" p="1.000">
+      <extent>
+			<charseq START="1043" END="1052">his cousin</charseq>
+      </extent>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E15-9" ROLE="Arg-1">
+          <extent>
+            <charseq START="1043" END="1045">his</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E3-19" ROLE="Arg-2">
+          <extent>
+            <charseq START="1043" END="1052">his cousin</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AGGRESSIVEVOICEDAILY_20041203.1959-R5" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E10" ROLE="Arg-1" />
+    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E11" ROLE="Arg-2" />
+      <relation_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-R5-1" p="1.000">
+      <extent>
+			<charseq START="1103" END="1324">The day the Nazis came to the hospital, someone came to our room and
+said: &apos;You have to cough, you have to cough a lot because they are
+afraid of the coughing, they don&apos;t want to catch an awful disease and
+they won&apos;t enter</charseq>
+      </extent>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E10-23" ROLE="Arg-1">
+          <extent>
+            <charseq START="1143" END="1149">someone</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E11-24" ROLE="Arg-2">
+          <extent>
+            <charseq START="1159" END="1166">our room</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="AGGRESSIVEVOICEDAILY_20041203.1959-R6" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E19" ROLE="Arg-1" />
+    <relation_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E2" ROLE="Arg-2" />
+      <relation_mention ID="AGGRESSIVEVOICEDAILY_20041203.1959-R6-1" p="1.000">
+      <extent>
+			<charseq START="1103" END="1324">The day the Nazis came to the hospital, someone came to our room and
+said: &apos;You have to cough, you have to cough a lot because they are
+afraid of the coughing, they don&apos;t want to catch an awful disease and
+they won&apos;t enter</charseq>
+      </extent>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E19-21" ROLE="Arg-1">
+          <extent>
+            <charseq START="1111" END="1119">the Nazis</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="AGGRESSIVEVOICEDAILY_20041203.1959-E2-22" ROLE="Arg-2">
+          <extent>
+            <charseq START="1129" END="1140">the hospital</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+</document>
+</source_file>

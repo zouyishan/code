@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<!DOCTYPE source_file SYSTEM "apf.v5.1.1.dtd">
+<source_file URI="CNN_ENG_20030618_065839.11.sgm" SOURCE="broadcast news" TYPE="text">
+<document DOCID="CNN_ENG_20030618_065839.11">
+  <entity ID="CNN_ENG_20030618_065839.11-E1" TYPE="GPE" SUBTYPE="State-or-Province" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030618_065839.11-E1-1" ROLE="LOC">
+      <extent>
+			<charseq START="71" END="78">michigan</charseq>
+      </extent>
+      <head>
+			<charseq START="71" END="78">michigan</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="michigan">
+			<charseq START="71" END="78">michigan</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_065839.11-E2" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_065839.11-E2-2">
+      <extent>
+			<charseq START="128" END="145">hundreds
+of people</charseq>
+      </extent>
+      <head>
+			<charseq START="140" END="145">people</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_065839.11-E3" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030618_065839.11-E3-3" ROLE="LOC">
+      <extent>
+			<charseq START="168" END="180">benton harbor</charseq>
+      </extent>
+      <head>
+			<charseq START="168" END="180">benton harbor</charseq>
+      </head>
+    </entity_mention>
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030618_065839.11-E3-11" ROLE="LOC">
+      <extent>
+			<charseq START="369" END="381">benton harbor</charseq>
+      </extent>
+      <head>
+			<charseq START="369" END="381">benton harbor</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="benton harbor">
+			<charseq START="168" END="180">benton harbor</charseq>
+      </name>
+      <name NAME="benton harbor">
+			<charseq START="369" END="381">benton harbor</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_065839.11-E4" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_065839.11-E4-4">
+      <extent>
+			<charseq START="183" END="203">a man on a motorcycle</charseq>
+      </extent>
+      <head>
+			<charseq START="185" END="187">man</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_065839.11-E5" TYPE="VEH" SUBTYPE="Land" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_065839.11-E5-5">
+      <extent>
+			<charseq START="192" END="203">a motorcycle</charseq>
+      </extent>
+      <head>
+			<charseq START="194" END="203">motorcycle</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_065839.11-E6" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_065839.11-E6-6">
+      <extent>
+			<charseq START="243" END="248">police</charseq>
+      </extent>
+      <head>
+			<charseq START="243" END="248">police</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_065839.11-E7" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_065839.11-E7-7">
+      <extent>
+			<charseq START="275" END="286">the governor</charseq>
+      </extent>
+      <head>
+			<charseq START="279" END="286">governor</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_065839.11-E8" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+    <entity_mention TYPE="NAM" ID="CNN_ENG_20030618_065839.11-E8-8">
+      <extent>
+			<charseq START="323" END="334">mark alberts</charseq>
+      </extent>
+      <head>
+			<charseq START="323" END="334">mark alberts</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+      <name NAME="mark alberts">
+			<charseq START="323" END="334">mark alberts</charseq>
+      </name>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_065839.11-E9" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="NOM" ID="CNN_ENG_20030618_065839.11-E9-9">
+      <extent>
+			<charseq START="341" END="353">our
+affiliate</charseq>
+      </extent>
+      <head>
+			<charseq START="345" END="353">affiliate</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <entity ID="CNN_ENG_20030618_065839.11-E10" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+    <entity_mention TYPE="PRO" ID="CNN_ENG_20030618_065839.11-E10-10">
+      <extent>
+			<charseq START="341" END="343">our</charseq>
+      </extent>
+      <head>
+			<charseq START="341" END="343">our</charseq>
+      </head>
+    </entity_mention>
+    <entity_attributes>
+    </entity_attributes>
+  </entity>
+  <timex2 ID="CNN_ENG_20030618_065839.11-T1" VAL="P2D" ANCHOR_VAL="2003-06-16-TNI" ANCHOR_DIR="STARTING">
+    <timex2_mention ID="CNN_ENG_20030618_065839.11-T1-1">
+      <extent>
+			<charseq START="81" END="103">a second straight night</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030618_065839.11-T2" VAL="2003-06-18TMO">
+    <timex2_mention ID="CNN_ENG_20030618_065839.11-T2-1">
+      <extent>
+			<charseq START="114" END="125">this morning</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <timex2 ID="CNN_ENG_20030618_065839.11-T3" VAL="2003-06-18T07:16:10">
+    <timex2_mention ID="CNN_ENG_20030618_065839.11-T3-1">
+      <extent>
+			<charseq START="44" END="62">2003-06-18 07:16:10</charseq>
+      </extent>
+    </timex2_mention>
+  </timex2>
+  <relation ID="CNN_ENG_20030618_065839.11-R1" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="CNN_ENG_20030618_065839.11-E2" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030618_065839.11-E3" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030618_065839.11-R1-1" p="1.000">
+      <extent>
+			<charseq START="68" END="180">in michigan, a second straight night and into this morning, hundreds
+of people have been rioting in benton harbor</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E2-2" ROLE="Arg-1">
+          <extent>
+            <charseq START="128" END="145">hundreds
+of people</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E3-3" ROLE="Arg-2">
+          <extent>
+            <charseq START="168" END="180">benton harbor</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030618_065839.11-R2" TYPE="PHYS" SUBTYPE="Located">    <relation_argument REFID="CNN_ENG_20030618_065839.11-E8" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030618_065839.11-E3" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030618_065839.11-R2-1" p="1.000">
+      <extent>
+			<charseq START="323" END="381">mark alberts from our
+affiliate has more from benton harbor</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E8-8" ROLE="Arg-1">
+          <extent>
+            <charseq START="323" END="334">mark alberts</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E3-11" ROLE="Arg-2">
+          <extent>
+            <charseq START="369" END="381">benton harbor</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030618_065839.11-R3" TYPE="ORG-AFF" SUBTYPE="Employment">    <relation_argument REFID="CNN_ENG_20030618_065839.11-E8" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030618_065839.11-E9" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030618_065839.11-R3-1" p="1.000">
+      <extent>
+			<charseq START="323" END="353">mark alberts from our
+affiliate</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E8-8" ROLE="Arg-1">
+          <extent>
+            <charseq START="323" END="334">mark alberts</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E9-9" ROLE="Arg-2">
+          <extent>
+            <charseq START="341" END="353">our
+affiliate</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030618_065839.11-R4" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer">    <relation_argument REFID="CNN_ENG_20030618_065839.11-E4" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030618_065839.11-E5" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030618_065839.11-R4-1" p="1.000">
+      <extent>
+			<charseq START="183" END="203">a man on a motorcycle</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E4-4" ROLE="Arg-1">
+          <extent>
+            <charseq START="183" END="203">a man on a motorcycle</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E5-5" ROLE="Arg-2">
+          <extent>
+            <charseq START="192" END="203">a motorcycle</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+  <relation ID="CNN_ENG_20030618_065839.11-R5" TYPE="PART-WHOLE" SUBTYPE="Geographical">    <relation_argument REFID="CNN_ENG_20030618_065839.11-E3" ROLE="Arg-1" />
+    <relation_argument REFID="CNN_ENG_20030618_065839.11-E1" ROLE="Arg-2" />
+      <relation_mention ID="CNN_ENG_20030618_065839.11-R5-1" p="1.000">
+      <extent>
+			<charseq START="68" END="180">in michigan, a second straight night and into this morning, hundreds
+of people have been rioting in benton harbor</charseq>
+      </extent>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E3-3" ROLE="Arg-1">
+          <extent>
+            <charseq START="168" END="180">benton harbor</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument REFID="CNN_ENG_20030618_065839.11-E1-1" ROLE="Arg-2">
+          <extent>
+            <charseq START="71" END="78">michigan</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+  </relation>
+</document>
+</source_file>

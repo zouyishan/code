@@ -1,0 +1,208 @@
+State #0 "U-PER"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #1 "O"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #2 "U-ORG"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #3 "U-GPE"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #4 "B-PER"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #5 "I-PER"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #6 "L-PER"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #7 "B-GPE"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #8 "L-GPE"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #9 "B-ORG"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #10 "L-ORG"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #11 "I-GPE"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
+State #12 "I-ORG"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> U-PER
+-> O
+-> U-ORG
+-> U-GPE
+-> B-PER
+-> I-PER
+-> L-PER
+-> B-GPE
+-> L-GPE
+-> B-ORG
+-> L-ORG
+-> I-GPE
+-> I-ORG
